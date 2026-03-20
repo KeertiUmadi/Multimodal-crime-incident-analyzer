@@ -1,0 +1,6 @@
+pymupdf
+pdfplumber
+pytesseract
+Pillow
+spacy
+pandas

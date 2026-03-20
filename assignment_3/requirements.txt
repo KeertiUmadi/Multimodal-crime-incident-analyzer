@@ -1,0 +1,38 @@
+# ============================================================
+# Multimodal Crime Incident Analyzer — All Dependencies
+# Install: pip install -r requirements.txt
+# ============================================================
+
+# Core
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Student 1 — Audio
+openai-whisper
+torch>=2.0.0
+torchaudio
+
+# Student 2 — PDF
+pymupdf
+pdfplumber
+pytesseract
+Pillow
+
+# Student 3 — Images
+ultralytics
+opencv-python
+
+# Student 4 — Video
+moviepy
+imageio
+imageio-ffmpeg
+
+# Student 5 — Text
+spacy
+transformers
+nltk
+datasets
+
+# Integration / Dashboard
+streamlit>=1.30.0
+plotly>=5.0.0
