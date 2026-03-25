@@ -29,7 +29,7 @@ def run_step(name: str, script: str):
     print(f"{'='*60}")
     result = subprocess.run([sys.executable, script])
     if result.returncode != 0:
-        print(f"  ⚠️  {name} finished with errors — continuing...")
+        print(f" {name} finished with errors — continuing...")
 
 def main():
     parser = argparse.ArgumentParser(
@@ -46,23 +46,12 @@ def main():
 
     targets = args.only or [s[0] for s in STEPS]
 
-    print("\n🚨 MULTIMODAL CRIME INCIDENT ANALYZER — PIPELINE START")
+    print("\n MULTIMODAL CRIME INCIDENT ANALYZER — PIPELINE START")
     print(f"   Modules: {targets}\n")
-    print("   ℹ️  No data files? Each module uses built-in demo data automatically.\n")
 
     for name, script in STEPS:
         if name in targets:
             run_step(name, script)
-
-    if args.demo:
-        print("\n\n🎬 Running demonstration script ...")
-        subprocess.run([sys.executable, "demo.py"])
-
-    if not args.no_dashboard and "integration" in targets:
-        print("\n\n🖥️  Launching Streamlit Dashboard ...")
-        print("   Open your browser at http://localhost:8501")
-        print("   Press Ctrl+C to stop.\n")
-        subprocess.run(["streamlit", "run", "integration/dashboard.py"])
 
 if __name__ == "__main__":
     main()
