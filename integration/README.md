@@ -1,47 +1,70 @@
-# Integration — Full Team 🔗
+# 🔗 Integration — Full Team
 
-## Task
-Merge all 5 modality CSV outputs into one unified incident dataset with severity scoring and a Streamlit dashboard.
+**Final Merging, Dataset Generation & Dashboard**
 
-## Assignment Steps Implemented
-1. **Incident_ID** — `INC_001`, `INC_002`, ... as common key across all CSVs
-2. **Merge** — all 5 DataFrames row-aligned into one unified dataset
-3. **Missing values** — filled with `N/A` via `df.fillna()`
-4. **Severity scoring** — weighted model from all 5 modality signals
-5. **Dashboard** — Streamlit app with charts, filters, and per-incident detail view
+This module combines all five individual modality outputs into a single unified incident dataset, then visualizes it through an interactive Streamlit dashboard.
 
-## Run
+---
 
-### Full pipeline (recommended)
+## 🎯 Responsibilities
+
+This is the most important deliverable of the project. The full team collaborates to:
+
+1. Define a common `Incident_ID` key across all five output CSVs
+2. Merge all five DataFrames using `pandas` merge/join on `Incident_ID`
+3. Handle missing values where a modality has no data for a given incident
+4. Generate a final severity classification (Low / Medium / High) based on combined signals
+5. Build a dashboard or query interface to display and filter incident summaries
+
+---
+
+## 📤 Final Integrated Output Schema
+
+| Incident_ID | Audio_Event | PDF_Doc_Type | Image_Objects | Video_Event | Text_Crime_Type | Severity |
+|-------------|-------------|--------------|---------------|-------------|-----------------|----------|
+| INC_001 | Building fire / trapped | 1033 Training Proposal | fire, smoke (0.94) | Person collapsing | Robbery / Theft | High |
+
+---
+
+## 📁 Files
+
+| File | Description |
+|------|-------------|
+| `integrate.py` | Merges all 5 modality CSVs into `integrated_incidents.csv` |
+| `dashboard.py` | Streamlit dashboard for visualizing and filtering incidents |
+| `requirements.txt` | Dependencies for this module |
+
+---
+
+## 🛠️ Tools & Libraries
+
+| Library | Purpose | Install |
+|---------|---------|---------|
+| `pandas` | DataFrame merging, join operations, missing value handling | `pip install pandas` |
+| `streamlit` | Interactive web dashboard | `pip install streamlit` |
+| `plotly` | Charts and visualizations in the dashboard | `pip install plotly` |
+
+---
+
+## 🚀 Running the Module
+
 ```bash
-python run_pipeline.py
+pip install -r requirements.txt
+
+# Run integration only
+python integrate.py
+
+# Launch the dashboard
+streamlit run dashboard.py
 ```
 
-### Integration only
-```bash
-python integration/integrate.py
-```
+The merged output is saved to `integrated_incidents.csv`.
 
-### Dashboard only
-```bash
-streamlit run integration/dashboard.py
-# Opens at http://localhost:8501
-```
+---
 
-## Severity Scoring Logic
-| Signal | Points |
-|--------|--------|
-| Audio urgency ≥ 0.8 | +3 |
-| Audio urgency ≥ 0.5 | +2 |
-| Audio sentiment = Distressed | +2 |
-| Text severity = High | +3 |
-| Text severity = Medium | +2 |
-| Image confidence ≥ 0.85 | +2 |
-| Video confidence ≥ 0.85 | +2 |
-| **Score ≥ 8 → High \| Score ≥ 5 → Medium \| else → Low** | |
+## 📊 Dashboard Features
 
-## Final Output Schema (`integrated_incidents.csv`)
-| Incident_ID | Source | Event | Location | Time | Severity |
-|-------------|--------|-------|----------|------|----------|
-| INC_001 | Audio + PDF + Image + Video + Text | Fire | Downtown Ave | 00:00:12 | High |
-| INC_002 | Audio + PDF | Accident | Main Street | 00:00:24 | Medium |
+- Filter incidents by severity (Low / Medium / High)
+- Filter by event type or source modality
+- View incident timeline and location breakdown
+- Query individual incident details across all 5 data sources
