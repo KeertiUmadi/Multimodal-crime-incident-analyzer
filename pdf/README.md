@@ -1,27 +1,56 @@
-# Student 2 — Document Analyst 📄
+# 📄 Document Analyst — Student 2
 
-## Task
-Extract structured info from police/incident PDFs — handles both text-based and scanned documents.
+**Modality: Police Reports / Official Incident Documents (PDF)**
 
-## Tools
-- `pdfplumber` — text-based PDF extraction
-- `PyMuPDF + pytesseract` — OCR fallback for scanned PDFs
-- `spaCy` — NER for persons, organisations, locations, dates
+This module extracts structured information from PDF documents such as police reports, insurance forms, and official incident filings — handling both text-based and scanned (OCR) PDFs.
 
-## Dataset
-**Arkansas PD 1033 Training Plan Proposals** — [MuckRock FOIA Link](https://www.muckrock.com/foi/arkansas-114/arkansas-police-departments-1033-training-plan-proposals-20493/#file-52365)
-1. Open link → scroll to file section → download PDF
-2. No account required
-3. Place in `pdf/data/`
+---
 
-## Run
+## 🎯 Responsibilities
+
+- Extract raw text from PDFs using a PDF parsing library
+- Identify and extract: incident type, date, location, officer name, suspect description, and outcome
+- Handle scanned PDFs using OCR (pytesseract)
+- Output a structured CSV with extracted report fields
+
+---
+
+## 📤 Output Schema
+
+| Report_ID | Department | Doc_Type | Date | Program | Key_Detail |
+|-----------|------------|----------|------|---------|------------|
+| RPT_001 | Arkansas PD | 1033 Training Proposal | 2015-04-10 | Law Enforcement Support | Equipment request: tactical gear listed |
+
+---
+
+## 🛠️ Tools & Libraries
+
+| Library | Purpose | Install |
+|---------|---------|---------|
+| `PyMuPDF (fitz)` | Fast PDF text extraction | `pip install pymupdf` |
+| `pdfplumber` | Table extraction from PDFs | `pip install pdfplumber` |
+| `pytesseract` | OCR for scanned PDF images | `pip install pytesseract` |
+| `spaCy` | Named Entity Recognition (NER) for names, locations, dates | `pip install spacy` |
+
+---
+
+## 📦 Dataset
+
+**Arkansas Police Department 1033 Training Plan Proposals** — a real FOIA-released official police PDF from MuckRock.
+
+- **Link:** [muckrock.com — Arkansas Police PDF](https://www.muckrock.com/foi/arkansas-114/arkansas-police-departments-1033-training-plan-proposals-20493/#file-52365)
+- **Access:** Open the link → scroll to the file section → download the PDF directly. No account required.
+
+> **Tip:** This is a text-based PDF so `pdfplumber` will extract it cleanly. Focus on extracting department names, dates, program names, and document structure.
+
+---
+
+## 🚀 Running the Module
+
 ```bash
-pip install -r pdf/requirements.txt
-python pdf/pdf_analyzer.py
+pip install -r requirements.txt
+python -m spacy download en_core_web_sm
+python pdf_analyzer.py
 ```
-> No files in `pdf/data/`? Demo data runs automatically.
 
-## Output: `pdf/output_pdf.csv`
-| Report_ID | Department | Incident_Type | Doc_Type | Date | Location | Officer |
-|-----------|------------|---------------|----------|------|----------|---------|
-| RPT_001 | Arkansas PD | Administrative | Training Proposal | 2015-04-10 | Little Rock | Officer Johnson |
+Output will be saved to `pdf_output.csv`.
