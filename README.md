@@ -1,11 +1,17 @@
 # 🚨 Multimodal Crime / Incident Report Analyzer
-**AI for Engineers — Group Assignment | 100 Marks | 2 Weeks**
 
-An AI-powered pipeline that ingests unstructured data from 5 modalities and produces a unified structured incident report.
+An AI-powered pipeline that ingests unstructured data from **5 modalities** and produces a unified structured incident report — helping emergency response teams respond faster and more accurately to incidents.
+
+---
+
+## 🧠 Background
+
+A city's emergency response department faces hundreds of daily incident reports — road accidents, thefts, fires, and public disturbances — arriving from audio calls, written police reports, CCTV footage, scene photos, and social media. This system automates that analysis using AI, converting raw unstructured data into a clean, queryable incident dataset.
 
 ---
 
 ## 📁 Repository Structure
+
 ```
 multimodal-crime-incident-analyzer/
 ├── audio/                  # Student 1 — Audio Analyst
@@ -47,6 +53,18 @@ multimodal-crime-incident-analyzer/
 
 ---
 
+## 🔄 AI Pipeline
+
+| # | Stage | Description |
+|---|-------|-------------|
+| 1 | **Unstructured Data Ingestion** | Audio files, PDFs, images, video clips, and text posts are loaded |
+| 2 | **AI Processing per Modality** | Each module runs its AI model on its specific data type |
+| 3 | **Information Extraction** | Key fields (event, location, time, entities, sentiment) are extracted |
+| 4 | **Structured Dataset Generation** | All outputs are merged into a unified CSV |
+| 5 | **Dashboard / Query System** | Final data is visualized to generate an incident summary |
+
+---
+
 ## 🚀 Quick Start
 
 ```bash
@@ -72,8 +90,8 @@ python demo.py
 
 ## 👥 Team Roles
 
-| # | Student | Modality | Key Tools | Dataset |
-|---|---------|----------|-----------|---------|
+| # | Role | Modality | Key Tools | Dataset |
+|---|------|----------|-----------|---------|
 | 1 | Audio Analyst | Emergency calls (.wav/.mp3) | Whisper, spaCy, HuggingFace | [911 Calls – Kaggle](https://www.kaggle.com/code/stpeteishii/911-calls-wav2vec2) |
 | 2 | Document Analyst | Police PDFs (.pdf) | pdfplumber, PyMuPDF, pytesseract | [Arkansas PD – MuckRock](https://www.muckrock.com/foi/arkansas-114/arkansas-police-departments-1033-training-plan-proposals-20493/#file-52365) |
 | 3 | Image Analyst | Scene photos (.jpg/.png) | YOLOv8, OpenCV, pytesseract | [Fire Detection – Roboflow](https://universe.roboflow.com/search?q=fire) |
@@ -82,12 +100,11 @@ python demo.py
 
 ---
 
-## 📊 Final Output Schema (Assignment Required)
+## 📊 Final Output Schema
 
-| Incident_ID | Source | Event | Location | Time | Severity |
-|-------------|--------|-------|----------|------|----------|
-| INC_001 | Audio + PDF + Image + Video + Text | Fire | Downtown Ave | 00:00:12 | High |
-| INC_002 | Audio + PDF | Accident | Main Street | 00:00:24 | Medium |
+| Incident_ID | Audio_Event | PDF_Doc_Type | Image_Objects | Video_Event | Text_Crime_Type | Severity |
+|-------------|-------------|--------------|---------------|-------------|-----------------|----------|
+| INC_001 | Building fire / trapped | 1033 Training Proposal | fire, smoke (0.94) | Person collapsing | Robbery / Theft | High |
 
 ---
 
@@ -104,4 +121,23 @@ python demo.py
 ---
 
 ## ⚙️ Tech Stack
+
 Python 3.10+ · OpenAI Whisper · pdfplumber · PyMuPDF · YOLOv8 · OpenCV · spaCy · HuggingFace Transformers · NLTK · pandas · Streamlit · Plotly
+
+---
+
+## 🏆 Marking Rubric
+
+| Criteria | Weight | Description |
+|----------|--------|-------------|
+| Problem Understanding | 10% | Clear understanding of the scenario, objectives, and each student's role |
+| Data Collection | 15% | Quality and relevance of datasets across all five modalities |
+| AI Model Implementation | 25% | Correct and working use of AI techniques for each data type |
+| Pipeline Design | 15% | Quality and clarity of the end-to-end AI pipeline architecture |
+| Data Integration | 15% | Ability to successfully merge outputs from all five modalities |
+| Code Quality | 10% | Clean, documented, and reproducible code with a working GitHub repo |
+| Final Demonstration | 10% | Clarity of the live demo showing raw data converted to structured output |
+
+---
+
+*Build something that could help save lives and respond faster to emergencies.*
