@@ -1,0 +1,47 @@
+Image_ID,Scene_Type,Objects_Detected,Bounding_Boxes,Text_Extracted,Confidence_Score,Source_File
+IMG_001,Fire,fire,"1 fire region | fire@[316,171,425,560]",None,0.95,fire-10-_preprocessed_jpg.rf.86825aec42445b822802d8fa920de76e.jpg
+IMG_002,General Scene,None,None,None,0.0,fire-100-_preprocessed_jpg.rf.2ca6985df2bb59555acfed7aad3b08b0.jpg
+IMG_003,Fire,fire,"1 fire region | fire@[256,387,423,534]",None,0.95,fire-14-_preprocessed_jpg.rf.196e57251cc12523ccf94fa05377975d.jpg
+IMG_004,Fire,fire,"1 fire region | fire@[363,0,443,226]",None,0.95,fire-15-_preprocessed_jpg.rf.1650445a9ec9aededbe8bb6cb1d8ee31.jpg
+IMG_005,Fire,fire,"1 fire region | fire@[385,3,447,207]",None,0.95,fire-16-_preprocessed_jpg.rf.3ae690d7ce1525594769054b645e8682.jpg
+IMG_006,Fire,fire,"1 fire region | fire@[302,104,519,319]",None,0.95,fire-20-_preprocessed_jpg.rf.c937a0c5b6affba28d7da6f707ef11d9.jpg
+IMG_007,Fire,fire,"1 fire region | fire@[363,88,591,311]",None,0.95,fire-23-_preprocessed_jpg.rf.50dc1ed7122efe347268976e28353949.jpg
+IMG_008,General Scene,None,None,None,0.0,fire-24-_preprocessed_jpg.rf.3034b0b1edd410f9bfcd09e40947d626.jpg
+IMG_009,General Scene,None,None,None,0.0,fire-25-_preprocessed_jpg.rf.014bd005c452df104a96e5096e941c98.jpg
+IMG_010,Fire,fire,"1 fire region | fire@[189,241,324,545]",None,0.95,fire-3-_preprocessed_jpg.rf.0f62cc5f6bd2fd278966e21905aa3837.jpg
+IMG_011,General Scene,None,None,None,0.0,fire-36-_preprocessed_jpg.rf.dc047b4584236825c6631598c757de7e.jpg
+IMG_012,General Scene,None,None,None,0.0,fire-37-_preprocessed_jpg.rf.b08aaa49c9399a12cf01dbb0c12e44ab.jpg
+IMG_013,General Scene,None,None,None,0.0,fire-40-_preprocessed_jpg.rf.7eb0d244ea09027838ebd69bef876e95.jpg
+IMG_014,General Scene,None,None,None,0.0,fire-42-_preprocessed_jpg.rf.1ccf71a900345705a15c04a6b27d0838.jpg
+IMG_015,Fire,fire,"1 fire region | fire@[321,232,483,586]",None,0.95,fire-6-_preprocessed_jpg.rf.20b07a4e8546d12993f86f51f92f0178.jpg
+IMG_016,General Scene,None,None,None,0.0,fire-82-_preprocessed_jpg.rf.ad5b4fe1f278813c2e4b95fc9750629c.jpg
+IMG_017,General Scene,None,None,None,0.0,fire-83-_preprocessed_jpg.rf.3840b6fc81a181458e00508e6547414f.jpg
+IMG_018,General Scene,None,None,None,0.0,fire-84-_preprocessed_jpg.rf.abd1ecdab395731d44d18024b38a446e.jpg
+IMG_019,General Scene,None,None,None,0.0,fire-89-_preprocessed_jpg.rf.5b3ffa99b772d2ebd30b7b6584ddd50d.jpg
+IMG_020,General Scene,None,None,None,0.0,fire-90-_preprocessed_jpg.rf.8f0c01838dfba96d83cff3c0524aaa71.jpg
+IMG_021,General Scene,None,None,None,0.0,fire-92-_preprocessed_jpg.rf.c5f2a73c053089d6118241d8e2c947e1.jpg
+IMG_022,General Scene,None,None,None,0.0,fire-95-_preprocessed_jpg.rf.8fcd9931bc351d43f3277e914a12ac9c.jpg
+IMG_023,General Scene,None,None,None,0.0,fire-97-_preprocessed_jpg.rf.263afb69b9639de0d5af462760954136.jpg
+IMG_024,General Scene,None,None,None,0.0,fire_preprocessed-2-_jpg.rf.68be2344efa2ee0e72a744c7deaa468c.jpg
+IMG_025,Fire,fire,"1 fire region | fire@[420,98,639,582]",None,0.95,fire_preprocessed-23-_jpg.rf.31c07bcd50f60ee7dfe8476926eca1e8.jpg
+IMG_026,Fire,fire,"1 fire region | fire@[350,138,586,639]",None,0.95,fire_preprocessed-24-_jpg.rf.c300c1f21feb70b0ba9f1ba0130fb654.jpg
+IMG_027,General Scene,None,None,None,0.0,fire_preprocessed-3-_jpg.rf.b08d2f8dcbcf4a2df4fe96de454f2262.jpg
+IMG_028,Fire,fire,"1 fire region | fire@[286,46,413,405]",None,0.95,fire_preprocessed-5-_jpg.rf.84878e77936a58ae34552059fc324ac6.jpg
+IMG_029,Fire,fire,"1 fire region | fire@[448,117,609,496]",None,0.95,fire_preprocessed-7-_jpg.rf.d36f16e2db6fbf5a0958b8b923f89cef.jpg
+IMG_030,General Scene,None,None,None,0.0,smoke-310-_preprocessed_jpg.rf.4d52bb0165feb9597c93a491bdedebe4.jpg
+IMG_031,General Scene,None,None,None,0.0,smoke-314-_preprocessed_jpg.rf.5bdd74f398c637388c4b4190f1dca6d7.jpg
+IMG_032,General Scene,None,None,None,0.0,smoke-315-_preprocessed_jpg.rf.9c1e44c4937f0453a68f58f02fa529c8.jpg
+IMG_033,General Scene,None,None,None,0.0,smoke-317-_preprocessed_jpg.rf.3b8a9a75afbce8c21c861ba43ffddc95.jpg
+IMG_034,General Scene,None,None,None,0.0,smoke-319-_preprocessed_jpg.rf.0164718e78165328a77520b9c7a8c266.jpg
+IMG_035,General Scene,None,None,None,0.0,smoke-320-_preprocessed_jpg.rf.a4e4ae003a3a82bc7ea9f023ccfa5bc6.jpg
+IMG_036,General Scene,None,None,None,0.0,smoke-322-_preprocessed_jpg.rf.121a0cc4cdf9298436f7640f828b58d2.jpg
+IMG_037,General Scene,None,None,None,0.0,smoke-323-_preprocessed_jpg.rf.61edf07c70c6fafe93703f34b2074660.jpg
+IMG_038,General Scene,None,None,None,0.0,smoke-324-_preprocessed_jpg.rf.f139b9fbeffc488c1151012658cee0df.jpg
+IMG_039,General Scene,None,None,None,0.0,smoke-327-_preprocessed_jpg.rf.8bf2a72a1299e39c56ea28a6f31d3435.jpg
+IMG_040,General Scene,None,None,None,0.0,smoke-331-_preprocessed_jpg.rf.3fb7700899310cb61995a3d7d105518f.jpg
+IMG_041,General Scene,None,None,None,0.0,smoke-333-_preprocessed_jpg.rf.badeb51c84b1a9d7bd20e24a4decbce2.jpg
+IMG_042,General Scene,None,None,None,0.0,smoke-335-_preprocessed_jpg.rf.47fe8198d171c94618809bf6923574f8.jpg
+IMG_043,General Scene,None,None,None,0.0,smoke-336-_preprocessed_jpg.rf.1adae026a0a0a5f872d221ce144872af.jpg
+IMG_044,General Scene,None,None,None,0.0,smoke-341-_preprocessed_jpg.rf.53152b767a4e1a6393191e30d387e16c.jpg
+IMG_045,General Scene,None,None,None,0.0,smoke-342-_preprocessed_jpg.rf.cce1aba38e7447501e0d84c0d6070c89.jpg
+IMG_046,General Scene,None,None,None,0.0,smoke-344-_preprocessed_jpg.rf.8f9b8c9595edc881883edd3d98ca4b31.jpg

@@ -1,0 +1,21 @@
+Incident_ID,Source,Event,Location,Time,Audio_Event,Audio_Location,Audio_Sentiment,Audio_Urgency_Score,PDF_Department,PDF_Incident_Type,PDF_Doc_Type,PDF_Date,PDF_Officer,PDF_Key_Detail,Image_Scene_Type,Image_Objects,Image_Text,Image_Confidence_Score,Video_Clip,Video_Timestamp,Video_Event,Video_Persons,Video_Confidence,Text_Crime_Type,Text_Location,Text_Sentiment,Text_Severity_Label,Text_Source,Severity
+INC_001,Audio + Image + Text,Fire,Downtown Avenue,N/A,Fire,Downtown Avenue,Distressed,0.91,N/A,N/A,N/A,N/A,N/A,N/A,Fire,"fire, smoke",CAUTION FIRE ZONE,0.94,N/A,N/A,N/A,0,0.0,Disturbance,Unknown,Negative,Low,Unknown,High
+INC_002,Audio + Image + Text,Accident,Main Street,N/A,Accident,Main Street,Distressed,0.75,N/A,N/A,N/A,N/A,N/A,N/A,Accident,"car, person",ABC 1234,0.87,N/A,N/A,N/A,0,0.0,Disturbance,Unknown,Negative,Low,Unknown,Medium
+INC_003,Audio + Image + Text,Theft,Oak Avenue,N/A,Theft,Oak Avenue,Distressed,0.6,N/A,N/A,N/A,N/A,N/A,N/A,Theft,"person, backpack",N/A,0.81,N/A,N/A,N/A,0,0.0,Disturbance,Chicago,Negative,Low,Unknown,Medium
+INC_004,Text,Disturbance,N/A,N/A,N/A,N/A,N/A,0.0,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,0.0,N/A,N/A,N/A,0,0.0,Disturbance,Unknown,Negative,Low,Unknown,Low
+INC_005,Text,Murder,N/A,N/A,N/A,N/A,N/A,0.0,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,0.0,N/A,N/A,N/A,0,0.0,Murder,Unknown,Negative,High,Unknown,Low
+INC_006,Text,Disturbance,N/A,N/A,N/A,N/A,N/A,0.0,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,0.0,N/A,N/A,N/A,0,0.0,Disturbance,Unknown,Negative,Low,Unknown,Low
+INC_007,Text,Robbery,N/A,N/A,N/A,N/A,N/A,0.0,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,0.0,N/A,N/A,N/A,0,0.0,Robbery,Unknown,Negative,High,Unknown,Low
+INC_008,Text,Disturbance,Pakistan,N/A,N/A,N/A,N/A,0.0,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,0.0,N/A,N/A,N/A,0,0.0,Disturbance,Pakistan,Negative,Low,Unknown,Low
+INC_009,Text,Disturbance,N/A,N/A,N/A,N/A,N/A,0.0,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,0.0,N/A,N/A,N/A,0,0.0,Disturbance,Unknown,Negative,Low,Unknown,Low
+INC_010,Text,Drug Offense,Baltimore,N/A,N/A,N/A,N/A,0.0,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,0.0,N/A,N/A,N/A,0,0.0,Drug Offense,Baltimore,Positive,Medium,Unknown,Low
+INC_011,Text,Theft,N/A,N/A,N/A,N/A,N/A,0.0,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,0.0,N/A,N/A,N/A,0,0.0,Theft,Unknown,Negative,Medium,Unknown,Low
+INC_012,Text,Disturbance,N/A,N/A,N/A,N/A,N/A,0.0,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,0.0,N/A,N/A,N/A,0,0.0,Disturbance,Unknown,Negative,Low,Unknown,Low
+INC_013,Text,Disturbance,N/A,N/A,N/A,N/A,N/A,0.0,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,0.0,N/A,N/A,N/A,0,0.0,Disturbance,Unknown,Negative,Low,Unknown,Low
+INC_014,Text,Disturbance,N/A,N/A,N/A,N/A,N/A,0.0,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,0.0,N/A,N/A,N/A,0,0.0,Disturbance,Unknown,Negative,Low,Unknown,Low
+INC_015,Text,Disturbance,N/A,N/A,N/A,N/A,N/A,0.0,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,0.0,N/A,N/A,N/A,0,0.0,Disturbance,Unknown,Negative,Low,Unknown,Low
+INC_016,Text,Disturbance,Delhi,N/A,N/A,N/A,N/A,0.0,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,0.0,N/A,N/A,N/A,0,0.0,Disturbance,Delhi,Negative,Low,Unknown,Low
+INC_017,Text,Disturbance,Delhi,N/A,N/A,N/A,N/A,0.0,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,0.0,N/A,N/A,N/A,0,0.0,Disturbance,Delhi,Negative,Low,Unknown,Low
+INC_018,Text,Disturbance,Delhi,N/A,N/A,N/A,N/A,0.0,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,0.0,N/A,N/A,N/A,0,0.0,Disturbance,Delhi,Negative,Low,Unknown,Low
+INC_019,Text,Disturbance,Delhi,N/A,N/A,N/A,N/A,0.0,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,0.0,N/A,N/A,N/A,0,0.0,Disturbance,Delhi,Negative,Low,Unknown,Low
+INC_020,Text,Drug Offense,N/A,N/A,N/A,N/A,N/A,0.0,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,0.0,N/A,N/A,N/A,0,0.0,Drug Offense,Unknown,Negative,Medium,Unknown,Low

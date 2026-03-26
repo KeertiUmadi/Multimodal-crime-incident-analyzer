@@ -1,0 +1,4 @@
+Call_ID,Source_File,Transcript,Extracted_Event,Location,Sentiment,Urgency_Score
+C001,download (1).wav,I can still draw. It sounds like they're contacting the hallway. I'm a teacher in the school. Okay. Where are you in the school?,Unknown,Not mentioned,Calm,0.0
+C002,download(2).wav,"emergency. Say you look at elementary school, 12 dickies and drugs. Okay, I've got that. What's going on down there?",Unknown,Not mentioned,Distressed,0.07
+C003,download.wav,I'm sorry. Any hoax school. I think there's somebody shooting in here. Sandy hoax school. Okay. What makes you a,Unknown,Not mentioned,Distressed,0.07

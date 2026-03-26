@@ -13,11 +13,12 @@ venv/
 env/
 
 # Data folders — download separately per each module README
-audio/data/
-pdf/data/
-images/data/
-video/data/
-video/frames/
+# Allow data folders but ignore large files if needed
+!audio/data/
+!pdf/data/
+!images/data/
+!video/data/
+!video/frames/
 #text/data/
 
 # Model weights — auto-downloaded on first run
@@ -26,12 +27,12 @@ video/frames/
 *.ckpt
 
 # Generated outputs — recreated by running the pipeline
-audio/output_audio.csv
-pdf/output_pdf.csv
-images/output_images.csv
-video/output_video.csv
+#audio/output_audio.csv
+#pdf/output_pdf.csv
+#images/output_images.csv
+#video/output_video.csv
 #text/output_text.csv
-integration/integrated_incidents.csv
+#integration/integrated_incidents.csv
 
 
 # OS / IDE
