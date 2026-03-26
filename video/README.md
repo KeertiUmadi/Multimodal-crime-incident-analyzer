@@ -1,25 +1,25 @@
-# 📝 Text Analyst — Student 5
+# 🎥 Video Analyst — Student 4
 
-**Modality: Social Media Posts / News Articles**
+**Modality: CCTV / Surveillance Footage**
 
-This module processes written text from social media and news sources, performing NLP analysis to extract structured incident information from unstructured text data.
+This module processes video footage to detect abnormal activities, extract key events frame by frame, and produce a timestamped event log from surveillance clips.
 
 ---
 
 ## 🎯 Responsibilities
 
-- Clean and preprocess raw text: remove noise, normalize, tokenize
-- Run Named Entity Recognition (NER) to extract: people, locations, organizations, dates
-- Perform sentiment analysis and topic classification (accident / fire / theft / disturbance)
-- Output a structured CSV with NLP analysis results
+- Extract frames from video clips at regular intervals
+- Apply motion detection or anomaly detection to identify events of interest
+- Detect and classify objects or activities: running, fighting, vehicle movement, fire
+- Output a structured CSV with timestamped event detections
 
 ---
 
 ## 📤 Output Schema
 
-| Text_ID | Crime_Type | Location_Entity | Sentiment | Topic | Severity_Label |
-|---------|------------|-----------------|-----------|-------|----------------|
-| TXT_112 | Robbery | Oak Street, Chicago | Negative | Theft / Robbery | High |
+| Clip_ID | Timestamp | Frame_ID | Event_Detected | Persons_Count | Confidence |
+|---------|-----------|----------|----------------|---------------|------------|
+| CAVIAR_03 | 00:00:12 | FRM_036 | Person collapsing | 1 person | 0.88 |
 
 ---
 
@@ -27,25 +27,22 @@ This module processes written text from social media and news sources, performin
 
 | Library | Purpose | Install |
 |---------|---------|---------|
-| `spaCy` | NER and text preprocessing | `pip install spacy` |
-| `transformers` (HuggingFace) | Sentiment analysis and zero-shot topic classification | `pip install transformers` |
-| `NLTK` | Tokenization, stopword removal, stemming | `pip install nltk` |
-| `pandas` | Structured output generation | `pip install pandas` |
+| `OpenCV` | Frame extraction and motion detection | `pip install opencv-python` |
+| `ultralytics` (YOLOv8) | Real-time object detection on extracted frames | `pip install ultralytics` |
+| `PyTorch` / `TensorFlow` | Anomaly detection model implementation | `pip install torch` |
+| `imageio` / `moviepy` | Video loading and manipulation | `pip install moviepy imageio` |
 
 ---
 
 ## 📦 Dataset
 
-**CrimeReport** — Kaggle dataset containing real crime text reports with crime type, location, and details. Ready for NLP analysis.
+**CAVIAR CCTV Dataset** — simulated indoor surveillance footage of people walking, fighting, and collapsing. Lightweight and ideal for a student prototype.
 
-- **Link:** [kaggle.com/datasets/cameliasiadat/crimereport](https://www.kaggle.com/datasets/cameliasiadat/crimereport)
-- **Access:** Sign into Kaggle → open the link → click **Download**. Load the CSV directly with:
+- **Link:** [homepages.inf.ed.ac.uk/rbf/CAVIARDATA1](https://homepages.inf.ed.ac.uk/rbf/CAVIARDATA1/)
+- **Access:** Open the link → browse the scenario folders → download `.mpg` video clips directly. No account or signup needed.
+- **Recommended clips:** Start with `Browse` or `OneStopEnter` folders for basic motion, then try `Fight` or `Collapse` scenarios for anomaly detection.
 
-```python
-df = pd.read_csv('crimereport.csv')
-```
-
-> **Tip:** The dataset is already in CSV format — skip scraping entirely. Focus on building NER with spaCy, sentiment analysis with HuggingFace, and topic classification.
+> **Tip:** Download only 3–5 short clips to start. Extract frames with OpenCV and run YOLOv8 on each frame. This is more than enough for a working prototype.
 
 ---
 
@@ -53,8 +50,7 @@ df = pd.read_csv('crimereport.csv')
 
 ```bash
 pip install -r requirements.txt
-python -m spacy download en_core_web_sm
-python text_analyzer.py
+python video_analyzer.py
 ```
 
-Output will be saved to `text_output.csv`.
+Output will be saved to `video_output.csv`.
