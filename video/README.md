@@ -1,28 +1,60 @@
-# Student 4 — Video Analyst 🎥
+# 📝 Text Analyst — Student 5
 
-## Task
-Extract frames from CCTV footage, detect motion anomalies, classify activities per frame using YOLOv8.
+**Modality: Social Media Posts / News Articles**
 
-## Tools
-- `OpenCV` — frame extraction + motion detection
-- `YOLOv8` — object detection on sampled frames
-- `moviepy / imageio` — video loading utilities
+This module processes written text from social media and news sources, performing NLP analysis to extract structured incident information from unstructured text data.
 
-## Dataset
-**CAVIAR CCTV Dataset** — [Edinburgh University](https://homepages.inf.ed.ac.uk/rbf/CAVIARDATA1/)
-1. Open link → browse scenario folders
-2. Download `.mpg` clips directly (no account needed)
-3. Start with: `Browse`, `OneStopEnter`, `Fight`, or `Collapse` folders
-4. Place clips in `video/data/`
+---
 
-## Run
-```bash
-pip install -r video/requirements.txt
-python video/video_analyzer.py
+## 🎯 Responsibilities
+
+- Clean and preprocess raw text: remove noise, normalize, tokenize
+- Run Named Entity Recognition (NER) to extract: people, locations, organizations, dates
+- Perform sentiment analysis and topic classification (accident / fire / theft / disturbance)
+- Output a structured CSV with NLP analysis results
+
+---
+
+## 📤 Output Schema
+
+| Text_ID | Crime_Type | Location_Entity | Sentiment | Topic | Severity_Label |
+|---------|------------|-----------------|-----------|-------|----------------|
+| TXT_112 | Robbery | Oak Street, Chicago | Negative | Theft / Robbery | High |
+
+---
+
+## 🛠️ Tools & Libraries
+
+| Library | Purpose | Install |
+|---------|---------|---------|
+| `spaCy` | NER and text preprocessing | `pip install spacy` |
+| `transformers` (HuggingFace) | Sentiment analysis and zero-shot topic classification | `pip install transformers` |
+| `NLTK` | Tokenization, stopword removal, stemming | `pip install nltk` |
+| `pandas` | Structured output generation | `pip install pandas` |
+
+---
+
+## 📦 Dataset
+
+**CrimeReport** — Kaggle dataset containing real crime text reports with crime type, location, and details. Ready for NLP analysis.
+
+- **Link:** [kaggle.com/datasets/cameliasiadat/crimereport](https://www.kaggle.com/datasets/cameliasiadat/crimereport)
+- **Access:** Sign into Kaggle → open the link → click **Download**. Load the CSV directly with:
+
+```python
+df = pd.read_csv('crimereport.csv')
 ```
-> No files in `video/data/`? Demo data runs automatically.
 
-## Output: `video/output_video.csv`
-| Clip_ID | Timestamp | Frame_ID | Motion_Score | Event_Detected | Persons_Count | Confidence |
-|---------|-----------|----------|--------------|----------------|---------------|------------|
-| CAVIAR_03 | 00:00:12 | FRM_036 | 0.08 | Person collapsing | 1 | 0.88 |
+> **Tip:** The dataset is already in CSV format — skip scraping entirely. Focus on building NER with spaCy, sentiment analysis with HuggingFace, and topic classification.
+
+---
+
+## 🚀 Running the Module
+
+```bash
+pip install -r requirements.txt
+python -m spacy download en_core_web_sm
+python text_analyzer.py
+```
+
+Output will be saved to `text_output.csv`.
