@@ -1,21 +1,21 @@
 Incident_ID,Audio_Event,PDF_Doc_Type,Image_Objects,Video_Event,Text_Crime_Type,Severity
-INC_001,Unknown,Training Proposal,"fire, smoke (0.95)",No significant event,Disturbance,Low
-INC_002,Unknown,Unknown,None (0.0),No significant event,Disturbance,Low
-INC_003,Unknown,Unknown,"fire, smoke (0.95)",Person detected,Disturbance,Medium
-INC_004,Unknown,Unknown,"fire, smoke (0.95)",No significant event,Disturbance,Low
-INC_005,Unknown,Unknown,"fire, smoke (0.95)",Person detected,Murder,Medium
-INC_006,Unknown,Unknown,"fire, smoke (0.95)",Person detected,Disturbance,Low
-INC_007,Unknown,Unknown,"fire, smoke (0.95)",No significant event,Robbery,Medium
+INC_001,Fire,Unknown,"fire, smoke, smoke (0.94)",No significant event,Disturbance,High
+INC_002,Accident,Unknown,"car, person, smoke (0.87)",No significant event,Disturbance,Medium
+INC_003,Theft,Unknown,"person, backpack, smoke (0.81)",No significant event,Disturbance,Medium
+INC_004,Unknown,Unknown,None (0.0),No significant event,Disturbance,Low
+INC_005,Unknown,Unknown,None (0.0),No significant event,Murder,Low
+INC_006,Unknown,Unknown,None (0.0),No significant event,Disturbance,Low
+INC_007,Unknown,Unknown,None (0.0),No significant event,Robbery,Low
 INC_008,Unknown,Unknown,None (0.0),No significant event,Disturbance,Low
 INC_009,Unknown,Unknown,None (0.0),No significant event,Disturbance,Low
-INC_010,Unknown,Unknown,"fire, smoke (0.95)",No significant event,Drug Offense,Medium
+INC_010,Unknown,Unknown,None (0.0),No significant event,Drug Offense,Low
 INC_011,Unknown,Unknown,None (0.0),No significant event,Theft,Low
 INC_012,Unknown,Unknown,None (0.0),No significant event,Disturbance,Low
 INC_013,Unknown,Unknown,None (0.0),No significant event,Disturbance,Low
 INC_014,Unknown,Unknown,None (0.0),No significant event,Disturbance,Low
-INC_015,Unknown,Unknown,"fire, smoke (0.95)",Person detected,Disturbance,Low
-INC_016,Unknown,Unknown,None (0.0),Person detected,Disturbance,Low
+INC_015,Unknown,Unknown,None (0.0),No significant event,Disturbance,Low
+INC_016,Unknown,Unknown,None (0.0),No significant event,Disturbance,Low
 INC_017,Unknown,Unknown,None (0.0),No significant event,Disturbance,Low
 INC_018,Unknown,Unknown,None (0.0),No significant event,Disturbance,Low
-INC_019,Unknown,Unknown,None (0.0),Person detected,Disturbance,Low
-INC_020,Unknown,Unknown,None (0.0),Person detected,Drug Offense,Low
+INC_019,Unknown,Unknown,None (0.0),No significant event,Disturbance,Low
+INC_020,Unknown,Unknown,None (0.0),No significant event,Drug Offense,Low
