@@ -1,331 +1,1849 @@
-Clip_ID,Timestamp,Frame_ID,Frame_File,Motion_Score,Event_Detected,Persons_Count,Confidence
-CLIP_01,00:00,FRM_000,CLIP_01_FRM_000.jpg,0.0,No significant event,0,0.0
-CLIP_01,00:01,FRM_001,CLIP_01_FRM_001.jpg,0.0406,No significant event,0,0.0
-CLIP_01,00:02,FRM_002,CLIP_01_FRM_002.jpg,0.0406,Person detected,2,0.79
-CLIP_01,00:03,FRM_003,CLIP_01_FRM_003.jpg,0.0275,No significant event,0,0.0
-CLIP_01,00:04,FRM_004,CLIP_01_FRM_004.jpg,0.0198,Person detected,1,0.6
-CLIP_01,00:06,FRM_005,CLIP_01_FRM_005.jpg,0.026,Person detected,1,0.47
-CLIP_01,00:07,FRM_006,CLIP_01_FRM_006.jpg,0.0226,No significant event,0,0.0
-CLIP_01,00:08,FRM_007,CLIP_01_FRM_007.jpg,0.0145,No significant event,0,0.0
-CLIP_01,00:09,FRM_008,CLIP_01_FRM_008.jpg,0.0096,No significant event,0,0.0
-CLIP_01,00:10,FRM_009,CLIP_01_FRM_009.jpg,0.0122,No significant event,0,0.0
-CLIP_01,00:12,FRM_010,CLIP_01_FRM_010.jpg,0.0046,No significant event,0,0.0
-CLIP_01,00:13,FRM_011,CLIP_01_FRM_011.jpg,0.0098,No significant event,0,0.0
-CLIP_01,00:14,FRM_012,CLIP_01_FRM_012.jpg,0.0137,No significant event,0,0.0
-CLIP_01,00:15,FRM_013,CLIP_01_FRM_013.jpg,0.0156,No significant event,0,0.0
-CLIP_01,00:16,FRM_014,CLIP_01_FRM_014.jpg,0.0103,Person detected,1,0.3
-CLIP_01,00:18,FRM_015,CLIP_01_FRM_015.jpg,0.0084,Person detected,1,0.26
-CLIP_01,00:19,FRM_016,CLIP_01_FRM_016.jpg,0.0117,No significant event,0,0.0
-CLIP_01,00:20,FRM_017,CLIP_01_FRM_017.jpg,0.0149,No significant event,0,0.0
-CLIP_01,00:21,FRM_018,CLIP_01_FRM_018.jpg,0.0149,Person detected,2,0.46
-CLIP_01,00:22,FRM_019,CLIP_01_FRM_019.jpg,0.0169,Person detected,1,0.34
-CLIP_01,00:24,FRM_020,CLIP_01_FRM_020.jpg,0.0162,No significant event,0,0.0
-CLIP_01,00:25,FRM_021,CLIP_01_FRM_021.jpg,0.0153,Person detected,1,0.46
-CLIP_01,00:26,FRM_022,CLIP_01_FRM_022.jpg,0.0085,Person detected,1,0.5
-CLIP_01,00:27,FRM_023,CLIP_01_FRM_023.jpg,0.0111,Person detected,1,0.64
-CLIP_01,00:28,FRM_024,CLIP_01_FRM_024.jpg,0.0132,Person detected,1,0.63
-CLIP_01,00:30,FRM_025,CLIP_01_FRM_025.jpg,0.0118,Person detected,1,0.44
-CLIP_01,00:31,FRM_026,CLIP_01_FRM_026.jpg,0.0165,No significant event,0,0.0
-CLIP_01,00:32,FRM_027,CLIP_01_FRM_027.jpg,0.0168,No significant event,0,0.0
-CLIP_01,00:33,FRM_028,CLIP_01_FRM_028.jpg,0.0177,No significant event,0,0.0
-CLIP_01,00:34,FRM_029,CLIP_01_FRM_029.jpg,0.0214,Person detected,1,0.48
-CLIP_01,00:36,FRM_030,CLIP_01_FRM_030.jpg,0.0162,No significant event,0,0.0
-CLIP_01,00:37,FRM_031,CLIP_01_FRM_031.jpg,0.0161,Person detected,1,0.33
-CLIP_01,00:38,FRM_032,CLIP_01_FRM_032.jpg,0.0154,Person detected,1,0.36
-CLIP_01,00:39,FRM_033,CLIP_01_FRM_033.jpg,0.0268,Person detected,1,0.71
-CLIP_01,00:40,FRM_034,CLIP_01_FRM_034.jpg,0.026,No significant event,0,0.0
-CLIP_02,00:00,FRM_000,CLIP_02_FRM_000.jpg,0.0,No significant event,0,0.0
-CLIP_02,00:01,FRM_001,CLIP_02_FRM_001.jpg,0.0106,No significant event,0,0.0
-CLIP_02,00:02,FRM_002,CLIP_02_FRM_002.jpg,0.0235,Person detected,2,0.56
-CLIP_02,00:03,FRM_003,CLIP_02_FRM_003.jpg,0.0302,Person detected,1,0.59
-CLIP_02,00:04,FRM_004,CLIP_02_FRM_004.jpg,0.0164,Person detected,2,0.44
-CLIP_02,00:06,FRM_005,CLIP_02_FRM_005.jpg,0.0122,Person detected,1,0.3
-CLIP_02,00:07,FRM_006,CLIP_02_FRM_006.jpg,0.0196,Person detected,1,0.26
-CLIP_02,00:08,FRM_007,CLIP_02_FRM_007.jpg,0.0196,No significant event,0,0.0
-CLIP_02,00:09,FRM_008,CLIP_02_FRM_008.jpg,0.0092,Person detected,1,0.35
-CLIP_02,00:10,FRM_009,CLIP_02_FRM_009.jpg,0.0048,No significant event,0,0.0
-CLIP_02,00:12,FRM_010,CLIP_02_FRM_010.jpg,0.0032,No significant event,0,0.0
-CLIP_02,00:13,FRM_011,CLIP_02_FRM_011.jpg,0.0119,No significant event,0,0.0
-CLIP_02,00:14,FRM_012,CLIP_02_FRM_012.jpg,0.0094,No significant event,0,0.0
-CLIP_02,00:15,FRM_013,CLIP_02_FRM_013.jpg,0.0062,No significant event,0,0.0
-CLIP_02,00:16,FRM_014,CLIP_02_FRM_014.jpg,0.015,No significant event,0,0.0
-CLIP_02,00:18,FRM_015,CLIP_02_FRM_015.jpg,0.0184,Person detected,1,0.44
-CLIP_02,00:19,FRM_016,CLIP_02_FRM_016.jpg,0.0134,No significant event,0,0.0
-CLIP_02,00:20,FRM_017,CLIP_02_FRM_017.jpg,0.0203,No significant event,0,0.0
-CLIP_02,00:21,FRM_018,CLIP_02_FRM_018.jpg,0.0274,No significant event,0,0.0
-CLIP_02,00:22,FRM_019,CLIP_02_FRM_019.jpg,0.0095,No significant event,0,0.0
-CLIP_02,00:24,FRM_020,CLIP_02_FRM_020.jpg,0.007,No significant event,0,0.0
-CLIP_02,00:25,FRM_021,CLIP_02_FRM_021.jpg,0.0039,No significant event,0,0.0
-CLIP_02,00:26,FRM_022,CLIP_02_FRM_022.jpg,0.0007,No significant event,0,0.0
-CLIP_02,00:27,FRM_023,CLIP_02_FRM_023.jpg,0.0055,No significant event,0,0.0
-CLIP_02,00:28,FRM_024,CLIP_02_FRM_024.jpg,0.0022,No significant event,0,0.0
-CLIP_02,00:30,FRM_025,CLIP_02_FRM_025.jpg,0.0029,No significant event,0,0.0
-CLIP_02,00:31,FRM_026,CLIP_02_FRM_026.jpg,0.0115,Person detected,1,0.72
-CLIP_02,00:32,FRM_027,CLIP_02_FRM_027.jpg,0.0124,Person detected,1,0.67
-CLIP_02,00:33,FRM_028,CLIP_02_FRM_028.jpg,0.01,No significant event,0,0.0
-CLIP_02,00:34,FRM_029,CLIP_02_FRM_029.jpg,0.006,No significant event,0,0.0
-CLIP_03,00:00,FRM_000,CLIP_03_FRM_000.jpg,0.0,No significant event,0,0.0
-CLIP_03,00:01,FRM_001,CLIP_03_FRM_001.jpg,0.026,No significant event,0,0.0
-CLIP_03,00:02,FRM_002,CLIP_03_FRM_002.jpg,0.0239,No significant event,0,0.0
-CLIP_03,00:03,FRM_003,CLIP_03_FRM_003.jpg,0.0221,Person detected,1,0.68
-CLIP_03,00:04,FRM_004,CLIP_03_FRM_004.jpg,0.032,No significant event,0,0.0
-CLIP_03,00:06,FRM_005,CLIP_03_FRM_005.jpg,0.0178,No significant event,0,0.0
-CLIP_03,00:07,FRM_006,CLIP_03_FRM_006.jpg,0.011,No significant event,0,0.0
-CLIP_03,00:08,FRM_007,CLIP_03_FRM_007.jpg,0.0209,No significant event,0,0.0
-CLIP_03,00:09,FRM_008,CLIP_03_FRM_008.jpg,0.0312,No significant event,0,0.0
-CLIP_03,00:10,FRM_009,CLIP_03_FRM_009.jpg,0.0264,No significant event,0,0.0
-CLIP_03,00:12,FRM_010,CLIP_03_FRM_010.jpg,0.0184,No significant event,0,0.0
-CLIP_03,00:13,FRM_011,CLIP_03_FRM_011.jpg,0.0134,No significant event,0,0.0
-CLIP_03,00:14,FRM_012,CLIP_03_FRM_012.jpg,0.0149,Person detected,1,0.28
-CLIP_03,00:15,FRM_013,CLIP_03_FRM_013.jpg,0.0131,Person detected,1,0.29
-CLIP_03,00:16,FRM_014,CLIP_03_FRM_014.jpg,0.0152,No significant event,0,0.0
-CLIP_04,00:00,FRM_000,CLIP_04_FRM_000.jpg,0.0,Person detected,1,0.61
-CLIP_04,00:01,FRM_001,CLIP_04_FRM_001.jpg,0.0229,Person detected,1,0.67
-CLIP_04,00:02,FRM_002,CLIP_04_FRM_002.jpg,0.0268,No significant event,0,0.0
-CLIP_04,00:03,FRM_003,CLIP_04_FRM_003.jpg,0.0235,No significant event,0,0.0
-CLIP_04,00:04,FRM_004,CLIP_04_FRM_004.jpg,0.0056,No significant event,0,0.0
-CLIP_04,00:06,FRM_005,CLIP_04_FRM_005.jpg,0.0061,No significant event,0,0.0
-CLIP_04,00:07,FRM_006,CLIP_04_FRM_006.jpg,0.006,No significant event,0,0.0
-CLIP_04,00:08,FRM_007,CLIP_04_FRM_007.jpg,0.0061,No significant event,0,0.0
-CLIP_04,00:09,FRM_008,CLIP_04_FRM_008.jpg,0.0112,Person detected,1,0.84
-CLIP_04,00:10,FRM_009,CLIP_04_FRM_009.jpg,0.0289,No significant event,0,0.0
-CLIP_04,00:12,FRM_010,CLIP_04_FRM_010.jpg,0.0163,Person detected,1,0.61
-CLIP_04,00:13,FRM_011,CLIP_04_FRM_011.jpg,0.0226,Person detected,1,0.58
-CLIP_04,00:14,FRM_012,CLIP_04_FRM_012.jpg,0.0145,Person detected,1,0.41
-CLIP_04,00:15,FRM_013,CLIP_04_FRM_013.jpg,0.0218,Person detected,1,0.35
-CLIP_04,00:16,FRM_014,CLIP_04_FRM_014.jpg,0.0172,No significant event,0,0.0
-CLIP_04,00:18,FRM_015,CLIP_04_FRM_015.jpg,0.0245,No significant event,0,0.0
-CLIP_04,00:19,FRM_016,CLIP_04_FRM_016.jpg,0.0211,No significant event,0,0.0
-CLIP_04,00:20,FRM_017,CLIP_04_FRM_017.jpg,0.0127,No significant event,0,0.0
-CLIP_04,00:21,FRM_018,CLIP_04_FRM_018.jpg,0.0081,No significant event,0,0.0
-CLIP_05,00:00,FRM_000,CLIP_05_FRM_000.jpg,0.0,Person detected,1,0.3
-CLIP_05,00:01,FRM_001,CLIP_05_FRM_001.jpg,0.0272,Person detected,2,0.46
-CLIP_05,00:02,FRM_002,CLIP_05_FRM_002.jpg,0.0205,No significant event,0,0.0
-CLIP_05,00:03,FRM_003,CLIP_05_FRM_003.jpg,0.0135,No significant event,0,0.0
-CLIP_05,00:04,FRM_004,CLIP_05_FRM_004.jpg,0.016,No significant event,0,0.0
-CLIP_05,00:06,FRM_005,CLIP_05_FRM_005.jpg,0.025,No significant event,0,0.0
-CLIP_05,00:07,FRM_006,CLIP_05_FRM_006.jpg,0.0251,No significant event,0,0.0
-CLIP_05,00:08,FRM_007,CLIP_05_FRM_007.jpg,0.022,No significant event,0,0.0
-CLIP_05,00:09,FRM_008,CLIP_05_FRM_008.jpg,0.0237,No significant event,0,0.0
-CLIP_05,00:10,FRM_009,CLIP_05_FRM_009.jpg,0.0203,No significant event,0,0.0
-CLIP_05,00:12,FRM_010,CLIP_05_FRM_010.jpg,0.0161,No significant event,0,0.0
-CLIP_05,00:13,FRM_011,CLIP_05_FRM_011.jpg,0.0171,No significant event,0,0.0
-CLIP_05,00:14,FRM_012,CLIP_05_FRM_012.jpg,0.0219,No significant event,0,0.0
-CLIP_05,00:15,FRM_013,CLIP_05_FRM_013.jpg,0.0146,No significant event,0,0.0
-CLIP_05,00:16,FRM_014,CLIP_05_FRM_014.jpg,0.0085,No significant event,0,0.0
-CLIP_05,00:18,FRM_015,CLIP_05_FRM_015.jpg,0.0236,No significant event,0,0.0
-CLIP_05,00:19,FRM_016,CLIP_05_FRM_016.jpg,0.0341,No significant event,0,0.0
-CLIP_05,00:20,FRM_017,CLIP_05_FRM_017.jpg,0.0252,No significant event,0,0.0
-CLIP_05,00:21,FRM_018,CLIP_05_FRM_018.jpg,0.0161,No significant event,0,0.0
-CLIP_05,00:22,FRM_019,CLIP_05_FRM_019.jpg,0.0121,No significant event,0,0.0
-CLIP_05,00:24,FRM_020,CLIP_05_FRM_020.jpg,0.0053,No significant event,0,0.0
-CLIP_05,00:25,FRM_021,CLIP_05_FRM_021.jpg,0.001,No significant event,0,0.0
-CLIP_05,00:26,FRM_022,CLIP_05_FRM_022.jpg,0.0052,No significant event,0,0.0
-CLIP_05,00:27,FRM_023,CLIP_05_FRM_023.jpg,0.0048,No significant event,0,0.0
-CLIP_05,00:28,FRM_024,CLIP_05_FRM_024.jpg,0.0019,No significant event,0,0.0
-CLIP_05,00:30,FRM_025,CLIP_05_FRM_025.jpg,0.0007,No significant event,0,0.0
-CLIP_05,00:31,FRM_026,CLIP_05_FRM_026.jpg,0.0028,No significant event,0,0.0
-CLIP_05,00:32,FRM_027,CLIP_05_FRM_027.jpg,0.0049,No significant event,0,0.0
-CLIP_05,00:33,FRM_028,CLIP_05_FRM_028.jpg,0.0186,No significant event,0,0.0
-CLIP_05,00:34,FRM_029,CLIP_05_FRM_029.jpg,0.022,No significant event,0,0.0
-CLIP_05,00:36,FRM_030,CLIP_05_FRM_030.jpg,0.0187,Person detected,1,0.81
-CLIP_05,00:37,FRM_031,CLIP_05_FRM_031.jpg,0.0209,No significant event,0,0.0
-CLIP_05,00:38,FRM_032,CLIP_05_FRM_032.jpg,0.0104,Person detected,1,0.64
-CLIP_05,00:39,FRM_033,CLIP_05_FRM_033.jpg,0.0154,No significant event,0,0.0
-CLIP_05,00:40,FRM_034,CLIP_05_FRM_034.jpg,0.0171,No significant event,0,0.0
-CLIP_05,00:42,FRM_035,CLIP_05_FRM_035.jpg,0.0117,Person detected,1,0.48
-CLIP_05,00:43,FRM_036,CLIP_05_FRM_036.jpg,0.0083,No significant event,0,0.0
-CLIP_05,00:44,FRM_037,CLIP_05_FRM_037.jpg,0.0066,No significant event,0,0.0
-CLIP_05,00:45,FRM_038,CLIP_05_FRM_038.jpg,0.0011,No significant event,0,0.0
-CLIP_05,00:46,FRM_039,CLIP_05_FRM_039.jpg,0.0031,No significant event,0,0.0
-CLIP_05,00:48,FRM_040,CLIP_05_FRM_040.jpg,0.003,No significant event,0,0.0
-CLIP_05,00:49,FRM_041,CLIP_05_FRM_041.jpg,0.0033,No significant event,0,0.0
-CLIP_05,00:50,FRM_042,CLIP_05_FRM_042.jpg,0.0082,No significant event,0,0.0
-CLIP_05,00:51,FRM_043,CLIP_05_FRM_043.jpg,0.015,Person detected,1,0.8
-CLIP_05,00:52,FRM_044,CLIP_05_FRM_044.jpg,0.0173,No significant event,0,0.0
-CLIP_05,00:54,FRM_045,CLIP_05_FRM_045.jpg,0.0126,No significant event,0,0.0
-CLIP_05,00:55,FRM_046,CLIP_05_FRM_046.jpg,0.0217,Person detected,1,0.31
-CLIP_05,00:56,FRM_047,CLIP_05_FRM_047.jpg,0.0261,No significant event,0,0.0
-CLIP_06,00:00,FRM_000,CLIP_06_FRM_000.jpg,0.0,Person detected,1,0.76
-CLIP_06,00:01,FRM_001,CLIP_06_FRM_001.jpg,0.0207,Person detected,1,0.48
-CLIP_06,00:02,FRM_002,CLIP_06_FRM_002.jpg,0.0118,No significant event,0,0.0
-CLIP_06,00:03,FRM_003,CLIP_06_FRM_003.jpg,0.0072,No significant event,0,0.0
-CLIP_06,00:04,FRM_004,CLIP_06_FRM_004.jpg,0.0055,Person detected,1,0.59
-CLIP_06,00:06,FRM_005,CLIP_06_FRM_005.jpg,0.0059,Person detected,1,0.53
-CLIP_06,00:07,FRM_006,CLIP_06_FRM_006.jpg,0.0097,Person detected,1,0.48
-CLIP_06,00:08,FRM_007,CLIP_06_FRM_007.jpg,0.0201,No significant event,0,0.0
-CLIP_06,00:09,FRM_008,CLIP_06_FRM_008.jpg,0.0193,No significant event,0,0.0
-CLIP_06,00:10,FRM_009,CLIP_06_FRM_009.jpg,0.0142,Person detected,1,0.48
-CLIP_06,00:12,FRM_010,CLIP_06_FRM_010.jpg,0.0103,No significant event,0,0.0
-CLIP_06,00:13,FRM_011,CLIP_06_FRM_011.jpg,0.0108,Person detected,1,0.36
-CLIP_06,00:14,FRM_012,CLIP_06_FRM_012.jpg,0.0148,No significant event,0,0.0
-CLIP_06,00:15,FRM_013,CLIP_06_FRM_013.jpg,0.0128,No significant event,0,0.0
-CLIP_06,00:16,FRM_014,CLIP_06_FRM_014.jpg,0.0105,Person detected,1,0.32
-CLIP_06,00:18,FRM_015,CLIP_06_FRM_015.jpg,0.0072,No significant event,0,0.0
-CLIP_06,00:19,FRM_016,CLIP_06_FRM_016.jpg,0.0049,No significant event,0,0.0
-CLIP_06,00:20,FRM_017,CLIP_06_FRM_017.jpg,0.006,No significant event,0,0.0
-CLIP_06,00:21,FRM_018,CLIP_06_FRM_018.jpg,0.0055,No significant event,0,0.0
-CLIP_06,00:22,FRM_019,CLIP_06_FRM_019.jpg,0.0097,No significant event,0,0.0
-CLIP_06,00:24,FRM_020,CLIP_06_FRM_020.jpg,0.014,No significant event,0,0.0
-CLIP_06,00:25,FRM_021,CLIP_06_FRM_021.jpg,0.0134,No significant event,0,0.0
-CLIP_06,00:26,FRM_022,CLIP_06_FRM_022.jpg,0.0067,No significant event,0,0.0
-CLIP_06,00:27,FRM_023,CLIP_06_FRM_023.jpg,0.0034,No significant event,0,0.0
-CLIP_06,00:28,FRM_024,CLIP_06_FRM_024.jpg,0.0023,No significant event,0,0.0
-CLIP_06,00:30,FRM_025,CLIP_06_FRM_025.jpg,0.002,No significant event,0,0.0
-CLIP_06,00:31,FRM_026,CLIP_06_FRM_026.jpg,0.0035,No significant event,0,0.0
-CLIP_06,00:32,FRM_027,CLIP_06_FRM_027.jpg,0.0043,No significant event,0,0.0
-CLIP_06,00:33,FRM_028,CLIP_06_FRM_028.jpg,0.0056,No significant event,0,0.0
-CLIP_06,00:34,FRM_029,CLIP_06_FRM_029.jpg,0.0118,No significant event,0,0.0
-CLIP_06,00:36,FRM_030,CLIP_06_FRM_030.jpg,0.0118,Person detected,1,0.33
-CLIP_06,00:37,FRM_031,CLIP_06_FRM_031.jpg,0.0079,No significant event,0,0.0
-CLIP_06,00:38,FRM_032,CLIP_06_FRM_032.jpg,0.0119,No significant event,0,0.0
-CLIP_06,00:39,FRM_033,CLIP_06_FRM_033.jpg,0.0165,Person detected,1,0.43
-CLIP_06,00:40,FRM_034,CLIP_06_FRM_034.jpg,0.0208,Person detected,1,0.44
-CLIP_06,00:42,FRM_035,CLIP_06_FRM_035.jpg,0.0428,Person detected,1,0.3
-CLIP_06,00:43,FRM_036,CLIP_06_FRM_036.jpg,0.0368,No significant event,0,0.0
-CLIP_06,00:44,FRM_037,CLIP_06_FRM_037.jpg,0.0225,No significant event,0,0.0
-CLIP_07,00:00,FRM_000,CLIP_07_FRM_000.jpg,0.0,No significant event,0,0.0
-CLIP_07,00:01,FRM_001,CLIP_07_FRM_001.jpg,0.0125,No significant event,0,0.0
-CLIP_07,00:02,FRM_002,CLIP_07_FRM_002.jpg,0.009,No significant event,0,0.0
-CLIP_07,00:03,FRM_003,CLIP_07_FRM_003.jpg,0.0238,No significant event,0,0.0
-CLIP_07,00:04,FRM_004,CLIP_07_FRM_004.jpg,0.0222,No significant event,0,0.0
-CLIP_07,00:06,FRM_005,CLIP_07_FRM_005.jpg,0.0092,Person detected,1,0.53
-CLIP_07,00:07,FRM_006,CLIP_07_FRM_006.jpg,0.0217,Person detected,1,0.33
-CLIP_07,00:08,FRM_007,CLIP_07_FRM_007.jpg,0.0197,No significant event,0,0.0
-CLIP_07,00:09,FRM_008,CLIP_07_FRM_008.jpg,0.0095,No significant event,0,0.0
-CLIP_07,00:10,FRM_009,CLIP_07_FRM_009.jpg,0.0155,No significant event,0,0.0
-CLIP_07,00:12,FRM_010,CLIP_07_FRM_010.jpg,0.0187,No significant event,0,0.0
-CLIP_07,00:13,FRM_011,CLIP_07_FRM_011.jpg,0.0164,No significant event,0,0.0
-CLIP_07,00:14,FRM_012,CLIP_07_FRM_012.jpg,0.0133,No significant event,0,0.0
-CLIP_07,00:15,FRM_013,CLIP_07_FRM_013.jpg,0.0055,Person detected,1,0.27
-CLIP_07,00:16,FRM_014,CLIP_07_FRM_014.jpg,0.0061,Person detected,1,0.42
-CLIP_07,00:18,FRM_015,CLIP_07_FRM_015.jpg,0.0041,No significant event,0,0.0
-CLIP_07,00:19,FRM_016,CLIP_07_FRM_016.jpg,0.0099,No significant event,0,0.0
-CLIP_07,00:20,FRM_017,CLIP_07_FRM_017.jpg,0.0134,No significant event,0,0.0
-CLIP_07,00:21,FRM_018,CLIP_07_FRM_018.jpg,0.0106,No significant event,0,0.0
-CLIP_07,00:22,FRM_019,CLIP_07_FRM_019.jpg,0.0072,No significant event,0,0.0
-CLIP_07,00:24,FRM_020,CLIP_07_FRM_020.jpg,0.0035,No significant event,0,0.0
-CLIP_07,00:25,FRM_021,CLIP_07_FRM_021.jpg,0.0034,No significant event,0,0.0
-CLIP_07,00:26,FRM_022,CLIP_07_FRM_022.jpg,0.0012,No significant event,0,0.0
-CLIP_07,00:27,FRM_023,CLIP_07_FRM_023.jpg,0.0019,Person detected,1,0.33
-CLIP_07,00:28,FRM_024,CLIP_07_FRM_024.jpg,0.0029,No significant event,0,0.0
-CLIP_07,00:30,FRM_025,CLIP_07_FRM_025.jpg,0.0064,No significant event,0,0.0
-CLIP_07,00:31,FRM_026,CLIP_07_FRM_026.jpg,0.0073,No significant event,0,0.0
-CLIP_07,00:32,FRM_027,CLIP_07_FRM_027.jpg,0.0078,No significant event,0,0.0
-CLIP_07,00:33,FRM_028,CLIP_07_FRM_028.jpg,0.0111,No significant event,0,0.0
-CLIP_07,00:34,FRM_029,CLIP_07_FRM_029.jpg,0.0065,No significant event,0,0.0
-CLIP_07,00:36,FRM_030,CLIP_07_FRM_030.jpg,0.0124,No significant event,0,0.0
-CLIP_07,00:37,FRM_031,CLIP_07_FRM_031.jpg,0.0187,No significant event,0,0.0
-CLIP_07,00:38,FRM_032,CLIP_07_FRM_032.jpg,0.0121,No significant event,0,0.0
-CLIP_07,00:39,FRM_033,CLIP_07_FRM_033.jpg,0.0168,Person detected,1,0.28
-CLIP_08,00:00,FRM_000,CLIP_08_FRM_000.jpg,0.0,No significant event,0,0.0
-CLIP_08,00:01,FRM_001,CLIP_08_FRM_001.jpg,0.0087,No significant event,0,0.0
-CLIP_08,00:02,FRM_002,CLIP_08_FRM_002.jpg,0.0223,No significant event,0,0.0
-CLIP_08,00:03,FRM_003,CLIP_08_FRM_003.jpg,0.0365,No significant event,0,0.0
-CLIP_08,00:04,FRM_004,CLIP_08_FRM_004.jpg,0.031,Person detected,2,0.31
-CLIP_08,00:06,FRM_005,CLIP_08_FRM_005.jpg,0.0303,No significant event,0,0.0
-CLIP_08,00:07,FRM_006,CLIP_08_FRM_006.jpg,0.0202,Person detected,1,0.31
-CLIP_08,00:08,FRM_007,CLIP_08_FRM_007.jpg,0.0201,No significant event,0,0.0
-CLIP_08,00:09,FRM_008,CLIP_08_FRM_008.jpg,0.0314,Person detected,1,0.28
-CLIP_08,00:10,FRM_009,CLIP_08_FRM_009.jpg,0.0205,No significant event,0,0.0
-CLIP_08,00:12,FRM_010,CLIP_08_FRM_010.jpg,0.0207,No significant event,0,0.0
-CLIP_08,00:13,FRM_011,CLIP_08_FRM_011.jpg,0.0065,No significant event,0,0.0
-CLIP_08,00:14,FRM_012,CLIP_08_FRM_012.jpg,0.0026,No significant event,0,0.0
-CLIP_08,00:15,FRM_013,CLIP_08_FRM_013.jpg,0.0035,No significant event,0,0.0
-CLIP_08,00:16,FRM_014,CLIP_08_FRM_014.jpg,0.0051,No significant event,0,0.0
-CLIP_08,00:18,FRM_015,CLIP_08_FRM_015.jpg,0.0035,No significant event,0,0.0
-CLIP_08,00:19,FRM_016,CLIP_08_FRM_016.jpg,0.005,No significant event,0,0.0
-CLIP_08,00:20,FRM_017,CLIP_08_FRM_017.jpg,0.0091,No significant event,0,0.0
-CLIP_08,00:21,FRM_018,CLIP_08_FRM_018.jpg,0.0142,No significant event,0,0.0
-CLIP_08,00:22,FRM_019,CLIP_08_FRM_019.jpg,0.0041,No significant event,0,0.0
-CLIP_08,00:24,FRM_020,CLIP_08_FRM_020.jpg,0.0061,No significant event,0,0.0
-CLIP_08,00:25,FRM_021,CLIP_08_FRM_021.jpg,0.0085,Person detected,1,0.3
-CLIP_08,00:26,FRM_022,CLIP_08_FRM_022.jpg,0.0167,No significant event,0,0.0
-CLIP_08,00:27,FRM_023,CLIP_08_FRM_023.jpg,0.018,No significant event,0,0.0
-CLIP_08,00:28,FRM_024,CLIP_08_FRM_024.jpg,0.0094,No significant event,0,0.0
-CLIP_08,00:30,FRM_025,CLIP_08_FRM_025.jpg,0.0105,Person detected,1,0.42
-CLIP_08,00:31,FRM_026,CLIP_08_FRM_026.jpg,0.0067,Person detected,1,0.64
-CLIP_08,00:32,FRM_027,CLIP_08_FRM_027.jpg,0.0047,No significant event,0,0.0
-CLIP_08,00:33,FRM_028,CLIP_08_FRM_028.jpg,0.0027,Person detected,1,0.3
-CLIP_08,00:34,FRM_029,CLIP_08_FRM_029.jpg,0.0047,Person detected,1,0.48
-CLIP_08,00:36,FRM_030,CLIP_08_FRM_030.jpg,0.0074,Person detected,1,0.33
-CLIP_08,00:37,FRM_031,CLIP_08_FRM_031.jpg,0.0151,No significant event,0,0.0
-CLIP_08,00:38,FRM_032,CLIP_08_FRM_032.jpg,0.0132,No significant event,0,0.0
-CLIP_08,00:39,FRM_033,CLIP_08_FRM_033.jpg,0.0091,Person detected,2,0.46
-CLIP_08,00:40,FRM_034,CLIP_08_FRM_034.jpg,0.0069,Person detected,2,0.38
-CLIP_08,00:42,FRM_035,CLIP_08_FRM_035.jpg,0.007,No significant event,0,0.0
-CLIP_08,00:43,FRM_036,CLIP_08_FRM_036.jpg,0.0114,No significant event,0,0.0
-CLIP_08,00:44,FRM_037,CLIP_08_FRM_037.jpg,0.009,No significant event,0,0.0
-CLIP_08,00:45,FRM_038,CLIP_08_FRM_038.jpg,0.006,No significant event,0,0.0
-CLIP_08,00:46,FRM_039,CLIP_08_FRM_039.jpg,0.0036,No significant event,0,0.0
-CLIP_08,00:48,FRM_040,CLIP_08_FRM_040.jpg,0.0094,No significant event,0,0.0
-CLIP_08,00:49,FRM_041,CLIP_08_FRM_041.jpg,0.0125,Person detected,1,0.5
-CLIP_08,00:50,FRM_042,CLIP_08_FRM_042.jpg,0.0162,No significant event,0,0.0
-CLIP_08,00:51,FRM_043,CLIP_08_FRM_043.jpg,0.0169,Person detected,1,0.48
-CLIP_09,00:00,FRM_000,CLIP_09_FRM_000.jpg,0.0,No significant event,0,0.0
-CLIP_09,00:01,FRM_001,CLIP_09_FRM_001.jpg,0.0144,No significant event,0,0.0
-CLIP_09,00:02,FRM_002,CLIP_09_FRM_002.jpg,0.0231,No significant event,0,0.0
-CLIP_09,00:03,FRM_003,CLIP_09_FRM_003.jpg,0.0253,Person detected,1,0.72
-CLIP_09,00:04,FRM_004,CLIP_09_FRM_004.jpg,0.0146,Person detected,1,0.71
-CLIP_09,00:06,FRM_005,CLIP_09_FRM_005.jpg,0.0317,No significant event,0,0.0
-CLIP_09,00:07,FRM_006,CLIP_09_FRM_006.jpg,0.0183,No significant event,0,0.0
-CLIP_09,00:08,FRM_007,CLIP_09_FRM_007.jpg,0.0054,No significant event,0,0.0
-CLIP_09,00:09,FRM_008,CLIP_09_FRM_008.jpg,0.0058,No significant event,0,0.0
-CLIP_09,00:10,FRM_009,CLIP_09_FRM_009.jpg,0.0229,No significant event,0,0.0
-CLIP_09,00:12,FRM_010,CLIP_09_FRM_010.jpg,0.0275,No significant event,0,0.0
-CLIP_09,00:13,FRM_011,CLIP_09_FRM_011.jpg,0.0177,Person detected,1,0.44
-CLIP_09,00:14,FRM_012,CLIP_09_FRM_012.jpg,0.0129,No significant event,0,0.0
-CLIP_09,00:15,FRM_013,CLIP_09_FRM_013.jpg,0.0125,No significant event,0,0.0
-CLIP_09,00:16,FRM_014,CLIP_09_FRM_014.jpg,0.0207,No significant event,0,0.0
-CLIP_09,00:18,FRM_015,CLIP_09_FRM_015.jpg,0.0132,No significant event,0,0.0
-CLIP_09,00:19,FRM_016,CLIP_09_FRM_016.jpg,0.0109,No significant event,0,0.0
-CLIP_09,00:20,FRM_017,CLIP_09_FRM_017.jpg,0.0064,No significant event,0,0.0
-CLIP_09,00:21,FRM_018,CLIP_09_FRM_018.jpg,0.0037,No significant event,0,0.0
-CLIP_09,00:22,FRM_019,CLIP_09_FRM_019.jpg,0.0048,No significant event,0,0.0
-CLIP_09,00:24,FRM_020,CLIP_09_FRM_020.jpg,0.0084,No significant event,0,0.0
-CLIP_10,00:00,FRM_000,CLIP_10_FRM_000.jpg,0.0,Person detected,1,0.46
-CLIP_10,00:01,FRM_001,CLIP_10_FRM_001.jpg,0.0008,No significant event,0,0.0
-CLIP_10,00:02,FRM_002,CLIP_10_FRM_002.jpg,0.0097,No significant event,0,0.0
-CLIP_10,00:03,FRM_003,CLIP_10_FRM_003.jpg,0.0199,Person detected,1,0.46
-CLIP_10,00:04,FRM_004,CLIP_10_FRM_004.jpg,0.0157,No significant event,0,0.0
-CLIP_10,00:06,FRM_005,CLIP_10_FRM_005.jpg,0.0141,No significant event,0,0.0
-CLIP_10,00:07,FRM_006,CLIP_10_FRM_006.jpg,0.0238,Person detected,1,0.29
-CLIP_10,00:08,FRM_007,CLIP_10_FRM_007.jpg,0.0134,No significant event,0,0.0
-CLIP_10,00:09,FRM_008,CLIP_10_FRM_008.jpg,0.0133,No significant event,0,0.0
-CLIP_10,00:10,FRM_009,CLIP_10_FRM_009.jpg,0.0213,No significant event,0,0.0
-CLIP_10,00:12,FRM_010,CLIP_10_FRM_010.jpg,0.0173,Person detected,1,0.53
-CLIP_10,00:13,FRM_011,CLIP_10_FRM_011.jpg,0.0176,Person detected,1,0.8
-CLIP_10,00:14,FRM_012,CLIP_10_FRM_012.jpg,0.0132,No significant event,0,0.0
-CLIP_10,00:15,FRM_013,CLIP_10_FRM_013.jpg,0.0051,No significant event,0,0.0
-CLIP_10,00:16,FRM_014,CLIP_10_FRM_014.jpg,0.0043,Person detected,1,0.26
-CLIP_10,00:18,FRM_015,CLIP_10_FRM_015.jpg,0.0079,No significant event,0,0.0
-CLIP_10,00:19,FRM_016,CLIP_10_FRM_016.jpg,0.0058,No significant event,0,0.0
-CLIP_10,00:20,FRM_017,CLIP_10_FRM_017.jpg,0.0117,Person detected,1,0.68
-CLIP_10,00:21,FRM_018,CLIP_10_FRM_018.jpg,0.0151,No significant event,0,0.0
-CLIP_10,00:22,FRM_019,CLIP_10_FRM_019.jpg,0.0194,Person detected,1,0.67
-CLIP_10,00:24,FRM_020,CLIP_10_FRM_020.jpg,0.015,No significant event,0,0.0
-CLIP_10,00:25,FRM_021,CLIP_10_FRM_021.jpg,0.0133,No significant event,0,0.0
-CLIP_10,00:26,FRM_022,CLIP_10_FRM_022.jpg,0.016,No significant event,0,0.0
-CLIP_10,00:27,FRM_023,CLIP_10_FRM_023.jpg,0.011,No significant event,0,0.0
-CLIP_10,00:28,FRM_024,CLIP_10_FRM_024.jpg,0.0064,No significant event,0,0.0
-CLIP_10,00:30,FRM_025,CLIP_10_FRM_025.jpg,0.0046,No significant event,0,0.0
-CLIP_10,00:31,FRM_026,CLIP_10_FRM_026.jpg,0.0015,No significant event,0,0.0
-CLIP_10,00:32,FRM_027,CLIP_10_FRM_027.jpg,0.0017,No significant event,0,0.0
-CLIP_10,00:33,FRM_028,CLIP_10_FRM_028.jpg,0.0037,No significant event,0,0.0
-CLIP_10,00:34,FRM_029,CLIP_10_FRM_029.jpg,0.0013,No significant event,0,0.0
-CLIP_10,00:36,FRM_030,CLIP_10_FRM_030.jpg,0.0017,No significant event,0,0.0
-CLIP_10,00:37,FRM_031,CLIP_10_FRM_031.jpg,0.0009,No significant event,0,0.0
-CLIP_10,00:38,FRM_032,CLIP_10_FRM_032.jpg,0.0018,No significant event,0,0.0
-CLIP_10,00:39,FRM_033,CLIP_10_FRM_033.jpg,0.0015,No significant event,0,0.0
-CLIP_10,00:40,FRM_034,CLIP_10_FRM_034.jpg,0.0026,No significant event,0,0.0
-CLIP_10,00:42,FRM_035,CLIP_10_FRM_035.jpg,0.0007,No significant event,0,0.0
-CLIP_10,00:43,FRM_036,CLIP_10_FRM_036.jpg,0.0008,No significant event,0,0.0
-CLIP_10,00:44,FRM_037,CLIP_10_FRM_037.jpg,0.0013,No significant event,0,0.0
-CLIP_10,00:45,FRM_038,CLIP_10_FRM_038.jpg,0.0044,No significant event,0,0.0
-CLIP_10,00:46,FRM_039,CLIP_10_FRM_039.jpg,0.0031,No significant event,0,0.0
-CLIP_10,00:48,FRM_040,CLIP_10_FRM_040.jpg,0.004,No significant event,0,0.0
-CLIP_10,00:49,FRM_041,CLIP_10_FRM_041.jpg,0.006,No significant event,0,0.0
-CLIP_10,00:50,FRM_042,CLIP_10_FRM_042.jpg,0.0122,No significant event,0,0.0
-CLIP_10,00:51,FRM_043,CLIP_10_FRM_043.jpg,0.0127,No significant event,0,0.0
-CLIP_10,00:52,FRM_044,CLIP_10_FRM_044.jpg,0.0127,No significant event,0,0.0
-CLIP_10,00:54,FRM_045,CLIP_10_FRM_045.jpg,0.012,Person detected,1,0.59
+Clip_ID,Timestamp,Frame_ID,Event_Detected,Persons_Count,Confidence
+Browse1,00:00:00,FRM_000,No significant event,0 persons,0.0
+Browse1,00:00:01,FRM_001,No significant event,0 persons,0.0
+Browse1,00:00:02,FRM_002,Person detected,2 persons,0.79
+Browse1,00:00:03,FRM_003,No significant event,0 persons,0.0
+Browse1,00:00:04,FRM_004,Person detected,1 person,0.6
+Browse1,00:00:06,FRM_005,Person detected,1 person,0.47
+Browse1,00:00:07,FRM_006,No significant event,0 persons,0.0
+Browse1,00:00:08,FRM_007,No significant event,0 persons,0.0
+Browse1,00:00:09,FRM_008,No significant event,0 persons,0.0
+Browse1,00:00:10,FRM_009,No significant event,0 persons,0.0
+Browse1,00:00:12,FRM_010,No significant event,0 persons,0.0
+Browse1,00:00:13,FRM_011,No significant event,0 persons,0.0
+Browse1,00:00:14,FRM_012,No significant event,0 persons,0.0
+Browse1,00:00:15,FRM_013,No significant event,0 persons,0.0
+Browse1,00:00:16,FRM_014,Person detected,1 person,0.3
+Browse1,00:00:18,FRM_015,Person detected,1 person,0.26
+Browse1,00:00:19,FRM_016,No significant event,0 persons,0.0
+Browse1,00:00:20,FRM_017,No significant event,0 persons,0.0
+Browse1,00:00:21,FRM_018,Person detected,2 persons,0.46
+Browse1,00:00:22,FRM_019,Person detected,1 person,0.34
+Browse1,00:00:24,FRM_020,No significant event,0 persons,0.0
+Browse1,00:00:25,FRM_021,Person detected,1 person,0.46
+Browse1,00:00:26,FRM_022,Person detected,1 person,0.5
+Browse1,00:00:27,FRM_023,Person detected,1 person,0.64
+Browse1,00:00:28,FRM_024,Person detected,1 person,0.63
+Browse1,00:00:30,FRM_025,Person detected,1 person,0.44
+Browse1,00:00:31,FRM_026,No significant event,0 persons,0.0
+Browse1,00:00:32,FRM_027,No significant event,0 persons,0.0
+Browse1,00:00:33,FRM_028,No significant event,0 persons,0.0
+Browse1,00:00:34,FRM_029,Person detected,1 person,0.48
+Browse1,00:00:36,FRM_030,No significant event,0 persons,0.0
+Browse1,00:00:37,FRM_031,Person detected,1 person,0.33
+Browse1,00:00:38,FRM_032,Person detected,1 person,0.36
+Browse1,00:00:39,FRM_033,Person detected,1 person,0.71
+Browse1,00:00:40,FRM_034,No significant event,0 persons,0.0
+Browse2,00:00:00,FRM_000,No significant event,0 persons,0.0
+Browse2,00:00:01,FRM_001,No significant event,0 persons,0.0
+Browse2,00:00:02,FRM_002,Person detected,2 persons,0.56
+Browse2,00:00:03,FRM_003,Person detected,1 person,0.59
+Browse2,00:00:04,FRM_004,Person detected,2 persons,0.44
+Browse2,00:00:06,FRM_005,Person detected,1 person,0.3
+Browse2,00:00:07,FRM_006,Person detected,1 person,0.26
+Browse2,00:00:08,FRM_007,No significant event,0 persons,0.0
+Browse2,00:00:09,FRM_008,Person detected,1 person,0.35
+Browse2,00:00:10,FRM_009,No significant event,0 persons,0.0
+Browse2,00:00:12,FRM_010,No significant event,0 persons,0.0
+Browse2,00:00:13,FRM_011,No significant event,0 persons,0.0
+Browse2,00:00:14,FRM_012,No significant event,0 persons,0.0
+Browse2,00:00:15,FRM_013,No significant event,0 persons,0.0
+Browse2,00:00:16,FRM_014,No significant event,0 persons,0.0
+Browse2,00:00:18,FRM_015,Person detected,1 person,0.44
+Browse2,00:00:19,FRM_016,No significant event,0 persons,0.0
+Browse2,00:00:20,FRM_017,No significant event,0 persons,0.0
+Browse2,00:00:21,FRM_018,No significant event,0 persons,0.0
+Browse2,00:00:22,FRM_019,No significant event,0 persons,0.0
+Browse2,00:00:24,FRM_020,No significant event,0 persons,0.0
+Browse2,00:00:25,FRM_021,No significant event,0 persons,0.0
+Browse2,00:00:26,FRM_022,No significant event,0 persons,0.0
+Browse2,00:00:27,FRM_023,No significant event,0 persons,0.0
+Browse2,00:00:28,FRM_024,No significant event,0 persons,0.0
+Browse2,00:00:30,FRM_025,No significant event,0 persons,0.0
+Browse2,00:00:31,FRM_026,Person detected,1 person,0.72
+Browse2,00:00:32,FRM_027,Person detected,1 person,0.67
+Browse2,00:00:33,FRM_028,No significant event,0 persons,0.0
+Browse2,00:00:34,FRM_029,No significant event,0 persons,0.0
+Browse3,00:00:00,FRM_000,No significant event,0 persons,0.0
+Browse3,00:00:01,FRM_001,Person detected,1 person,0.56
+Browse3,00:00:02,FRM_002,Person detected,2 persons,0.44
+Browse3,00:00:03,FRM_003,No significant event,0 persons,0.0
+Browse3,00:00:04,FRM_004,Person detected,1 person,0.71
+Browse3,00:00:06,FRM_005,No significant event,0 persons,0.0
+Browse3,00:00:07,FRM_006,Person detected,1 person,0.4
+Browse3,00:00:08,FRM_007,No significant event,0 persons,0.0
+Browse3,00:00:09,FRM_008,No significant event,0 persons,0.0
+Browse3,00:00:10,FRM_009,No significant event,0 persons,0.0
+Browse3,00:00:12,FRM_010,No significant event,0 persons,0.0
+Browse3,00:00:13,FRM_011,No significant event,0 persons,0.0
+Browse3,00:00:14,FRM_012,No significant event,0 persons,0.0
+Browse3,00:00:15,FRM_013,No significant event,0 persons,0.0
+Browse3,00:00:16,FRM_014,No significant event,0 persons,0.0
+Browse3,00:00:18,FRM_015,No significant event,0 persons,0.0
+Browse3,00:00:19,FRM_016,No significant event,0 persons,0.0
+Browse3,00:00:20,FRM_017,No significant event,0 persons,0.0
+Browse3,00:00:21,FRM_018,No significant event,0 persons,0.0
+Browse3,00:00:22,FRM_019,No significant event,0 persons,0.0
+Browse3,00:00:24,FRM_020,No significant event,0 persons,0.0
+Browse3,00:00:25,FRM_021,Person detected,1 person,0.27
+Browse3,00:00:26,FRM_022,No significant event,0 persons,0.0
+Browse3,00:00:27,FRM_023,No significant event,0 persons,0.0
+Browse3,00:00:28,FRM_024,No significant event,0 persons,0.0
+Browse3,00:00:30,FRM_025,Person detected,1 person,0.55
+Browse3,00:00:31,FRM_026,Person detected,1 person,0.36
+Browse3,00:00:32,FRM_027,No significant event,0 persons,0.0
+Browse3,00:00:33,FRM_028,No significant event,0 persons,0.0
+Browse3,00:00:34,FRM_029,No significant event,0 persons,0.0
+Browse3,00:00:36,FRM_030,No significant event,0 persons,0.0
+Browse4,00:00:00,FRM_000,Person detected,2 persons,0.7
+Browse4,00:00:01,FRM_001,Person detected,1 person,0.75
+Browse4,00:00:02,FRM_002,Person detected,1 person,0.6
+Browse4,00:00:03,FRM_003,No significant event,0 persons,0.0
+Browse4,00:00:04,FRM_004,Person detected,2 persons,0.32
+Browse4,00:00:06,FRM_005,No significant event,0 persons,0.0
+Browse4,00:00:07,FRM_006,No significant event,0 persons,0.0
+Browse4,00:00:08,FRM_007,No significant event,0 persons,0.0
+Browse4,00:00:09,FRM_008,No significant event,0 persons,0.0
+Browse4,00:00:10,FRM_009,No significant event,0 persons,0.0
+Browse4,00:00:12,FRM_010,No significant event,0 persons,0.0
+Browse4,00:00:13,FRM_011,No significant event,0 persons,0.0
+Browse4,00:00:14,FRM_012,No significant event,0 persons,0.0
+Browse4,00:00:15,FRM_013,No significant event,0 persons,0.0
+Browse4,00:00:16,FRM_014,No significant event,0 persons,0.0
+Browse4,00:00:18,FRM_015,No significant event,0 persons,0.0
+Browse4,00:00:19,FRM_016,No significant event,0 persons,0.0
+Browse4,00:00:20,FRM_017,No significant event,0 persons,0.0
+Browse4,00:00:21,FRM_018,No significant event,0 persons,0.0
+Browse4,00:00:22,FRM_019,No significant event,0 persons,0.0
+Browse4,00:00:24,FRM_020,No significant event,0 persons,0.0
+Browse4,00:00:25,FRM_021,No significant event,0 persons,0.0
+Browse4,00:00:26,FRM_022,No significant event,0 persons,0.0
+Browse4,00:00:27,FRM_023,No significant event,0 persons,0.0
+Browse4,00:00:28,FRM_024,No significant event,0 persons,0.0
+Browse4,00:00:30,FRM_025,No significant event,0 persons,0.0
+Browse4,00:00:31,FRM_026,No significant event,0 persons,0.0
+Browse4,00:00:32,FRM_027,No significant event,0 persons,0.0
+Browse4,00:00:33,FRM_028,No significant event,0 persons,0.0
+Browse4,00:00:34,FRM_029,No significant event,0 persons,0.0
+Browse4,00:00:36,FRM_030,No significant event,0 persons,0.0
+Browse4,00:00:37,FRM_031,No significant event,0 persons,0.0
+Browse4,00:00:38,FRM_032,No significant event,0 persons,0.0
+Browse4,00:00:39,FRM_033,No significant event,0 persons,0.0
+Browse4,00:00:40,FRM_034,No significant event,0 persons,0.0
+Browse4,00:00:42,FRM_035,No significant event,0 persons,0.0
+Browse4,00:00:43,FRM_036,No significant event,0 persons,0.0
+Browse4,00:00:44,FRM_037,No significant event,0 persons,0.0
+Browse_WhileWaiting1,00:00:00,FRM_000,No significant event,0 persons,0.0
+Browse_WhileWaiting1,00:00:01,FRM_001,No significant event,0 persons,0.0
+Browse_WhileWaiting1,00:00:02,FRM_002,No significant event,0 persons,0.0
+Browse_WhileWaiting1,00:00:03,FRM_003,No significant event,0 persons,0.0
+Browse_WhileWaiting1,00:00:04,FRM_004,No significant event,0 persons,0.0
+Browse_WhileWaiting1,00:00:06,FRM_005,No significant event,0 persons,0.0
+Browse_WhileWaiting1,00:00:07,FRM_006,No significant event,0 persons,0.0
+Browse_WhileWaiting1,00:00:08,FRM_007,No significant event,0 persons,0.0
+Browse_WhileWaiting1,00:00:09,FRM_008,No significant event,0 persons,0.0
+Browse_WhileWaiting1,00:00:10,FRM_009,No significant event,0 persons,0.0
+Browse_WhileWaiting1,00:00:12,FRM_010,No significant event,0 persons,0.0
+Browse_WhileWaiting1,00:00:13,FRM_011,No significant event,0 persons,0.0
+Browse_WhileWaiting1,00:00:14,FRM_012,No significant event,0 persons,0.0
+Browse_WhileWaiting1,00:00:15,FRM_013,No significant event,0 persons,0.0
+Browse_WhileWaiting1,00:00:16,FRM_014,No significant event,0 persons,0.0
+Browse_WhileWaiting1,00:00:18,FRM_015,Person detected,1 person,0.63
+Browse_WhileWaiting1,00:00:19,FRM_016,No significant event,0 persons,0.0
+Browse_WhileWaiting1,00:00:20,FRM_017,Person detected,1 person,0.43
+Browse_WhileWaiting1,00:00:21,FRM_018,No significant event,0 persons,0.0
+Browse_WhileWaiting1,00:00:22,FRM_019,No significant event,0 persons,0.0
+Browse_WhileWaiting1,00:00:24,FRM_020,No significant event,0 persons,0.0
+Browse_WhileWaiting1,00:00:25,FRM_021,No significant event,0 persons,0.0
+Browse_WhileWaiting1,00:00:26,FRM_022,No significant event,0 persons,0.0
+Browse_WhileWaiting1,00:00:27,FRM_023,No significant event,0 persons,0.0
+Browse_WhileWaiting1,00:00:28,FRM_024,No significant event,0 persons,0.0
+Browse_WhileWaiting1,00:00:30,FRM_025,No significant event,0 persons,0.0
+Browse_WhileWaiting1,00:00:31,FRM_026,No significant event,0 persons,0.0
+Browse_WhileWaiting2,00:00:00,FRM_000,No significant event,0 persons,0.0
+Browse_WhileWaiting2,00:00:01,FRM_001,No significant event,0 persons,0.0
+Browse_WhileWaiting2,00:00:02,FRM_002,No significant event,0 persons,0.0
+Browse_WhileWaiting2,00:00:03,FRM_003,No significant event,0 persons,0.0
+Browse_WhileWaiting2,00:00:04,FRM_004,No significant event,0 persons,0.0
+Browse_WhileWaiting2,00:00:06,FRM_005,No significant event,0 persons,0.0
+Browse_WhileWaiting2,00:00:07,FRM_006,No significant event,0 persons,0.0
+Browse_WhileWaiting2,00:00:08,FRM_007,No significant event,0 persons,0.0
+Browse_WhileWaiting2,00:00:09,FRM_008,No significant event,0 persons,0.0
+Browse_WhileWaiting2,00:00:10,FRM_009,No significant event,0 persons,0.0
+Browse_WhileWaiting2,00:00:12,FRM_010,No significant event,0 persons,0.0
+Browse_WhileWaiting2,00:00:13,FRM_011,No significant event,0 persons,0.0
+Browse_WhileWaiting2,00:00:14,FRM_012,No significant event,0 persons,0.0
+Browse_WhileWaiting2,00:00:15,FRM_013,No significant event,0 persons,0.0
+Browse_WhileWaiting2,00:00:16,FRM_014,No significant event,0 persons,0.0
+Browse_WhileWaiting2,00:00:18,FRM_015,No significant event,0 persons,0.0
+Browse_WhileWaiting2,00:00:19,FRM_016,No significant event,0 persons,0.0
+Browse_WhileWaiting2,00:00:20,FRM_017,No significant event,0 persons,0.0
+Browse_WhileWaiting2,00:00:21,FRM_018,No significant event,0 persons,0.0
+Browse_WhileWaiting2,00:00:22,FRM_019,No significant event,0 persons,0.0
+Browse_WhileWaiting2,00:00:24,FRM_020,No significant event,0 persons,0.0
+Browse_WhileWaiting2,00:00:25,FRM_021,No significant event,0 persons,0.0
+Browse_WhileWaiting2,00:00:26,FRM_022,No significant event,0 persons,0.0
+Browse_WhileWaiting2,00:00:27,FRM_023,No significant event,0 persons,0.0
+Browse_WhileWaiting2,00:00:28,FRM_024,No significant event,0 persons,0.0
+Browse_WhileWaiting2,00:00:30,FRM_025,No significant event,0 persons,0.0
+Browse_WhileWaiting2,00:00:31,FRM_026,No significant event,0 persons,0.0
+Browse_WhileWaiting2,00:00:32,FRM_027,No significant event,0 persons,0.0
+Browse_WhileWaiting2,00:00:33,FRM_028,No significant event,0 persons,0.0
+Browse_WhileWaiting2,00:00:34,FRM_029,No significant event,0 persons,0.0
+Browse_WhileWaiting2,00:00:36,FRM_030,No significant event,0 persons,0.0
+Browse_WhileWaiting2,00:00:37,FRM_031,No significant event,0 persons,0.0
+Browse_WhileWaiting2,00:00:38,FRM_032,Person detected,1 person,0.26
+Browse_WhileWaiting2,00:00:39,FRM_033,Person detected,1 person,0.35
+Browse_WhileWaiting2,00:00:40,FRM_034,No significant event,0 persons,0.0
+Browse_WhileWaiting2,00:00:42,FRM_035,No significant event,0 persons,0.0
+Browse_WhileWaiting2,00:00:43,FRM_036,Person detected,1 person,0.45
+Browse_WhileWaiting2,00:00:44,FRM_037,No significant event,0 persons,0.0
+Browse_WhileWaiting2,00:00:45,FRM_038,Person detected,1 person,0.3
+Browse_WhileWaiting2,00:00:46,FRM_039,No significant event,0 persons,0.0
+Browse_WhileWaiting2,00:00:48,FRM_040,No significant event,0 persons,0.0
+Browse_WhileWaiting2,00:00:49,FRM_041,No significant event,0 persons,0.0
+Browse_WhileWaiting2,00:00:50,FRM_042,No significant event,0 persons,0.0
+Browse_WhileWaiting2,00:00:51,FRM_043,No significant event,0 persons,0.0
+Browse_WhileWaiting2,00:00:52,FRM_044,Person detected,1 person,0.27
+Browse_WhileWaiting2,00:00:54,FRM_045,No significant event,0 persons,0.0
+Browse_WhileWaiting2,00:00:55,FRM_046,No significant event,0 persons,0.0
+Browse_WhileWaiting2,00:00:56,FRM_047,No significant event,0 persons,0.0
+Browse_WhileWaiting2,00:00:57,FRM_048,No significant event,0 persons,0.0
+Browse_WhileWaiting2,00:00:58,FRM_049,No significant event,0 persons,0.0
+Browse_WhileWaiting2,00:01:00,FRM_050,No significant event,0 persons,0.0
+Browse_WhileWaiting2,00:01:01,FRM_051,No significant event,0 persons,0.0
+Browse_WhileWaiting2,00:01:02,FRM_052,Person detected,1 person,0.34
+Browse_WhileWaiting2,00:01:03,FRM_053,No significant event,0 persons,0.0
+Browse_WhileWaiting2,00:01:04,FRM_054,No significant event,0 persons,0.0
+Browse_WhileWaiting2,00:01:06,FRM_055,No significant event,0 persons,0.0
+Browse_WhileWaiting2,00:01:07,FRM_056,No significant event,0 persons,0.0
+Browse_WhileWaiting2,00:01:08,FRM_057,No significant event,0 persons,0.0
+Browse_WhileWaiting2,00:01:09,FRM_058,No significant event,0 persons,0.0
+Browse_WhileWaiting2,00:01:10,FRM_059,No significant event,0 persons,0.0
+Browse_WhileWaiting2,00:01:12,FRM_060,No significant event,0 persons,0.0
+Browse_WhileWaiting2,00:01:13,FRM_061,No significant event,0 persons,0.0
+Browse_WhileWaiting2,00:01:14,FRM_062,No significant event,0 persons,0.0
+Browse_WhileWaiting2,00:01:15,FRM_063,No significant event,0 persons,0.0
+EnterExitCrossingPaths1cor,00:00:00,FRM_000,Person detected,3 persons,0.84
+EnterExitCrossingPaths1cor,00:00:01,FRM_001,Person detected,3 persons,0.91
+EnterExitCrossingPaths1cor,00:00:02,FRM_002,Person detected,3 persons,0.87
+EnterExitCrossingPaths1cor,00:00:03,FRM_003,Person detected,3 persons,0.85
+EnterExitCrossingPaths1cor,00:00:04,FRM_004,Person detected,4 persons,0.86
+EnterExitCrossingPaths1cor,00:00:06,FRM_005,Crowd / Suspicious movement,5 persons,0.84
+EnterExitCrossingPaths1cor,00:00:07,FRM_006,Crowd / Suspicious movement,4 persons,0.87
+EnterExitCrossingPaths1cor,00:00:08,FRM_007,Person detected,5 persons,0.89
+EnterExitCrossingPaths1cor,00:00:09,FRM_008,Person detected,5 persons,0.89
+EnterExitCrossingPaths1cor,00:00:10,FRM_009,Person detected,5 persons,0.9
+EnterExitCrossingPaths1cor,00:00:12,FRM_010,Crowd / Suspicious movement,5 persons,0.86
+EnterExitCrossingPaths1cor,00:00:13,FRM_011,Crowd / Suspicious movement,5 persons,0.85
+EnterExitCrossingPaths1cor,00:00:14,FRM_012,Person detected,4 persons,0.81
+EnterExitCrossingPaths1front,00:00:00,FRM_000,Person detected,1 person,0.3
+EnterExitCrossingPaths1front,00:00:01,FRM_001,No significant event,0 persons,0.0
+EnterExitCrossingPaths1front,00:00:02,FRM_002,No significant event,0 persons,0.0
+EnterExitCrossingPaths1front,00:00:03,FRM_003,No significant event,0 persons,0.0
+EnterExitCrossingPaths1front,00:00:04,FRM_004,No significant event,0 persons,0.0
+EnterExitCrossingPaths1front,00:00:06,FRM_005,No significant event,0 persons,0.0
+EnterExitCrossingPaths1front,00:00:07,FRM_006,No significant event,0 persons,0.0
+EnterExitCrossingPaths1front,00:00:08,FRM_007,Person detected,2 persons,0.55
+EnterExitCrossingPaths1front,00:00:09,FRM_008,Person detected,2 persons,0.76
+EnterExitCrossingPaths1front,00:00:10,FRM_009,Person detected,4 persons,0.66
+EnterExitCrossingPaths1front,00:00:12,FRM_010,Person detected,3 persons,0.72
+EnterExitCrossingPaths1front,00:00:13,FRM_011,Person detected,2 persons,0.84
+EnterExitCrossingPaths1front,00:00:14,FRM_012,Person detected,2 persons,0.48
+EnterExitCrossingPaths2cor,00:00:00,FRM_000,Person detected,3 persons,0.91
+EnterExitCrossingPaths2cor,00:00:01,FRM_001,Crowd / Suspicious movement,3 persons,0.92
+EnterExitCrossingPaths2cor,00:00:02,FRM_002,Crowd / Suspicious movement,4 persons,0.91
+EnterExitCrossingPaths2cor,00:00:03,FRM_003,Crowd / Suspicious movement,3 persons,0.88
+EnterExitCrossingPaths2cor,00:00:04,FRM_004,Crowd / Suspicious movement,2 persons,0.88
+EnterExitCrossingPaths2cor,00:00:06,FRM_005,Person detected,1 person,0.88
+EnterExitCrossingPaths2cor,00:00:07,FRM_006,Person detected,1 person,0.86
+EnterExitCrossingPaths2cor,00:00:08,FRM_007,Person detected,1 person,0.72
+EnterExitCrossingPaths2cor,00:00:09,FRM_008,Person detected,1 person,0.89
+EnterExitCrossingPaths2cor,00:00:10,FRM_009,Person detected,1 person,0.88
+EnterExitCrossingPaths2cor,00:00:12,FRM_010,Person detected,2 persons,0.86
+EnterExitCrossingPaths2cor,00:00:13,FRM_011,Person detected,1 person,0.87
+EnterExitCrossingPaths2cor,00:00:14,FRM_012,Person detected,1 person,0.87
+EnterExitCrossingPaths2cor,00:00:15,FRM_013,Person detected,1 person,0.88
+EnterExitCrossingPaths2cor,00:00:16,FRM_014,Crowd / Suspicious movement,2 persons,0.85
+EnterExitCrossingPaths2cor,00:00:18,FRM_015,Person detected,1 person,0.87
+EnterExitCrossingPaths2cor,00:00:19,FRM_016,No significant event,0 persons,0.0
+EnterExitCrossingPaths2front,00:00:00,FRM_000,No significant event,0 persons,0.0
+EnterExitCrossingPaths2front,00:00:01,FRM_001,No significant event,0 persons,0.0
+EnterExitCrossingPaths2front,00:00:02,FRM_002,Person detected,1 person,0.25
+EnterExitCrossingPaths2front,00:00:03,FRM_003,Person detected,1 person,0.34
+EnterExitCrossingPaths2front,00:00:04,FRM_004,No significant event,0 persons,0.0
+EnterExitCrossingPaths2front,00:00:06,FRM_005,Person detected,1 person,0.62
+EnterExitCrossingPaths2front,00:00:07,FRM_006,Person detected,2 persons,0.72
+EnterExitCrossingPaths2front,00:00:08,FRM_007,Person detected,2 persons,0.6
+EnterExitCrossingPaths2front,00:00:09,FRM_008,Person detected,4 persons,0.71
+EnterExitCrossingPaths2front,00:00:10,FRM_009,Person detected,1 person,0.64
+EnterExitCrossingPaths2front,00:00:12,FRM_010,Person detected,2 persons,0.72
+EnterExitCrossingPaths2front,00:00:13,FRM_011,Person detected,2 persons,0.65
+EnterExitCrossingPaths2front,00:00:14,FRM_012,Person detected,1 person,0.74
+EnterExitCrossingPaths2front,00:00:15,FRM_013,Person detected,2 persons,0.77
+EnterExitCrossingPaths2front,00:00:16,FRM_014,Person detected,1 person,0.36
+EnterExitCrossingPaths2front,00:00:18,FRM_015,No significant event,0 persons,0.0
+EnterExitCrossingPaths2front,00:00:19,FRM_016,No significant event,0 persons,0.0
+Fight_Chase,00:00:00,FRM_000,No significant event,0 persons,0.0
+Fight_Chase,00:00:01,FRM_001,No significant event,0 persons,0.0
+Fight_Chase,00:00:02,FRM_002,No significant event,0 persons,0.0
+Fight_Chase,00:00:03,FRM_003,Person detected,1 person,0.68
+Fight_Chase,00:00:04,FRM_004,No significant event,0 persons,0.0
+Fight_Chase,00:00:06,FRM_005,No significant event,0 persons,0.0
+Fight_Chase,00:00:07,FRM_006,No significant event,0 persons,0.0
+Fight_Chase,00:00:08,FRM_007,No significant event,0 persons,0.0
+Fight_Chase,00:00:09,FRM_008,No significant event,0 persons,0.0
+Fight_Chase,00:00:10,FRM_009,No significant event,0 persons,0.0
+Fight_Chase,00:00:12,FRM_010,No significant event,0 persons,0.0
+Fight_Chase,00:00:13,FRM_011,No significant event,0 persons,0.0
+Fight_Chase,00:00:14,FRM_012,Person detected,1 person,0.28
+Fight_Chase,00:00:15,FRM_013,Person detected,1 person,0.29
+Fight_Chase,00:00:16,FRM_014,No significant event,0 persons,0.0
+Fight_OneManDown,00:00:00,FRM_000,No significant event,0 persons,0.0
+Fight_OneManDown,00:00:01,FRM_001,Person detected,2 persons,0.53
+Fight_OneManDown,00:00:02,FRM_002,No significant event,0 persons,0.0
+Fight_OneManDown,00:00:03,FRM_003,Person detected,1 person,0.67
+Fight_OneManDown,00:00:04,FRM_004,No significant event,0 persons,0.0
+Fight_OneManDown,00:00:06,FRM_005,No significant event,0 persons,0.0
+Fight_OneManDown,00:00:07,FRM_006,Person detected,1 person,0.27
+Fight_OneManDown,00:00:08,FRM_007,Person detected,2 persons,0.48
+Fight_OneManDown,00:00:09,FRM_008,Person detected,1 person,0.28
+Fight_OneManDown,00:00:10,FRM_009,Person detected,1 person,0.54
+Fight_OneManDown,00:00:12,FRM_010,Person detected,1 person,0.64
+Fight_OneManDown,00:00:13,FRM_011,No significant event,0 persons,0.0
+Fight_OneManDown,00:00:14,FRM_012,Person detected,1 person,0.54
+Fight_OneManDown,00:00:15,FRM_013,Person detected,2 persons,0.37
+Fight_OneManDown,00:00:16,FRM_014,Person detected,1 person,0.62
+Fight_OneManDown,00:00:18,FRM_015,Person detected,1 person,0.44
+Fight_OneManDown,00:00:19,FRM_016,No significant event,0 persons,0.0
+Fight_OneManDown,00:00:20,FRM_017,Person detected,1 person,0.69
+Fight_OneManDown,00:00:21,FRM_018,No significant event,0 persons,0.0
+Fight_OneManDown,00:00:22,FRM_019,No significant event,0 persons,0.0
+Fight_OneManDown,00:00:24,FRM_020,Person detected,1 person,0.65
+Fight_OneManDown,00:00:25,FRM_021,No significant event,0 persons,0.0
+Fight_OneManDown,00:00:26,FRM_022,No significant event,0 persons,0.0
+Fight_OneManDown,00:00:27,FRM_023,No significant event,0 persons,0.0
+Fight_OneManDown,00:00:28,FRM_024,No significant event,0 persons,0.0
+Fight_OneManDown,00:00:30,FRM_025,Person detected,1 person,0.36
+Fight_OneManDown,00:00:31,FRM_026,No significant event,0 persons,0.0
+Fight_OneManDown,00:00:32,FRM_027,No significant event,0 persons,0.0
+Fight_OneManDown,00:00:33,FRM_028,No significant event,0 persons,0.0
+Fight_OneManDown,00:00:34,FRM_029,No significant event,0 persons,0.0
+Fight_OneManDown,00:00:36,FRM_030,No significant event,0 persons,0.0
+Fight_OneManDown,00:00:37,FRM_031,No significant event,0 persons,0.0
+Fight_RunAway1,00:00:00,FRM_000,Person detected,1 person,0.61
+Fight_RunAway1,00:00:01,FRM_001,Person detected,1 person,0.67
+Fight_RunAway1,00:00:02,FRM_002,No significant event,0 persons,0.0
+Fight_RunAway1,00:00:03,FRM_003,No significant event,0 persons,0.0
+Fight_RunAway1,00:00:04,FRM_004,No significant event,0 persons,0.0
+Fight_RunAway1,00:00:06,FRM_005,No significant event,0 persons,0.0
+Fight_RunAway1,00:00:07,FRM_006,No significant event,0 persons,0.0
+Fight_RunAway1,00:00:08,FRM_007,No significant event,0 persons,0.0
+Fight_RunAway1,00:00:09,FRM_008,Person detected,1 person,0.84
+Fight_RunAway1,00:00:10,FRM_009,No significant event,0 persons,0.0
+Fight_RunAway1,00:00:12,FRM_010,Person detected,1 person,0.61
+Fight_RunAway1,00:00:13,FRM_011,Person detected,1 person,0.58
+Fight_RunAway1,00:00:14,FRM_012,Person detected,1 person,0.41
+Fight_RunAway1,00:00:15,FRM_013,Person detected,1 person,0.35
+Fight_RunAway1,00:00:16,FRM_014,No significant event,0 persons,0.0
+Fight_RunAway1,00:00:18,FRM_015,No significant event,0 persons,0.0
+Fight_RunAway1,00:00:19,FRM_016,No significant event,0 persons,0.0
+Fight_RunAway1,00:00:20,FRM_017,No significant event,0 persons,0.0
+Fight_RunAway1,00:00:21,FRM_018,No significant event,0 persons,0.0
+Fight_RunAway2,00:00:00,FRM_000,Person detected,1 person,0.3
+Fight_RunAway2,00:00:01,FRM_001,Person detected,2 persons,0.4
+Fight_RunAway2,00:00:02,FRM_002,No significant event,0 persons,0.0
+Fight_RunAway2,00:00:03,FRM_003,Person detected,3 persons,0.69
+Fight_RunAway2,00:00:04,FRM_004,No significant event,0 persons,0.0
+Fight_RunAway2,00:00:06,FRM_005,No significant event,0 persons,0.0
+Fight_RunAway2,00:00:07,FRM_006,No significant event,0 persons,0.0
+Fight_RunAway2,00:00:08,FRM_007,No significant event,0 persons,0.0
+Fight_RunAway2,00:00:09,FRM_008,No significant event,0 persons,0.0
+Fight_RunAway2,00:00:10,FRM_009,No significant event,0 persons,0.0
+Fight_RunAway2,00:00:12,FRM_010,No significant event,0 persons,0.0
+Fight_RunAway2,00:00:13,FRM_011,No significant event,0 persons,0.0
+Fight_RunAway2,00:00:14,FRM_012,No significant event,0 persons,0.0
+Fight_RunAway2,00:00:15,FRM_013,No significant event,0 persons,0.0
+Fight_RunAway2,00:00:16,FRM_014,No significant event,0 persons,0.0
+Fight_RunAway2,00:00:18,FRM_015,No significant event,0 persons,0.0
+Fight_RunAway2,00:00:19,FRM_016,No significant event,0 persons,0.0
+Fight_RunAway2,00:00:20,FRM_017,No significant event,0 persons,0.0
+Fight_RunAway2,00:00:21,FRM_018,No significant event,0 persons,0.0
+LeftBag,00:00:00,FRM_000,Person detected,1 person,0.3
+LeftBag,00:00:01,FRM_001,Person detected,2 persons,0.46
+LeftBag,00:00:02,FRM_002,No significant event,0 persons,0.0
+LeftBag,00:00:03,FRM_003,No significant event,0 persons,0.0
+LeftBag,00:00:04,FRM_004,No significant event,0 persons,0.0
+LeftBag,00:00:06,FRM_005,No significant event,0 persons,0.0
+LeftBag,00:00:07,FRM_006,No significant event,0 persons,0.0
+LeftBag,00:00:08,FRM_007,No significant event,0 persons,0.0
+LeftBag,00:00:09,FRM_008,No significant event,0 persons,0.0
+LeftBag,00:00:10,FRM_009,No significant event,0 persons,0.0
+LeftBag,00:00:12,FRM_010,No significant event,0 persons,0.0
+LeftBag,00:00:13,FRM_011,No significant event,0 persons,0.0
+LeftBag,00:00:14,FRM_012,No significant event,0 persons,0.0
+LeftBag,00:00:15,FRM_013,No significant event,0 persons,0.0
+LeftBag,00:00:16,FRM_014,No significant event,0 persons,0.0
+LeftBag,00:00:18,FRM_015,No significant event,0 persons,0.0
+LeftBag,00:00:19,FRM_016,No significant event,0 persons,0.0
+LeftBag,00:00:20,FRM_017,No significant event,0 persons,0.0
+LeftBag,00:00:21,FRM_018,No significant event,0 persons,0.0
+LeftBag,00:00:22,FRM_019,No significant event,0 persons,0.0
+LeftBag,00:00:24,FRM_020,No significant event,0 persons,0.0
+LeftBag,00:00:25,FRM_021,No significant event,0 persons,0.0
+LeftBag,00:00:26,FRM_022,No significant event,0 persons,0.0
+LeftBag,00:00:27,FRM_023,No significant event,0 persons,0.0
+LeftBag,00:00:28,FRM_024,No significant event,0 persons,0.0
+LeftBag,00:00:30,FRM_025,No significant event,0 persons,0.0
+LeftBag,00:00:31,FRM_026,No significant event,0 persons,0.0
+LeftBag,00:00:32,FRM_027,No significant event,0 persons,0.0
+LeftBag,00:00:33,FRM_028,No significant event,0 persons,0.0
+LeftBag,00:00:34,FRM_029,No significant event,0 persons,0.0
+LeftBag,00:00:36,FRM_030,Person detected,1 person,0.81
+LeftBag,00:00:37,FRM_031,No significant event,0 persons,0.0
+LeftBag,00:00:38,FRM_032,Person detected,1 person,0.64
+LeftBag,00:00:39,FRM_033,No significant event,0 persons,0.0
+LeftBag,00:00:40,FRM_034,No significant event,0 persons,0.0
+LeftBag,00:00:42,FRM_035,Person detected,1 person,0.48
+LeftBag,00:00:43,FRM_036,No significant event,0 persons,0.0
+LeftBag,00:00:44,FRM_037,No significant event,0 persons,0.0
+LeftBag,00:00:45,FRM_038,No significant event,0 persons,0.0
+LeftBag,00:00:46,FRM_039,No significant event,0 persons,0.0
+LeftBag,00:00:48,FRM_040,No significant event,0 persons,0.0
+LeftBag,00:00:49,FRM_041,No significant event,0 persons,0.0
+LeftBag,00:00:50,FRM_042,No significant event,0 persons,0.0
+LeftBag,00:00:51,FRM_043,Person detected,1 person,0.8
+LeftBag,00:00:52,FRM_044,No significant event,0 persons,0.0
+LeftBag,00:00:54,FRM_045,No significant event,0 persons,0.0
+LeftBag,00:00:55,FRM_046,Person detected,1 person,0.31
+LeftBag,00:00:56,FRM_047,No significant event,0 persons,0.0
+LeftBag_AtChair,00:00:00,FRM_000,Person detected,1 person,0.76
+LeftBag_AtChair,00:00:01,FRM_001,Person detected,1 person,0.48
+LeftBag_AtChair,00:00:02,FRM_002,No significant event,0 persons,0.0
+LeftBag_AtChair,00:00:03,FRM_003,No significant event,0 persons,0.0
+LeftBag_AtChair,00:00:04,FRM_004,Person detected,1 person,0.59
+LeftBag_AtChair,00:00:06,FRM_005,Person detected,1 person,0.53
+LeftBag_AtChair,00:00:07,FRM_006,Person detected,1 person,0.48
+LeftBag_AtChair,00:00:08,FRM_007,No significant event,0 persons,0.0
+LeftBag_AtChair,00:00:09,FRM_008,No significant event,0 persons,0.0
+LeftBag_AtChair,00:00:10,FRM_009,Person detected,1 person,0.48
+LeftBag_AtChair,00:00:12,FRM_010,No significant event,0 persons,0.0
+LeftBag_AtChair,00:00:13,FRM_011,Person detected,1 person,0.36
+LeftBag_AtChair,00:00:14,FRM_012,No significant event,0 persons,0.0
+LeftBag_AtChair,00:00:15,FRM_013,No significant event,0 persons,0.0
+LeftBag_AtChair,00:00:16,FRM_014,Person detected,1 person,0.32
+LeftBag_AtChair,00:00:18,FRM_015,No significant event,0 persons,0.0
+LeftBag_AtChair,00:00:19,FRM_016,No significant event,0 persons,0.0
+LeftBag_AtChair,00:00:20,FRM_017,No significant event,0 persons,0.0
+LeftBag_AtChair,00:00:21,FRM_018,No significant event,0 persons,0.0
+LeftBag_AtChair,00:00:22,FRM_019,No significant event,0 persons,0.0
+LeftBag_AtChair,00:00:24,FRM_020,No significant event,0 persons,0.0
+LeftBag_AtChair,00:00:25,FRM_021,No significant event,0 persons,0.0
+LeftBag_AtChair,00:00:26,FRM_022,No significant event,0 persons,0.0
+LeftBag_AtChair,00:00:27,FRM_023,No significant event,0 persons,0.0
+LeftBag_AtChair,00:00:28,FRM_024,No significant event,0 persons,0.0
+LeftBag_AtChair,00:00:30,FRM_025,No significant event,0 persons,0.0
+LeftBag_AtChair,00:00:31,FRM_026,No significant event,0 persons,0.0
+LeftBag_AtChair,00:00:32,FRM_027,No significant event,0 persons,0.0
+LeftBag_AtChair,00:00:33,FRM_028,No significant event,0 persons,0.0
+LeftBag_AtChair,00:00:34,FRM_029,No significant event,0 persons,0.0
+LeftBag_AtChair,00:00:36,FRM_030,Person detected,1 person,0.33
+LeftBag_AtChair,00:00:37,FRM_031,No significant event,0 persons,0.0
+LeftBag_AtChair,00:00:38,FRM_032,No significant event,0 persons,0.0
+LeftBag_AtChair,00:00:39,FRM_033,Person detected,1 person,0.43
+LeftBag_AtChair,00:00:40,FRM_034,Person detected,1 person,0.44
+LeftBag_AtChair,00:00:42,FRM_035,Person detected,1 person,0.3
+LeftBag_AtChair,00:00:43,FRM_036,No significant event,0 persons,0.0
+LeftBag_AtChair,00:00:44,FRM_037,No significant event,0 persons,0.0
+LeftBag_BehindChair,00:00:00,FRM_000,No significant event,0 persons,0.0
+LeftBag_BehindChair,00:00:01,FRM_001,Person detected,1 person,0.5
+LeftBag_BehindChair,00:00:02,FRM_002,No significant event,0 persons,0.0
+LeftBag_BehindChair,00:00:03,FRM_003,Person detected,1 person,0.38
+LeftBag_BehindChair,00:00:04,FRM_004,No significant event,0 persons,0.0
+LeftBag_BehindChair,00:00:06,FRM_005,No significant event,0 persons,0.0
+LeftBag_BehindChair,00:00:07,FRM_006,No significant event,0 persons,0.0
+LeftBag_BehindChair,00:00:08,FRM_007,Person detected,1 person,0.79
+LeftBag_BehindChair,00:00:09,FRM_008,No significant event,0 persons,0.0
+LeftBag_BehindChair,00:00:10,FRM_009,No significant event,0 persons,0.0
+LeftBag_BehindChair,00:00:12,FRM_010,No significant event,0 persons,0.0
+LeftBag_BehindChair,00:00:13,FRM_011,No significant event,0 persons,0.0
+LeftBag_BehindChair,00:00:14,FRM_012,No significant event,0 persons,0.0
+LeftBag_BehindChair,00:00:15,FRM_013,No significant event,0 persons,0.0
+LeftBag_BehindChair,00:00:16,FRM_014,No significant event,0 persons,0.0
+LeftBag_BehindChair,00:00:18,FRM_015,No significant event,0 persons,0.0
+LeftBag_BehindChair,00:00:19,FRM_016,No significant event,0 persons,0.0
+LeftBag_BehindChair,00:00:20,FRM_017,No significant event,0 persons,0.0
+LeftBag_BehindChair,00:00:21,FRM_018,No significant event,0 persons,0.0
+LeftBag_BehindChair,00:00:22,FRM_019,No significant event,0 persons,0.0
+LeftBag_BehindChair,00:00:24,FRM_020,No significant event,0 persons,0.0
+LeftBag_BehindChair,00:00:25,FRM_021,No significant event,0 persons,0.0
+LeftBag_BehindChair,00:00:26,FRM_022,No significant event,0 persons,0.0
+LeftBag_BehindChair,00:00:27,FRM_023,No significant event,0 persons,0.0
+LeftBag_BehindChair,00:00:28,FRM_024,No significant event,0 persons,0.0
+LeftBag_BehindChair,00:00:30,FRM_025,No significant event,0 persons,0.0
+LeftBag_BehindChair,00:00:31,FRM_026,No significant event,0 persons,0.0
+LeftBag_BehindChair,00:00:32,FRM_027,No significant event,0 persons,0.0
+LeftBag_BehindChair,00:00:33,FRM_028,No significant event,0 persons,0.0
+LeftBag_BehindChair,00:00:34,FRM_029,No significant event,0 persons,0.0
+LeftBag_BehindChair,00:00:36,FRM_030,No significant event,0 persons,0.0
+LeftBag_BehindChair,00:00:37,FRM_031,No significant event,0 persons,0.0
+LeftBag_BehindChair,00:00:38,FRM_032,No significant event,0 persons,0.0
+LeftBag_BehindChair,00:00:39,FRM_033,No significant event,0 persons,0.0
+LeftBag_BehindChair,00:00:40,FRM_034,No significant event,0 persons,0.0
+LeftBag_BehindChair,00:00:42,FRM_035,No significant event,0 persons,0.0
+LeftBag_PickedUp,00:00:00,FRM_000,No significant event,0 persons,0.0
+LeftBag_PickedUp,00:00:01,FRM_001,Person detected,1 person,0.6
+LeftBag_PickedUp,00:00:02,FRM_002,Person detected,1 person,0.65
+LeftBag_PickedUp,00:00:03,FRM_003,No significant event,0 persons,0.0
+LeftBag_PickedUp,00:00:04,FRM_004,No significant event,0 persons,0.0
+LeftBag_PickedUp,00:00:06,FRM_005,No significant event,0 persons,0.0
+LeftBag_PickedUp,00:00:07,FRM_006,No significant event,0 persons,0.0
+LeftBag_PickedUp,00:00:08,FRM_007,No significant event,0 persons,0.0
+LeftBag_PickedUp,00:00:09,FRM_008,No significant event,0 persons,0.0
+LeftBag_PickedUp,00:00:10,FRM_009,No significant event,0 persons,0.0
+LeftBag_PickedUp,00:00:12,FRM_010,No significant event,0 persons,0.0
+LeftBag_PickedUp,00:00:13,FRM_011,No significant event,0 persons,0.0
+LeftBag_PickedUp,00:00:14,FRM_012,Person detected,1 person,0.44
+LeftBag_PickedUp,00:00:15,FRM_013,No significant event,0 persons,0.0
+LeftBag_PickedUp,00:00:16,FRM_014,No significant event,0 persons,0.0
+LeftBag_PickedUp,00:00:18,FRM_015,No significant event,0 persons,0.0
+LeftBag_PickedUp,00:00:19,FRM_016,No significant event,0 persons,0.0
+LeftBag_PickedUp,00:00:20,FRM_017,No significant event,0 persons,0.0
+LeftBag_PickedUp,00:00:21,FRM_018,Person detected,1 person,0.25
+LeftBag_PickedUp,00:00:22,FRM_019,No significant event,0 persons,0.0
+LeftBag_PickedUp,00:00:24,FRM_020,No significant event,0 persons,0.0
+LeftBag_PickedUp,00:00:25,FRM_021,No significant event,0 persons,0.0
+LeftBag_PickedUp,00:00:26,FRM_022,No significant event,0 persons,0.0
+LeftBag_PickedUp,00:00:27,FRM_023,No significant event,0 persons,0.0
+LeftBag_PickedUp,00:00:28,FRM_024,Person detected,1 person,0.82
+LeftBag_PickedUp,00:00:30,FRM_025,No significant event,0 persons,0.0
+LeftBag_PickedUp,00:00:31,FRM_026,No significant event,0 persons,0.0
+LeftBag_PickedUp,00:00:32,FRM_027,No significant event,0 persons,0.0
+LeftBag_PickedUp,00:00:33,FRM_028,Person detected,1 person,0.31
+LeftBag_PickedUp,00:00:34,FRM_029,Person detected,1 person,0.28
+LeftBag_PickedUp,00:00:36,FRM_030,Person detected,1 person,0.39
+LeftBag_PickedUp,00:00:37,FRM_031,Person detected,1 person,0.79
+LeftBag_PickedUp,00:00:38,FRM_032,No significant event,0 persons,0.0
+LeftBag_PickedUp,00:00:39,FRM_033,Person detected,1 person,0.45
+LeftBag_PickedUp,00:00:40,FRM_034,No significant event,0 persons,0.0
+LeftBag_PickedUp,00:00:42,FRM_035,Person detected,1 person,0.59
+LeftBag_PickedUp,00:00:43,FRM_036,No significant event,0 persons,0.0
+LeftBag_PickedUp,00:00:44,FRM_037,No significant event,0 persons,0.0
+LeftBag_PickedUp,00:00:45,FRM_038,No significant event,0 persons,0.0
+LeftBag_PickedUp,00:00:46,FRM_039,No significant event,0 persons,0.0
+LeftBag_PickedUp,00:00:48,FRM_040,No significant event,0 persons,0.0
+LeftBag_PickedUp,00:00:49,FRM_041,No significant event,0 persons,0.0
+LeftBag_PickedUp,00:00:50,FRM_042,No significant event,0 persons,0.0
+LeftBag_PickedUp,00:00:51,FRM_043,No significant event,0 persons,0.0
+LeftBag_PickedUp,00:00:52,FRM_044,No significant event,0 persons,0.0
+LeftBag_PickedUp,00:00:54,FRM_045,No significant event,0 persons,0.0
+LeftBox,00:00:00,FRM_000,No significant event,0 persons,0.0
+LeftBox,00:00:01,FRM_001,No significant event,0 persons,0.0
+LeftBox,00:00:02,FRM_002,Person detected,1 person,0.63
+LeftBox,00:00:03,FRM_003,No significant event,0 persons,0.0
+LeftBox,00:00:04,FRM_004,No significant event,0 persons,0.0
+LeftBox,00:00:06,FRM_005,No significant event,0 persons,0.0
+LeftBox,00:00:07,FRM_006,No significant event,0 persons,0.0
+LeftBox,00:00:08,FRM_007,No significant event,0 persons,0.0
+LeftBox,00:00:09,FRM_008,Person detected,1 person,0.65
+LeftBox,00:00:10,FRM_009,No significant event,0 persons,0.0
+LeftBox,00:00:12,FRM_010,No significant event,0 persons,0.0
+LeftBox,00:00:13,FRM_011,No significant event,0 persons,0.0
+LeftBox,00:00:14,FRM_012,No significant event,0 persons,0.0
+LeftBox,00:00:15,FRM_013,No significant event,0 persons,0.0
+LeftBox,00:00:16,FRM_014,No significant event,0 persons,0.0
+LeftBox,00:00:18,FRM_015,No significant event,0 persons,0.0
+LeftBox,00:00:19,FRM_016,No significant event,0 persons,0.0
+LeftBox,00:00:20,FRM_017,Person detected,1 person,0.25
+LeftBox,00:00:21,FRM_018,No significant event,0 persons,0.0
+LeftBox,00:00:22,FRM_019,No significant event,0 persons,0.0
+LeftBox,00:00:24,FRM_020,No significant event,0 persons,0.0
+LeftBox,00:00:25,FRM_021,No significant event,0 persons,0.0
+LeftBox,00:00:26,FRM_022,No significant event,0 persons,0.0
+LeftBox,00:00:27,FRM_023,No significant event,0 persons,0.0
+LeftBox,00:00:28,FRM_024,No significant event,0 persons,0.0
+LeftBox,00:00:30,FRM_025,No significant event,0 persons,0.0
+LeftBox,00:00:31,FRM_026,No significant event,0 persons,0.0
+LeftBox,00:00:32,FRM_027,No significant event,0 persons,0.0
+LeftBox,00:00:33,FRM_028,No significant event,0 persons,0.0
+Meet_Crowd,00:00:00,FRM_000,No significant event,0 persons,0.0
+Meet_Crowd,00:00:01,FRM_001,No significant event,0 persons,0.0
+Meet_Crowd,00:00:02,FRM_002,No significant event,0 persons,0.0
+Meet_Crowd,00:00:03,FRM_003,No significant event,0 persons,0.0
+Meet_Crowd,00:00:04,FRM_004,No significant event,0 persons,0.0
+Meet_Crowd,00:00:06,FRM_005,No significant event,0 persons,0.0
+Meet_Crowd,00:00:07,FRM_006,No significant event,0 persons,0.0
+Meet_Crowd,00:00:08,FRM_007,No significant event,0 persons,0.0
+Meet_Crowd,00:00:09,FRM_008,Person detected,1 person,0.59
+Meet_Crowd,00:00:10,FRM_009,Person detected,1 person,0.52
+Meet_Crowd,00:00:12,FRM_010,No significant event,0 persons,0.0
+Meet_Crowd,00:00:13,FRM_011,No significant event,0 persons,0.0
+Meet_Crowd,00:00:14,FRM_012,No significant event,0 persons,0.0
+Meet_Crowd,00:00:15,FRM_013,No significant event,0 persons,0.0
+Meet_Crowd,00:00:16,FRM_014,No significant event,0 persons,0.0
+Meet_Crowd,00:00:18,FRM_015,No significant event,0 persons,0.0
+Meet_Crowd,00:00:19,FRM_016,No significant event,0 persons,0.0
+Meet_Split_3rdGuy,00:00:00,FRM_000,No significant event,0 persons,0.0
+Meet_Split_3rdGuy,00:00:01,FRM_001,No significant event,0 persons,0.0
+Meet_Split_3rdGuy,00:00:02,FRM_002,No significant event,0 persons,0.0
+Meet_Split_3rdGuy,00:00:03,FRM_003,No significant event,0 persons,0.0
+Meet_Split_3rdGuy,00:00:04,FRM_004,No significant event,0 persons,0.0
+Meet_Split_3rdGuy,00:00:06,FRM_005,No significant event,0 persons,0.0
+Meet_Split_3rdGuy,00:00:07,FRM_006,No significant event,0 persons,0.0
+Meet_Split_3rdGuy,00:00:08,FRM_007,No significant event,0 persons,0.0
+Meet_Split_3rdGuy,00:00:09,FRM_008,No significant event,0 persons,0.0
+Meet_Split_3rdGuy,00:00:10,FRM_009,No significant event,0 persons,0.0
+Meet_Split_3rdGuy,00:00:12,FRM_010,No significant event,0 persons,0.0
+Meet_Split_3rdGuy,00:00:13,FRM_011,No significant event,0 persons,0.0
+Meet_Split_3rdGuy,00:00:14,FRM_012,No significant event,0 persons,0.0
+Meet_Split_3rdGuy,00:00:15,FRM_013,No significant event,0 persons,0.0
+Meet_Split_3rdGuy,00:00:16,FRM_014,No significant event,0 persons,0.0
+Meet_Split_3rdGuy,00:00:18,FRM_015,Person detected,2 persons,0.58
+Meet_Split_3rdGuy,00:00:19,FRM_016,No significant event,0 persons,0.0
+Meet_Split_3rdGuy,00:00:20,FRM_017,No significant event,0 persons,0.0
+Meet_Split_3rdGuy,00:00:21,FRM_018,No significant event,0 persons,0.0
+Meet_Split_3rdGuy,00:00:22,FRM_019,No significant event,0 persons,0.0
+Meet_Split_3rdGuy,00:00:24,FRM_020,No significant event,0 persons,0.0
+Meet_Split_3rdGuy,00:00:25,FRM_021,No significant event,0 persons,0.0
+Meet_Split_3rdGuy,00:00:26,FRM_022,No significant event,0 persons,0.0
+Meet_Split_3rdGuy,00:00:27,FRM_023,No significant event,0 persons,0.0
+Meet_Split_3rdGuy,00:00:28,FRM_024,No significant event,0 persons,0.0
+Meet_Split_3rdGuy,00:00:30,FRM_025,No significant event,0 persons,0.0
+Meet_Split_3rdGuy,00:00:31,FRM_026,No significant event,0 persons,0.0
+Meet_Split_3rdGuy,00:00:32,FRM_027,No significant event,0 persons,0.0
+Meet_Split_3rdGuy,00:00:33,FRM_028,No significant event,0 persons,0.0
+Meet_Split_3rdGuy,00:00:34,FRM_029,No significant event,0 persons,0.0
+Meet_Split_3rdGuy,00:00:36,FRM_030,Person detected,1 person,0.37
+Meet_WalkSplit,00:00:00,FRM_000,Person detected,1 person,0.28
+Meet_WalkSplit,00:00:01,FRM_001,No significant event,0 persons,0.0
+Meet_WalkSplit,00:00:02,FRM_002,No significant event,0 persons,0.0
+Meet_WalkSplit,00:00:03,FRM_003,No significant event,0 persons,0.0
+Meet_WalkSplit,00:00:04,FRM_004,No significant event,0 persons,0.0
+Meet_WalkSplit,00:00:06,FRM_005,Person detected,1 person,0.48
+Meet_WalkSplit,00:00:07,FRM_006,Person detected,2 persons,0.51
+Meet_WalkSplit,00:00:08,FRM_007,No significant event,0 persons,0.0
+Meet_WalkSplit,00:00:09,FRM_008,No significant event,0 persons,0.0
+Meet_WalkSplit,00:00:10,FRM_009,No significant event,0 persons,0.0
+Meet_WalkSplit,00:00:12,FRM_010,No significant event,0 persons,0.0
+Meet_WalkSplit,00:00:13,FRM_011,Person detected,1 person,0.28
+Meet_WalkSplit,00:00:14,FRM_012,No significant event,0 persons,0.0
+Meet_WalkSplit,00:00:15,FRM_013,No significant event,0 persons,0.0
+Meet_WalkSplit,00:00:16,FRM_014,No significant event,0 persons,0.0
+Meet_WalkSplit,00:00:18,FRM_015,No significant event,0 persons,0.0
+Meet_WalkSplit,00:00:19,FRM_016,No significant event,0 persons,0.0
+Meet_WalkSplit,00:00:20,FRM_017,No significant event,0 persons,0.0
+Meet_WalkSplit,00:00:21,FRM_018,No significant event,0 persons,0.0
+Meet_WalkSplit,00:00:22,FRM_019,No significant event,0 persons,0.0
+Meet_WalkSplit,00:00:24,FRM_020,No significant event,0 persons,0.0
+Meet_WalkTogether1,00:00:00,FRM_000,No significant event,0 persons,0.0
+Meet_WalkTogether1,00:00:01,FRM_001,No significant event,0 persons,0.0
+Meet_WalkTogether1,00:00:02,FRM_002,No significant event,0 persons,0.0
+Meet_WalkTogether1,00:00:03,FRM_003,No significant event,0 persons,0.0
+Meet_WalkTogether1,00:00:04,FRM_004,No significant event,0 persons,0.0
+Meet_WalkTogether1,00:00:06,FRM_005,No significant event,0 persons,0.0
+Meet_WalkTogether1,00:00:07,FRM_006,No significant event,0 persons,0.0
+Meet_WalkTogether1,00:00:08,FRM_007,No significant event,0 persons,0.0
+Meet_WalkTogether1,00:00:09,FRM_008,Person detected,1 person,0.26
+Meet_WalkTogether1,00:00:10,FRM_009,No significant event,0 persons,0.0
+Meet_WalkTogether1,00:00:12,FRM_010,Person detected,1 person,0.37
+Meet_WalkTogether1,00:00:13,FRM_011,No significant event,0 persons,0.0
+Meet_WalkTogether1,00:00:14,FRM_012,No significant event,0 persons,0.0
+Meet_WalkTogether1,00:00:15,FRM_013,No significant event,0 persons,0.0
+Meet_WalkTogether1,00:00:16,FRM_014,No significant event,0 persons,0.0
+Meet_WalkTogether1,00:00:18,FRM_015,No significant event,0 persons,0.0
+Meet_WalkTogether1,00:00:19,FRM_016,No significant event,0 persons,0.0
+Meet_WalkTogether1,00:00:20,FRM_017,No significant event,0 persons,0.0
+Meet_WalkTogether1,00:00:21,FRM_018,No significant event,0 persons,0.0
+Meet_WalkTogether1,00:00:22,FRM_019,No significant event,0 persons,0.0
+Meet_WalkTogether1,00:00:24,FRM_020,No significant event,0 persons,0.0
+Meet_WalkTogether1,00:00:25,FRM_021,No significant event,0 persons,0.0
+Meet_WalkTogether1,00:00:26,FRM_022,No significant event,0 persons,0.0
+Meet_WalkTogether1,00:00:27,FRM_023,No significant event,0 persons,0.0
+Meet_WalkTogether2,00:00:00,FRM_000,Person detected,1 person,0.39
+Meet_WalkTogether2,00:00:01,FRM_001,Person detected,1 person,0.63
+Meet_WalkTogether2,00:00:02,FRM_002,No significant event,0 persons,0.0
+Meet_WalkTogether2,00:00:03,FRM_003,No significant event,0 persons,0.0
+Meet_WalkTogether2,00:00:04,FRM_004,No significant event,0 persons,0.0
+Meet_WalkTogether2,00:00:06,FRM_005,No significant event,0 persons,0.0
+Meet_WalkTogether2,00:00:07,FRM_006,No significant event,0 persons,0.0
+Meet_WalkTogether2,00:00:08,FRM_007,No significant event,0 persons,0.0
+Meet_WalkTogether2,00:00:09,FRM_008,Person detected,1 person,0.28
+Meet_WalkTogether2,00:00:10,FRM_009,No significant event,0 persons,0.0
+Meet_WalkTogether2,00:00:12,FRM_010,No significant event,0 persons,0.0
+Meet_WalkTogether2,00:00:13,FRM_011,No significant event,0 persons,0.0
+Meet_WalkTogether2,00:00:14,FRM_012,No significant event,0 persons,0.0
+Meet_WalkTogether2,00:00:15,FRM_013,No significant event,0 persons,0.0
+Meet_WalkTogether2,00:00:16,FRM_014,No significant event,0 persons,0.0
+Meet_WalkTogether2,00:00:18,FRM_015,No significant event,0 persons,0.0
+Meet_WalkTogether2,00:00:19,FRM_016,No significant event,0 persons,0.0
+Meet_WalkTogether2,00:00:20,FRM_017,No significant event,0 persons,0.0
+Meet_WalkTogether2,00:00:21,FRM_018,No significant event,0 persons,0.0
+Meet_WalkTogether2,00:00:22,FRM_019,No significant event,0 persons,0.0
+Meet_WalkTogether2,00:00:24,FRM_020,No significant event,0 persons,0.0
+Meet_WalkTogether2,00:00:25,FRM_021,No significant event,0 persons,0.0
+Meet_WalkTogether2,00:00:26,FRM_022,No significant event,0 persons,0.0
+Meet_WalkTogether2,00:00:27,FRM_023,No significant event,0 persons,0.0
+Meet_WalkTogether2,00:00:28,FRM_024,No significant event,0 persons,0.0
+Meet_WalkTogether2,00:00:30,FRM_025,No significant event,0 persons,0.0
+Meet_WalkTogether2,00:00:31,FRM_026,No significant event,0 persons,0.0
+Meet_WalkTogether2,00:00:32,FRM_027,No significant event,0 persons,0.0
+OneLeaveShop1cor,00:00:00,FRM_000,Person detected,5 persons,0.84
+OneLeaveShop1cor,00:00:01,FRM_001,Person detected,4 persons,0.9
+OneLeaveShop1cor,00:00:02,FRM_002,Person detected,4 persons,0.88
+OneLeaveShop1cor,00:00:03,FRM_003,Person detected,3 persons,0.84
+OneLeaveShop1cor,00:00:04,FRM_004,Person detected,5 persons,0.83
+OneLeaveShop1cor,00:00:06,FRM_005,Person detected,4 persons,0.87
+OneLeaveShop1cor,00:00:07,FRM_006,Person detected,5 persons,0.85
+OneLeaveShop1cor,00:00:08,FRM_007,Person detected,4 persons,0.83
+OneLeaveShop1cor,00:00:09,FRM_008,Person detected,3 persons,0.79
+OneLeaveShop1cor,00:00:10,FRM_009,Person detected,2 persons,0.82
+OneLeaveShop1front,00:00:00,FRM_000,No significant event,0 persons,0.0
+OneLeaveShop1front,00:00:01,FRM_001,No significant event,0 persons,0.0
+OneLeaveShop1front,00:00:02,FRM_002,Person detected,1 person,0.29
+OneLeaveShop1front,00:00:03,FRM_003,Person detected,1 person,0.6
+OneLeaveShop1front,00:00:04,FRM_004,Person detected,1 person,0.66
+OneLeaveShop1front,00:00:06,FRM_005,Person detected,1 person,0.74
+OneLeaveShop1front,00:00:07,FRM_006,Person detected,2 persons,0.76
+OneLeaveShop1front,00:00:08,FRM_007,No significant event,0 persons,0.0
+OneLeaveShop1front,00:00:09,FRM_008,No significant event,0 persons,0.0
+OneLeaveShop1front,00:00:10,FRM_009,No significant event,0 persons,0.0
+OneLeaveShop2cor,00:00:00,FRM_000,Person detected,4 persons,0.47
+OneLeaveShop2cor,00:00:01,FRM_001,Person detected,5 persons,0.49
+OneLeaveShop2cor,00:00:02,FRM_002,Person detected,5 persons,0.51
+OneLeaveShop2cor,00:00:03,FRM_003,Person detected,3 persons,0.49
+OneLeaveShop2cor,00:00:04,FRM_004,Person detected,3 persons,0.66
+OneLeaveShop2cor,00:00:06,FRM_005,Person detected,5 persons,0.58
+OneLeaveShop2cor,00:00:07,FRM_006,Person detected,3 persons,0.88
+OneLeaveShop2cor,00:00:08,FRM_007,Person detected,3 persons,0.88
+OneLeaveShop2cor,00:00:09,FRM_008,Person detected,4 persons,0.86
+OneLeaveShop2cor,00:00:10,FRM_009,Person detected,3 persons,0.88
+OneLeaveShop2cor,00:00:12,FRM_010,Person detected,4 persons,0.87
+OneLeaveShop2cor,00:00:13,FRM_011,Person detected,4 persons,0.87
+OneLeaveShop2cor,00:00:14,FRM_012,Person detected,4 persons,0.9
+OneLeaveShop2cor,00:00:15,FRM_013,Person detected,2 persons,0.87
+OneLeaveShop2cor,00:00:16,FRM_014,Person detected,5 persons,0.86
+OneLeaveShop2cor,00:00:18,FRM_015,Person detected,3 persons,0.84
+OneLeaveShop2cor,00:00:19,FRM_016,Person detected,3 persons,0.78
+OneLeaveShop2cor,00:00:20,FRM_017,Person detected,4 persons,0.76
+OneLeaveShop2cor,00:00:21,FRM_018,Person detected,3 persons,0.83
+OneLeaveShop2cor,00:00:22,FRM_019,Person detected,3 persons,0.77
+OneLeaveShop2cor,00:00:24,FRM_020,Person detected,2 persons,0.74
+OneLeaveShop2cor,00:00:25,FRM_021,Person detected,2 persons,0.66
+OneLeaveShop2cor,00:00:26,FRM_022,Person detected,2 persons,0.47
+OneLeaveShop2cor,00:00:27,FRM_023,Person detected,3 persons,0.88
+OneLeaveShop2cor,00:00:28,FRM_024,Person detected,3 persons,0.77
+OneLeaveShop2cor,00:00:30,FRM_025,Person detected,2 persons,0.7
+OneLeaveShop2cor,00:00:31,FRM_026,Person detected,3 persons,0.65
+OneLeaveShop2cor,00:00:32,FRM_027,Person detected,3 persons,0.69
+OneLeaveShop2cor,00:00:33,FRM_028,Person detected,2 persons,0.6
+OneLeaveShop2cor,00:00:34,FRM_029,Person detected,3 persons,0.59
+OneLeaveShop2cor,00:00:36,FRM_030,Person detected,3 persons,0.67
+OneLeaveShop2cor,00:00:37,FRM_031,Person detected,4 persons,0.59
+OneLeaveShop2cor,00:00:38,FRM_032,Person detected,3 persons,0.59
+OneLeaveShop2cor,00:00:39,FRM_033,Person detected,2 persons,0.51
+OneLeaveShop2cor,00:00:40,FRM_034,Person detected,2 persons,0.45
+OneLeaveShop2cor,00:00:42,FRM_035,Person detected,1 person,0.53
+OneLeaveShop2cor,00:00:43,FRM_036,Person detected,2 persons,0.52
+OneLeaveShop2cor,00:00:44,FRM_037,Person detected,1 person,0.27
+OneLeaveShop2front,00:00:00,FRM_000,No significant event,0 persons,0.0
+OneLeaveShop2front,00:00:01,FRM_001,No significant event,0 persons,0.0
+OneLeaveShop2front,00:00:02,FRM_002,Person detected,1 person,0.37
+OneLeaveShop2front,00:00:03,FRM_003,Person detected,1 person,0.69
+OneLeaveShop2front,00:00:04,FRM_004,Person detected,1 person,0.61
+OneLeaveShop2front,00:00:06,FRM_005,Person detected,1 person,0.67
+OneLeaveShop2front,00:00:07,FRM_006,Person detected,1 person,0.69
+OneLeaveShop2front,00:00:08,FRM_007,Person detected,2 persons,0.41
+OneLeaveShop2front,00:00:09,FRM_008,No significant event,0 persons,0.0
+OneLeaveShop2front,00:00:10,FRM_009,No significant event,0 persons,0.0
+OneLeaveShop2front,00:00:12,FRM_010,No significant event,0 persons,0.0
+OneLeaveShop2front,00:00:13,FRM_011,No significant event,0 persons,0.0
+OneLeaveShop2front,00:00:14,FRM_012,No significant event,0 persons,0.0
+OneLeaveShop2front,00:00:15,FRM_013,No significant event,0 persons,0.0
+OneLeaveShop2front,00:00:16,FRM_014,No significant event,0 persons,0.0
+OneLeaveShop2front,00:00:18,FRM_015,No significant event,0 persons,0.0
+OneLeaveShop2front,00:00:19,FRM_016,No significant event,0 persons,0.0
+OneLeaveShop2front,00:00:20,FRM_017,No significant event,0 persons,0.0
+OneLeaveShop2front,00:00:21,FRM_018,No significant event,0 persons,0.0
+OneLeaveShop2front,00:00:22,FRM_019,No significant event,0 persons,0.0
+OneLeaveShop2front,00:00:24,FRM_020,No significant event,0 persons,0.0
+OneLeaveShop2front,00:00:25,FRM_021,No significant event,0 persons,0.0
+OneLeaveShop2front,00:00:26,FRM_022,No significant event,0 persons,0.0
+OneLeaveShop2front,00:00:27,FRM_023,No significant event,0 persons,0.0
+OneLeaveShop2front,00:00:28,FRM_024,No significant event,0 persons,0.0
+OneLeaveShop2front,00:00:30,FRM_025,No significant event,0 persons,0.0
+OneLeaveShop2front,00:00:31,FRM_026,No significant event,0 persons,0.0
+OneLeaveShop2front,00:00:32,FRM_027,No significant event,0 persons,0.0
+OneLeaveShop2front,00:00:33,FRM_028,Person detected,1 person,0.33
+OneLeaveShop2front,00:00:34,FRM_029,No significant event,0 persons,0.0
+OneLeaveShop2front,00:00:36,FRM_030,No significant event,0 persons,0.0
+OneLeaveShop2front,00:00:37,FRM_031,No significant event,0 persons,0.0
+OneLeaveShop2front,00:00:38,FRM_032,No significant event,0 persons,0.0
+OneLeaveShop2front,00:00:39,FRM_033,No significant event,0 persons,0.0
+OneLeaveShop2front,00:00:40,FRM_034,No significant event,0 persons,0.0
+OneLeaveShop2front,00:00:42,FRM_035,No significant event,0 persons,0.0
+OneLeaveShop2front,00:00:43,FRM_036,No significant event,0 persons,0.0
+OneLeaveShop2front,00:00:44,FRM_037,No significant event,0 persons,0.0
+OneLeaveShopReenter1cor,00:00:00,FRM_000,Person detected,1 person,0.44
+OneLeaveShopReenter1cor,00:00:01,FRM_001,No significant event,0 persons,0.0
+OneLeaveShopReenter1cor,00:00:02,FRM_002,Person detected,1 person,0.46
+OneLeaveShopReenter1cor,00:00:03,FRM_003,No significant event,0 persons,0.0
+OneLeaveShopReenter1cor,00:00:04,FRM_004,Person detected,1 person,0.88
+OneLeaveShopReenter1cor,00:00:06,FRM_005,Person detected,2 persons,0.91
+OneLeaveShopReenter1cor,00:00:07,FRM_006,Person detected,3 persons,0.87
+OneLeaveShopReenter1cor,00:00:08,FRM_007,Person detected,3 persons,0.9
+OneLeaveShopReenter1cor,00:00:09,FRM_008,Person detected,3 persons,0.84
+OneLeaveShopReenter1cor,00:00:10,FRM_009,Person detected,2 persons,0.82
+OneLeaveShopReenter1cor,00:00:12,FRM_010,Person detected,2 persons,0.83
+OneLeaveShopReenter1cor,00:00:13,FRM_011,Person detected,2 persons,0.88
+OneLeaveShopReenter1cor,00:00:14,FRM_012,Person detected,2 persons,0.78
+OneLeaveShopReenter1front,00:00:00,FRM_000,No significant event,0 persons,0.0
+OneLeaveShopReenter1front,00:00:01,FRM_001,No significant event,0 persons,0.0
+OneLeaveShopReenter1front,00:00:02,FRM_002,No significant event,0 persons,0.0
+OneLeaveShopReenter1front,00:00:03,FRM_003,No significant event,0 persons,0.0
+OneLeaveShopReenter1front,00:00:04,FRM_004,Person detected,1 person,0.5
+OneLeaveShopReenter1front,00:00:06,FRM_005,Person detected,1 person,0.68
+OneLeaveShopReenter1front,00:00:07,FRM_006,Person detected,2 persons,0.74
+OneLeaveShopReenter1front,00:00:08,FRM_007,Person detected,1 person,0.73
+OneLeaveShopReenter1front,00:00:09,FRM_008,No significant event,0 persons,0.0
+OneLeaveShopReenter1front,00:00:10,FRM_009,Person detected,1 person,0.77
+OneLeaveShopReenter1front,00:00:12,FRM_010,Person detected,1 person,0.81
+OneLeaveShopReenter1front,00:00:13,FRM_011,Person detected,1 person,0.8
+OneLeaveShopReenter1front,00:00:14,FRM_012,Person detected,1 person,0.66
+OneLeaveShopReenter2cor,00:00:00,FRM_000,Person detected,3 persons,0.87
+OneLeaveShopReenter2cor,00:00:01,FRM_001,Person detected,3 persons,0.91
+OneLeaveShopReenter2cor,00:00:02,FRM_002,Person detected,3 persons,0.88
+OneLeaveShopReenter2cor,00:00:03,FRM_003,Person detected,3 persons,0.88
+OneLeaveShopReenter2cor,00:00:04,FRM_004,Person detected,4 persons,0.85
+OneLeaveShopReenter2cor,00:00:06,FRM_005,Person detected,5 persons,0.86
+OneLeaveShopReenter2cor,00:00:07,FRM_006,Person detected,5 persons,0.88
+OneLeaveShopReenter2cor,00:00:08,FRM_007,Crowd / Suspicious movement,4 persons,0.87
+OneLeaveShopReenter2cor,00:00:09,FRM_008,Person detected,4 persons,0.9
+OneLeaveShopReenter2cor,00:00:10,FRM_009,Person detected,4 persons,0.84
+OneLeaveShopReenter2cor,00:00:12,FRM_010,Person detected,4 persons,0.86
+OneLeaveShopReenter2cor,00:00:13,FRM_011,Person detected,3 persons,0.89
+OneLeaveShopReenter2cor,00:00:14,FRM_012,Person detected,3 persons,0.87
+OneLeaveShopReenter2cor,00:00:15,FRM_013,Person detected,2 persons,0.79
+OneLeaveShopReenter2cor,00:00:16,FRM_014,Person detected,4 persons,0.71
+OneLeaveShopReenter2cor,00:00:18,FRM_015,Person detected,1 person,0.55
+OneLeaveShopReenter2cor,00:00:19,FRM_016,Person detected,2 persons,0.32
+OneLeaveShopReenter2cor,00:00:20,FRM_017,Person detected,1 person,0.67
+OneLeaveShopReenter2cor,00:00:21,FRM_018,Person detected,1 person,0.72
+OneLeaveShopReenter2front,00:00:00,FRM_000,Person detected,2 persons,0.68
+OneLeaveShopReenter2front,00:00:01,FRM_001,Person detected,1 person,0.55
+OneLeaveShopReenter2front,00:00:02,FRM_002,No significant event,0 persons,0.0
+OneLeaveShopReenter2front,00:00:03,FRM_003,No significant event,0 persons,0.0
+OneLeaveShopReenter2front,00:00:04,FRM_004,Person detected,2 persons,0.51
+OneLeaveShopReenter2front,00:00:06,FRM_005,Person detected,1 person,0.26
+OneLeaveShopReenter2front,00:00:07,FRM_006,Person detected,1 person,0.46
+OneLeaveShopReenter2front,00:00:08,FRM_007,Person detected,1 person,0.61
+OneLeaveShopReenter2front,00:00:09,FRM_008,Person detected,2 persons,0.76
+OneLeaveShopReenter2front,00:00:10,FRM_009,No significant event,0 persons,0.0
+OneLeaveShopReenter2front,00:00:12,FRM_010,Person detected,1 person,0.69
+OneLeaveShopReenter2front,00:00:13,FRM_011,Person detected,1 person,0.34
+OneLeaveShopReenter2front,00:00:14,FRM_012,Person detected,1 person,0.64
+OneLeaveShopReenter2front,00:00:15,FRM_013,Person detected,2 persons,0.87
+OneLeaveShopReenter2front,00:00:16,FRM_014,Person detected,1 person,0.41
+OneLeaveShopReenter2front,00:00:18,FRM_015,Person detected,1 person,0.81
+OneLeaveShopReenter2front,00:00:19,FRM_016,Person detected,2 persons,0.8
+OneLeaveShopReenter2front,00:00:20,FRM_017,Person detected,1 person,0.73
+OneLeaveShopReenter2front,00:00:21,FRM_018,Person detected,1 person,0.37
+OneShopOneWait1cor,00:00:00,FRM_000,No significant event,0 persons,0.0
+OneShopOneWait1cor,00:00:01,FRM_001,No significant event,0 persons,0.0
+OneShopOneWait1cor,00:00:02,FRM_002,Person detected,1 person,0.31
+OneShopOneWait1cor,00:00:03,FRM_003,Person detected,2 persons,0.72
+OneShopOneWait1cor,00:00:04,FRM_004,Person detected,3 persons,0.84
+OneShopOneWait1cor,00:00:06,FRM_005,Person detected,3 persons,0.9
+OneShopOneWait1cor,00:00:07,FRM_006,Crowd / Suspicious movement,2 persons,0.89
+OneShopOneWait1cor,00:00:08,FRM_007,Crowd / Suspicious movement,4 persons,0.87
+OneShopOneWait1cor,00:00:09,FRM_008,Crowd / Suspicious movement,6 persons,0.86
+OneShopOneWait1cor,00:00:10,FRM_009,Crowd / Suspicious movement,5 persons,0.89
+OneShopOneWait1cor,00:00:12,FRM_010,Crowd / Suspicious movement,6 persons,0.86
+OneShopOneWait1cor,00:00:13,FRM_011,Crowd / Suspicious movement,3 persons,0.86
+OneShopOneWait1cor,00:00:14,FRM_012,Crowd / Suspicious movement,4 persons,0.89
+OneShopOneWait1cor,00:00:15,FRM_013,Crowd / Suspicious movement,3 persons,0.9
+OneShopOneWait1cor,00:00:16,FRM_014,Rapid movement detected,3 persons,0.9
+OneShopOneWait1cor,00:00:18,FRM_015,Crowd / Suspicious movement,3 persons,0.86
+OneShopOneWait1cor,00:00:19,FRM_016,Person detected,4 persons,0.82
+OneShopOneWait1cor,00:00:20,FRM_017,Crowd / Suspicious movement,4 persons,0.88
+OneShopOneWait1cor,00:00:21,FRM_018,Crowd / Suspicious movement,4 persons,0.84
+OneShopOneWait1cor,00:00:22,FRM_019,Rapid movement detected,4 persons,0.88
+OneShopOneWait1cor,00:00:24,FRM_020,Person detected,4 persons,0.86
+OneShopOneWait1cor,00:00:25,FRM_021,Person detected,3 persons,0.86
+OneShopOneWait1cor,00:00:26,FRM_022,Person detected,3 persons,0.89
+OneShopOneWait1cor,00:00:27,FRM_023,Crowd / Suspicious movement,3 persons,0.87
+OneShopOneWait1cor,00:00:28,FRM_024,Crowd / Suspicious movement,4 persons,0.87
+OneShopOneWait1cor,00:00:30,FRM_025,Person detected,4 persons,0.86
+OneShopOneWait1cor,00:00:31,FRM_026,Person detected,5 persons,0.86
+OneShopOneWait1cor,00:00:32,FRM_027,Person detected,4 persons,0.84
+OneShopOneWait1cor,00:00:33,FRM_028,Person detected,4 persons,0.84
+OneShopOneWait1cor,00:00:34,FRM_029,Person detected,4 persons,0.86
+OneShopOneWait1cor,00:00:36,FRM_030,Person detected,4 persons,0.83
+OneShopOneWait1cor,00:00:37,FRM_031,Person detected,4 persons,0.83
+OneShopOneWait1cor,00:00:38,FRM_032,Person detected,4 persons,0.87
+OneShopOneWait1cor,00:00:39,FRM_033,Person detected,5 persons,0.87
+OneShopOneWait1cor,00:00:40,FRM_034,Person detected,5 persons,0.86
+OneShopOneWait1cor,00:00:42,FRM_035,Crowd / Suspicious movement,4 persons,0.8
+OneShopOneWait1cor,00:00:43,FRM_036,Person detected,4 persons,0.89
+OneShopOneWait1cor,00:00:44,FRM_037,Crowd / Suspicious movement,3 persons,0.9
+OneShopOneWait1cor,00:00:45,FRM_038,Crowd / Suspicious movement,4 persons,0.91
+OneShopOneWait1cor,00:00:46,FRM_039,Crowd / Suspicious movement,4 persons,0.89
+OneShopOneWait1cor,00:00:48,FRM_040,Crowd / Suspicious movement,5 persons,0.91
+OneShopOneWait1cor,00:00:49,FRM_041,Crowd / Suspicious movement,5 persons,0.9
+OneShopOneWait1cor,00:00:50,FRM_042,Crowd / Suspicious movement,5 persons,0.87
+OneShopOneWait1cor,00:00:51,FRM_043,Crowd / Suspicious movement,5 persons,0.88
+OneShopOneWait1cor,00:00:52,FRM_044,Crowd / Suspicious movement,5 persons,0.87
+OneShopOneWait1cor,00:00:54,FRM_045,Person detected,3 persons,0.81
+OneShopOneWait1front,00:00:00,FRM_000,No significant event,0 persons,0.0
+OneShopOneWait1front,00:00:01,FRM_001,No significant event,0 persons,0.0
+OneShopOneWait1front,00:00:02,FRM_002,No significant event,0 persons,0.0
+OneShopOneWait1front,00:00:03,FRM_003,No significant event,0 persons,0.0
+OneShopOneWait1front,00:00:04,FRM_004,No significant event,0 persons,0.0
+OneShopOneWait1front,00:00:06,FRM_005,No significant event,0 persons,0.0
+OneShopOneWait1front,00:00:07,FRM_006,No significant event,0 persons,0.0
+OneShopOneWait1front,00:00:08,FRM_007,No significant event,0 persons,0.0
+OneShopOneWait1front,00:00:09,FRM_008,No significant event,0 persons,0.0
+OneShopOneWait1front,00:00:10,FRM_009,No significant event,0 persons,0.0
+OneShopOneWait1front,00:00:12,FRM_010,Person detected,1 person,0.39
+OneShopOneWait1front,00:00:13,FRM_011,No significant event,0 persons,0.0
+OneShopOneWait1front,00:00:14,FRM_012,No significant event,0 persons,0.0
+OneShopOneWait1front,00:00:15,FRM_013,Person detected,2 persons,0.57
+OneShopOneWait1front,00:00:16,FRM_014,Person detected,2 persons,0.84
+OneShopOneWait1front,00:00:18,FRM_015,Person detected,3 persons,0.82
+OneShopOneWait1front,00:00:19,FRM_016,Person detected,2 persons,0.81
+OneShopOneWait1front,00:00:20,FRM_017,Person detected,2 persons,0.85
+OneShopOneWait1front,00:00:21,FRM_018,Person detected,3 persons,0.84
+OneShopOneWait1front,00:00:22,FRM_019,Person detected,2 persons,0.77
+OneShopOneWait1front,00:00:24,FRM_020,Person detected,3 persons,0.8
+OneShopOneWait1front,00:00:25,FRM_021,Person detected,2 persons,0.76
+OneShopOneWait1front,00:00:26,FRM_022,Person detected,1 person,0.78
+OneShopOneWait1front,00:00:27,FRM_023,Person detected,2 persons,0.81
+OneShopOneWait1front,00:00:28,FRM_024,Person detected,2 persons,0.79
+OneShopOneWait1front,00:00:30,FRM_025,Person detected,2 persons,0.58
+OneShopOneWait1front,00:00:31,FRM_026,Person detected,4 persons,0.75
+OneShopOneWait1front,00:00:32,FRM_027,Person detected,2 persons,0.63
+OneShopOneWait1front,00:00:33,FRM_028,Person detected,1 person,0.5
+OneShopOneWait1front,00:00:34,FRM_029,Person detected,1 person,0.67
+OneShopOneWait1front,00:00:36,FRM_030,Person detected,1 person,0.69
+OneShopOneWait1front,00:00:37,FRM_031,Person detected,1 person,0.69
+OneShopOneWait1front,00:00:38,FRM_032,Person detected,1 person,0.44
+OneShopOneWait1front,00:00:39,FRM_033,Person detected,3 persons,0.73
+OneShopOneWait1front,00:00:40,FRM_034,Person detected,2 persons,0.6
+OneShopOneWait1front,00:00:42,FRM_035,Person detected,3 persons,0.8
+OneShopOneWait1front,00:00:43,FRM_036,Person detected,5 persons,0.78
+OneShopOneWait1front,00:00:44,FRM_037,Person detected,2 persons,0.8
+OneShopOneWait1front,00:00:45,FRM_038,Person detected,1 person,0.81
+OneShopOneWait1front,00:00:46,FRM_039,Person detected,2 persons,0.72
+OneShopOneWait1front,00:00:48,FRM_040,No significant event,0 persons,0.0
+OneShopOneWait1front,00:00:49,FRM_041,No significant event,0 persons,0.0
+OneShopOneWait1front,00:00:50,FRM_042,Person detected,1 person,0.47
+OneShopOneWait1front,00:00:51,FRM_043,No significant event,0 persons,0.0
+OneShopOneWait1front,00:00:52,FRM_044,Person detected,1 person,0.27
+OneShopOneWait1front,00:00:54,FRM_045,No significant event,0 persons,0.0
+OneShopOneWait2cor,00:00:00,FRM_000,Person detected,4 persons,0.76
+OneShopOneWait2cor,00:00:01,FRM_001,Person detected,3 persons,0.77
+OneShopOneWait2cor,00:00:02,FRM_002,Person detected,4 persons,0.78
+OneShopOneWait2cor,00:00:03,FRM_003,Person detected,4 persons,0.81
+OneShopOneWait2cor,00:00:04,FRM_004,Person detected,6 persons,0.83
+OneShopOneWait2cor,00:00:06,FRM_005,Crowd / Suspicious movement,6 persons,0.86
+OneShopOneWait2cor,00:00:07,FRM_006,Person detected,5 persons,0.88
+OneShopOneWait2cor,00:00:08,FRM_007,Person detected,4 persons,0.9
+OneShopOneWait2cor,00:00:09,FRM_008,Crowd / Suspicious movement,6 persons,0.88
+OneShopOneWait2cor,00:00:10,FRM_009,Crowd / Suspicious movement,4 persons,0.88
+OneShopOneWait2cor,00:00:12,FRM_010,Crowd / Suspicious movement,6 persons,0.75
+OneShopOneWait2cor,00:00:13,FRM_011,Person detected,5 persons,0.86
+OneShopOneWait2cor,00:00:14,FRM_012,Person detected,4 persons,0.82
+OneShopOneWait2cor,00:00:15,FRM_013,Person detected,4 persons,0.86
+OneShopOneWait2cor,00:00:16,FRM_014,Person detected,5 persons,0.82
+OneShopOneWait2cor,00:00:18,FRM_015,Person detected,5 persons,0.82
+OneShopOneWait2cor,00:00:19,FRM_016,Person detected,5 persons,0.84
+OneShopOneWait2cor,00:00:20,FRM_017,Person detected,4 persons,0.88
+OneShopOneWait2cor,00:00:21,FRM_018,Person detected,4 persons,0.85
+OneShopOneWait2cor,00:00:22,FRM_019,Person detected,4 persons,0.85
+OneShopOneWait2cor,00:00:24,FRM_020,Person detected,6 persons,0.85
+OneShopOneWait2cor,00:00:25,FRM_021,Person detected,7 persons,0.83
+OneShopOneWait2cor,00:00:26,FRM_022,Person detected,4 persons,0.81
+OneShopOneWait2cor,00:00:27,FRM_023,Person detected,5 persons,0.83
+OneShopOneWait2cor,00:00:28,FRM_024,Person detected,8 persons,0.89
+OneShopOneWait2cor,00:00:30,FRM_025,Person detected,5 persons,0.87
+OneShopOneWait2cor,00:00:31,FRM_026,Person detected,6 persons,0.86
+OneShopOneWait2cor,00:00:32,FRM_027,Person detected,4 persons,0.83
+OneShopOneWait2cor,00:00:33,FRM_028,Person detected,7 persons,0.84
+OneShopOneWait2cor,00:00:34,FRM_029,Person detected,6 persons,0.89
+OneShopOneWait2cor,00:00:36,FRM_030,Crowd / Suspicious movement,6 persons,0.86
+OneShopOneWait2cor,00:00:37,FRM_031,Person detected,6 persons,0.88
+OneShopOneWait2cor,00:00:38,FRM_032,Crowd / Suspicious movement,4 persons,0.84
+OneShopOneWait2cor,00:00:39,FRM_033,Crowd / Suspicious movement,4 persons,0.84
+OneShopOneWait2cor,00:00:40,FRM_034,Person detected,4 persons,0.87
+OneShopOneWait2cor,00:00:42,FRM_035,Person detected,6 persons,0.88
+OneShopOneWait2cor,00:00:43,FRM_036,Crowd / Suspicious movement,6 persons,0.87
+OneShopOneWait2cor,00:00:44,FRM_037,Crowd / Suspicious movement,6 persons,0.86
+OneShopOneWait2cor,00:00:45,FRM_038,Crowd / Suspicious movement,6 persons,0.89
+OneShopOneWait2cor,00:00:46,FRM_039,Rapid movement detected,5 persons,0.9
+OneShopOneWait2cor,00:00:48,FRM_040,Rapid movement detected,6 persons,0.89
+OneShopOneWait2cor,00:00:49,FRM_041,Rapid movement detected,8 persons,0.88
+OneShopOneWait2cor,00:00:50,FRM_042,Rapid movement detected,9 persons,0.89
+OneShopOneWait2cor,00:00:51,FRM_043,Rapid movement detected,8 persons,0.89
+OneShopOneWait2cor,00:00:52,FRM_044,Rapid movement detected,8 persons,0.9
+OneShopOneWait2cor,00:00:54,FRM_045,Rapid movement detected,8 persons,0.91
+OneShopOneWait2cor,00:00:55,FRM_046,Rapid movement detected,8 persons,0.92
+OneShopOneWait2cor,00:00:56,FRM_047,Rapid movement detected,6 persons,0.89
+OneShopOneWait2cor,00:00:57,FRM_048,Rapid movement detected,5 persons,0.89
+OneShopOneWait2front,00:00:00,FRM_000,Person detected,1 person,0.35
+OneShopOneWait2front,00:00:01,FRM_001,No significant event,0 persons,0.0
+OneShopOneWait2front,00:00:02,FRM_002,No significant event,0 persons,0.0
+OneShopOneWait2front,00:00:03,FRM_003,No significant event,0 persons,0.0
+OneShopOneWait2front,00:00:04,FRM_004,No significant event,0 persons,0.0
+OneShopOneWait2front,00:00:06,FRM_005,No significant event,0 persons,0.0
+OneShopOneWait2front,00:00:07,FRM_006,No significant event,0 persons,0.0
+OneShopOneWait2front,00:00:08,FRM_007,No significant event,0 persons,0.0
+OneShopOneWait2front,00:00:09,FRM_008,No significant event,0 persons,0.0
+OneShopOneWait2front,00:00:10,FRM_009,No significant event,0 persons,0.0
+OneShopOneWait2front,00:00:12,FRM_010,Person detected,2 persons,0.56
+OneShopOneWait2front,00:00:13,FRM_011,Person detected,5 persons,0.71
+OneShopOneWait2front,00:00:14,FRM_012,Person detected,3 persons,0.71
+OneShopOneWait2front,00:00:15,FRM_013,Person detected,3 persons,0.78
+OneShopOneWait2front,00:00:16,FRM_014,Person detected,4 persons,0.72
+OneShopOneWait2front,00:00:18,FRM_015,Person detected,3 persons,0.7
+OneShopOneWait2front,00:00:19,FRM_016,Person detected,2 persons,0.66
+OneShopOneWait2front,00:00:20,FRM_017,Person detected,1 person,0.56
+OneShopOneWait2front,00:00:21,FRM_018,Person detected,2 persons,0.78
+OneShopOneWait2front,00:00:22,FRM_019,Person detected,2 persons,0.82
+OneShopOneWait2front,00:00:24,FRM_020,Person detected,2 persons,0.81
+OneShopOneWait2front,00:00:25,FRM_021,Person detected,1 person,0.38
+OneShopOneWait2front,00:00:26,FRM_022,No significant event,0 persons,0.0
+OneShopOneWait2front,00:00:27,FRM_023,No significant event,0 persons,0.0
+OneShopOneWait2front,00:00:28,FRM_024,Person detected,1 person,0.79
+OneShopOneWait2front,00:00:30,FRM_025,Person detected,1 person,0.36
+OneShopOneWait2front,00:00:31,FRM_026,Person detected,1 person,0.73
+OneShopOneWait2front,00:00:32,FRM_027,No significant event,0 persons,0.0
+OneShopOneWait2front,00:00:33,FRM_028,No significant event,0 persons,0.0
+OneShopOneWait2front,00:00:34,FRM_029,Person detected,1 person,0.57
+OneShopOneWait2front,00:00:36,FRM_030,Person detected,1 person,0.65
+OneShopOneWait2front,00:00:37,FRM_031,Person detected,1 person,0.63
+OneShopOneWait2front,00:00:38,FRM_032,No significant event,0 persons,0.0
+OneShopOneWait2front,00:00:39,FRM_033,Person detected,1 person,0.65
+OneShopOneWait2front,00:00:40,FRM_034,Person detected,2 persons,0.51
+OneShopOneWait2front,00:00:42,FRM_035,Person detected,2 persons,0.65
+OneShopOneWait2front,00:00:43,FRM_036,Person detected,2 persons,0.77
+OneShopOneWait2front,00:00:44,FRM_037,Person detected,2 persons,0.75
+OneShopOneWait2front,00:00:45,FRM_038,Person detected,2 persons,0.75
+OneShopOneWait2front,00:00:46,FRM_039,Person detected,2 persons,0.78
+OneShopOneWait2front,00:00:48,FRM_040,Person detected,3 persons,0.8
+OneShopOneWait2front,00:00:49,FRM_041,Person detected,4 persons,0.75
+OneShopOneWait2front,00:00:50,FRM_042,Person detected,2 persons,0.57
+OneShopOneWait2front,00:00:51,FRM_043,Person detected,1 person,0.37
+OneShopOneWait2front,00:00:52,FRM_044,Person detected,3 persons,0.67
+OneShopOneWait2front,00:00:54,FRM_045,Person detected,3 persons,0.76
+OneShopOneWait2front,00:00:55,FRM_046,No significant event,0 persons,0.0
+OneShopOneWait2front,00:00:56,FRM_047,Person detected,1 person,0.7
+OneShopOneWait2front,00:00:57,FRM_048,Person detected,2 persons,0.7
+OneStopEnter1cor,00:00:00,FRM_000,Person detected,2 persons,0.9
+OneStopEnter1cor,00:00:01,FRM_001,Person detected,2 persons,0.89
+OneStopEnter1cor,00:00:02,FRM_002,Person detected,3 persons,0.9
+OneStopEnter1cor,00:00:03,FRM_003,Crowd / Suspicious movement,3 persons,0.9
+OneStopEnter1cor,00:00:04,FRM_004,Crowd / Suspicious movement,3 persons,0.9
+OneStopEnter1cor,00:00:06,FRM_005,Rapid movement detected,3 persons,0.91
+OneStopEnter1cor,00:00:07,FRM_006,Crowd / Suspicious movement,3 persons,0.91
+OneStopEnter1cor,00:00:08,FRM_007,Crowd / Suspicious movement,3 persons,0.88
+OneStopEnter1cor,00:00:09,FRM_008,Rapid movement detected,4 persons,0.9
+OneStopEnter1cor,00:00:10,FRM_009,Person detected,1 person,0.89
+OneStopEnter1cor,00:00:12,FRM_010,Person detected,1 person,0.91
+OneStopEnter1cor,00:00:13,FRM_011,No significant event,0 persons,0.0
+OneStopEnter1cor,00:00:14,FRM_012,No significant event,0 persons,0.0
+OneStopEnter1cor,00:00:15,FRM_013,No significant event,0 persons,0.0
+OneStopEnter1cor,00:00:16,FRM_014,No significant event,0 persons,0.0
+OneStopEnter1cor,00:00:18,FRM_015,No significant event,0 persons,0.0
+OneStopEnter1cor,00:00:19,FRM_016,No significant event,0 persons,0.0
+OneStopEnter1cor,00:00:20,FRM_017,No significant event,0 persons,0.0
+OneStopEnter1cor,00:00:21,FRM_018,No significant event,0 persons,0.0
+OneStopEnter1cor,00:00:22,FRM_019,No significant event,0 persons,0.0
+OneStopEnter1cor,00:00:24,FRM_020,No significant event,0 persons,0.0
+OneStopEnter1cor,00:00:25,FRM_021,No significant event,0 persons,0.0
+OneStopEnter1cor,00:00:26,FRM_022,Person detected,1 person,0.31
+OneStopEnter1cor,00:00:27,FRM_023,Person detected,1 person,0.35
+OneStopEnter1cor,00:00:28,FRM_024,Person detected,1 person,0.51
+OneStopEnter1cor,00:00:30,FRM_025,Person detected,1 person,0.6
+OneStopEnter1cor,00:00:31,FRM_026,Person detected,1 person,0.58
+OneStopEnter1cor,00:00:32,FRM_027,Person detected,1 person,0.53
+OneStopEnter1cor,00:00:33,FRM_028,Person detected,1 person,0.75
+OneStopEnter1cor,00:00:34,FRM_029,Person detected,1 person,0.57
+OneStopEnter1cor,00:00:36,FRM_030,Person detected,1 person,0.73
+OneStopEnter1cor,00:00:37,FRM_031,Person detected,1 person,0.78
+OneStopEnter1cor,00:00:38,FRM_032,Person detected,1 person,0.82
+OneStopEnter1cor,00:00:39,FRM_033,Person detected,1 person,0.77
+OneStopEnter1cor,00:00:40,FRM_034,Person detected,1 person,0.84
+OneStopEnter1cor,00:00:42,FRM_035,Person detected,1 person,0.84
+OneStopEnter1cor,00:00:43,FRM_036,Person detected,1 person,0.77
+OneStopEnter1cor,00:00:44,FRM_037,Person detected,1 person,0.75
+OneStopEnter1cor,00:00:45,FRM_038,Person detected,1 person,0.82
+OneStopEnter1cor,00:00:46,FRM_039,Person detected,1 person,0.85
+OneStopEnter1cor,00:00:48,FRM_040,Person detected,1 person,0.84
+OneStopEnter1cor,00:00:49,FRM_041,Person detected,1 person,0.81
+OneStopEnter1cor,00:00:50,FRM_042,Person detected,1 person,0.78
+OneStopEnter1cor,00:00:51,FRM_043,Person detected,1 person,0.84
+OneStopEnter1cor,00:00:52,FRM_044,Person detected,1 person,0.84
+OneStopEnter1cor,00:00:54,FRM_045,Person detected,1 person,0.88
+OneStopEnter1cor,00:00:55,FRM_046,Crowd / Suspicious movement,2 persons,0.87
+OneStopEnter1cor,00:00:56,FRM_047,Crowd / Suspicious movement,2 persons,0.88
+OneStopEnter1cor,00:00:57,FRM_048,Person detected,2 persons,0.89
+OneStopEnter1cor,00:00:58,FRM_049,Person detected,2 persons,0.82
+OneStopEnter1front,00:00:00,FRM_000,No significant event,0 persons,0.0
+OneStopEnter1front,00:00:01,FRM_001,Person detected,1 person,0.65
+OneStopEnter1front,00:00:02,FRM_002,Person detected,1 person,0.69
+OneStopEnter1front,00:00:03,FRM_003,Person detected,1 person,0.57
+OneStopEnter1front,00:00:04,FRM_004,Person detected,2 persons,0.78
+OneStopEnter1front,00:00:06,FRM_005,Person detected,1 person,0.82
+OneStopEnter1front,00:00:07,FRM_006,Person detected,1 person,0.45
+OneStopEnter1front,00:00:08,FRM_007,Person detected,1 person,0.29
+OneStopEnter1front,00:00:09,FRM_008,No significant event,0 persons,0.0
+OneStopEnter1front,00:00:10,FRM_009,Person detected,1 person,0.7
+OneStopEnter1front,00:00:12,FRM_010,Person detected,1 person,0.79
+OneStopEnter1front,00:00:13,FRM_011,Person detected,2 persons,0.48
+OneStopEnter1front,00:00:14,FRM_012,Person detected,3 persons,0.76
+OneStopEnter1front,00:00:15,FRM_013,Person detected,2 persons,0.77
+OneStopEnter1front,00:00:16,FRM_014,Person detected,2 persons,0.78
+OneStopEnter1front,00:00:18,FRM_015,Person detected,3 persons,0.7
+OneStopEnter1front,00:00:19,FRM_016,Person detected,1 person,0.75
+OneStopEnter1front,00:00:20,FRM_017,Person detected,2 persons,0.64
+OneStopEnter1front,00:00:21,FRM_018,Person detected,1 person,0.51
+OneStopEnter1front,00:00:22,FRM_019,Person detected,2 persons,0.61
+OneStopEnter1front,00:00:24,FRM_020,Person detected,2 persons,0.75
+OneStopEnter1front,00:00:25,FRM_021,Person detected,2 persons,0.64
+OneStopEnter1front,00:00:26,FRM_022,Person detected,2 persons,0.62
+OneStopEnter1front,00:00:27,FRM_023,Person detected,1 person,0.65
+OneStopEnter1front,00:00:28,FRM_024,Person detected,2 persons,0.5
+OneStopEnter1front,00:00:30,FRM_025,Person detected,2 persons,0.49
+OneStopEnter1front,00:00:31,FRM_026,Person detected,1 person,0.26
+OneStopEnter1front,00:00:32,FRM_027,No significant event,0 persons,0.0
+OneStopEnter1front,00:00:33,FRM_028,No significant event,0 persons,0.0
+OneStopEnter1front,00:00:34,FRM_029,No significant event,0 persons,0.0
+OneStopEnter1front,00:00:36,FRM_030,No significant event,0 persons,0.0
+OneStopEnter1front,00:00:37,FRM_031,No significant event,0 persons,0.0
+OneStopEnter1front,00:00:38,FRM_032,No significant event,0 persons,0.0
+OneStopEnter1front,00:00:39,FRM_033,No significant event,0 persons,0.0
+OneStopEnter1front,00:00:40,FRM_034,No significant event,0 persons,0.0
+OneStopEnter1front,00:00:42,FRM_035,No significant event,0 persons,0.0
+OneStopEnter1front,00:00:43,FRM_036,No significant event,0 persons,0.0
+OneStopEnter1front,00:00:44,FRM_037,No significant event,0 persons,0.0
+OneStopEnter1front,00:00:45,FRM_038,No significant event,0 persons,0.0
+OneStopEnter1front,00:00:46,FRM_039,No significant event,0 persons,0.0
+OneStopEnter1front,00:00:48,FRM_040,No significant event,0 persons,0.0
+OneStopEnter1front,00:00:49,FRM_041,No significant event,0 persons,0.0
+OneStopEnter1front,00:00:50,FRM_042,Person detected,1 person,0.55
+OneStopEnter1front,00:00:51,FRM_043,Person detected,1 person,0.33
+OneStopEnter1front,00:00:52,FRM_044,No significant event,0 persons,0.0
+OneStopEnter1front,00:00:54,FRM_045,Person detected,2 persons,0.73
+OneStopEnter1front,00:00:55,FRM_046,Person detected,2 persons,0.64
+OneStopEnter1front,00:00:56,FRM_047,Person detected,1 person,0.67
+OneStopEnter1front,00:00:57,FRM_048,Person detected,1 person,0.63
+OneStopEnter1front,00:00:58,FRM_049,No significant event,0 persons,0.0
+OneStopEnter2cor,00:00:00,FRM_000,Person detected,2 persons,0.84
+OneStopEnter2cor,00:00:01,FRM_001,Person detected,1 person,0.7
+OneStopEnter2cor,00:00:02,FRM_002,Person detected,1 person,0.26
+OneStopEnter2cor,00:00:03,FRM_003,No significant event,0 persons,0.0
+OneStopEnter2cor,00:00:04,FRM_004,No significant event,0 persons,0.0
+OneStopEnter2cor,00:00:06,FRM_005,No significant event,0 persons,0.0
+OneStopEnter2cor,00:00:07,FRM_006,Person detected,1 person,0.44
+OneStopEnter2cor,00:00:08,FRM_007,Person detected,1 person,0.32
+OneStopEnter2cor,00:00:09,FRM_008,Person detected,1 person,0.59
+OneStopEnter2cor,00:00:10,FRM_009,Person detected,1 person,0.61
+OneStopEnter2cor,00:00:12,FRM_010,Person detected,1 person,0.72
+OneStopEnter2cor,00:00:13,FRM_011,Person detected,1 person,0.62
+OneStopEnter2cor,00:00:14,FRM_012,Person detected,1 person,0.64
+OneStopEnter2cor,00:00:15,FRM_013,Person detected,1 person,0.69
+OneStopEnter2cor,00:00:16,FRM_014,Person detected,1 person,0.72
+OneStopEnter2cor,00:00:18,FRM_015,Person detected,2 persons,0.78
+OneStopEnter2cor,00:00:19,FRM_016,Person detected,2 persons,0.84
+OneStopEnter2cor,00:00:20,FRM_017,Person detected,2 persons,0.85
+OneStopEnter2cor,00:00:21,FRM_018,Person detected,2 persons,0.81
+OneStopEnter2cor,00:00:22,FRM_019,Person detected,2 persons,0.85
+OneStopEnter2cor,00:00:24,FRM_020,Person detected,2 persons,0.84
+OneStopEnter2cor,00:00:25,FRM_021,Person detected,2 persons,0.9
+OneStopEnter2cor,00:00:26,FRM_022,Person detected,2 persons,0.89
+OneStopEnter2cor,00:00:27,FRM_023,Person detected,2 persons,0.88
+OneStopEnter2cor,00:00:28,FRM_024,Person detected,2 persons,0.89
+OneStopEnter2cor,00:00:30,FRM_025,Person detected,2 persons,0.9
+OneStopEnter2cor,00:00:31,FRM_026,Person detected,2 persons,0.9
+OneStopEnter2cor,00:00:32,FRM_027,Person detected,2 persons,0.89
+OneStopEnter2cor,00:00:33,FRM_028,Person detected,2 persons,0.87
+OneStopEnter2cor,00:00:34,FRM_029,Person detected,2 persons,0.86
+OneStopEnter2cor,00:00:36,FRM_030,Person detected,2 persons,0.87
+OneStopEnter2cor,00:00:37,FRM_031,Person detected,1 person,0.83
+OneStopEnter2cor,00:00:38,FRM_032,Person detected,1 person,0.82
+OneStopEnter2cor,00:00:39,FRM_033,Person detected,1 person,0.87
+OneStopEnter2cor,00:00:40,FRM_034,Person detected,1 person,0.88
+OneStopEnter2cor,00:00:42,FRM_035,Person detected,1 person,0.87
+OneStopEnter2cor,00:00:43,FRM_036,Person detected,1 person,0.89
+OneStopEnter2cor,00:00:44,FRM_037,Person detected,1 person,0.87
+OneStopEnter2cor,00:00:45,FRM_038,Person detected,1 person,0.89
+OneStopEnter2cor,00:00:46,FRM_039,Person detected,1 person,0.87
+OneStopEnter2cor,00:00:48,FRM_040,Person detected,1 person,0.77
+OneStopEnter2cor,00:00:49,FRM_041,Person detected,1 person,0.81
+OneStopEnter2cor,00:00:50,FRM_042,Person detected,1 person,0.87
+OneStopEnter2cor,00:00:51,FRM_043,Person detected,1 person,0.87
+OneStopEnter2cor,00:00:52,FRM_044,Person detected,1 person,0.89
+OneStopEnter2cor,00:00:54,FRM_045,No significant event,0 persons,0.0
+OneStopEnter2cor,00:00:55,FRM_046,No significant event,0 persons,0.0
+OneStopEnter2cor,00:00:56,FRM_047,No significant event,0 persons,0.0
+OneStopEnter2cor,00:00:57,FRM_048,No significant event,0 persons,0.0
+OneStopEnter2cor,00:00:58,FRM_049,No significant event,0 persons,0.0
+OneStopEnter2cor,00:01:00,FRM_050,No significant event,0 persons,0.0
+OneStopEnter2cor,00:01:01,FRM_051,Person detected,1 person,0.3
+OneStopEnter2cor,00:01:02,FRM_052,Person detected,1 person,0.28
+OneStopEnter2cor,00:01:03,FRM_053,Person detected,1 person,0.3
+OneStopEnter2cor,00:01:04,FRM_054,Person detected,1 person,0.34
+OneStopEnter2cor,00:01:06,FRM_055,No significant event,0 persons,0.0
+OneStopEnter2cor,00:01:07,FRM_056,Person detected,1 person,0.41
+OneStopEnter2cor,00:01:08,FRM_057,Person detected,1 person,0.48
+OneStopEnter2cor,00:01:09,FRM_058,Person detected,1 person,0.37
+OneStopEnter2cor,00:01:10,FRM_059,Person detected,1 person,0.6
+OneStopEnter2cor,00:01:12,FRM_060,Person detected,1 person,0.38
+OneStopEnter2cor,00:01:13,FRM_061,Person detected,1 person,0.4
+OneStopEnter2cor,00:01:14,FRM_062,Person detected,1 person,0.59
+OneStopEnter2cor,00:01:15,FRM_063,Person detected,1 person,0.67
+OneStopEnter2cor,00:01:16,FRM_064,Person detected,2 persons,0.69
+OneStopEnter2cor,00:01:18,FRM_065,Person detected,1 person,0.59
+OneStopEnter2cor,00:01:19,FRM_066,Person detected,1 person,0.63
+OneStopEnter2cor,00:01:20,FRM_067,Person detected,1 person,0.6
+OneStopEnter2cor,00:01:21,FRM_068,Person detected,1 person,0.49
+OneStopEnter2cor,00:01:22,FRM_069,Person detected,1 person,0.44
+OneStopEnter2cor,00:01:24,FRM_070,Person detected,1 person,0.76
+OneStopEnter2cor,00:01:25,FRM_071,Person detected,1 person,0.74
+OneStopEnter2cor,00:01:26,FRM_072,Person detected,1 person,0.76
+OneStopEnter2cor,00:01:27,FRM_073,Person detected,1 person,0.66
+OneStopEnter2cor,00:01:28,FRM_074,No significant event,0 persons,0.0
+OneStopEnter2cor,00:01:30,FRM_075,Person detected,1 person,0.59
+OneStopEnter2cor,00:01:31,FRM_076,Person detected,1 person,0.78
+OneStopEnter2cor,00:01:32,FRM_077,Person detected,2 persons,0.89
+OneStopEnter2cor,00:01:33,FRM_078,Person detected,2 persons,0.81
+OneStopEnter2cor,00:01:34,FRM_079,Person detected,2 persons,0.78
+OneStopEnter2cor,00:01:36,FRM_080,Person detected,3 persons,0.89
+OneStopEnter2cor,00:01:37,FRM_081,Crowd / Suspicious movement,3 persons,0.9
+OneStopEnter2cor,00:01:38,FRM_082,Crowd / Suspicious movement,2 persons,0.86
+OneStopEnter2cor,00:01:39,FRM_083,Crowd / Suspicious movement,3 persons,0.88
+OneStopEnter2cor,00:01:40,FRM_084,Crowd / Suspicious movement,3 persons,0.86
+OneStopEnter2cor,00:01:42,FRM_085,Crowd / Suspicious movement,3 persons,0.89
+OneStopEnter2cor,00:01:43,FRM_086,Person detected,3 persons,0.9
+OneStopEnter2cor,00:01:44,FRM_087,Crowd / Suspicious movement,3 persons,0.89
+OneStopEnter2cor,00:01:45,FRM_088,Crowd / Suspicious movement,3 persons,0.86
+OneStopEnter2cor,00:01:46,FRM_089,Crowd / Suspicious movement,3 persons,0.87
+OneStopEnter2cor,00:01:48,FRM_090,Crowd / Suspicious movement,2 persons,0.87
+OneStopEnter2front,00:00:00,FRM_000,No significant event,0 persons,0.0
+OneStopEnter2front,00:00:01,FRM_001,No significant event,0 persons,0.0
+OneStopEnter2front,00:00:02,FRM_002,No significant event,0 persons,0.0
+OneStopEnter2front,00:00:03,FRM_003,No significant event,0 persons,0.0
+OneStopEnter2front,00:00:04,FRM_004,No significant event,0 persons,0.0
+OneStopEnter2front,00:00:06,FRM_005,No significant event,0 persons,0.0
+OneStopEnter2front,00:00:07,FRM_006,No significant event,0 persons,0.0
+OneStopEnter2front,00:00:08,FRM_007,No significant event,0 persons,0.0
+OneStopEnter2front,00:00:09,FRM_008,No significant event,0 persons,0.0
+OneStopEnter2front,00:00:10,FRM_009,No significant event,0 persons,0.0
+OneStopEnter2front,00:00:12,FRM_010,No significant event,0 persons,0.0
+OneStopEnter2front,00:00:13,FRM_011,No significant event,0 persons,0.0
+OneStopEnter2front,00:00:14,FRM_012,No significant event,0 persons,0.0
+OneStopEnter2front,00:00:15,FRM_013,No significant event,0 persons,0.0
+OneStopEnter2front,00:00:16,FRM_014,No significant event,0 persons,0.0
+OneStopEnter2front,00:00:18,FRM_015,No significant event,0 persons,0.0
+OneStopEnter2front,00:00:19,FRM_016,No significant event,0 persons,0.0
+OneStopEnter2front,00:00:20,FRM_017,No significant event,0 persons,0.0
+OneStopEnter2front,00:00:21,FRM_018,Person detected,1 person,0.26
+OneStopEnter2front,00:00:22,FRM_019,No significant event,0 persons,0.0
+OneStopEnter2front,00:00:24,FRM_020,No significant event,0 persons,0.0
+OneStopEnter2front,00:00:25,FRM_021,No significant event,0 persons,0.0
+OneStopEnter2front,00:00:26,FRM_022,Person detected,1 person,0.26
+OneStopEnter2front,00:00:27,FRM_023,Person detected,1 person,0.53
+OneStopEnter2front,00:00:28,FRM_024,Person detected,1 person,0.8
+OneStopEnter2front,00:00:30,FRM_025,No significant event,0 persons,0.0
+OneStopEnter2front,00:00:31,FRM_026,Person detected,1 person,0.79
+OneStopEnter2front,00:00:32,FRM_027,Person detected,1 person,0.65
+OneStopEnter2front,00:00:33,FRM_028,No significant event,0 persons,0.0
+OneStopEnter2front,00:00:34,FRM_029,No significant event,0 persons,0.0
+OneStopEnter2front,00:00:36,FRM_030,No significant event,0 persons,0.0
+OneStopEnter2front,00:00:37,FRM_031,No significant event,0 persons,0.0
+OneStopEnter2front,00:00:38,FRM_032,No significant event,0 persons,0.0
+OneStopEnter2front,00:00:39,FRM_033,No significant event,0 persons,0.0
+OneStopEnter2front,00:00:40,FRM_034,Person detected,1 person,0.29
+OneStopEnter2front,00:00:42,FRM_035,No significant event,0 persons,0.0
+OneStopEnter2front,00:00:43,FRM_036,No significant event,0 persons,0.0
+OneStopEnter2front,00:00:44,FRM_037,Person detected,1 person,0.75
+OneStopEnter2front,00:00:45,FRM_038,Person detected,2 persons,0.28
+OneStopEnter2front,00:00:46,FRM_039,Person detected,1 person,0.33
+OneStopEnter2front,00:00:48,FRM_040,Person detected,1 person,0.58
+OneStopEnter2front,00:00:49,FRM_041,Person detected,1 person,0.52
+OneStopEnter2front,00:00:50,FRM_042,Person detected,1 person,0.75
+OneStopEnter2front,00:00:51,FRM_043,Person detected,1 person,0.69
+OneStopEnter2front,00:00:52,FRM_044,Person detected,2 persons,0.69
+OneStopEnter2front,00:00:54,FRM_045,Person detected,1 person,0.67
+OneStopEnter2front,00:00:55,FRM_046,Person detected,1 person,0.69
+OneStopEnter2front,00:00:56,FRM_047,Person detected,1 person,0.39
+OneStopEnter2front,00:00:57,FRM_048,Person detected,1 person,0.62
+OneStopEnter2front,00:00:58,FRM_049,Person detected,2 persons,0.75
+OneStopEnter2front,00:01:00,FRM_050,Person detected,1 person,0.48
+OneStopEnter2front,00:01:01,FRM_051,No significant event,0 persons,0.0
+OneStopEnter2front,00:01:02,FRM_052,No significant event,0 persons,0.0
+OneStopEnter2front,00:01:03,FRM_053,No significant event,0 persons,0.0
+OneStopEnter2front,00:01:04,FRM_054,No significant event,0 persons,0.0
+OneStopEnter2front,00:01:06,FRM_055,Person detected,1 person,0.25
+OneStopEnter2front,00:01:07,FRM_056,Person detected,1 person,0.28
+OneStopEnter2front,00:01:08,FRM_057,No significant event,0 persons,0.0
+OneStopEnter2front,00:01:09,FRM_058,Person detected,1 person,0.34
+OneStopEnter2front,00:01:10,FRM_059,No significant event,0 persons,0.0
+OneStopEnter2front,00:01:12,FRM_060,No significant event,0 persons,0.0
+OneStopEnter2front,00:01:13,FRM_061,No significant event,0 persons,0.0
+OneStopEnter2front,00:01:14,FRM_062,No significant event,0 persons,0.0
+OneStopEnter2front,00:01:15,FRM_063,No significant event,0 persons,0.0
+OneStopEnter2front,00:01:16,FRM_064,No significant event,0 persons,0.0
+OneStopEnter2front,00:01:18,FRM_065,No significant event,0 persons,0.0
+OneStopEnter2front,00:01:19,FRM_066,No significant event,0 persons,0.0
+OneStopEnter2front,00:01:20,FRM_067,No significant event,0 persons,0.0
+OneStopEnter2front,00:01:21,FRM_068,No significant event,0 persons,0.0
+OneStopEnter2front,00:01:22,FRM_069,No significant event,0 persons,0.0
+OneStopEnter2front,00:01:24,FRM_070,No significant event,0 persons,0.0
+OneStopEnter2front,00:01:25,FRM_071,No significant event,0 persons,0.0
+OneStopEnter2front,00:01:26,FRM_072,No significant event,0 persons,0.0
+OneStopEnter2front,00:01:27,FRM_073,No significant event,0 persons,0.0
+OneStopEnter2front,00:01:28,FRM_074,No significant event,0 persons,0.0
+OneStopEnter2front,00:01:30,FRM_075,No significant event,0 persons,0.0
+OneStopEnter2front,00:01:31,FRM_076,No significant event,0 persons,0.0
+OneStopEnter2front,00:01:32,FRM_077,No significant event,0 persons,0.0
+OneStopEnter2front,00:01:33,FRM_078,No significant event,0 persons,0.0
+OneStopEnter2front,00:01:34,FRM_079,No significant event,0 persons,0.0
+OneStopEnter2front,00:01:36,FRM_080,Person detected,2 persons,0.66
+OneStopEnter2front,00:01:37,FRM_081,Person detected,2 persons,0.72
+OneStopEnter2front,00:01:38,FRM_082,Person detected,1 person,0.69
+OneStopEnter2front,00:01:39,FRM_083,No significant event,0 persons,0.0
+OneStopEnter2front,00:01:40,FRM_084,Person detected,1 person,0.56
+OneStopEnter2front,00:01:42,FRM_085,Person detected,1 person,0.76
+OneStopEnter2front,00:01:43,FRM_086,Person detected,1 person,0.3
+OneStopEnter2front,00:01:44,FRM_087,Person detected,1 person,0.64
+OneStopEnter2front,00:01:45,FRM_088,Person detected,2 persons,0.53
+OneStopEnter2front,00:01:46,FRM_089,No significant event,0 persons,0.0
+OneStopEnter2front,00:01:48,FRM_090,No significant event,0 persons,0.0
+Rest_FallOnFloor,00:00:00,FRM_000,No significant event,0 persons,0.0
+Rest_FallOnFloor,00:00:01,FRM_001,No significant event,0 persons,0.0
+Rest_FallOnFloor,00:00:02,FRM_002,No significant event,0 persons,0.0
+Rest_FallOnFloor,00:00:03,FRM_003,Person detected,2 persons,0.7
+Rest_FallOnFloor,00:00:04,FRM_004,No significant event,0 persons,0.0
+Rest_FallOnFloor,00:00:06,FRM_005,No significant event,0 persons,0.0
+Rest_FallOnFloor,00:00:07,FRM_006,No significant event,0 persons,0.0
+Rest_FallOnFloor,00:00:08,FRM_007,Person detected,1 person,0.68
+Rest_FallOnFloor,00:00:09,FRM_008,No significant event,0 persons,0.0
+Rest_FallOnFloor,00:00:10,FRM_009,Person detected,1 person,0.26
+Rest_FallOnFloor,00:00:12,FRM_010,No significant event,0 persons,0.0
+Rest_FallOnFloor,00:00:13,FRM_011,No significant event,0 persons,0.0
+Rest_FallOnFloor,00:00:14,FRM_012,No significant event,0 persons,0.0
+Rest_FallOnFloor,00:00:15,FRM_013,No significant event,0 persons,0.0
+Rest_FallOnFloor,00:00:16,FRM_014,No significant event,0 persons,0.0
+Rest_FallOnFloor,00:00:18,FRM_015,No significant event,0 persons,0.0
+Rest_FallOnFloor,00:00:19,FRM_016,No significant event,0 persons,0.0
+Rest_FallOnFloor,00:00:20,FRM_017,No significant event,0 persons,0.0
+Rest_FallOnFloor,00:00:21,FRM_018,No significant event,0 persons,0.0
+Rest_FallOnFloor,00:00:22,FRM_019,No significant event,0 persons,0.0
+Rest_FallOnFloor,00:00:24,FRM_020,No significant event,0 persons,0.0
+Rest_FallOnFloor,00:00:25,FRM_021,No significant event,0 persons,0.0
+Rest_FallOnFloor,00:00:26,FRM_022,Person detected,1 person,0.64
+Rest_FallOnFloor,00:00:27,FRM_023,Person detected,1 person,0.74
+Rest_FallOnFloor,00:00:28,FRM_024,Person detected,1 person,0.77
+Rest_FallOnFloor,00:00:30,FRM_025,Person detected,1 person,0.5
+Rest_FallOnFloor,00:00:31,FRM_026,Person detected,1 person,0.75
+Rest_FallOnFloor,00:00:32,FRM_027,Person detected,1 person,0.54
+Rest_FallOnFloor,00:00:33,FRM_028,Person detected,1 person,0.69
+Rest_FallOnFloor,00:00:34,FRM_029,Person detected,1 person,0.67
+Rest_FallOnFloor,00:00:36,FRM_030,Person detected,1 person,0.52
+Rest_FallOnFloor,00:00:37,FRM_031,Person detected,1 person,0.33
+Rest_FallOnFloor,00:00:38,FRM_032,Person detected,2 persons,0.65
+Rest_FallOnFloor,00:00:39,FRM_033,No significant event,0 persons,0.0
+Rest_InChair,00:00:00,FRM_000,No significant event,0 persons,0.0
+Rest_InChair,00:00:01,FRM_001,No significant event,0 persons,0.0
+Rest_InChair,00:00:02,FRM_002,No significant event,0 persons,0.0
+Rest_InChair,00:00:03,FRM_003,No significant event,0 persons,0.0
+Rest_InChair,00:00:04,FRM_004,No significant event,0 persons,0.0
+Rest_InChair,00:00:06,FRM_005,Person detected,1 person,0.53
+Rest_InChair,00:00:07,FRM_006,Person detected,1 person,0.33
+Rest_InChair,00:00:08,FRM_007,No significant event,0 persons,0.0
+Rest_InChair,00:00:09,FRM_008,No significant event,0 persons,0.0
+Rest_InChair,00:00:10,FRM_009,No significant event,0 persons,0.0
+Rest_InChair,00:00:12,FRM_010,No significant event,0 persons,0.0
+Rest_InChair,00:00:13,FRM_011,No significant event,0 persons,0.0
+Rest_InChair,00:00:14,FRM_012,No significant event,0 persons,0.0
+Rest_InChair,00:00:15,FRM_013,Person detected,1 person,0.27
+Rest_InChair,00:00:16,FRM_014,Person detected,1 person,0.42
+Rest_InChair,00:00:18,FRM_015,No significant event,0 persons,0.0
+Rest_InChair,00:00:19,FRM_016,No significant event,0 persons,0.0
+Rest_InChair,00:00:20,FRM_017,No significant event,0 persons,0.0
+Rest_InChair,00:00:21,FRM_018,No significant event,0 persons,0.0
+Rest_InChair,00:00:22,FRM_019,No significant event,0 persons,0.0
+Rest_InChair,00:00:24,FRM_020,No significant event,0 persons,0.0
+Rest_InChair,00:00:25,FRM_021,No significant event,0 persons,0.0
+Rest_InChair,00:00:26,FRM_022,No significant event,0 persons,0.0
+Rest_InChair,00:00:27,FRM_023,Person detected,1 person,0.33
+Rest_InChair,00:00:28,FRM_024,No significant event,0 persons,0.0
+Rest_InChair,00:00:30,FRM_025,No significant event,0 persons,0.0
+Rest_InChair,00:00:31,FRM_026,No significant event,0 persons,0.0
+Rest_InChair,00:00:32,FRM_027,No significant event,0 persons,0.0
+Rest_InChair,00:00:33,FRM_028,No significant event,0 persons,0.0
+Rest_InChair,00:00:34,FRM_029,No significant event,0 persons,0.0
+Rest_InChair,00:00:36,FRM_030,No significant event,0 persons,0.0
+Rest_InChair,00:00:37,FRM_031,No significant event,0 persons,0.0
+Rest_InChair,00:00:38,FRM_032,No significant event,0 persons,0.0
+Rest_InChair,00:00:39,FRM_033,Person detected,1 person,0.28
+Rest_SlumpOnFloor,00:00:00,FRM_000,No significant event,0 persons,0.0
+Rest_SlumpOnFloor,00:00:01,FRM_001,Person detected,1 person,0.32
+Rest_SlumpOnFloor,00:00:02,FRM_002,No significant event,0 persons,0.0
+Rest_SlumpOnFloor,00:00:03,FRM_003,Person detected,1 person,0.53
+Rest_SlumpOnFloor,00:00:04,FRM_004,No significant event,0 persons,0.0
+Rest_SlumpOnFloor,00:00:06,FRM_005,Person detected,1 person,0.78
+Rest_SlumpOnFloor,00:00:07,FRM_006,Person detected,1 person,0.58
+Rest_SlumpOnFloor,00:00:08,FRM_007,No significant event,0 persons,0.0
+Rest_SlumpOnFloor,00:00:09,FRM_008,No significant event,0 persons,0.0
+Rest_SlumpOnFloor,00:00:10,FRM_009,No significant event,0 persons,0.0
+Rest_SlumpOnFloor,00:00:12,FRM_010,No significant event,0 persons,0.0
+Rest_SlumpOnFloor,00:00:13,FRM_011,No significant event,0 persons,0.0
+Rest_SlumpOnFloor,00:00:14,FRM_012,No significant event,0 persons,0.0
+Rest_SlumpOnFloor,00:00:15,FRM_013,No significant event,0 persons,0.0
+Rest_SlumpOnFloor,00:00:16,FRM_014,No significant event,0 persons,0.0
+Rest_SlumpOnFloor,00:00:18,FRM_015,No significant event,0 persons,0.0
+Rest_SlumpOnFloor,00:00:19,FRM_016,No significant event,0 persons,0.0
+Rest_SlumpOnFloor,00:00:20,FRM_017,No significant event,0 persons,0.0
+Rest_SlumpOnFloor,00:00:21,FRM_018,Person detected,1 person,0.66
+Rest_SlumpOnFloor,00:00:22,FRM_019,Person detected,1 person,0.31
+Rest_SlumpOnFloor,00:00:24,FRM_020,No significant event,0 persons,0.0
+Rest_SlumpOnFloor,00:00:25,FRM_021,No significant event,0 persons,0.0
+Rest_SlumpOnFloor,00:00:26,FRM_022,No significant event,0 persons,0.0
+Rest_SlumpOnFloor,00:00:27,FRM_023,Person detected,1 person,0.26
+Rest_SlumpOnFloor,00:00:28,FRM_024,Person detected,1 person,0.43
+Rest_SlumpOnFloor,00:00:30,FRM_025,Person detected,1 person,0.53
+Rest_SlumpOnFloor,00:00:31,FRM_026,No significant event,0 persons,0.0
+Rest_SlumpOnFloor,00:00:32,FRM_027,Person detected,1 person,0.67
+Rest_SlumpOnFloor,00:00:33,FRM_028,No significant event,0 persons,0.0
+Rest_SlumpOnFloor,00:00:34,FRM_029,No significant event,0 persons,0.0
+Rest_SlumpOnFloor,00:00:36,FRM_030,No significant event,0 persons,0.0
+Rest_WiggleOnFloor,00:00:00,FRM_000,No significant event,0 persons,0.0
+Rest_WiggleOnFloor,00:00:01,FRM_001,No significant event,0 persons,0.0
+Rest_WiggleOnFloor,00:00:02,FRM_002,No significant event,0 persons,0.0
+Rest_WiggleOnFloor,00:00:03,FRM_003,No significant event,0 persons,0.0
+Rest_WiggleOnFloor,00:00:04,FRM_004,Person detected,2 persons,0.31
+Rest_WiggleOnFloor,00:00:06,FRM_005,No significant event,0 persons,0.0
+Rest_WiggleOnFloor,00:00:07,FRM_006,Person detected,1 person,0.31
+Rest_WiggleOnFloor,00:00:08,FRM_007,No significant event,0 persons,0.0
+Rest_WiggleOnFloor,00:00:09,FRM_008,Person detected,1 person,0.28
+Rest_WiggleOnFloor,00:00:10,FRM_009,No significant event,0 persons,0.0
+Rest_WiggleOnFloor,00:00:12,FRM_010,No significant event,0 persons,0.0
+Rest_WiggleOnFloor,00:00:13,FRM_011,No significant event,0 persons,0.0
+Rest_WiggleOnFloor,00:00:14,FRM_012,No significant event,0 persons,0.0
+Rest_WiggleOnFloor,00:00:15,FRM_013,No significant event,0 persons,0.0
+Rest_WiggleOnFloor,00:00:16,FRM_014,No significant event,0 persons,0.0
+Rest_WiggleOnFloor,00:00:18,FRM_015,No significant event,0 persons,0.0
+Rest_WiggleOnFloor,00:00:19,FRM_016,No significant event,0 persons,0.0
+Rest_WiggleOnFloor,00:00:20,FRM_017,No significant event,0 persons,0.0
+Rest_WiggleOnFloor,00:00:21,FRM_018,No significant event,0 persons,0.0
+Rest_WiggleOnFloor,00:00:22,FRM_019,No significant event,0 persons,0.0
+Rest_WiggleOnFloor,00:00:24,FRM_020,No significant event,0 persons,0.0
+Rest_WiggleOnFloor,00:00:25,FRM_021,Person detected,1 person,0.3
+Rest_WiggleOnFloor,00:00:26,FRM_022,No significant event,0 persons,0.0
+Rest_WiggleOnFloor,00:00:27,FRM_023,No significant event,0 persons,0.0
+Rest_WiggleOnFloor,00:00:28,FRM_024,No significant event,0 persons,0.0
+Rest_WiggleOnFloor,00:00:30,FRM_025,Person detected,1 person,0.42
+Rest_WiggleOnFloor,00:00:31,FRM_026,Person detected,1 person,0.64
+Rest_WiggleOnFloor,00:00:32,FRM_027,No significant event,0 persons,0.0
+Rest_WiggleOnFloor,00:00:33,FRM_028,Person detected,1 person,0.3
+Rest_WiggleOnFloor,00:00:34,FRM_029,Person detected,1 person,0.48
+Rest_WiggleOnFloor,00:00:36,FRM_030,Person detected,1 person,0.33
+Rest_WiggleOnFloor,00:00:37,FRM_031,No significant event,0 persons,0.0
+Rest_WiggleOnFloor,00:00:38,FRM_032,No significant event,0 persons,0.0
+Rest_WiggleOnFloor,00:00:39,FRM_033,Person detected,2 persons,0.46
+Rest_WiggleOnFloor,00:00:40,FRM_034,Person detected,2 persons,0.38
+Rest_WiggleOnFloor,00:00:42,FRM_035,No significant event,0 persons,0.0
+Rest_WiggleOnFloor,00:00:43,FRM_036,No significant event,0 persons,0.0
+Rest_WiggleOnFloor,00:00:44,FRM_037,No significant event,0 persons,0.0
+Rest_WiggleOnFloor,00:00:45,FRM_038,No significant event,0 persons,0.0
+Rest_WiggleOnFloor,00:00:46,FRM_039,No significant event,0 persons,0.0
+Rest_WiggleOnFloor,00:00:48,FRM_040,No significant event,0 persons,0.0
+Rest_WiggleOnFloor,00:00:49,FRM_041,Person detected,1 person,0.5
+Rest_WiggleOnFloor,00:00:50,FRM_042,No significant event,0 persons,0.0
+Rest_WiggleOnFloor,00:00:51,FRM_043,Person detected,1 person,0.48
+ShopAssistant2cor,00:00:00,FRM_000,Person detected,3 persons,0.82
+ShopAssistant2cor,00:00:01,FRM_001,Person detected,3 persons,0.84
+ShopAssistant2cor,00:00:02,FRM_002,Person detected,3 persons,0.87
+ShopAssistant2cor,00:00:03,FRM_003,Person detected,3 persons,0.84
+ShopAssistant2cor,00:00:04,FRM_004,Person detected,5 persons,0.83
+ShopAssistant2cor,00:00:06,FRM_005,Person detected,6 persons,0.88
+ShopAssistant2cor,00:00:07,FRM_006,Person detected,5 persons,0.82
+ShopAssistant2cor,00:00:08,FRM_007,Person detected,5 persons,0.83
+ShopAssistant2cor,00:00:09,FRM_008,Crowd / Suspicious movement,4 persons,0.88
+ShopAssistant2cor,00:00:10,FRM_009,Crowd / Suspicious movement,4 persons,0.87
+ShopAssistant2cor,00:00:12,FRM_010,Person detected,4 persons,0.88
+ShopAssistant2cor,00:00:13,FRM_011,Person detected,4 persons,0.86
+ShopAssistant2cor,00:00:14,FRM_012,Crowd / Suspicious movement,5 persons,0.88
+ShopAssistant2cor,00:00:15,FRM_013,Crowd / Suspicious movement,5 persons,0.89
+ShopAssistant2cor,00:00:16,FRM_014,Crowd / Suspicious movement,6 persons,0.9
+ShopAssistant2cor,00:00:18,FRM_015,Crowd / Suspicious movement,5 persons,0.9
+ShopAssistant2cor,00:00:19,FRM_016,Rapid movement detected,6 persons,0.9
+ShopAssistant2cor,00:00:20,FRM_017,Rapid movement detected,5 persons,0.9
+ShopAssistant2cor,00:00:21,FRM_018,Rapid movement detected,4 persons,0.9
+ShopAssistant2cor,00:00:22,FRM_019,Rapid movement detected,4 persons,0.89
+ShopAssistant2cor,00:00:24,FRM_020,Rapid movement detected,4 persons,0.91
+ShopAssistant2cor,00:00:25,FRM_021,Rapid movement detected,4 persons,0.91
+ShopAssistant2cor,00:00:26,FRM_022,Rapid movement detected,4 persons,0.89
+ShopAssistant2cor,00:00:27,FRM_023,Rapid movement detected,6 persons,0.9
+ShopAssistant2cor,00:00:28,FRM_024,Crowd / Suspicious movement,5 persons,0.88
+ShopAssistant2cor,00:00:30,FRM_025,Crowd / Suspicious movement,4 persons,0.87
+ShopAssistant2cor,00:00:31,FRM_026,Crowd / Suspicious movement,4 persons,0.84
+ShopAssistant2cor,00:00:32,FRM_027,Person detected,1 person,0.29
+ShopAssistant2cor,00:00:33,FRM_028,No significant event,0 persons,0.0
+ShopAssistant2cor,00:00:34,FRM_029,No significant event,0 persons,0.0
+ShopAssistant2cor,00:00:36,FRM_030,No significant event,0 persons,0.0
+ShopAssistant2cor,00:00:37,FRM_031,Person detected,1 person,0.75
+ShopAssistant2cor,00:00:38,FRM_032,Person detected,2 persons,0.82
+ShopAssistant2cor,00:00:39,FRM_033,No significant event,0 persons,0.0
+ShopAssistant2cor,00:00:40,FRM_034,No significant event,0 persons,0.0
+ShopAssistant2cor,00:00:42,FRM_035,No significant event,0 persons,0.0
+ShopAssistant2cor,00:00:43,FRM_036,Person detected,1 person,0.25
+ShopAssistant2cor,00:00:44,FRM_037,No significant event,0 persons,0.0
+ShopAssistant2cor,00:00:45,FRM_038,No significant event,0 persons,0.0
+ShopAssistant2cor,00:00:46,FRM_039,No significant event,0 persons,0.0
+ShopAssistant2cor,00:00:48,FRM_040,Person detected,1 person,0.56
+ShopAssistant2cor,00:00:49,FRM_041,Person detected,1 person,0.86
+ShopAssistant2cor,00:00:50,FRM_042,Person detected,3 persons,0.89
+ShopAssistant2cor,00:00:51,FRM_043,Person detected,4 persons,0.87
+ShopAssistant2cor,00:00:52,FRM_044,Person detected,2 persons,0.74
+ShopAssistant2cor,00:00:54,FRM_045,Person detected,2 persons,0.85
+ShopAssistant2cor,00:00:55,FRM_046,Person detected,1 person,0.86
+ShopAssistant2cor,00:00:56,FRM_047,Person detected,2 persons,0.75
+ShopAssistant2cor,00:00:57,FRM_048,Person detected,2 persons,0.68
+ShopAssistant2cor,00:00:58,FRM_049,Person detected,2 persons,0.67
+ShopAssistant2cor,00:01:00,FRM_050,Person detected,2 persons,0.83
+ShopAssistant2cor,00:01:01,FRM_051,Person detected,1 person,0.76
+ShopAssistant2cor,00:01:02,FRM_052,Person detected,4 persons,0.71
+ShopAssistant2cor,00:01:03,FRM_053,Person detected,4 persons,0.77
+ShopAssistant2cor,00:01:04,FRM_054,Person detected,3 persons,0.9
+ShopAssistant2cor,00:01:06,FRM_055,Person detected,3 persons,0.9
+ShopAssistant2cor,00:01:07,FRM_056,Crowd / Suspicious movement,3 persons,0.73
+ShopAssistant2cor,00:01:08,FRM_057,Person detected,2 persons,0.79
+ShopAssistant2cor,00:01:09,FRM_058,Person detected,3 persons,0.68
+ShopAssistant2cor,00:01:10,FRM_059,Person detected,1 person,0.66
+ShopAssistant2cor,00:01:12,FRM_060,Person detected,5 persons,0.71
+ShopAssistant2cor,00:01:13,FRM_061,Person detected,2 persons,0.57
+ShopAssistant2cor,00:01:14,FRM_062,Person detected,3 persons,0.67
+ShopAssistant2cor,00:01:15,FRM_063,Person detected,4 persons,0.51
+ShopAssistant2cor,00:01:16,FRM_064,Person detected,3 persons,0.58
+ShopAssistant2cor,00:01:18,FRM_065,Person detected,3 persons,0.64
+ShopAssistant2cor,00:01:19,FRM_066,Person detected,4 persons,0.43
+ShopAssistant2cor,00:01:20,FRM_067,Person detected,3 persons,0.67
+ShopAssistant2cor,00:01:21,FRM_068,Person detected,3 persons,0.63
+ShopAssistant2cor,00:01:22,FRM_069,Person detected,3 persons,0.7
+ShopAssistant2cor,00:01:24,FRM_070,Person detected,4 persons,0.71
+ShopAssistant2cor,00:01:25,FRM_071,Person detected,3 persons,0.61
+ShopAssistant2cor,00:01:26,FRM_072,Person detected,2 persons,0.46
+ShopAssistant2cor,00:01:27,FRM_073,Person detected,2 persons,0.51
+ShopAssistant2cor,00:01:28,FRM_074,Person detected,3 persons,0.57
+ShopAssistant2cor,00:01:30,FRM_075,Person detected,3 persons,0.85
+ShopAssistant2cor,00:01:31,FRM_076,Person detected,4 persons,0.91
+ShopAssistant2cor,00:01:32,FRM_077,Person detected,3 persons,0.9
+ShopAssistant2cor,00:01:33,FRM_078,Person detected,5 persons,0.89
+ShopAssistant2cor,00:01:34,FRM_079,Crowd / Suspicious movement,3 persons,0.86
+ShopAssistant2cor,00:01:36,FRM_080,Crowd / Suspicious movement,3 persons,0.92
+ShopAssistant2cor,00:01:37,FRM_081,Crowd / Suspicious movement,3 persons,0.91
+ShopAssistant2cor,00:01:38,FRM_082,Crowd / Suspicious movement,3 persons,0.84
+ShopAssistant2cor,00:01:39,FRM_083,Person detected,3 persons,0.81
+ShopAssistant2cor,00:01:40,FRM_084,Person detected,3 persons,0.78
+ShopAssistant2cor,00:01:42,FRM_085,Person detected,3 persons,0.86
+ShopAssistant2cor,00:01:43,FRM_086,Crowd / Suspicious movement,3 persons,0.9
+ShopAssistant2cor,00:01:44,FRM_087,Person detected,2 persons,0.8
+ShopAssistant2cor,00:01:45,FRM_088,Person detected,2 persons,0.83
+ShopAssistant2cor,00:01:46,FRM_089,Person detected,3 persons,0.85
+ShopAssistant2cor,00:01:48,FRM_090,Person detected,4 persons,0.87
+ShopAssistant2cor,00:01:49,FRM_091,Person detected,2 persons,0.86
+ShopAssistant2cor,00:01:50,FRM_092,Person detected,2 persons,0.85
+ShopAssistant2cor,00:01:51,FRM_093,Person detected,2 persons,0.85
+ShopAssistant2cor,00:01:52,FRM_094,Person detected,2 persons,0.84
+ShopAssistant2cor,00:01:54,FRM_095,Person detected,2 persons,0.86
+ShopAssistant2cor,00:01:55,FRM_096,Person detected,2 persons,0.85
+ShopAssistant2cor,00:01:56,FRM_097,Person detected,2 persons,0.87
+ShopAssistant2cor,00:01:57,FRM_098,Person detected,2 persons,0.9
+ShopAssistant2cor,00:01:58,FRM_099,Person detected,3 persons,0.89
+ShopAssistant2cor,00:02:00,FRM_100,Person detected,2 persons,0.91
+ShopAssistant2cor,00:02:01,FRM_101,Person detected,2 persons,0.88
+ShopAssistant2cor,00:02:02,FRM_102,Person detected,2 persons,0.88
+ShopAssistant2cor,00:02:03,FRM_103,Crowd / Suspicious movement,3 persons,0.89
+ShopAssistant2cor,00:02:04,FRM_104,Crowd / Suspicious movement,2 persons,0.83
+ShopAssistant2cor,00:02:06,FRM_105,Person detected,4 persons,0.8
+ShopAssistant2cor,00:02:07,FRM_106,Person detected,3 persons,0.76
+ShopAssistant2cor,00:02:08,FRM_107,Person detected,5 persons,0.81
+ShopAssistant2cor,00:02:09,FRM_108,Crowd / Suspicious movement,4 persons,0.89
+ShopAssistant2cor,00:02:10,FRM_109,Rapid movement detected,3 persons,0.89
+ShopAssistant2cor,00:02:12,FRM_110,Rapid movement detected,3 persons,0.91
+ShopAssistant2cor,00:02:13,FRM_111,Crowd / Suspicious movement,4 persons,0.88
+ShopAssistant2cor,00:02:14,FRM_112,Rapid movement detected,6 persons,0.91
+ShopAssistant2cor,00:02:15,FRM_113,Rapid movement detected,7 persons,0.92
+ShopAssistant2cor,00:02:16,FRM_114,Rapid movement detected,9 persons,0.89
+ShopAssistant2cor,00:02:18,FRM_115,Rapid movement detected,8 persons,0.92
+ShopAssistant2cor,00:02:19,FRM_116,Rapid movement detected,8 persons,0.9
+ShopAssistant2cor,00:02:20,FRM_117,Rapid movement detected,6 persons,0.89
+ShopAssistant2cor,00:02:21,FRM_118,Rapid movement detected,6 persons,0.9
+ShopAssistant2cor,00:02:22,FRM_119,Rapid movement detected,6 persons,0.9
+ShopAssistant2cor,00:02:24,FRM_120,Rapid movement detected,5 persons,0.87
+ShopAssistant2cor,00:02:25,FRM_121,Crowd / Suspicious movement,4 persons,0.9
+ShopAssistant2cor,00:02:26,FRM_122,Rapid movement detected,3 persons,0.9
+ShopAssistant2cor,00:02:27,FRM_123,Crowd / Suspicious movement,3 persons,0.89
+Walk1,00:00:00,FRM_000,No significant event,0 persons,0.0
+Walk1,00:00:01,FRM_001,No significant event,0 persons,0.0
+Walk1,00:00:02,FRM_002,No significant event,0 persons,0.0
+Walk1,00:00:03,FRM_003,Person detected,1 person,0.72
+Walk1,00:00:04,FRM_004,Person detected,1 person,0.71
+Walk1,00:00:06,FRM_005,No significant event,0 persons,0.0
+Walk1,00:00:07,FRM_006,No significant event,0 persons,0.0
+Walk1,00:00:08,FRM_007,No significant event,0 persons,0.0
+Walk1,00:00:09,FRM_008,No significant event,0 persons,0.0
+Walk1,00:00:10,FRM_009,No significant event,0 persons,0.0
+Walk1,00:00:12,FRM_010,No significant event,0 persons,0.0
+Walk1,00:00:13,FRM_011,Person detected,1 person,0.44
+Walk1,00:00:14,FRM_012,No significant event,0 persons,0.0
+Walk1,00:00:15,FRM_013,No significant event,0 persons,0.0
+Walk1,00:00:16,FRM_014,No significant event,0 persons,0.0
+Walk1,00:00:18,FRM_015,No significant event,0 persons,0.0
+Walk1,00:00:19,FRM_016,No significant event,0 persons,0.0
+Walk1,00:00:20,FRM_017,No significant event,0 persons,0.0
+Walk1,00:00:21,FRM_018,No significant event,0 persons,0.0
+Walk1,00:00:22,FRM_019,No significant event,0 persons,0.0
+Walk1,00:00:24,FRM_020,No significant event,0 persons,0.0
+Walk2,00:00:00,FRM_000,No significant event,0 persons,0.0
+Walk2,00:00:01,FRM_001,No significant event,0 persons,0.0
+Walk2,00:00:02,FRM_002,No significant event,0 persons,0.0
+Walk2,00:00:03,FRM_003,Person detected,1 person,0.57
+Walk2,00:00:04,FRM_004,No significant event,0 persons,0.0
+Walk2,00:00:06,FRM_005,No significant event,0 persons,0.0
+Walk2,00:00:07,FRM_006,No significant event,0 persons,0.0
+Walk2,00:00:08,FRM_007,No significant event,0 persons,0.0
+Walk2,00:00:09,FRM_008,No significant event,0 persons,0.0
+Walk2,00:00:10,FRM_009,No significant event,0 persons,0.0
+Walk2,00:00:12,FRM_010,No significant event,0 persons,0.0
+Walk2,00:00:13,FRM_011,No significant event,0 persons,0.0
+Walk2,00:00:14,FRM_012,Person detected,1 person,0.36
+Walk2,00:00:15,FRM_013,No significant event,0 persons,0.0
+Walk2,00:00:16,FRM_014,No significant event,0 persons,0.0
+Walk2,00:00:18,FRM_015,No significant event,0 persons,0.0
+Walk2,00:00:19,FRM_016,No significant event,0 persons,0.0
+Walk2,00:00:20,FRM_017,No significant event,0 persons,0.0
+Walk2,00:00:21,FRM_018,Person detected,1 person,0.54
+Walk2,00:00:22,FRM_019,No significant event,0 persons,0.0
+Walk2,00:00:24,FRM_020,No significant event,0 persons,0.0
+Walk2,00:00:25,FRM_021,No significant event,0 persons,0.0
+Walk2,00:00:26,FRM_022,No significant event,0 persons,0.0
+Walk2,00:00:27,FRM_023,No significant event,0 persons,0.0
+Walk2,00:00:28,FRM_024,No significant event,0 persons,0.0
+Walk2,00:00:30,FRM_025,No significant event,0 persons,0.0
+Walk2,00:00:31,FRM_026,No significant event,0 persons,0.0
+Walk2,00:00:32,FRM_027,No significant event,0 persons,0.0
+Walk2,00:00:33,FRM_028,No significant event,0 persons,0.0
+Walk2,00:00:34,FRM_029,No significant event,0 persons,0.0
+Walk2,00:00:36,FRM_030,No significant event,0 persons,0.0
+Walk2,00:00:37,FRM_031,No significant event,0 persons,0.0
+Walk2,00:00:38,FRM_032,No significant event,0 persons,0.0
+Walk2,00:00:39,FRM_033,No significant event,0 persons,0.0
+Walk2,00:00:40,FRM_034,No significant event,0 persons,0.0
+Walk2,00:00:42,FRM_035,No significant event,0 persons,0.0
+Walk3,00:00:00,FRM_000,Person detected,1 person,0.46
+Walk3,00:00:01,FRM_001,No significant event,0 persons,0.0
+Walk3,00:00:02,FRM_002,No significant event,0 persons,0.0
+Walk3,00:00:03,FRM_003,Person detected,1 person,0.46
+Walk3,00:00:04,FRM_004,No significant event,0 persons,0.0
+Walk3,00:00:06,FRM_005,No significant event,0 persons,0.0
+Walk3,00:00:07,FRM_006,Person detected,1 person,0.29
+Walk3,00:00:08,FRM_007,No significant event,0 persons,0.0
+Walk3,00:00:09,FRM_008,No significant event,0 persons,0.0
+Walk3,00:00:10,FRM_009,No significant event,0 persons,0.0
+Walk3,00:00:12,FRM_010,Person detected,1 person,0.53
+Walk3,00:00:13,FRM_011,Person detected,1 person,0.8
+Walk3,00:00:14,FRM_012,No significant event,0 persons,0.0
+Walk3,00:00:15,FRM_013,No significant event,0 persons,0.0
+Walk3,00:00:16,FRM_014,Person detected,1 person,0.26
+Walk3,00:00:18,FRM_015,No significant event,0 persons,0.0
+Walk3,00:00:19,FRM_016,No significant event,0 persons,0.0
+Walk3,00:00:20,FRM_017,Person detected,1 person,0.68
+Walk3,00:00:21,FRM_018,No significant event,0 persons,0.0
+Walk3,00:00:22,FRM_019,Person detected,1 person,0.67
+Walk3,00:00:24,FRM_020,No significant event,0 persons,0.0
+Walk3,00:00:25,FRM_021,No significant event,0 persons,0.0
+Walk3,00:00:26,FRM_022,No significant event,0 persons,0.0
+Walk3,00:00:27,FRM_023,No significant event,0 persons,0.0
+Walk3,00:00:28,FRM_024,No significant event,0 persons,0.0
+Walk3,00:00:30,FRM_025,No significant event,0 persons,0.0
+Walk3,00:00:31,FRM_026,No significant event,0 persons,0.0
+Walk3,00:00:32,FRM_027,No significant event,0 persons,0.0
+Walk3,00:00:33,FRM_028,No significant event,0 persons,0.0
+Walk3,00:00:34,FRM_029,No significant event,0 persons,0.0
+Walk3,00:00:36,FRM_030,No significant event,0 persons,0.0
+Walk3,00:00:37,FRM_031,No significant event,0 persons,0.0
+Walk3,00:00:38,FRM_032,No significant event,0 persons,0.0
+Walk3,00:00:39,FRM_033,No significant event,0 persons,0.0
+Walk3,00:00:40,FRM_034,No significant event,0 persons,0.0
+Walk3,00:00:42,FRM_035,No significant event,0 persons,0.0
+Walk3,00:00:43,FRM_036,No significant event,0 persons,0.0
+Walk3,00:00:44,FRM_037,No significant event,0 persons,0.0
+Walk3,00:00:45,FRM_038,No significant event,0 persons,0.0
+Walk3,00:00:46,FRM_039,No significant event,0 persons,0.0
+Walk3,00:00:48,FRM_040,No significant event,0 persons,0.0
+Walk3,00:00:49,FRM_041,No significant event,0 persons,0.0
+Walk3,00:00:50,FRM_042,No significant event,0 persons,0.0
+Walk3,00:00:51,FRM_043,No significant event,0 persons,0.0
+Walk3,00:00:52,FRM_044,No significant event,0 persons,0.0
+Walk3,00:00:54,FRM_045,Person detected,1 person,0.59
+WalkByShop1cor,00:00:00,FRM_000,Person detected,4 persons,0.82
+WalkByShop1cor,00:00:01,FRM_001,Person detected,3 persons,0.83
+WalkByShop1cor,00:00:02,FRM_002,Person detected,3 persons,0.72
+WalkByShop1cor,00:00:03,FRM_003,Person detected,3 persons,0.71
+WalkByShop1cor,00:00:04,FRM_004,Person detected,4 persons,0.77
+WalkByShop1cor,00:00:06,FRM_005,Person detected,5 persons,0.8
+WalkByShop1cor,00:00:07,FRM_006,Person detected,4 persons,0.65
+WalkByShop1cor,00:00:08,FRM_007,Person detected,5 persons,0.88
+WalkByShop1cor,00:00:09,FRM_008,Crowd / Suspicious movement,6 persons,0.88
+WalkByShop1cor,00:00:10,FRM_009,Person detected,6 persons,0.5
+WalkByShop1cor,00:00:12,FRM_010,Person detected,3 persons,0.69
+WalkByShop1cor,00:00:13,FRM_011,Person detected,3 persons,0.49
+WalkByShop1cor,00:00:14,FRM_012,Person detected,3 persons,0.64
+WalkByShop1cor,00:00:15,FRM_013,Person detected,3 persons,0.6
+WalkByShop1cor,00:00:16,FRM_014,Person detected,3 persons,0.36
+WalkByShop1cor,00:00:18,FRM_015,Person detected,3 persons,0.36
+WalkByShop1cor,00:00:19,FRM_016,Person detected,1 person,0.53
+WalkByShop1cor,00:00:20,FRM_017,Person detected,2 persons,0.67
+WalkByShop1cor,00:00:21,FRM_018,Person detected,3 persons,0.75
+WalkByShop1cor,00:00:22,FRM_019,Person detected,3 persons,0.88
+WalkByShop1cor,00:00:24,FRM_020,Person detected,3 persons,0.89
+WalkByShop1cor,00:00:25,FRM_021,Person detected,3 persons,0.87
+WalkByShop1cor,00:00:26,FRM_022,Person detected,3 persons,0.88
+WalkByShop1cor,00:00:27,FRM_023,Person detected,3 persons,0.87
+WalkByShop1cor,00:00:28,FRM_024,Person detected,3 persons,0.87
+WalkByShop1cor,00:00:30,FRM_025,Person detected,3 persons,0.88
+WalkByShop1cor,00:00:31,FRM_026,Person detected,3 persons,0.89
+WalkByShop1cor,00:00:32,FRM_027,Person detected,3 persons,0.85
+WalkByShop1cor,00:00:33,FRM_028,Person detected,3 persons,0.83
+WalkByShop1cor,00:00:34,FRM_029,Person detected,4 persons,0.76
+WalkByShop1cor,00:00:36,FRM_030,Person detected,3 persons,0.82
+WalkByShop1cor,00:00:37,FRM_031,Person detected,4 persons,0.81
+WalkByShop1cor,00:00:38,FRM_032,Person detected,4 persons,0.84
+WalkByShop1cor,00:00:39,FRM_033,Person detected,3 persons,0.83
+WalkByShop1cor,00:00:40,FRM_034,Person detected,3 persons,0.84
+WalkByShop1cor,00:00:42,FRM_035,Person detected,5 persons,0.84
+WalkByShop1cor,00:00:43,FRM_036,Person detected,4 persons,0.86
+WalkByShop1cor,00:00:44,FRM_037,Person detected,4 persons,0.87
+WalkByShop1cor,00:00:45,FRM_038,Person detected,4 persons,0.83
+WalkByShop1cor,00:00:46,FRM_039,Person detected,4 persons,0.85
+WalkByShop1cor,00:00:48,FRM_040,Person detected,4 persons,0.86
+WalkByShop1cor,00:00:49,FRM_041,Person detected,3 persons,0.87
+WalkByShop1cor,00:00:50,FRM_042,Person detected,4 persons,0.85
+WalkByShop1cor,00:00:51,FRM_043,Person detected,4 persons,0.82
+WalkByShop1cor,00:00:52,FRM_044,Person detected,5 persons,0.86
+WalkByShop1cor,00:00:54,FRM_045,Rapid movement detected,6 persons,0.89
+WalkByShop1cor,00:00:55,FRM_046,Rapid movement detected,6 persons,0.89
+WalkByShop1cor,00:00:56,FRM_047,Crowd / Suspicious movement,6 persons,0.87
+WalkByShop1cor,00:00:57,FRM_048,Person detected,5 persons,0.91
+WalkByShop1cor,00:00:58,FRM_049,Person detected,4 persons,0.87
+WalkByShop1cor,00:01:00,FRM_050,Person detected,4 persons,0.87
+WalkByShop1cor,00:01:01,FRM_051,Person detected,4 persons,0.84
+WalkByShop1cor,00:01:02,FRM_052,Person detected,3 persons,0.83
+WalkByShop1cor,00:01:03,FRM_053,Person detected,3 persons,0.79
+WalkByShop1cor,00:01:04,FRM_054,Person detected,3 persons,0.81
+WalkByShop1cor,00:01:06,FRM_055,Person detected,3 persons,0.81
+WalkByShop1cor,00:01:07,FRM_056,Person detected,3 persons,0.82
+WalkByShop1cor,00:01:08,FRM_057,Person detected,4 persons,0.88
+WalkByShop1cor,00:01:09,FRM_058,Person detected,3 persons,0.81
+WalkByShop1cor,00:01:10,FRM_059,Person detected,3 persons,0.87
+WalkByShop1cor,00:01:12,FRM_060,Person detected,4 persons,0.89
+WalkByShop1cor,00:01:13,FRM_061,Rapid movement detected,5 persons,0.88
+WalkByShop1cor,00:01:14,FRM_062,Rapid movement detected,5 persons,0.89
+WalkByShop1cor,00:01:15,FRM_063,Rapid movement detected,5 persons,0.92
+WalkByShop1cor,00:01:16,FRM_064,Crowd / Suspicious movement,4 persons,0.9
+WalkByShop1cor,00:01:18,FRM_065,Rapid movement detected,4 persons,0.93
+WalkByShop1cor,00:01:19,FRM_066,Rapid movement detected,4 persons,0.87
+WalkByShop1cor,00:01:20,FRM_067,Crowd / Suspicious movement,5 persons,0.9
+WalkByShop1cor,00:01:21,FRM_068,Crowd / Suspicious movement,5 persons,0.91
+WalkByShop1cor,00:01:22,FRM_069,Crowd / Suspicious movement,3 persons,0.9
+WalkByShop1cor,00:01:24,FRM_070,Crowd / Suspicious movement,3 persons,0.91
+WalkByShop1cor,00:01:25,FRM_071,Crowd / Suspicious movement,4 persons,0.87
+WalkByShop1cor,00:01:26,FRM_072,Crowd / Suspicious movement,4 persons,0.9
+WalkByShop1cor,00:01:27,FRM_073,Rapid movement detected,6 persons,0.91
+WalkByShop1cor,00:01:28,FRM_074,Rapid movement detected,4 persons,0.88
+WalkByShop1cor,00:01:30,FRM_075,Crowd / Suspicious movement,5 persons,0.89
+WalkByShop1cor,00:01:31,FRM_076,Crowd / Suspicious movement,4 persons,0.92
+WalkByShop1cor,00:01:32,FRM_077,Crowd / Suspicious movement,4 persons,0.89
+WalkByShop1cor,00:01:33,FRM_078,Crowd / Suspicious movement,2 persons,0.83
+WalkByShop1front,00:00:00,FRM_000,Person detected,1 person,0.26
+WalkByShop1front,00:00:01,FRM_001,No significant event,0 persons,0.0
+WalkByShop1front,00:00:02,FRM_002,No significant event,0 persons,0.0
+WalkByShop1front,00:00:03,FRM_003,No significant event,0 persons,0.0
+WalkByShop1front,00:00:04,FRM_004,No significant event,0 persons,0.0
+WalkByShop1front,00:00:06,FRM_005,Person detected,1 person,0.5
+WalkByShop1front,00:00:07,FRM_006,Person detected,1 person,0.46
+WalkByShop1front,00:00:08,FRM_007,No significant event,0 persons,0.0
+WalkByShop1front,00:00:09,FRM_008,No significant event,0 persons,0.0
+WalkByShop1front,00:00:10,FRM_009,Person detected,1 person,0.35
+WalkByShop1front,00:00:12,FRM_010,Person detected,1 person,0.64
+WalkByShop1front,00:00:13,FRM_011,Person detected,1 person,0.48
+WalkByShop1front,00:00:14,FRM_012,Person detected,1 person,0.29
+WalkByShop1front,00:00:15,FRM_013,Person detected,1 person,0.27
+WalkByShop1front,00:00:16,FRM_014,Person detected,1 person,0.28
+WalkByShop1front,00:00:18,FRM_015,Person detected,1 person,0.44
+WalkByShop1front,00:00:19,FRM_016,No significant event,0 persons,0.0
+WalkByShop1front,00:00:20,FRM_017,No significant event,0 persons,0.0
+WalkByShop1front,00:00:21,FRM_018,Person detected,1 person,0.44
+WalkByShop1front,00:00:22,FRM_019,Person detected,1 person,0.35
+WalkByShop1front,00:00:24,FRM_020,Person detected,2 persons,0.39
+WalkByShop1front,00:00:25,FRM_021,No significant event,0 persons,0.0
+WalkByShop1front,00:00:26,FRM_022,No significant event,0 persons,0.0
+WalkByShop1front,00:00:27,FRM_023,Person detected,1 person,0.31
+WalkByShop1front,00:00:28,FRM_024,Person detected,1 person,0.55
+WalkByShop1front,00:00:30,FRM_025,No significant event,0 persons,0.0
+WalkByShop1front,00:00:31,FRM_026,Person detected,1 person,0.35
+WalkByShop1front,00:00:32,FRM_027,Person detected,1 person,0.33
+WalkByShop1front,00:00:33,FRM_028,Person detected,2 persons,0.91
+WalkByShop1front,00:00:34,FRM_029,Person detected,2 persons,0.75
+WalkByShop1front,00:00:36,FRM_030,No significant event,0 persons,0.0
+WalkByShop1front,00:00:37,FRM_031,Person detected,1 person,0.26
+WalkByShop1front,00:00:38,FRM_032,Person detected,1 person,0.36
+WalkByShop1front,00:00:39,FRM_033,No significant event,0 persons,0.0
+WalkByShop1front,00:00:40,FRM_034,No significant event,0 persons,0.0
+WalkByShop1front,00:00:42,FRM_035,No significant event,0 persons,0.0
+WalkByShop1front,00:00:43,FRM_036,Person detected,1 person,0.48
+WalkByShop1front,00:00:44,FRM_037,Person detected,1 person,0.33
+WalkByShop1front,00:00:45,FRM_038,No significant event,0 persons,0.0
+WalkByShop1front,00:00:46,FRM_039,No significant event,0 persons,0.0
+WalkByShop1front,00:00:48,FRM_040,Person detected,2 persons,0.45
+WalkByShop1front,00:00:49,FRM_041,No significant event,0 persons,0.0
+WalkByShop1front,00:00:50,FRM_042,No significant event,0 persons,0.0
+WalkByShop1front,00:00:51,FRM_043,Person detected,1 person,0.31
+WalkByShop1front,00:00:52,FRM_044,No significant event,0 persons,0.0
+WalkByShop1front,00:00:54,FRM_045,No significant event,0 persons,0.0
+WalkByShop1front,00:00:55,FRM_046,Person detected,1 person,0.33
+WalkByShop1front,00:00:56,FRM_047,Person detected,1 person,0.29
+WalkByShop1front,00:00:57,FRM_048,Person detected,2 persons,0.45
+WalkByShop1front,00:00:58,FRM_049,Person detected,1 person,0.59
+WalkByShop1front,00:01:00,FRM_050,Person detected,1 person,0.33
+WalkByShop1front,00:01:01,FRM_051,Person detected,1 person,0.42
+WalkByShop1front,00:01:02,FRM_052,No significant event,0 persons,0.0
+WalkByShop1front,00:01:03,FRM_053,Person detected,2 persons,0.44
+WalkByShop1front,00:01:04,FRM_054,Person detected,1 person,0.89
+WalkByShop1front,00:01:06,FRM_055,Crowd / Suspicious movement,2 persons,0.81
+WalkByShop1front,00:01:07,FRM_056,Person detected,3 persons,0.85
+WalkByShop1front,00:01:08,FRM_057,Person detected,2 persons,0.84
+WalkByShop1front,00:01:09,FRM_058,Person detected,2 persons,0.88
+WalkByShop1front,00:01:10,FRM_059,Person detected,2 persons,0.81
+WalkByShop1front,00:01:12,FRM_060,Person detected,2 persons,0.68
+WalkByShop1front,00:01:13,FRM_061,Person detected,2 persons,0.84
+WalkByShop1front,00:01:14,FRM_062,Rapid movement detected,2 persons,0.47
+WalkByShop1front,00:01:15,FRM_063,Rapid movement detected,1 person,0.6
+WalkByShop1front,00:01:16,FRM_064,Crowd / Suspicious movement,3 persons,0.76
+WalkByShop1front,00:01:18,FRM_065,Rapid movement detected,5 persons,0.59
+WalkByShop1front,00:01:19,FRM_066,Rapid movement detected,1 person,0.75
+WalkByShop1front,00:01:20,FRM_067,Person detected,1 person,0.34
+WalkByShop1front,00:01:21,FRM_068,Person detected,1 person,0.28
+WalkByShop1front,00:01:22,FRM_069,No significant event,0 persons,0.0
+WalkByShop1front,00:01:24,FRM_070,Person detected,2 persons,0.81
+WalkByShop1front,00:01:25,FRM_071,Crowd / Suspicious movement,2 persons,0.88
+WalkByShop1front,00:01:26,FRM_072,Person detected,1 person,0.87
+WalkByShop1front,00:01:27,FRM_073,Person detected,2 persons,0.7
+WalkByShop1front,00:01:28,FRM_074,Person detected,2 persons,0.59
+WalkByShop1front,00:01:30,FRM_075,Person detected,3 persons,0.87
+WalkByShop1front,00:01:31,FRM_076,Person detected,1 person,0.75
+WalkByShop1front,00:01:32,FRM_077,Person detected,1 person,0.72
+WalkByShop1front,00:01:33,FRM_078,Person detected,2 persons,0.76

@@ -1,47 +1,1080 @@
-Image_ID,Scene_Type,Objects_Detected,Bounding_Boxes,Text_Extracted,Confidence_Score,Source_File
-IMG_001,Fire,fire,"1 fire region | fire@[316,171,425,560]",None,0.95,fire-10-_preprocessed_jpg.rf.86825aec42445b822802d8fa920de76e.jpg
-IMG_002,General Scene,None,None,None,0.0,fire-100-_preprocessed_jpg.rf.2ca6985df2bb59555acfed7aad3b08b0.jpg
-IMG_003,Fire,fire,"1 fire region | fire@[256,387,423,534]",None,0.95,fire-14-_preprocessed_jpg.rf.196e57251cc12523ccf94fa05377975d.jpg
-IMG_004,Fire,fire,"1 fire region | fire@[363,0,443,226]",None,0.95,fire-15-_preprocessed_jpg.rf.1650445a9ec9aededbe8bb6cb1d8ee31.jpg
-IMG_005,Fire,fire,"1 fire region | fire@[385,3,447,207]",None,0.95,fire-16-_preprocessed_jpg.rf.3ae690d7ce1525594769054b645e8682.jpg
-IMG_006,Fire,fire,"1 fire region | fire@[302,104,519,319]",None,0.95,fire-20-_preprocessed_jpg.rf.c937a0c5b6affba28d7da6f707ef11d9.jpg
-IMG_007,Fire,fire,"1 fire region | fire@[363,88,591,311]",None,0.95,fire-23-_preprocessed_jpg.rf.50dc1ed7122efe347268976e28353949.jpg
-IMG_008,General Scene,None,None,None,0.0,fire-24-_preprocessed_jpg.rf.3034b0b1edd410f9bfcd09e40947d626.jpg
-IMG_009,General Scene,None,None,None,0.0,fire-25-_preprocessed_jpg.rf.014bd005c452df104a96e5096e941c98.jpg
-IMG_010,Fire,fire,"1 fire region | fire@[189,241,324,545]",None,0.95,fire-3-_preprocessed_jpg.rf.0f62cc5f6bd2fd278966e21905aa3837.jpg
-IMG_011,General Scene,None,None,None,0.0,fire-36-_preprocessed_jpg.rf.dc047b4584236825c6631598c757de7e.jpg
-IMG_012,General Scene,None,None,None,0.0,fire-37-_preprocessed_jpg.rf.b08aaa49c9399a12cf01dbb0c12e44ab.jpg
-IMG_013,General Scene,None,None,None,0.0,fire-40-_preprocessed_jpg.rf.7eb0d244ea09027838ebd69bef876e95.jpg
-IMG_014,General Scene,None,None,None,0.0,fire-42-_preprocessed_jpg.rf.1ccf71a900345705a15c04a6b27d0838.jpg
-IMG_015,Fire,fire,"1 fire region | fire@[321,232,483,586]",None,0.95,fire-6-_preprocessed_jpg.rf.20b07a4e8546d12993f86f51f92f0178.jpg
-IMG_016,General Scene,None,None,None,0.0,fire-82-_preprocessed_jpg.rf.ad5b4fe1f278813c2e4b95fc9750629c.jpg
-IMG_017,General Scene,None,None,None,0.0,fire-83-_preprocessed_jpg.rf.3840b6fc81a181458e00508e6547414f.jpg
-IMG_018,General Scene,None,None,None,0.0,fire-84-_preprocessed_jpg.rf.abd1ecdab395731d44d18024b38a446e.jpg
-IMG_019,General Scene,None,None,None,0.0,fire-89-_preprocessed_jpg.rf.5b3ffa99b772d2ebd30b7b6584ddd50d.jpg
-IMG_020,General Scene,None,None,None,0.0,fire-90-_preprocessed_jpg.rf.8f0c01838dfba96d83cff3c0524aaa71.jpg
-IMG_021,General Scene,None,None,None,0.0,fire-92-_preprocessed_jpg.rf.c5f2a73c053089d6118241d8e2c947e1.jpg
-IMG_022,General Scene,None,None,None,0.0,fire-95-_preprocessed_jpg.rf.8fcd9931bc351d43f3277e914a12ac9c.jpg
-IMG_023,General Scene,None,None,None,0.0,fire-97-_preprocessed_jpg.rf.263afb69b9639de0d5af462760954136.jpg
-IMG_024,General Scene,None,None,None,0.0,fire_preprocessed-2-_jpg.rf.68be2344efa2ee0e72a744c7deaa468c.jpg
-IMG_025,Fire,fire,"1 fire region | fire@[420,98,639,582]",None,0.95,fire_preprocessed-23-_jpg.rf.31c07bcd50f60ee7dfe8476926eca1e8.jpg
-IMG_026,Fire,fire,"1 fire region | fire@[350,138,586,639]",None,0.95,fire_preprocessed-24-_jpg.rf.c300c1f21feb70b0ba9f1ba0130fb654.jpg
-IMG_027,General Scene,None,None,None,0.0,fire_preprocessed-3-_jpg.rf.b08d2f8dcbcf4a2df4fe96de454f2262.jpg
-IMG_028,Fire,fire,"1 fire region | fire@[286,46,413,405]",None,0.95,fire_preprocessed-5-_jpg.rf.84878e77936a58ae34552059fc324ac6.jpg
-IMG_029,Fire,fire,"1 fire region | fire@[448,117,609,496]",None,0.95,fire_preprocessed-7-_jpg.rf.d36f16e2db6fbf5a0958b8b923f89cef.jpg
-IMG_030,General Scene,None,None,None,0.0,smoke-310-_preprocessed_jpg.rf.4d52bb0165feb9597c93a491bdedebe4.jpg
-IMG_031,General Scene,None,None,None,0.0,smoke-314-_preprocessed_jpg.rf.5bdd74f398c637388c4b4190f1dca6d7.jpg
-IMG_032,General Scene,None,None,None,0.0,smoke-315-_preprocessed_jpg.rf.9c1e44c4937f0453a68f58f02fa529c8.jpg
-IMG_033,General Scene,None,None,None,0.0,smoke-317-_preprocessed_jpg.rf.3b8a9a75afbce8c21c861ba43ffddc95.jpg
-IMG_034,General Scene,None,None,None,0.0,smoke-319-_preprocessed_jpg.rf.0164718e78165328a77520b9c7a8c266.jpg
-IMG_035,General Scene,None,None,None,0.0,smoke-320-_preprocessed_jpg.rf.a4e4ae003a3a82bc7ea9f023ccfa5bc6.jpg
-IMG_036,General Scene,None,None,None,0.0,smoke-322-_preprocessed_jpg.rf.121a0cc4cdf9298436f7640f828b58d2.jpg
-IMG_037,General Scene,None,None,None,0.0,smoke-323-_preprocessed_jpg.rf.61edf07c70c6fafe93703f34b2074660.jpg
-IMG_038,General Scene,None,None,None,0.0,smoke-324-_preprocessed_jpg.rf.f139b9fbeffc488c1151012658cee0df.jpg
-IMG_039,General Scene,None,None,None,0.0,smoke-327-_preprocessed_jpg.rf.8bf2a72a1299e39c56ea28a6f31d3435.jpg
-IMG_040,General Scene,None,None,None,0.0,smoke-331-_preprocessed_jpg.rf.3fb7700899310cb61995a3d7d105518f.jpg
-IMG_041,General Scene,None,None,None,0.0,smoke-333-_preprocessed_jpg.rf.badeb51c84b1a9d7bd20e24a4decbce2.jpg
-IMG_042,General Scene,None,None,None,0.0,smoke-335-_preprocessed_jpg.rf.47fe8198d171c94618809bf6923574f8.jpg
-IMG_043,General Scene,None,None,None,0.0,smoke-336-_preprocessed_jpg.rf.1adae026a0a0a5f872d221ce144872af.jpg
-IMG_044,General Scene,None,None,None,0.0,smoke-341-_preprocessed_jpg.rf.53152b767a4e1a6393191e30d387e16c.jpg
-IMG_045,General Scene,None,None,None,0.0,smoke-342-_preprocessed_jpg.rf.cce1aba38e7447501e0d84c0d6070c89.jpg
-IMG_046,General Scene,None,None,None,0.0,smoke-344-_preprocessed_jpg.rf.8f9b8c9595edc881883edd3d98ca4b31.jpg
+Image_ID,Scene_Type,Objects_Detected,Bounding_Boxes,Confidence
+IMG_001,Fire Scene,fire,1 fire region,0.95
+IMG_002,Fire Scene,fire,1 fire region,0.95
+IMG_003,Fire Scene,fire,1 fire region,0.95
+IMG_004,Fire Scene,fire,1 fire region,0.95
+IMG_005,Fire Scene,fire,1 fire region,0.95
+IMG_006,Fire Scene,fire,1 fire region,0.95
+IMG_007,Fire Scene,fire,1 fire region,0.95
+IMG_008,Fire Scene,fire,1 fire region,0.95
+IMG_009,Fire Scene,fire,1 fire region,0.95
+IMG_010,Fire Scene,fire,1 fire region,0.95
+IMG_011,Fire Scene,fire,1 fire region,0.95
+IMG_012,Fire Scene,fire,1 fire region,0.95
+IMG_013,Fire Scene,fire,1 fire region,0.95
+IMG_014,Fire Scene,fire,1 fire region,0.95
+IMG_015,Fire Scene,fire,1 fire region,0.95
+IMG_016,Fire Scene,fire,1 fire region,0.95
+IMG_017,Fire Scene,fire,1 fire region,0.95
+IMG_018,Fire Scene,fire,1 fire region,0.95
+IMG_019,Fire Scene,fire,1 fire region,0.95
+IMG_020,Fire Scene,fire,1 fire region,0.95
+IMG_021,Fire Scene,fire,1 fire region,0.95
+IMG_022,Fire Scene,fire,1 fire region,0.95
+IMG_023,Fire Scene,fire,1 fire region,0.95
+IMG_024,Fire Scene,fire,1 fire region,0.95
+IMG_025,Fire Scene,fire,1 fire region,0.95
+IMG_026,Fire Scene,fire,1 fire region,0.95
+IMG_027,Fire Scene,fire,1 fire region,0.95
+IMG_028,Fire Scene,fire,1 fire region,0.95
+IMG_029,Fire Scene,fire,1 fire region,0.95
+IMG_030,Fire Scene,fire,1 fire region,0.95
+IMG_031,Fire Scene,fire,1 fire region,0.95
+IMG_032,Fire Scene,fire,1 fire region,0.95
+IMG_033,Fire Scene,fire,1 fire region,0.95
+IMG_034,Fire Scene,fire,1 fire region,0.95
+IMG_035,Fire Scene,fire,1 fire region,0.95
+IMG_036,Fire Scene,fire,1 fire region,0.95
+IMG_037,Fire Scene,fire,1 fire region,0.95
+IMG_038,Fire Scene,fire,1 fire region,0.95
+IMG_039,Fire Scene,fire,1 fire region,0.95
+IMG_040,Fire Scene,fire,1 fire region,0.95
+IMG_041,Fire Scene,fire,1 fire region,0.95
+IMG_042,Fire Scene,fire,1 fire region,0.95
+IMG_043,Fire Scene,fire,1 fire region,0.95
+IMG_044,Fire Scene,fire,1 fire region,0.95
+IMG_045,Fire Scene,fire,1 fire region,0.95
+IMG_046,Fire Scene,fire,1 fire region,0.95
+IMG_047,Fire Scene,fire,1 fire region,0.95
+IMG_048,Fire Scene,fire,1 fire region,0.95
+IMG_049,Fire Scene,fire,1 fire region,0.95
+IMG_050,Fire Scene,fire,1 fire region,0.95
+IMG_051,Fire Scene,fire,1 fire region,0.95
+IMG_052,Fire Scene,fire,1 fire region,0.95
+IMG_053,Fire Scene,fire,1 fire region,0.95
+IMG_054,Fire Scene,fire,1 fire region,0.95
+IMG_055,Fire Scene,fire,1 fire region,0.95
+IMG_056,Fire Scene,fire,1 fire region,0.95
+IMG_057,Fire Scene,fire,1 fire region,0.95
+IMG_058,Fire Scene,fire,1 fire region,0.95
+IMG_059,Fire Scene,fire,1 fire region,0.95
+IMG_060,Fire Scene,fire,1 fire region,0.95
+IMG_061,Fire Scene,fire,1 fire region,0.95
+IMG_062,Fire Scene,fire,1 fire region,0.95
+IMG_063,Fire Scene,fire,1 fire region,0.95
+IMG_064,Fire Scene,fire,1 fire region,0.95
+IMG_065,Fire Scene,fire,1 fire region,0.95
+IMG_066,Fire Scene,fire,1 fire region,0.95
+IMG_067,Fire Scene,fire,1 fire region,0.95
+IMG_068,Fire Scene,fire,1 fire region,0.95
+IMG_069,Fire Scene,fire,1 fire region,0.95
+IMG_070,Fire Scene,fire,1 fire region,0.95
+IMG_071,Fire Scene,fire,1 fire region,0.95
+IMG_072,Fire Scene,fire,1 fire region,0.95
+IMG_073,Fire Scene,fire,1 fire region,0.95
+IMG_074,Fire Scene,fire,1 fire region,0.95
+IMG_075,Fire Scene,fire,1 fire region,0.95
+IMG_076,Fire Scene,fire,1 fire region,0.95
+IMG_077,Fire Scene,fire,1 fire region,0.95
+IMG_078,Fire Scene,fire,1 fire region,0.95
+IMG_079,Fire Scene,fire,1 fire region,0.95
+IMG_080,Fire Scene,fire,1 fire region,0.95
+IMG_081,Fire Scene,fire,1 fire region,0.95
+IMG_082,Fire Scene,fire,1 fire region,0.95
+IMG_083,Fire Scene,fire,1 fire region,0.95
+IMG_084,Fire Scene,fire,1 fire region,0.95
+IMG_085,Fire Scene,fire,1 fire region,0.95
+IMG_086,Fire Scene,fire,1 fire region,0.95
+IMG_087,Fire Scene,fire,1 fire region,0.95
+IMG_088,Fire Scene,fire,1 fire region,0.95
+IMG_089,Fire Scene,fire,1 fire region,0.95
+IMG_090,Fire Scene,fire,1 fire region,0.95
+IMG_091,Fire Scene,fire,1 fire region,0.95
+IMG_092,Fire Scene,fire,1 fire region,0.95
+IMG_093,Fire Scene,fire,1 fire region,0.95
+IMG_094,Fire Scene,fire,1 fire region,0.95
+IMG_095,Fire Scene,fire,1 fire region,0.95
+IMG_096,Fire Scene,fire,1 fire region,0.95
+IMG_097,Fire Scene,fire,1 fire region,0.95
+IMG_098,Fire Scene,fire,1 fire region,0.95
+IMG_099,Fire Scene,fire,1 fire region,0.95
+IMG_100,Fire Scene,fire,1 fire region,0.95
+IMG_101,Fire Scene,fire,1 fire region,0.95
+IMG_102,Fire Scene,fire,1 fire region,0.95
+IMG_103,Fire Scene,fire,1 fire region,0.95
+IMG_104,Fire Scene,fire,1 fire region,0.95
+IMG_105,Fire Scene,fire,1 fire region,0.95
+IMG_106,Fire Scene,fire,1 fire region,0.95
+IMG_107,Fire Scene,fire,1 fire region,0.95
+IMG_108,Fire Scene,fire,1 fire region,0.95
+IMG_109,Fire Scene,fire,1 fire region,0.95
+IMG_110,Fire Scene,fire,1 fire region,0.95
+IMG_111,Fire Scene,fire,1 fire region,0.95
+IMG_112,Fire Scene,fire,1 fire region,0.95
+IMG_113,Fire Scene,fire,1 fire region,0.95
+IMG_114,Fire Scene,fire,1 fire region,0.95
+IMG_115,Fire Scene,fire,1 fire region,0.95
+IMG_116,Fire Scene,fire,1 fire region,0.95
+IMG_117,Fire Scene,fire,1 fire region,0.95
+IMG_118,Fire Scene,fire,1 fire region,0.95
+IMG_119,Fire Scene,fire,1 fire region,0.95
+IMG_120,Fire Scene,fire,1 fire region,0.95
+IMG_121,Fire Scene,fire,1 fire region,0.95
+IMG_122,Fire Scene,fire,2 fire regions,0.95
+IMG_123,Fire Scene,fire,1 fire region,0.95
+IMG_124,Fire Scene,fire,1 fire region,0.95
+IMG_125,Fire Scene,fire,1 fire region,0.95
+IMG_126,Fire Scene,fire,1 fire region,0.95
+IMG_127,Fire Scene,fire,1 fire region,0.95
+IMG_128,Fire Scene,fire,1 fire region,0.95
+IMG_129,Fire Scene,fire,1 fire region,0.95
+IMG_130,Fire Scene,fire,1 fire region,0.95
+IMG_131,Fire Scene,fire,1 fire region,0.95
+IMG_132,Fire Scene,fire,1 fire region,0.95
+IMG_133,Fire Scene,fire,1 fire region,0.95
+IMG_134,Fire Scene,fire,1 fire region,0.95
+IMG_135,Fire Scene,fire,1 fire region,0.95
+IMG_136,Fire Scene,fire,1 fire region,0.95
+IMG_137,Fire Scene,fire,1 fire region,0.95
+IMG_138,Fire Scene,fire,1 fire region,0.95
+IMG_139,Fire Scene,fire,1 fire region,0.95
+IMG_140,Fire Scene,fire,1 fire region,0.95
+IMG_141,Fire Scene,fire,1 fire region,0.95
+IMG_142,Fire Scene,fire,1 fire region,0.95
+IMG_143,Fire Scene,fire,1 fire region,0.95
+IMG_144,Fire Scene,fire,1 fire region,0.95
+IMG_145,Fire Scene,fire,1 fire region,0.95
+IMG_146,Fire Scene,fire,1 fire region,0.95
+IMG_147,Fire Scene,fire,1 fire region,0.95
+IMG_148,Fire Scene,fire,1 fire region,0.95
+IMG_149,Fire Scene,fire,1 fire region,0.95
+IMG_150,Fire Scene,fire,1 fire region,0.95
+IMG_151,Fire Scene,fire,1 fire region,0.95
+IMG_152,Fire Scene,fire,1 fire region,0.95
+IMG_153,Fire Scene,fire,1 fire region,0.95
+IMG_154,Fire Scene,fire,1 fire region,0.95
+IMG_155,Fire Scene,fire,1 fire region,0.95
+IMG_156,Fire Scene,fire,1 fire region,0.95
+IMG_157,Fire Scene,fire,1 fire region,0.95
+IMG_158,Fire Scene,fire,1 fire region,0.95
+IMG_159,Fire Scene,fire,1 fire region,0.95
+IMG_160,Fire Scene,fire,1 fire region,0.95
+IMG_161,Fire Scene,fire,1 fire region,0.95
+IMG_162,Fire Scene,fire,1 fire region,0.95
+IMG_163,Fire Scene,fire,1 fire region,0.95
+IMG_164,Fire Scene,fire,1 fire region,0.95
+IMG_165,Fire Scene,fire,1 fire region,0.95
+IMG_166,Fire Scene,fire,1 fire region,0.95
+IMG_167,Fire Scene,fire,1 fire region,0.95
+IMG_168,Fire Scene,fire,1 fire region,0.95
+IMG_169,Fire Scene,fire,1 fire region,0.95
+IMG_170,Fire Scene,fire,1 fire region,0.95
+IMG_171,Fire Scene,fire,1 fire region,0.95
+IMG_172,Fire Scene,fire,1 fire region,0.95
+IMG_173,Fire Scene,fire,1 fire region,0.95
+IMG_174,Fire Scene,fire,2 fire regions,0.95
+IMG_175,Fire Scene,fire,1 fire region,0.95
+IMG_176,Fire Scene,fire,1 fire region,0.95
+IMG_177,Fire Scene,fire,1 fire region,0.95
+IMG_178,Fire Scene,fire,1 fire region,0.95
+IMG_179,Fire Scene,fire,1 fire region,0.95
+IMG_180,Fire Scene,fire,2 fire regions,0.95
+IMG_181,Fire Scene,fire,1 fire region,0.95
+IMG_182,Fire Scene,fire,1 fire region,0.95
+IMG_183,Fire Scene,fire,1 fire region,0.95
+IMG_184,Fire Scene,fire,1 fire region,0.95
+IMG_185,Fire Scene,fire,1 fire region,0.95
+IMG_186,Fire Scene,fire,1 fire region,0.95
+IMG_187,Fire Scene,fire,1 fire region,0.95
+IMG_188,Fire Scene,fire,1 fire region,0.95
+IMG_189,Fire Scene,fire,1 fire region,0.95
+IMG_190,Fire Scene,fire,1 fire region,0.95
+IMG_191,Fire Scene,fire,1 fire region,0.95
+IMG_192,Fire Scene,fire,1 fire region,0.95
+IMG_193,Fire Scene,fire,1 fire region,0.95
+IMG_194,Fire Scene,fire,1 fire region,0.95
+IMG_195,Fire Scene,fire,1 fire region,0.95
+IMG_196,Fire Scene,fire,1 fire region,0.95
+IMG_197,Fire Scene,fire,1 fire region,0.95
+IMG_198,Fire Scene,fire,1 fire region,0.95
+IMG_199,Fire Scene,fire,1 fire region,0.95
+IMG_200,Fire Scene,fire,1 fire region,0.95
+IMG_201,Fire Scene,fire,1 fire region,0.95
+IMG_202,Fire Scene,fire,1 fire region,0.95
+IMG_203,Fire Scene,fire,1 fire region,0.95
+IMG_204,Fire Scene,fire,1 fire region,0.95
+IMG_205,Fire Scene,fire,1 fire region,0.95
+IMG_206,Fire Scene,fire,1 fire region,0.95
+IMG_207,Fire Scene,fire,1 fire region,0.95
+IMG_208,Fire Scene,fire,1 fire region,0.95
+IMG_209,Fire Scene,fire,1 fire region,0.95
+IMG_210,Fire Scene,fire,1 fire region,0.95
+IMG_211,Fire Scene,fire,1 fire region,0.95
+IMG_212,Fire Scene,fire,1 fire region,0.95
+IMG_213,Fire Scene,fire,1 fire region,0.95
+IMG_214,Fire Scene,fire,1 fire region,0.95
+IMG_215,Fire Scene,fire,1 fire region,0.95
+IMG_216,Fire Scene,fire,1 fire region,0.95
+IMG_217,Fire Scene,fire,1 fire region,0.95
+IMG_218,Fire Scene,fire,1 fire region,0.95
+IMG_219,Fire Scene,fire,1 fire region,0.95
+IMG_220,Fire Scene,fire,1 fire region,0.95
+IMG_221,Fire Scene,fire,1 fire region,0.95
+IMG_222,Fire Scene,fire,1 fire region,0.95
+IMG_223,Fire Scene,fire,1 fire region,0.95
+IMG_224,Fire Scene,fire,1 fire region,0.95
+IMG_225,Fire Scene,fire,1 fire region,0.95
+IMG_226,Fire Scene,fire,1 fire region,0.95
+IMG_227,Fire Scene,fire,1 fire region,0.95
+IMG_228,Fire Scene,fire,1 fire region,0.95
+IMG_229,Fire Scene,fire,1 fire region,0.95
+IMG_230,Fire Scene,fire,1 fire region,0.95
+IMG_231,Fire Scene,fire,1 fire region,0.95
+IMG_232,Fire Scene,fire,1 fire region,0.95
+IMG_233,Fire Scene,fire,1 fire region,0.95
+IMG_234,Fire Scene,fire,1 fire region,0.95
+IMG_235,Fire Scene,fire,1 fire region,0.95
+IMG_236,Fire Scene,fire,1 fire region,0.95
+IMG_237,Fire Scene,fire,1 fire region,0.95
+IMG_238,Fire Scene,fire,1 fire region,0.95
+IMG_239,Fire Scene,fire,1 fire region,0.95
+IMG_240,Fire Scene,smoke,1 smoke plume,0.95
+IMG_241,Fire Scene,fire,1 fire region,0.95
+IMG_242,Fire Scene,fire,1 fire region,0.95
+IMG_243,Fire Scene,fire,1 fire region,0.95
+IMG_244,Fire Scene,fire,1 fire region,0.95
+IMG_245,Fire Scene,fire,1 fire region,0.95
+IMG_246,Fire Scene,fire,1 fire region,0.95
+IMG_247,Fire Scene,fire,1 fire region,0.95
+IMG_248,Fire Scene,fire,1 fire region,0.95
+IMG_249,Fire Scene,fire,1 fire region,0.95
+IMG_250,Fire Scene,fire,1 fire region,0.95
+IMG_251,Fire Scene,fire,1 fire region,0.95
+IMG_252,Fire Scene,fire,1 fire region,0.95
+IMG_253,Fire Scene,fire,1 fire region,0.95
+IMG_254,Fire Scene,fire,1 fire region,0.95
+IMG_255,Fire Scene,fire,1 fire region,0.95
+IMG_256,Fire Scene,fire,1 fire region,0.95
+IMG_257,Fire Scene,fire,1 fire region,0.95
+IMG_258,Fire Scene,fire,1 fire region,0.95
+IMG_259,Fire Scene,fire,1 fire region,0.95
+IMG_260,Fire Scene,fire,1 fire region,0.95
+IMG_261,Fire Scene,fire,1 fire region,0.95
+IMG_262,Fire Scene,fire,1 fire region,0.95
+IMG_263,Fire Scene,fire,1 fire region,0.95
+IMG_264,Fire Scene,fire,1 fire region,0.95
+IMG_265,Fire Scene,fire,1 fire region,0.95
+IMG_266,Fire Scene,fire,1 fire region,0.95
+IMG_267,Fire Scene,fire,1 fire region,0.95
+IMG_268,Fire Scene,fire,1 fire region,0.95
+IMG_269,Fire Scene,fire,1 fire region,0.95
+IMG_270,Fire Scene,fire,1 fire region,0.95
+IMG_271,Fire Scene,fire,1 fire region,0.95
+IMG_272,Fire Scene,fire,1 fire region,0.95
+IMG_273,General Scene,None,None,0.95
+IMG_274,General Scene,None,None,0.95
+IMG_275,General Scene,None,None,0.95
+IMG_276,General Scene,None,None,0.95
+IMG_277,General Scene,None,None,0.95
+IMG_278,General Scene,None,None,0.95
+IMG_279,General Scene,None,None,0.95
+IMG_280,General Scene,None,None,0.95
+IMG_281,General Scene,None,None,0.95
+IMG_282,General Scene,None,None,0.95
+IMG_283,General Scene,None,None,0.95
+IMG_284,General Scene,None,None,0.95
+IMG_285,General Scene,None,None,0.95
+IMG_286,General Scene,None,None,0.95
+IMG_287,General Scene,None,None,0.95
+IMG_288,General Scene,None,None,0.95
+IMG_289,General Scene,None,None,0.95
+IMG_290,General Scene,None,None,0.95
+IMG_291,General Scene,None,None,0.95
+IMG_292,General Scene,None,None,0.95
+IMG_293,General Scene,None,None,0.95
+IMG_294,General Scene,None,None,0.95
+IMG_295,General Scene,None,None,0.95
+IMG_296,General Scene,None,None,0.95
+IMG_297,General Scene,None,None,0.95
+IMG_298,General Scene,None,None,0.95
+IMG_299,General Scene,None,None,0.95
+IMG_300,General Scene,None,None,0.95
+IMG_301,General Scene,None,None,0.95
+IMG_302,General Scene,None,None,0.95
+IMG_303,General Scene,None,None,0.95
+IMG_304,General Scene,None,None,0.95
+IMG_305,General Scene,None,None,0.95
+IMG_306,General Scene,None,None,0.95
+IMG_307,General Scene,None,None,0.95
+IMG_308,General Scene,None,None,0.95
+IMG_309,General Scene,None,None,0.95
+IMG_310,General Scene,None,None,0.95
+IMG_311,General Scene,None,None,0.95
+IMG_312,General Scene,None,None,0.95
+IMG_313,General Scene,None,None,0.95
+IMG_314,General Scene,None,None,0.95
+IMG_315,General Scene,None,None,0.95
+IMG_316,General Scene,None,None,0.95
+IMG_317,General Scene,None,None,0.95
+IMG_318,General Scene,None,None,0.95
+IMG_319,General Scene,None,None,0.95
+IMG_320,General Scene,None,None,0.95
+IMG_321,General Scene,None,None,0.95
+IMG_322,General Scene,None,None,0.95
+IMG_323,General Scene,None,None,0.95
+IMG_324,General Scene,None,None,0.95
+IMG_325,General Scene,None,None,0.95
+IMG_326,General Scene,None,None,0.95
+IMG_327,General Scene,None,None,0.95
+IMG_328,General Scene,None,None,0.95
+IMG_329,General Scene,None,None,0.95
+IMG_330,General Scene,None,None,0.95
+IMG_331,General Scene,None,None,0.95
+IMG_332,General Scene,None,None,0.95
+IMG_333,General Scene,None,None,0.95
+IMG_334,General Scene,None,None,0.95
+IMG_335,General Scene,None,None,0.95
+IMG_336,General Scene,None,None,0.95
+IMG_337,General Scene,None,None,0.95
+IMG_338,General Scene,None,None,0.95
+IMG_339,General Scene,None,None,0.95
+IMG_340,General Scene,None,None,0.95
+IMG_341,General Scene,None,None,0.95
+IMG_342,General Scene,None,None,0.95
+IMG_343,General Scene,None,None,0.95
+IMG_344,General Scene,None,None,0.95
+IMG_345,General Scene,None,None,0.95
+IMG_346,General Scene,None,None,0.95
+IMG_347,General Scene,None,None,0.95
+IMG_348,General Scene,None,None,0.95
+IMG_349,General Scene,None,None,0.95
+IMG_350,General Scene,None,None,0.95
+IMG_351,General Scene,None,None,0.95
+IMG_352,General Scene,None,None,0.95
+IMG_353,General Scene,None,None,0.95
+IMG_354,General Scene,None,None,0.95
+IMG_355,General Scene,None,None,0.95
+IMG_356,General Scene,None,None,0.95
+IMG_357,General Scene,None,None,0.95
+IMG_358,General Scene,None,None,0.95
+IMG_359,General Scene,None,None,0.95
+IMG_360,General Scene,None,None,0.95
+IMG_361,General Scene,None,None,0.95
+IMG_362,General Scene,None,None,0.95
+IMG_363,General Scene,None,None,0.95
+IMG_364,General Scene,None,None,0.95
+IMG_365,General Scene,None,None,0.95
+IMG_366,General Scene,None,None,0.95
+IMG_367,General Scene,None,None,0.95
+IMG_368,General Scene,None,None,0.95
+IMG_369,General Scene,None,None,0.95
+IMG_370,General Scene,None,None,0.95
+IMG_371,General Scene,None,None,0.95
+IMG_372,General Scene,None,None,0.95
+IMG_373,General Scene,None,None,0.95
+IMG_374,General Scene,None,None,0.95
+IMG_375,General Scene,None,None,0.95
+IMG_376,General Scene,None,None,0.95
+IMG_377,General Scene,None,None,0.95
+IMG_378,General Scene,None,None,0.95
+IMG_379,General Scene,None,None,0.95
+IMG_380,General Scene,None,None,0.95
+IMG_381,General Scene,None,None,0.95
+IMG_382,General Scene,None,None,0.95
+IMG_383,General Scene,None,None,0.95
+IMG_384,General Scene,None,None,0.95
+IMG_385,General Scene,None,None,0.95
+IMG_386,General Scene,None,None,0.95
+IMG_387,General Scene,None,None,0.95
+IMG_388,General Scene,None,None,0.95
+IMG_389,General Scene,None,None,0.95
+IMG_390,General Scene,None,None,0.95
+IMG_391,General Scene,None,None,0.95
+IMG_392,General Scene,None,None,0.95
+IMG_393,General Scene,None,None,0.95
+IMG_394,General Scene,None,None,0.95
+IMG_395,General Scene,None,None,0.95
+IMG_396,General Scene,None,None,0.95
+IMG_397,General Scene,None,None,0.95
+IMG_398,General Scene,None,None,0.95
+IMG_399,General Scene,None,None,0.95
+IMG_400,General Scene,None,None,0.95
+IMG_401,General Scene,None,None,0.95
+IMG_402,General Scene,None,None,0.95
+IMG_403,General Scene,None,None,0.95
+IMG_404,General Scene,None,None,0.95
+IMG_405,General Scene,None,None,0.95
+IMG_406,General Scene,None,None,0.95
+IMG_407,General Scene,None,None,0.95
+IMG_408,General Scene,None,None,0.95
+IMG_409,General Scene,None,None,0.95
+IMG_410,General Scene,None,None,0.95
+IMG_411,General Scene,None,None,0.95
+IMG_412,General Scene,None,None,0.95
+IMG_413,General Scene,None,None,0.95
+IMG_414,General Scene,None,None,0.95
+IMG_415,General Scene,None,None,0.95
+IMG_416,General Scene,None,None,0.95
+IMG_417,General Scene,None,None,0.95
+IMG_418,General Scene,None,None,0.95
+IMG_419,General Scene,None,None,0.95
+IMG_420,General Scene,None,None,0.95
+IMG_421,General Scene,None,None,0.95
+IMG_422,General Scene,None,None,0.95
+IMG_423,General Scene,None,None,0.95
+IMG_424,General Scene,None,None,0.95
+IMG_425,General Scene,None,None,0.95
+IMG_426,General Scene,None,None,0.95
+IMG_427,General Scene,None,None,0.95
+IMG_428,General Scene,None,None,0.95
+IMG_429,General Scene,None,None,0.95
+IMG_430,General Scene,None,None,0.95
+IMG_431,General Scene,None,None,0.95
+IMG_432,General Scene,None,None,0.95
+IMG_433,General Scene,None,None,0.95
+IMG_434,General Scene,None,None,0.95
+IMG_435,General Scene,None,None,0.95
+IMG_436,General Scene,None,None,0.95
+IMG_437,General Scene,None,None,0.95
+IMG_438,General Scene,None,None,0.95
+IMG_439,General Scene,None,None,0.95
+IMG_440,General Scene,None,None,0.95
+IMG_441,General Scene,None,None,0.95
+IMG_442,General Scene,None,None,0.95
+IMG_443,General Scene,None,None,0.95
+IMG_444,General Scene,None,None,0.95
+IMG_445,General Scene,None,None,0.95
+IMG_446,General Scene,None,None,0.95
+IMG_447,General Scene,None,None,0.95
+IMG_448,General Scene,None,None,0.95
+IMG_449,General Scene,None,None,0.95
+IMG_450,General Scene,None,None,0.95
+IMG_451,General Scene,None,None,0.95
+IMG_452,General Scene,None,None,0.95
+IMG_453,General Scene,None,None,0.95
+IMG_454,General Scene,None,None,0.95
+IMG_455,General Scene,None,None,0.95
+IMG_456,General Scene,None,None,0.95
+IMG_457,General Scene,None,None,0.95
+IMG_458,General Scene,None,None,0.95
+IMG_459,General Scene,None,None,0.95
+IMG_460,General Scene,None,None,0.95
+IMG_461,General Scene,None,None,0.95
+IMG_462,General Scene,None,None,0.95
+IMG_463,General Scene,None,None,0.95
+IMG_464,General Scene,None,None,0.95
+IMG_465,General Scene,None,None,0.95
+IMG_466,General Scene,None,None,0.95
+IMG_467,General Scene,None,None,0.95
+IMG_468,General Scene,None,None,0.95
+IMG_469,General Scene,None,None,0.95
+IMG_470,General Scene,None,None,0.95
+IMG_471,General Scene,None,None,0.95
+IMG_472,General Scene,None,None,0.95
+IMG_473,General Scene,None,None,0.95
+IMG_474,General Scene,None,None,0.95
+IMG_475,General Scene,None,None,0.95
+IMG_476,General Scene,None,None,0.95
+IMG_477,General Scene,None,None,0.95
+IMG_478,General Scene,None,None,0.95
+IMG_479,General Scene,None,None,0.95
+IMG_480,General Scene,None,None,0.95
+IMG_481,General Scene,None,None,0.95
+IMG_482,General Scene,None,None,0.95
+IMG_483,General Scene,None,None,0.95
+IMG_484,General Scene,None,None,0.95
+IMG_485,General Scene,None,None,0.95
+IMG_486,General Scene,None,None,0.95
+IMG_487,General Scene,None,None,0.95
+IMG_488,General Scene,None,None,0.95
+IMG_489,General Scene,None,None,0.95
+IMG_490,General Scene,None,None,0.95
+IMG_491,General Scene,None,None,0.95
+IMG_492,General Scene,None,None,0.95
+IMG_493,General Scene,None,None,0.95
+IMG_494,General Scene,None,None,0.95
+IMG_495,General Scene,None,None,0.95
+IMG_496,General Scene,None,None,0.95
+IMG_497,General Scene,None,None,0.95
+IMG_498,General Scene,None,None,0.95
+IMG_499,General Scene,None,None,0.95
+IMG_500,General Scene,None,None,0.95
+IMG_501,General Scene,None,None,0.95
+IMG_502,General Scene,None,None,0.95
+IMG_503,General Scene,None,None,0.95
+IMG_504,General Scene,None,None,0.95
+IMG_505,General Scene,None,None,0.95
+IMG_506,General Scene,None,None,0.95
+IMG_507,General Scene,None,None,0.95
+IMG_508,General Scene,None,None,0.95
+IMG_509,General Scene,None,None,0.95
+IMG_510,General Scene,None,None,0.95
+IMG_511,General Scene,None,None,0.95
+IMG_512,General Scene,None,None,0.95
+IMG_513,General Scene,None,None,0.95
+IMG_514,General Scene,None,None,0.95
+IMG_515,General Scene,None,None,0.95
+IMG_516,General Scene,None,None,0.95
+IMG_517,General Scene,None,None,0.95
+IMG_518,General Scene,None,None,0.95
+IMG_519,General Scene,None,None,0.95
+IMG_520,General Scene,None,None,0.95
+IMG_521,General Scene,None,None,0.95
+IMG_522,General Scene,None,None,0.95
+IMG_523,General Scene,None,None,0.95
+IMG_524,General Scene,None,None,0.95
+IMG_525,General Scene,None,None,0.95
+IMG_526,General Scene,None,None,0.95
+IMG_527,General Scene,None,None,0.95
+IMG_528,General Scene,None,None,0.95
+IMG_529,General Scene,None,None,0.95
+IMG_530,General Scene,None,None,0.95
+IMG_531,General Scene,None,None,0.95
+IMG_532,General Scene,None,None,0.95
+IMG_533,General Scene,None,None,0.95
+IMG_534,General Scene,None,None,0.95
+IMG_535,General Scene,None,None,0.95
+IMG_536,General Scene,None,None,0.95
+IMG_537,General Scene,None,None,0.95
+IMG_538,General Scene,None,None,0.95
+IMG_539,General Scene,None,None,0.95
+IMG_540,General Scene,None,None,0.95
+IMG_541,General Scene,None,None,0.95
+IMG_542,General Scene,None,None,0.95
+IMG_543,General Scene,None,None,0.95
+IMG_544,General Scene,None,None,0.95
+IMG_545,General Scene,None,None,0.95
+IMG_546,General Scene,None,None,0.95
+IMG_547,General Scene,None,None,0.95
+IMG_548,General Scene,None,None,0.95
+IMG_549,General Scene,None,None,0.95
+IMG_550,General Scene,None,None,0.95
+IMG_551,General Scene,None,None,0.95
+IMG_552,General Scene,None,None,0.95
+IMG_553,General Scene,None,None,0.95
+IMG_554,General Scene,None,None,0.95
+IMG_555,General Scene,None,None,0.95
+IMG_556,General Scene,None,None,0.95
+IMG_557,General Scene,None,None,0.95
+IMG_558,General Scene,None,None,0.95
+IMG_559,General Scene,None,None,0.95
+IMG_560,General Scene,None,None,0.95
+IMG_561,General Scene,None,None,0.95
+IMG_562,General Scene,None,None,0.95
+IMG_563,General Scene,None,None,0.95
+IMG_564,General Scene,None,None,0.95
+IMG_565,General Scene,None,None,0.95
+IMG_566,General Scene,None,None,0.95
+IMG_567,General Scene,None,None,0.95
+IMG_568,General Scene,None,None,0.95
+IMG_569,General Scene,None,None,0.95
+IMG_570,General Scene,None,None,0.95
+IMG_571,General Scene,None,None,0.95
+IMG_572,General Scene,None,None,0.95
+IMG_573,General Scene,None,None,0.95
+IMG_574,General Scene,None,None,0.95
+IMG_575,General Scene,None,None,0.95
+IMG_576,General Scene,None,None,0.95
+IMG_577,General Scene,None,None,0.95
+IMG_578,General Scene,None,None,0.95
+IMG_579,General Scene,None,None,0.95
+IMG_580,General Scene,None,None,0.95
+IMG_581,General Scene,None,None,0.95
+IMG_582,General Scene,None,None,0.95
+IMG_583,General Scene,None,None,0.95
+IMG_584,General Scene,None,None,0.95
+IMG_585,General Scene,None,None,0.95
+IMG_586,General Scene,None,None,0.95
+IMG_587,General Scene,None,None,0.95
+IMG_588,General Scene,None,None,0.95
+IMG_589,General Scene,None,None,0.95
+IMG_590,General Scene,None,None,0.95
+IMG_591,General Scene,None,None,0.95
+IMG_592,General Scene,None,None,0.95
+IMG_593,General Scene,None,None,0.95
+IMG_594,General Scene,None,None,0.95
+IMG_595,General Scene,None,None,0.95
+IMG_596,General Scene,None,None,0.95
+IMG_597,General Scene,None,None,0.95
+IMG_598,General Scene,None,None,0.95
+IMG_599,General Scene,None,None,0.95
+IMG_600,General Scene,None,None,0.95
+IMG_601,General Scene,None,None,0.95
+IMG_602,General Scene,None,None,0.95
+IMG_603,General Scene,None,None,0.95
+IMG_604,General Scene,None,None,0.95
+IMG_605,General Scene,None,None,0.95
+IMG_606,General Scene,None,None,0.95
+IMG_607,General Scene,None,None,0.95
+IMG_608,General Scene,None,None,0.95
+IMG_609,General Scene,None,None,0.95
+IMG_610,General Scene,None,None,0.95
+IMG_611,General Scene,None,None,0.95
+IMG_612,General Scene,None,None,0.95
+IMG_613,General Scene,None,None,0.95
+IMG_614,General Scene,None,None,0.95
+IMG_615,General Scene,None,None,0.95
+IMG_616,General Scene,None,None,0.95
+IMG_617,General Scene,None,None,0.95
+IMG_618,General Scene,None,None,0.95
+IMG_619,General Scene,None,None,0.95
+IMG_620,General Scene,None,None,0.95
+IMG_621,General Scene,None,None,0.95
+IMG_622,General Scene,None,None,0.95
+IMG_623,Fire Scene,smoke,1 smoke plume,0.95
+IMG_624,General Scene,None,None,0.95
+IMG_625,General Scene,None,None,0.95
+IMG_626,General Scene,None,None,0.95
+IMG_627,General Scene,None,None,0.95
+IMG_628,General Scene,None,None,0.95
+IMG_629,General Scene,None,None,0.95
+IMG_630,General Scene,None,None,0.95
+IMG_631,General Scene,None,None,0.95
+IMG_632,General Scene,None,None,0.95
+IMG_633,General Scene,None,None,0.95
+IMG_634,General Scene,None,None,0.95
+IMG_635,General Scene,None,None,0.95
+IMG_636,General Scene,None,None,0.95
+IMG_637,General Scene,None,None,0.95
+IMG_638,General Scene,None,None,0.95
+IMG_639,General Scene,None,None,0.95
+IMG_640,General Scene,None,None,0.95
+IMG_641,General Scene,None,None,0.95
+IMG_642,General Scene,None,None,0.95
+IMG_643,General Scene,None,None,0.95
+IMG_644,General Scene,None,None,0.95
+IMG_645,General Scene,None,None,0.95
+IMG_646,General Scene,None,None,0.95
+IMG_647,General Scene,None,None,0.95
+IMG_648,General Scene,None,None,0.95
+IMG_649,General Scene,None,None,0.95
+IMG_650,General Scene,None,None,0.95
+IMG_651,General Scene,None,None,0.95
+IMG_652,General Scene,None,None,0.95
+IMG_653,General Scene,None,None,0.95
+IMG_654,General Scene,None,None,0.95
+IMG_655,General Scene,None,None,0.95
+IMG_656,General Scene,None,None,0.95
+IMG_657,General Scene,None,None,0.95
+IMG_658,General Scene,None,None,0.95
+IMG_659,General Scene,None,None,0.95
+IMG_660,General Scene,None,None,0.95
+IMG_661,General Scene,None,None,0.95
+IMG_662,General Scene,None,None,0.95
+IMG_663,General Scene,None,None,0.95
+IMG_664,General Scene,None,None,0.95
+IMG_665,General Scene,None,None,0.95
+IMG_666,General Scene,None,None,0.95
+IMG_667,General Scene,None,None,0.95
+IMG_668,General Scene,None,None,0.95
+IMG_669,General Scene,None,None,0.95
+IMG_670,General Scene,None,None,0.95
+IMG_671,General Scene,None,None,0.95
+IMG_672,General Scene,None,None,0.95
+IMG_673,General Scene,None,None,0.95
+IMG_674,General Scene,None,None,0.95
+IMG_675,General Scene,None,None,0.95
+IMG_676,General Scene,None,None,0.95
+IMG_677,General Scene,None,None,0.95
+IMG_678,General Scene,None,None,0.95
+IMG_679,General Scene,None,None,0.95
+IMG_680,General Scene,None,None,0.95
+IMG_681,General Scene,None,None,0.95
+IMG_682,General Scene,None,None,0.95
+IMG_683,General Scene,None,None,0.95
+IMG_684,General Scene,None,None,0.95
+IMG_685,General Scene,None,None,0.95
+IMG_686,General Scene,None,None,0.95
+IMG_687,General Scene,None,None,0.95
+IMG_688,General Scene,None,None,0.95
+IMG_689,General Scene,None,None,0.95
+IMG_690,General Scene,None,None,0.95
+IMG_691,General Scene,None,None,0.95
+IMG_692,General Scene,None,None,0.95
+IMG_693,Fire Scene,smoke,1 smoke plume,0.95
+IMG_694,General Scene,None,None,0.95
+IMG_695,General Scene,None,None,0.95
+IMG_696,General Scene,None,None,0.95
+IMG_697,General Scene,None,None,0.95
+IMG_698,General Scene,None,None,0.95
+IMG_699,Fire Scene,smoke,1 smoke plume,0.95
+IMG_700,General Scene,None,None,0.95
+IMG_701,General Scene,None,None,0.95
+IMG_702,General Scene,None,None,0.95
+IMG_703,General Scene,None,None,0.95
+IMG_704,General Scene,None,None,0.95
+IMG_705,General Scene,None,None,0.95
+IMG_706,General Scene,None,None,0.95
+IMG_707,General Scene,None,None,0.95
+IMG_708,General Scene,None,None,0.95
+IMG_709,General Scene,None,None,0.95
+IMG_710,General Scene,None,None,0.95
+IMG_711,General Scene,None,None,0.95
+IMG_712,General Scene,None,None,0.95
+IMG_713,General Scene,None,None,0.95
+IMG_714,General Scene,None,None,0.95
+IMG_715,General Scene,None,None,0.95
+IMG_716,General Scene,None,None,0.95
+IMG_717,General Scene,None,None,0.95
+IMG_718,General Scene,None,None,0.95
+IMG_719,General Scene,None,None,0.95
+IMG_720,General Scene,None,None,0.95
+IMG_721,General Scene,None,None,0.95
+IMG_722,General Scene,None,None,0.95
+IMG_723,General Scene,None,None,0.95
+IMG_724,General Scene,None,None,0.95
+IMG_725,General Scene,None,None,0.95
+IMG_726,General Scene,None,None,0.95
+IMG_727,General Scene,None,None,0.95
+IMG_728,General Scene,None,None,0.95
+IMG_729,General Scene,None,None,0.95
+IMG_730,General Scene,None,None,0.95
+IMG_731,General Scene,None,None,0.95
+IMG_732,General Scene,None,None,0.95
+IMG_733,General Scene,None,None,0.95
+IMG_734,General Scene,None,None,0.95
+IMG_735,General Scene,None,None,0.95
+IMG_736,General Scene,None,None,0.95
+IMG_737,General Scene,None,None,0.95
+IMG_738,General Scene,None,None,0.95
+IMG_739,General Scene,None,None,0.95
+IMG_740,General Scene,None,None,0.95
+IMG_741,General Scene,None,None,0.95
+IMG_742,General Scene,None,None,0.95
+IMG_743,General Scene,None,None,0.95
+IMG_744,General Scene,None,None,0.95
+IMG_745,General Scene,None,None,0.95
+IMG_746,General Scene,None,None,0.95
+IMG_747,General Scene,None,None,0.95
+IMG_748,General Scene,None,None,0.95
+IMG_749,General Scene,None,None,0.95
+IMG_750,General Scene,None,None,0.95
+IMG_751,General Scene,None,None,0.95
+IMG_752,General Scene,None,None,0.95
+IMG_753,General Scene,None,None,0.95
+IMG_754,General Scene,None,None,0.95
+IMG_755,General Scene,None,None,0.95
+IMG_756,General Scene,None,None,0.95
+IMG_757,General Scene,None,None,0.95
+IMG_758,General Scene,None,None,0.95
+IMG_759,General Scene,None,None,0.95
+IMG_760,General Scene,None,None,0.95
+IMG_761,General Scene,None,None,0.95
+IMG_762,General Scene,None,None,0.95
+IMG_763,General Scene,None,None,0.95
+IMG_764,General Scene,None,None,0.95
+IMG_765,General Scene,None,None,0.95
+IMG_766,General Scene,None,None,0.95
+IMG_767,General Scene,None,None,0.95
+IMG_768,General Scene,None,None,0.95
+IMG_769,General Scene,None,None,0.95
+IMG_770,General Scene,None,None,0.95
+IMG_771,General Scene,None,None,0.95
+IMG_772,General Scene,None,None,0.95
+IMG_773,General Scene,None,None,0.95
+IMG_774,General Scene,None,None,0.95
+IMG_775,General Scene,None,None,0.95
+IMG_776,General Scene,None,None,0.95
+IMG_777,General Scene,None,None,0.95
+IMG_778,General Scene,None,None,0.95
+IMG_779,General Scene,None,None,0.95
+IMG_780,General Scene,None,None,0.95
+IMG_781,General Scene,None,None,0.95
+IMG_782,General Scene,None,None,0.95
+IMG_783,General Scene,None,None,0.95
+IMG_784,General Scene,None,None,0.95
+IMG_785,General Scene,None,None,0.95
+IMG_786,General Scene,None,None,0.95
+IMG_787,General Scene,None,None,0.95
+IMG_788,General Scene,None,None,0.95
+IMG_789,General Scene,None,None,0.95
+IMG_790,General Scene,None,None,0.95
+IMG_791,General Scene,None,None,0.95
+IMG_792,General Scene,None,None,0.95
+IMG_793,General Scene,None,None,0.95
+IMG_794,General Scene,None,None,0.95
+IMG_795,General Scene,None,None,0.95
+IMG_796,General Scene,None,None,0.95
+IMG_797,General Scene,None,None,0.95
+IMG_798,General Scene,None,None,0.95
+IMG_799,General Scene,None,None,0.95
+IMG_800,General Scene,None,None,0.95
+IMG_801,General Scene,None,None,0.95
+IMG_802,General Scene,None,None,0.95
+IMG_803,General Scene,None,None,0.95
+IMG_804,General Scene,None,None,0.95
+IMG_805,General Scene,None,None,0.95
+IMG_806,General Scene,None,None,0.95
+IMG_807,General Scene,None,None,0.95
+IMG_808,General Scene,None,None,0.95
+IMG_809,General Scene,None,None,0.95
+IMG_810,General Scene,None,None,0.95
+IMG_811,General Scene,None,None,0.95
+IMG_812,General Scene,None,None,0.95
+IMG_813,General Scene,None,None,0.95
+IMG_814,General Scene,None,None,0.95
+IMG_815,General Scene,None,None,0.95
+IMG_816,General Scene,None,None,0.95
+IMG_817,General Scene,None,None,0.95
+IMG_818,General Scene,None,None,0.95
+IMG_819,Fire Scene,smoke,1 smoke plume,0.95
+IMG_820,Fire Scene,smoke,1 smoke plume,0.95
+IMG_821,Fire Scene,smoke,1 smoke plume,0.95
+IMG_822,Fire Scene,smoke,1 smoke plume,0.95
+IMG_823,Fire Scene,smoke,1 smoke plume,0.95
+IMG_824,Fire Scene,smoke,1 smoke plume,0.95
+IMG_825,Fire Scene,smoke,1 smoke plume,0.95
+IMG_826,Fire Scene,smoke,1 smoke plume,0.95
+IMG_827,Fire Scene,smoke,1 smoke plume,0.95
+IMG_828,Fire Scene,smoke,1 smoke plume,0.95
+IMG_829,Fire Scene,smoke,1 smoke plume,0.95
+IMG_830,Fire Scene,smoke,1 smoke plume,0.95
+IMG_831,Fire Scene,smoke,1 smoke plume,0.95
+IMG_832,Fire Scene,smoke,1 smoke plume,0.95
+IMG_833,Fire Scene,smoke,1 smoke plume,0.95
+IMG_834,Fire Scene,smoke,1 smoke plume,0.95
+IMG_835,Fire Scene,smoke,1 smoke plume,0.95
+IMG_836,Fire Scene,smoke,1 smoke plume,0.95
+IMG_837,Fire Scene,smoke,1 smoke plume,0.95
+IMG_838,Fire Scene,smoke,1 smoke plume,0.95
+IMG_839,Fire Scene,smoke,1 smoke plume,0.95
+IMG_840,Fire Scene,smoke,1 smoke plume,0.95
+IMG_841,Fire Scene,smoke,1 smoke plume,0.95
+IMG_842,Fire Scene,smoke,1 smoke plume,0.95
+IMG_843,Fire Scene,smoke,1 smoke plume,0.95
+IMG_844,Fire Scene,smoke,1 smoke plume,0.95
+IMG_845,Fire Scene,smoke,1 smoke plume,0.95
+IMG_846,Fire Scene,fire,1 fire region,0.95
+IMG_847,Fire Scene,smoke,1 smoke plume,0.95
+IMG_848,Fire Scene,smoke,1 smoke plume,0.95
+IMG_849,Fire Scene,smoke,1 smoke plume,0.95
+IMG_850,Fire Scene,smoke,1 smoke plume,0.95
+IMG_851,Fire Scene,smoke,1 smoke plume,0.95
+IMG_852,Fire Scene,smoke,1 smoke plume,0.95
+IMG_853,Fire Scene,smoke,1 smoke plume,0.95
+IMG_854,Fire Scene,smoke,1 smoke plume,0.95
+IMG_855,Fire Scene,smoke,1 smoke plume,0.95
+IMG_856,Fire Scene,smoke,1 smoke plume,0.95
+IMG_857,Fire Scene,smoke,1 smoke plume,0.95
+IMG_858,Fire Scene,smoke,1 smoke plume,0.95
+IMG_859,Fire Scene,smoke,1 smoke plume,0.95
+IMG_860,Fire Scene,smoke,1 smoke plume,0.95
+IMG_861,Fire Scene,smoke,1 smoke plume,0.95
+IMG_862,Fire Scene,smoke,1 smoke plume,0.95
+IMG_863,Fire Scene,smoke,1 smoke plume,0.95
+IMG_864,Fire Scene,smoke,1 smoke plume,0.95
+IMG_865,Fire Scene,smoke,1 smoke plume,0.95
+IMG_866,Fire Scene,smoke,1 smoke plume,0.95
+IMG_867,Fire Scene,smoke,1 smoke plume,0.95
+IMG_868,Fire Scene,smoke,1 smoke plume,0.95
+IMG_869,Fire Scene,smoke,1 smoke plume,0.95
+IMG_870,Fire Scene,smoke,1 smoke plume,0.95
+IMG_871,Fire Scene,smoke,1 smoke plume,0.95
+IMG_872,Fire Scene,smoke,1 smoke plume,0.95
+IMG_873,Fire Scene,smoke,1 smoke plume,0.95
+IMG_874,Fire Scene,smoke,1 smoke plume,0.95
+IMG_875,Fire Scene,smoke,1 smoke plume,0.95
+IMG_876,Fire Scene,smoke,1 smoke plume,0.95
+IMG_877,Fire Scene,smoke,1 smoke plume,0.95
+IMG_878,Fire Scene,smoke,1 smoke plume,0.95
+IMG_879,Fire Scene,smoke,1 smoke plume,0.95
+IMG_880,Fire Scene,smoke,1 smoke plume,0.95
+IMG_881,Fire Scene,smoke,1 smoke plume,0.95
+IMG_882,Fire Scene,smoke,1 smoke plume,0.95
+IMG_883,Fire Scene,smoke,1 smoke plume,0.95
+IMG_884,Fire Scene,smoke,1 smoke plume,0.95
+IMG_885,Fire Scene,smoke,1 smoke plume,0.95
+IMG_886,Fire Scene,smoke,1 smoke plume,0.95
+IMG_887,Fire Scene,smoke,1 smoke plume,0.95
+IMG_888,Fire Scene,smoke,1 smoke plume,0.95
+IMG_889,Fire Scene,smoke,1 smoke plume,0.95
+IMG_890,Fire Scene,smoke,1 smoke plume,0.95
+IMG_891,Fire Scene,smoke,1 smoke plume,0.95
+IMG_892,Fire Scene,smoke,1 smoke plume,0.95
+IMG_893,Fire Scene,smoke,1 smoke plume,0.95
+IMG_894,Fire Scene,smoke,1 smoke plume,0.95
+IMG_895,Fire Scene,smoke,1 smoke plume,0.95
+IMG_896,Fire Scene,smoke,1 smoke plume,0.95
+IMG_897,Fire Scene,smoke,1 smoke plume,0.95
+IMG_898,Fire Scene,smoke,1 smoke plume,0.95
+IMG_899,Fire Scene,smoke,1 smoke plume,0.95
+IMG_900,Fire Scene,smoke,1 smoke plume,0.95
+IMG_901,Fire Scene,smoke,1 smoke plume,0.95
+IMG_902,Fire Scene,smoke,1 smoke plume,0.95
+IMG_903,Fire Scene,smoke,1 smoke plume,0.95
+IMG_904,Fire Scene,smoke,1 smoke plume,0.95
+IMG_905,Fire Scene,smoke,1 smoke plume,0.95
+IMG_906,Fire Scene,smoke,1 smoke plume,0.95
+IMG_907,Fire Scene,smoke,1 smoke plume,0.95
+IMG_908,Fire Scene,smoke,1 smoke plume,0.95
+IMG_909,Fire Scene,smoke,1 smoke plume,0.95
+IMG_910,Fire Scene,smoke,1 smoke plume,0.95
+IMG_911,Fire Scene,smoke,1 smoke plume,0.95
+IMG_912,Fire Scene,smoke,1 smoke plume,0.95
+IMG_913,Fire Scene,smoke,1 smoke plume,0.95
+IMG_914,Fire Scene,smoke,1 smoke plume,0.95
+IMG_915,Fire Scene,smoke,1 smoke plume,0.95
+IMG_916,Fire Scene,smoke,1 smoke plume,0.95
+IMG_917,Fire Scene,smoke,1 smoke plume,0.95
+IMG_918,Fire Scene,smoke,1 smoke plume,0.95
+IMG_919,Fire Scene,smoke,1 smoke plume,0.95
+IMG_920,Fire Scene,smoke,1 smoke plume,0.95
+IMG_921,Fire Scene,smoke,1 smoke plume,0.95
+IMG_922,Fire Scene,smoke,1 smoke plume,0.95
+IMG_923,Fire Scene,smoke,1 smoke plume,0.95
+IMG_924,Fire Scene,smoke,1 smoke plume,0.95
+IMG_925,Fire Scene,smoke,1 smoke plume,0.95
+IMG_926,Fire Scene,smoke,1 smoke plume,0.95
+IMG_927,Fire Scene,smoke,1 smoke plume,0.95
+IMG_928,Fire Scene,smoke,1 smoke plume,0.95
+IMG_929,Fire Scene,smoke,1 smoke plume,0.95
+IMG_930,Fire Scene,smoke,1 smoke plume,0.95
+IMG_931,Fire Scene,smoke,1 smoke plume,0.95
+IMG_932,Fire Scene,smoke,1 smoke plume,0.95
+IMG_933,Fire Scene,smoke,1 smoke plume,0.95
+IMG_934,Fire Scene,smoke,1 smoke plume,0.95
+IMG_935,Fire Scene,smoke,1 smoke plume,0.95
+IMG_936,Fire Scene,smoke,1 smoke plume,0.95
+IMG_937,Fire Scene,smoke,1 smoke plume,0.95
+IMG_938,Fire Scene,smoke,1 smoke plume,0.95
+IMG_939,Fire Scene,smoke,1 smoke plume,0.95
+IMG_940,Fire Scene,smoke,1 smoke plume,0.95
+IMG_941,Fire Scene,smoke,1 smoke plume,0.95
+IMG_942,Fire Scene,smoke,1 smoke plume,0.95
+IMG_943,Fire Scene,smoke,1 smoke plume,0.95
+IMG_944,Fire Scene,smoke,1 smoke plume,0.95
+IMG_945,Fire Scene,smoke,1 smoke plume,0.95
+IMG_946,Fire Scene,smoke,1 smoke plume,0.95
+IMG_947,Fire Scene,smoke,1 smoke plume,0.95
+IMG_948,Fire Scene,smoke,1 smoke plume,0.95
+IMG_949,Fire Scene,smoke,1 smoke plume,0.95
+IMG_950,Fire Scene,smoke,1 smoke plume,0.95
+IMG_951,Fire Scene,smoke,1 smoke plume,0.95
+IMG_952,Fire Scene,smoke,1 smoke plume,0.95
+IMG_953,Fire Scene,smoke,1 smoke plume,0.95
+IMG_954,Fire Scene,smoke,1 smoke plume,0.95
+IMG_955,Fire Scene,smoke,1 smoke plume,0.95
+IMG_956,Fire Scene,smoke,1 smoke plume,0.95
+IMG_957,General Scene,None,None,0.0
+IMG_958,Fire Scene,smoke,1 smoke plume,0.95
+IMG_959,Fire Scene,smoke,1 smoke plume,0.95
+IMG_960,Fire Scene,smoke,1 smoke plume,0.95
+IMG_961,Fire Scene,smoke,1 smoke plume,0.95
+IMG_962,Fire Scene,smoke,1 smoke plume,0.95
+IMG_963,Fire Scene,smoke,1 smoke plume,0.95
+IMG_964,Fire Scene,smoke,1 smoke plume,0.95
+IMG_965,Fire Scene,smoke,1 smoke plume,0.95
+IMG_966,Fire Scene,smoke,1 smoke plume,0.95
+IMG_967,Fire Scene,smoke,1 smoke plume,0.95
+IMG_968,Fire Scene,smoke,1 smoke plume,0.95
+IMG_969,Fire Scene,smoke,1 smoke plume,0.95
+IMG_970,Fire Scene,smoke,1 smoke plume,0.95
+IMG_971,Fire Scene,smoke,1 smoke plume,0.95
+IMG_972,Fire Scene,smoke,1 smoke plume,0.95
+IMG_973,Fire Scene,smoke,1 smoke plume,0.95
+IMG_974,Fire Scene,smoke,1 smoke plume,0.95
+IMG_975,Fire Scene,smoke,1 smoke plume,0.95
+IMG_976,Fire Scene,smoke,1 smoke plume,0.95
+IMG_977,Fire Scene,smoke,1 smoke plume,0.95
+IMG_978,Fire Scene,smoke,1 smoke plume,0.95
+IMG_979,Fire Scene,fire,1 fire region,0.95
+IMG_980,Fire Scene,smoke,1 smoke plume,0.95
+IMG_981,Fire Scene,smoke,1 smoke plume,0.95
+IMG_982,Fire Scene,smoke,1 smoke plume,0.95
+IMG_983,Fire Scene,smoke,1 smoke plume,0.95
+IMG_984,Fire Scene,smoke,1 smoke plume,0.95
+IMG_985,Fire Scene,smoke,1 smoke plume,0.95
+IMG_986,Fire Scene,smoke,1 smoke plume,0.95
+IMG_987,Fire Scene,smoke,1 smoke plume,0.95
+IMG_988,Fire Scene,smoke,1 smoke plume,0.95
+IMG_989,Fire Scene,smoke,1 smoke plume,0.95
+IMG_990,Fire Scene,smoke,1 smoke plume,0.95
+IMG_991,Fire Scene,smoke,1 smoke plume,0.95
+IMG_992,Fire Scene,smoke,1 smoke plume,0.95
+IMG_993,Fire Scene,smoke,1 smoke plume,0.95
+IMG_994,Fire Scene,smoke,1 smoke plume,0.95
+IMG_995,Fire Scene,smoke,1 smoke plume,0.95
+IMG_996,Fire Scene,smoke,1 smoke plume,0.95
+IMG_997,Fire Scene,smoke,1 smoke plume,0.95
+IMG_998,Fire Scene,smoke,1 smoke plume,0.95
+IMG_999,Fire Scene,smoke,1 smoke plume,0.95
+IMG_1000,Fire Scene,smoke,1 smoke plume,0.95
+IMG_1001,Fire Scene,smoke,1 smoke plume,0.95
+IMG_1002,Fire Scene,smoke,1 smoke plume,0.95
+IMG_1003,Fire Scene,smoke,1 smoke plume,0.95
+IMG_1004,Fire Scene,smoke,1 smoke plume,0.95
+IMG_1005,Fire Scene,smoke,1 smoke plume,0.95
+IMG_1006,Fire Scene,smoke,1 smoke plume,0.95
+IMG_1007,Fire Scene,smoke,1 smoke plume,0.95
+IMG_1008,Fire Scene,smoke,1 smoke plume,0.95
+IMG_1009,Fire Scene,smoke,1 smoke plume,0.95
+IMG_1010,Fire Scene,smoke,1 smoke plume,0.95
+IMG_1011,Fire Scene,smoke,1 smoke plume,0.95
+IMG_1012,Fire Scene,smoke,1 smoke plume,0.95
+IMG_1013,Fire Scene,smoke,1 smoke plume,0.95
+IMG_1014,Fire Scene,smoke,1 smoke plume,0.95
+IMG_1015,Fire Scene,smoke,1 smoke plume,0.95
+IMG_1016,Fire Scene,smoke,1 smoke plume,0.95
+IMG_1017,Fire Scene,smoke,1 smoke plume,0.95
+IMG_1018,Fire Scene,smoke,1 smoke plume,0.95
+IMG_1019,Fire Scene,smoke,1 smoke plume,0.95
+IMG_1020,Fire Scene,smoke,1 smoke plume,0.95
+IMG_1021,Fire Scene,smoke,1 smoke plume,0.95
+IMG_1022,Fire Scene,smoke,1 smoke plume,0.95
+IMG_1023,Fire Scene,smoke,1 smoke plume,0.95
+IMG_1024,Fire Scene,smoke,1 smoke plume,0.95
+IMG_1025,Fire Scene,smoke,1 smoke plume,0.95
+IMG_1026,Fire Scene,smoke,1 smoke plume,0.95
+IMG_1027,Fire Scene,smoke,1 smoke plume,0.95
+IMG_1028,Fire Scene,smoke,1 smoke plume,0.95
+IMG_1029,Fire Scene,smoke,1 smoke plume,0.95
+IMG_1030,Fire Scene,smoke,1 smoke plume,0.95
+IMG_1031,Fire Scene,smoke,1 smoke plume,0.95
+IMG_1032,Fire Scene,smoke,1 smoke plume,0.95
+IMG_1033,Fire Scene,smoke,1 smoke plume,0.95
+IMG_1034,Fire Scene,smoke,1 smoke plume,0.95
+IMG_1035,Fire Scene,smoke,1 smoke plume,0.95
+IMG_1036,Fire Scene,smoke,1 smoke plume,0.95
+IMG_1037,Fire Scene,smoke,1 smoke plume,0.95
+IMG_1038,Fire Scene,smoke,1 smoke plume,0.95
+IMG_1039,Fire Scene,smoke,1 smoke plume,0.95
+IMG_1040,Fire Scene,smoke,1 smoke plume,0.95
+IMG_1041,Fire Scene,smoke,1 smoke plume,0.95
+IMG_1042,Fire Scene,smoke,1 smoke plume,0.95
+IMG_1043,Fire Scene,smoke,1 smoke plume,0.95
+IMG_1044,Fire Scene,smoke,1 smoke plume,0.95
+IMG_1045,Fire Scene,smoke,1 smoke plume,0.95
+IMG_1046,Fire Scene,smoke,1 smoke plume,0.95
+IMG_1047,Fire Scene,smoke,1 smoke plume,0.95
+IMG_1048,Fire Scene,smoke,1 smoke plume,0.95
+IMG_1049,Fire Scene,smoke,1 smoke plume,0.95
+IMG_1050,Fire Scene,smoke,1 smoke plume,0.95
+IMG_1051,Fire Scene,smoke,1 smoke plume,0.95
+IMG_1052,Fire Scene,smoke,1 smoke plume,0.95
+IMG_1053,Fire Scene,smoke,1 smoke plume,0.95
+IMG_1054,Fire Scene,smoke,1 smoke plume,0.95
+IMG_1055,Fire Scene,smoke,1 smoke plume,0.95
+IMG_1056,Fire Scene,smoke,1 smoke plume,0.95
+IMG_1057,Fire Scene,smoke,1 smoke plume,0.95
+IMG_1058,Fire Scene,smoke,1 smoke plume,0.95
+IMG_1059,Fire Scene,smoke,1 smoke plume,0.95
+IMG_1060,Fire Scene,smoke,1 smoke plume,0.95
+IMG_1061,Fire Scene,smoke,1 smoke plume,0.95
+IMG_1062,Fire Scene,smoke,1 smoke plume,0.95
+IMG_1063,Fire Scene,smoke,1 smoke plume,0.95
+IMG_1064,Fire Scene,smoke,1 smoke plume,0.95
+IMG_1065,Fire Scene,smoke,1 smoke plume,0.95
+IMG_1066,Fire Scene,smoke,1 smoke plume,0.95
+IMG_1067,Fire Scene,smoke,1 smoke plume,0.95
+IMG_1068,Fire Scene,smoke,1 smoke plume,0.95
+IMG_1069,Fire Scene,smoke,1 smoke plume,0.95
+IMG_1070,Fire Scene,smoke,1 smoke plume,0.95
+IMG_1071,Fire Scene,smoke,1 smoke plume,0.95
+IMG_1072,Fire Scene,smoke,1 smoke plume,0.95
+IMG_1073,Fire Scene,smoke,1 smoke plume,0.95
+IMG_1074,Fire Scene,smoke,1 smoke plume,0.95
+IMG_1075,Fire Scene,smoke,1 smoke plume,0.95
+IMG_1076,Fire Scene,smoke,1 smoke plume,0.95
+IMG_1077,Fire Scene,smoke,1 smoke plume,0.95
+IMG_1078,Fire Scene,smoke,1 smoke plume,0.95
+IMG_1079,Fire Scene,smoke,1 smoke plume,0.95
