@@ -39,6 +39,18 @@ SEVERITY_MAP = {
     "disturbance": "Low", "vandalism": "Low",
 }
 
+TOPIC_MAP = {
+    "robbery":      "Theft / Robbery",
+    "theft":        "Theft / Robbery",
+    "fire":         "Fire / Emergency",
+    "assault":      "Violence / Assault",
+    "murder":       "Violence / Murder",
+    "accident":     "Accident",
+    "drug offense": "Drug Offense",
+    "disturbance":  "Public Disturbance",
+    "vandalism":    "Vandalism",
+}
+
 def _load_models():
     import spacy
     from transformers import pipeline as hf_pipeline
@@ -112,14 +124,10 @@ def run(text_dir: str  = "text/data",
         ctype    = crime_type(raw, zs_pipe)
         rows.append({
             "Text_ID":         tid,
-            "Source":          src,
-            "Raw_Text":        raw[:200],
-            "Cleaned_Text":    clean(raw)[:200],
-            "Sentiment":       sentiment(raw, sent_pipe),
-            "Entities":        str(entities),
-            "Location_Entity": ", ".join(entities["locations"]) or "Unknown",
             "Crime_Type":      ctype,
-            "Topic":           ctype,
+            "Location_Entity": ", ".join(entities["locations"]) or "Unknown",
+            "Sentiment":       sentiment(raw, sent_pipe),
+            "Topic":           TOPIC_MAP.get(ctype.lower(), ctype),
             "Severity_Label":  SEVERITY_MAP.get(ctype.lower(), "Low"),
         })
 
@@ -129,31 +137,6 @@ def run(text_dir: str  = "text/data",
     print(f"[Text] ✅ {len(df)} records → {output_csv}\n")
     return df
 
-""" def _demo(output_csv: str = "text/output_text.csv") -> pd.DataFrame:
-    df = pd.DataFrame([
-        {"Text_ID": "TXT_112", "Source": "Twitter",
-         "Raw_Text": "Just witnessed a robbery on Oak Street, Chicago! Police are on the way.",
-         "Cleaned_Text": "witnessed robbery oak street chicago police way",
-         "Sentiment": "Negative", "Entities": "{'locations':['Oak Street','Chicago']}",
-         "Location_Entity": "Oak Street, Chicago", "Crime_Type": "Robbery",
-         "Topic": "Theft / Robbery", "Severity_Label": "High"},
-        {"Text_ID": "TXT_113", "Source": "News Article",
-         "Raw_Text": "A major fire broke out at the warehouse on 5th Avenue downtown.",
-         "Cleaned_Text": "major fire broke warehouse 5th avenue downtown",
-         "Sentiment": "Negative", "Entities": "{'locations':['5th Avenue']}",
-         "Location_Entity": "5th Avenue", "Crime_Type": "Fire",
-         "Topic": "Fire / Emergency", "Severity_Label": "High"},
-        {"Text_ID": "TXT_114", "Source": "Reddit",
-         "Raw_Text": "Car crash on I-95 near Exit 12. Ambulance has been called.",
-         "Cleaned_Text": "car crash i95 exit 12 ambulance called",
-         "Sentiment": "Negative", "Entities": "{'locations':['I-95']}",
-         "Location_Entity": "I-95", "Crime_Type": "Accident",
-         "Topic": "Accident", "Severity_Label": "Medium"},
-    ])
-    os.makedirs(os.path.dirname(output_csv), exist_ok=True)
-    df.to_csv(output_csv, index=False)
-    print(f"[Text] ✅ Demo data saved → {output_csv}\n")
-    return df """
 
 if __name__ == "__main__":
     run()

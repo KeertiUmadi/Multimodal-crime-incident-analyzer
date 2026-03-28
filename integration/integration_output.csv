@@ -1,0 +1,21 @@
+Incident_ID,Audio_Event,PDF_Doc_Type,Image_Objects,Video_Event,Text_Crime_Type,Severity
+INC_001,Disturbance,Training Proposal,Unknown,No significant event,Disturbance,Medium
+INC_002,Suspicious Situation,Training Proposal,fire (0.95),No significant event,Disturbance,High
+INC_003,Shooting,Training Proposal,fire (0.95),Person detected,Disturbance,High
+INC_004,Unknown,Unknown,fire (0.95),No significant event,Disturbance,Medium
+INC_005,Drug Activity,Unknown,fire (0.95),Person detected,Murder,High
+INC_006,Unknown,Unknown,fire (0.95),Person detected,Disturbance,Low
+INC_007,Unknown,Unknown,fire (0.95),No significant event,Robbery,Medium
+INC_008,Unknown,Unknown,fire (0.95),No significant event,Disturbance,Low
+INC_009,Unknown,Unknown,fire (0.95),No significant event,Disturbance,Low
+INC_010,Unknown,Unknown,fire (0.95),No significant event,Drug Offense,Medium
+INC_011,Unknown,Unknown,fire (0.95),No significant event,Theft,Medium
+INC_012,Unknown,Unknown,fire (0.95),No significant event,Disturbance,Low
+INC_013,Unknown,Unknown,fire (0.95),No significant event,Disturbance,Low
+INC_014,Unknown,Unknown,Unknown,No significant event,Disturbance,Low
+INC_015,Unknown,Unknown,fire (0.95),Person detected,Disturbance,Low
+INC_016,Unknown,Unknown,fire (0.95),Person detected,Disturbance,Low
+INC_017,Unknown,Unknown,fire (0.95),No significant event,Disturbance,Low
+INC_018,Unknown,Unknown,fire (0.95),No significant event,Disturbance,Low
+INC_019,Unknown,Unknown,fire (0.95),Person detected,Disturbance,Low
+INC_020,Unknown,Unknown,fire (0.95),Person detected,Drug Offense,Medium

@@ -98,9 +98,13 @@ def load_models():
 # -----------------------------
 # MAIN FUNCTION
 # -----------------------------
+#def run(
+   # audio_dir=r"C:\Users\umadi\Multimodal-crime-incident-analyzer\audio\data",
+   # output_csv=r"C:\Users\umadi\Multimodal-crime-incident-analyzer\audio\output_audio.csv"
+#):
 def run(
-    audio_dir=r"C:\Users\umadi\Multimodal-crime-incident-analyzer\audio\data",
-    output_csv=r"C:\Users\umadi\Multimodal-crime-incident-analyzer\audio\output_audio.csv"
+    audio_dir=os.path.join(os.path.dirname(os.path.abspath(__file__)), "data"),
+    output_csv=os.path.join(os.path.dirname(os.path.abspath(__file__)), "output_audio.csv")
 ):
 
     supported = (".wav", ".mp3", ".m4a", ".ogg", ".flac")
@@ -133,7 +137,6 @@ def run(
 
         data.append({
             "Call_ID": call_id,
-            "Source_File": file,
             "Transcript": transcript,
             "Extracted_Event": event,
             "Location": location,

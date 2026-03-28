@@ -8,9 +8,15 @@ Assignment Steps:
   2. Merge DataFrames on Incident_ID
   3. Handle missing values with N/A
   4. Generate severity classification (Low / Medium / High)
+<<<<<<< HEAD
   5. Save final_dataset.csv
 
 Output  : integration/final_dataset.csv
+=======
+  5. Save integration_output.csv
+
+Output  : integration/integration_output.csv
+>>>>>>> 10617c2 (Final Changes -1)
 Final Schema : Incident_ID | Audio_Event | PDF_Doc_Type | Image_Objects | Video_Event | Text_Crime_Type | Severity
 """
 
@@ -159,8 +165,13 @@ def run() -> pd.DataFrame:
         "Severity":        df["Severity"],
     })
 
+<<<<<<< HEAD
     final_df.to_csv("integration/final_dataset.csv", index=False)
     print("\n[Integration] ✅ Final dataset saved → integration/final_dataset.csv")
+=======
+    final_df.to_csv("integration/integration_output.csv", index=False)
+    print("\n[Integration] ✅ Final dataset saved → integration/integration_output.csv")
+>>>>>>> 10617c2 (Final Changes -1)
     print("\n── Final Output (Assignment Format) ──")
     print(final_df.to_string(index=False))
 

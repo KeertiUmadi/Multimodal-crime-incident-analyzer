@@ -1,60 +1,51 @@
-Text_ID,Source,Raw_Text,Cleaned_Text,Sentiment,Entities,Location_Entity,Crime_Type,Topic,Severity_Label
-TXT_001,Unknown,"Active crime scene on I-59/20 near Jeff/Tusc Co line. One dead, one injured; shooting involved. Police search in the area; traffic stopped",active crime scene near jeff tusc line one dead one injured shooting involved police search area traffic stopped,Negative,"{'locations': [], 'persons': [], 'orgs': []}",Unknown,Disturbance,Disturbance,Low
-TXT_002,Unknown,Police have arrested a suspect in the Monday shooting at the basketball courts behind Word Tabernacle Church. http://t.co/X67i7jajij,police arrested suspect monday shooting basketball courts behind word tabernacle church,Negative,"{'locations': [], 'persons': [], 'orgs': ['Word Tabernacle Church']}",Unknown,Disturbance,Disturbance,Low
-TXT_003,Unknown,Lawsuit alleges Chicago Police strip-searched trio in public http://t.co/NGVCe42BUW via @suntimes,lawsuit alleges chicago police strip searched trio public via suntimes,Negative,"{'locations': ['Chicago'], 'persons': [], 'orgs': []}",Chicago,Disturbance,Disturbance,Low
-TXT_004,Unknown,New NRA Advice: Don't Cooperate With Police If Your Gun Shows Up At A Crime Scene;  http://t.co/f96jCNY3wV #patriots #liberty,new nra advice cooperate police gun shows crime scene patriots liberty,Negative,"{'locations': [], 'persons': [], 'orgs': ['New NRA Advice']}",Unknown,Disturbance,Disturbance,Low
-TXT_005,Unknown,"Police failing to stamp out ‘honour crimes’, from domestic violence and forced marriage to FGM and murder http://t.co/SLuXLgbQbU",police failing stamp honour crimes domestic violence forced marriage fgm murder,Negative,"{'locations': [], 'persons': [], 'orgs': ['FGM']}",Unknown,Murder,Murder,High
-TXT_006,Unknown,"Today's front page: 
-Police failing to stamp out ‘honour crimes’ http://t.co/SLuXLgbQbU http://t.co/w7ft9HW4Vx",today front page police failing stamp honour crimes,Negative,"{'locations': [], 'persons': [], 'orgs': []}",Unknown,Disturbance,Disturbance,Low
-TXT_007,Unknown,"Town of Tonawanda Police Search for Bank Robbery Suspect
-http://t.co/4aJxs3Mv9G http://t.co/320mwHfuPl",town tonawanda police search bank robbery suspect,Negative,"{'locations': [], 'persons': [], 'orgs': ['Town of Tonawanda Police Search for Bank Robbery Suspect\r\n']}",Unknown,Robbery,Robbery,High
-TXT_008,Unknown,"Due to lack of police protection, #Christians in #Pakistan become easy targets for crime and abuse. http://t.co/6Ld0Zs9h29 ^ws",due lack police protection christians pakistan become easy targets crime abuse,Negative,"{'locations': ['Pakistan'], 'persons': [], 'orgs': []}",Pakistan,Disturbance,Disturbance,Low
-TXT_009,Unknown,New #NRA Advice: Don't Cooperate With Police If Your Gun Shows Up At A Crime Scene http://t.co/ldIDJ75Did,new nra advice cooperate police gun shows crime scene,Negative,"{'locations': [], 'persons': [], 'orgs': ['Crime Scene']}",Unknown,Disturbance,Disturbance,Low
-TXT_010,Unknown,Commish Batts makes a strong case for legalizing marijuana - to end the violent MJ trade in Baltimore. @baltimoresun http://t.co/A0TRUflAYl,commish batts makes strong case legalizing marijuana end violent trade baltimore baltimoresun,Positive,"{'locations': ['Baltimore'], 'persons': ['Commish Batts', '@baltimoresun http://t.co/A0TRUflAYl'], 'orgs': []}",Baltimore,Drug Offense,Drug Offense,Medium
-TXT_011,Unknown,Police swoop on the homeless taking sleeping bags and food parcels in co-ordinated raids in Redbridge http://t.co/ZWmE54jhBP,police swoop homeless taking sleeping bags food parcels ordinated raids redbridge,Negative,"{'locations': [], 'persons': ['Redbridge'], 'orgs': []}",Unknown,Theft,Theft,Medium
-TXT_012,Unknown,#NRAadvice: Don’t cooperate with police if your gun shows up at a crime scene: http://t.co/c96U10ed1l,nraadvice cooperate police gun shows crime scene,Negative,"{'locations': [], 'persons': ['NRAadvice'], 'orgs': []}",Unknown,Disturbance,Disturbance,Low
-TXT_013,Unknown,#Police : Become a Special Constable and help cut crime http://t.co/taxFZeQ4Vx Devon Cornwall,police become special constable help cut crime devon cornwall,Negative,"{'locations': [], 'persons': ['Devon Cornwall'], 'orgs': []}",Unknown,Disturbance,Disturbance,Low
-TXT_014,Unknown,BREAKING NEWS: Judge’s ruling favors officers in Badger Guns suit: http://t.co/QcQP0vLtd4,breaking news judge ruling favors officers badger guns suit,Negative,"{'locations': [], 'persons': [], 'orgs': ['Badger Guns']}",Unknown,Disturbance,Disturbance,Low
-TXT_015,Unknown,Woman police sergeant dives in river to drag drowning woman to safety http://t.co/WKSZ2Obw1k via @MailOnline Just #crime fighters? Nope!!!,woman police sergeant dives river drag drowning woman safety via mailonline crime fighters nope,Negative,"{'locations': [], 'persons': [], 'orgs': []}",Unknown,Disturbance,Disturbance,Low
-TXT_016,Unknown,RT @blackmagicgal1: So AAP will continue to cry foul at Delhi police whenever a crime is reported rather than take responsibility like a go…,blackmagicgal1 aap continue cry foul delhi police whenever crime reported rather take responsibility like,Negative,"{'locations': ['Delhi'], 'persons': [], 'orgs': []}",Delhi,Disturbance,Disturbance,Low
-TXT_017,Unknown,RT @shiven_gaur: Crime/Lawlessness has always been a problem in Delhi. Home minister and Delhi Police are answerable. Media shud stop blami…,shiven gaur crime lawlessness always problem delhi home minister delhi police answerable media shud stop blami,Negative,"{'locations': ['Delhi'], 'persons': ['Delhi Police', 'blami'], 'orgs': ['Crime/Lawlessness']}",Delhi,Disturbance,Disturbance,Low
-TXT_018,Unknown,RT @shiven_gaur: Crime/Lawlessness has always been a problem in Delhi. Home minister and Delhi Police are answerable. Media shud stop blami…,shiven gaur crime lawlessness always problem delhi home minister delhi police answerable media shud stop blami,Negative,"{'locations': ['Delhi'], 'persons': ['Delhi Police', 'blami'], 'orgs': ['Crime/Lawlessness']}",Delhi,Disturbance,Disturbance,Low
-TXT_019,Unknown,RT @shiven_gaur: Crime/Lawlessness has always been a problem in Delhi. Home minister and Delhi Police are answerable. Media shud stop blami…,shiven gaur crime lawlessness always problem delhi home minister delhi police answerable media shud stop blami,Negative,"{'locations': ['Delhi'], 'persons': ['Delhi Police', 'blami'], 'orgs': ['Crime/Lawlessness']}",Delhi,Disturbance,Disturbance,Low
-TXT_020,Unknown,RT @CherryFlavoredd: Cause there isn't any real crime anywhere.. RT @DrinkingTicket: Police around capstone dorm arresting kids looking dru…,cherryflavoredd cause real crime anywhere drinkingticket police around capstone dorm arresting kids looking dru,Negative,"{'locations': [], 'persons': [], 'orgs': ['RT @CherryFlavoredd: Cause']}",Unknown,Drug Offense,Drug Offense,Medium
-TXT_021,Unknown,RT @shiven_gaur: Crime/Lawlessness has always been a problem in Delhi. Home minister and Delhi Police are answerable. Media shud stop blami…,shiven gaur crime lawlessness always problem delhi home minister delhi police answerable media shud stop blami,Negative,"{'locations': ['Delhi'], 'persons': ['Delhi Police', 'blami'], 'orgs': ['Crime/Lawlessness']}",Delhi,Disturbance,Disturbance,Low
-TXT_022,Unknown,RT @CherryFlavoredd: Cause there isn't any real crime anywhere.. RT @DrinkingTicket: Police around capstone dorm arresting kids looking dru…,cherryflavoredd cause real crime anywhere drinkingticket police around capstone dorm arresting kids looking dru,Negative,"{'locations': [], 'persons': [], 'orgs': ['RT @CherryFlavoredd: Cause']}",Unknown,Drug Offense,Drug Offense,Medium
-TXT_023,Unknown,RT @DemandAction: #NRAadvice: Don’t cooperate with police if your gun shows up at a crime scene: http://t.co/c96U10ed1l,demandaction nraadvice cooperate police gun shows crime scene,Negative,"{'locations': [], 'persons': ['NRAadvice'], 'orgs': ['RT @DemandAction']}",Unknown,Disturbance,Disturbance,Low
-TXT_024,Unknown,RT @shiven_gaur: Crime/Lawlessness has always been a problem in Delhi. Home minister and Delhi Police are answerable. Media shud stop blami…,shiven gaur crime lawlessness always problem delhi home minister delhi police answerable media shud stop blami,Negative,"{'locations': ['Delhi'], 'persons': ['Delhi Police', 'blami'], 'orgs': ['Crime/Lawlessness']}",Delhi,Disturbance,Disturbance,Low
-TXT_025,Unknown,Cause there isn't any real crime anywhere.. RT @DrinkingTicket: Police around capstone dorm arresting kids looking drunk coming back home...,cause real crime anywhere drinkingticket police around capstone dorm arresting kids looking drunk coming back home,Negative,"{'locations': [], 'persons': [], 'orgs': []}",Unknown,Disturbance,Disturbance,Low
-TXT_026,Unknown,"India News Delhi Police arrests three  in Rs 8 cr heist, some cash recovered, mastermind absconding http://t.co/HiyzKtG4cN",india news delhi police arrests three heist cash recovered mastermind absconding,Negative,"{'locations': ['Delhi'], 'persons': [], 'orgs': ['India News']}",Delhi,Theft,Theft,Medium
-TXT_027,Unknown,"India News Police sniffer dog's bark lands man in Mumbai jail for 10 years, High Court orders his release http://t.co/KAd6IIFW7r",india news police sniffer dog bark lands man mumbai jail years high court orders release,Negative,"{'locations': ['Mumbai'], 'persons': [], 'orgs': ['India News Police']}",Mumbai,Disturbance,Disturbance,Low
-TXT_028,Unknown,Crime/Lawlessness has always been a problem in Delhi. Home minister and Delhi Police are answerable. Media shud stop blaming AAP.,crime lawlessness always problem delhi home minister delhi police answerable media shud stop blaming aap,Negative,"{'locations': ['Delhi'], 'persons': ['Delhi Police'], 'orgs': ['Crime/Lawlessness']}",Delhi,Disturbance,Disturbance,Low
-TXT_029,Unknown,I added a video to a @YouTube playlist http://t.co/cir6DgKsvp World's Scariest Police Chases 4 (Crime Documentary),added video youtube playlist world scariest police chases crime documentary,Negative,"{'locations': [], 'persons': [], 'orgs': ['World', 'Scariest Police Chases']}",Unknown,Disturbance,Disturbance,Low
-TXT_030,Unknown,New #Legal Remedy Against Police Activities Within Criminal Investigations - Mondaq News Alerts (registration) http://t.co/S1XdGyPOUE,new legal remedy police activities within criminal investigations mondaq news alerts registration,Negative,"{'locations': [], 'persons': ['Legal Remedy'], 'orgs': []}",Unknown,Disturbance,Disturbance,Low
-TXT_031,Unknown,"Police seek witnesses to grass fires (Delahey  - VIC):
-http://t.co/7OEdJQvhMi",police seek witnesses grass fires delahey vic,Negative,"{'locations': [], 'persons': ['Delahey  - VIC'], 'orgs': []}",Unknown,Fire,Fire,High
-TXT_032,Unknown,It's so shallow as for evry crime police is being blamed in #capital by govnment!they mean police has to b present ther b4 crime take place.,shallow evry crime police blamed capital govnment mean police present ther crime take place,Negative,"{'locations': [], 'persons': [], 'orgs': []}",Unknown,Disturbance,Disturbance,Low
-TXT_033,Unknown,Police swoop on kidnappers’ den in Onitsha - http://t.co/HeOoghHHKt http://t.co/AuQrW32iil,police swoop kidnappers den onitsha,Negative,"{'locations': ['Onitsha'], 'persons': [], 'orgs': []}",Onitsha,Disturbance,Disturbance,Low
-TXT_034,Unknown,"RT @Gun_Shots: ""95% of the time police arrive too late to prevent a crime or arrest the suspect."" - US News and World Report, 17 June 1998",gun shots time police arrive late prevent crime arrest suspect news world report june 1998,Negative,"{'locations': [], 'persons': [], 'orgs': []}",Unknown,Disturbance,Disturbance,Low
-TXT_035,Unknown,"@BansheeTvShow The entire police department, the bartender, the gay tech all were in the showdown but only Carrie is charged with a crime?",bansheetvshow entire police department bartender gay tech showdown carrie charged crime,Negative,"{'locations': [], 'persons': ['Carrie'], 'orgs': []}",Unknown,Disturbance,Disturbance,Low
-TXT_036,Unknown,"Police union wants lock out zones expanded:
-http://t.co/hu8zOehB7G",police union wants lock zones expanded,Negative,"{'locations': [], 'persons': [], 'orgs': []}",Unknown,Disturbance,Disturbance,Low
-TXT_037,Unknown,Alert issued in Petaluma after men posing as police enter woman's home:  http://t.co/Gq7RrjkwXs,alert issued petaluma men posing police enter woman home,Negative,"{'locations': ['Petaluma'], 'persons': [], 'orgs': []}",Petaluma,Disturbance,Disturbance,Low
-TXT_038,Unknown,Bay Area journos on crime beat: there are 4 police cars &amp; yellow tape at sunny spot med. MJ shop on 17th right now. Don't know what's up.,bay area journos crime beat police cars amp yellow tape sunny spot med shop 17th right know,Negative,"{'locations': ['Bay Area'], 'persons': [], 'orgs': []}",Bay Area,Disturbance,Disturbance,Low
-TXT_039,Unknown,"RT @Darius_Suber95: Police are supposed to be fighting crime on the streets, not sitting in a hiding spot waiting to give someone a hoe ass…",darius suber95 police supposed fighting crime streets sitting hiding spot waiting give someone hoe ass,Negative,"{'locations': [], 'persons': ['RT @Darius_Suber95'], 'orgs': []}",Unknown,Disturbance,Disturbance,Low
-TXT_040,Unknown,"Peel #Police - Male Arrested on Attempt Murder Warrant http://t.co/tDQE83bFXX
- #crime",peel police male arrested attempt murder warrant crime,Negative,"{'locations': [], 'persons': ['Murder Warrant'], 'orgs': []}",Unknown,Disturbance,Disturbance,Low
-TXT_041,Unknown,Belmar named St. Louis County police chief http://t.co/MXbeCRaJ5K,belmar named louis county police chief,Negative,"{'locations': ['St. Louis County'], 'persons': ['Belmar'], 'orgs': ['http://t.co/MXbeCRaJ5K']}",St. Louis County,Disturbance,Disturbance,Low
-TXT_042,Unknown,RT @geophyraj: Is Mr @ArvindKejriwal going to blame Delhi Police for every crime in the city? Then what was Shiela Dikshit's fault?,geophyraj arvindkejriwal going blame delhi police every crime city shiela dikshit fault,Negative,"{'locations': [], 'persons': [""Shiela Dikshit's""], 'orgs': ['Delhi Police']}",Unknown,Disturbance,Disturbance,Low
-TXT_043,Unknown,"""Men posing as police: Petaluma home invasion.""
-
-Uh, I'm not letting any cop in w/out a badge number confirmed.
-
-http://t.co/90vu7IBTx1",men posing police petaluma home invasion letting cop badge number confirmed,Negative,"{'locations': [], 'persons': [], 'orgs': []}",Unknown,Assault,Assault,High
-TXT_044,Unknown,"#NidoTaniam paid for breaking the glass, why were the shopkeepers not made to pay for their crime of beating him.#Delhi police must answer",nidotaniam paid breaking glass shopkeepers made pay crime beating delhi police must answer,Negative,"{'locations': [], 'persons': ['NidoTaniam'], 'orgs': []}",Unknown,Assault,Assault,High
-TXT_045,Unknown,The Times Picayune - Police investigating shooting in Pontchartrain Park http://t.co/iVehmyxnys,times picayune police investigating shooting pontchartrain park,Negative,"{'locations': ['Pontchartrain Park'], 'persons': [], 'orgs': ['The Times Picayune - Police']}",Pontchartrain Park,Disturbance,Disturbance,Low
-TXT_046,Unknown,"#NidoTaniam paid for breaking the glass, why were the shopkeepers not made to pay for their crime of beating him.#Delhi police must answer",nidotaniam paid breaking glass shopkeepers made pay crime beating delhi police must answer,Negative,"{'locations': [], 'persons': ['NidoTaniam'], 'orgs': []}",Unknown,Assault,Assault,High
-TXT_047,Unknown,RT @blackmagicgal1: So AAP will continue to cry foul at Delhi police whenever a crime is reported rather than take responsibility like a go…,blackmagicgal1 aap continue cry foul delhi police whenever crime reported rather take responsibility like,Negative,"{'locations': ['Delhi'], 'persons': [], 'orgs': []}",Delhi,Disturbance,Disturbance,Low
-TXT_048,Unknown,#Justice U.S. Marshals Task Force and Toledo Police Arrest Final Suspect in Murder Case: Tole... http://t.co/c5u4Mw7Feq #crime #HiTechCJ,justice marshals task force toledo police arrest final suspect murder case tole crime hitechcj,Negative,"{'locations': [], 'persons': ['HiTechCJ'], 'orgs': ['U.S. Marshals Task Force', 'Toledo Police Arrest Final Suspect']}",Unknown,Murder,Murder,High
-TXT_049,Unknown,Alert issued in Petaluma after men posing as police enter woman's home http://t.co/lVcwrHXthc #bayarea,alert issued petaluma men posing police enter woman home bayarea,Negative,"{'locations': ['Petaluma'], 'persons': [], 'orgs': []}",Petaluma,Disturbance,Disturbance,Low
-TXT_050,Unknown,Watching crime and investigation and one of the police audio analysis investigators is wearing a pair of beats audio headphones.,watching crime investigation one police audio analysis investigators wearing pair beats audio headphones,Negative,"{'locations': [], 'persons': [], 'orgs': []}",Unknown,Disturbance,Disturbance,Low
+Text_ID,Crime_Type,Location_Entity,Sentiment,Topic,Severity_Label
+TXT_001,Disturbance,Unknown,Negative,Public Disturbance,Low
+TXT_002,Disturbance,Unknown,Negative,Public Disturbance,Low
+TXT_003,Disturbance,Chicago,Negative,Public Disturbance,Low
+TXT_004,Disturbance,Unknown,Negative,Public Disturbance,Low
+TXT_005,Murder,Unknown,Negative,Violence / Murder,High
+TXT_006,Disturbance,Unknown,Negative,Public Disturbance,Low
+TXT_007,Robbery,Unknown,Negative,Theft / Robbery,High
+TXT_008,Disturbance,Pakistan,Negative,Public Disturbance,Low
+TXT_009,Disturbance,Unknown,Negative,Public Disturbance,Low
+TXT_010,Drug Offense,Baltimore,Positive,Drug Offense,Medium
+TXT_011,Theft,Unknown,Negative,Theft / Robbery,Medium
+TXT_012,Disturbance,Unknown,Negative,Public Disturbance,Low
+TXT_013,Disturbance,Unknown,Negative,Public Disturbance,Low
+TXT_014,Disturbance,Unknown,Negative,Public Disturbance,Low
+TXT_015,Disturbance,Unknown,Negative,Public Disturbance,Low
+TXT_016,Disturbance,Delhi,Negative,Public Disturbance,Low
+TXT_017,Disturbance,Delhi,Negative,Public Disturbance,Low
+TXT_018,Disturbance,Delhi,Negative,Public Disturbance,Low
+TXT_019,Disturbance,Delhi,Negative,Public Disturbance,Low
+TXT_020,Drug Offense,Unknown,Negative,Drug Offense,Medium
+TXT_021,Disturbance,Delhi,Negative,Public Disturbance,Low
+TXT_022,Drug Offense,Unknown,Negative,Drug Offense,Medium
+TXT_023,Disturbance,Unknown,Negative,Public Disturbance,Low
+TXT_024,Disturbance,Delhi,Negative,Public Disturbance,Low
+TXT_025,Disturbance,Unknown,Negative,Public Disturbance,Low
+TXT_026,Theft,Delhi,Negative,Theft / Robbery,Medium
+TXT_027,Disturbance,Mumbai,Negative,Public Disturbance,Low
+TXT_028,Disturbance,Delhi,Negative,Public Disturbance,Low
+TXT_029,Disturbance,Unknown,Negative,Public Disturbance,Low
+TXT_030,Disturbance,Unknown,Negative,Public Disturbance,Low
+TXT_031,Fire,Unknown,Negative,Fire / Emergency,High
+TXT_032,Disturbance,Unknown,Negative,Public Disturbance,Low
+TXT_033,Disturbance,Onitsha,Negative,Public Disturbance,Low
+TXT_034,Disturbance,Unknown,Negative,Public Disturbance,Low
+TXT_035,Disturbance,Unknown,Negative,Public Disturbance,Low
+TXT_036,Disturbance,Unknown,Negative,Public Disturbance,Low
+TXT_037,Disturbance,Petaluma,Negative,Public Disturbance,Low
+TXT_038,Disturbance,Bay Area,Negative,Public Disturbance,Low
+TXT_039,Disturbance,Unknown,Negative,Public Disturbance,Low
+TXT_040,Disturbance,Unknown,Negative,Public Disturbance,Low
+TXT_041,Disturbance,St. Louis County,Negative,Public Disturbance,Low
+TXT_042,Disturbance,Unknown,Negative,Public Disturbance,Low
+TXT_043,Assault,Unknown,Negative,Violence / Assault,High
+TXT_044,Assault,Unknown,Negative,Violence / Assault,High
+TXT_045,Disturbance,Pontchartrain Park,Negative,Public Disturbance,Low
+TXT_046,Assault,Unknown,Negative,Violence / Assault,High
+TXT_047,Disturbance,Delhi,Negative,Public Disturbance,Low
+TXT_048,Murder,Unknown,Negative,Violence / Murder,High
+TXT_049,Disturbance,Petaluma,Negative,Public Disturbance,Low
+TXT_050,Disturbance,Unknown,Negative,Public Disturbance,Low
