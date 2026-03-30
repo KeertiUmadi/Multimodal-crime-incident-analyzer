@@ -24,13 +24,15 @@ This is the most important deliverable of the project. The full team collaborate
 |-------------|-------------|--------------|---------------|-------------|-----------------|----------|
 | INC_001 | Building fire / trapped | 1033 Training Proposal | fire, smoke (0.94) | Person collapsing | Robbery / Theft | High |
 
+**CSV header (exact order):** `Incident_ID,Audio_Event,PDF_Doc_Type,Image_Objects,Video_Event,Text_Crime_Type,Severity`
+
 ---
 
 ## 📁 Files
 
 | File | Description |
 |------|-------------|
-| `integrate.py` | Merges all 5 modality CSVs into `integrated_incidents.csv` |
+| `integrate.py` | Outer-joins all 5 modality CSVs on `Incident_ID` into `integration_output.csv` |
 | `dashboard.py` | Streamlit dashboard for visualizing and filtering incidents |
 | `requirements.txt` | Dependencies for this module |
 
@@ -51,20 +53,22 @@ This is the most important deliverable of the project. The full team collaborate
 ```bash
 pip install -r requirements.txt
 
-# Run integration only
-python integrate.py
+# Run integration only (writes CSV; Step 5 is the dashboard)
+python integration/integrate.py
 
-# Launch the dashboard
-streamlit run dashboard.py
+# Optional text menu after merge
+python integration/integrate.py --cli-query
+
+# Step 5 — dashboard (field + value dropdowns, severity filter)
+streamlit run integration/dashboard.py
 ```
 
-The merged output is saved to `integrated_incidents.csv`.
+The merged output is saved to `integration/integration_output.csv`.
 
 ---
 
 ## 📊 Dashboard Features
 
 - Filter incidents by severity (Low / Medium / High)
-- Filter by event type or source modality
-- View incident timeline and location breakdown
-- Query individual incident details across all 5 data sources
+- Dropdown **Field** (all modalities or one column) and **Value** (distinct values from the data)
+- Table, severity chart, and download filtered CSV

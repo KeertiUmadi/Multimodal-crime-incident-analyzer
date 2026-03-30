@@ -1,51 +1,116 @@
 Text_ID,Crime_Type,Location_Entity,Sentiment,Topic,Severity_Label
-TXT_001,Disturbance,Unknown,Negative,Public Disturbance,Low
-TXT_002,Disturbance,Unknown,Negative,Public Disturbance,Low
-TXT_003,Disturbance,Chicago,Negative,Public Disturbance,Low
-TXT_004,Disturbance,Unknown,Negative,Public Disturbance,Low
-TXT_005,Murder,Unknown,Negative,Violence / Murder,High
-TXT_006,Disturbance,Unknown,Negative,Public Disturbance,Low
-TXT_007,Robbery,Unknown,Negative,Theft / Robbery,High
-TXT_008,Disturbance,Pakistan,Negative,Public Disturbance,Low
-TXT_009,Disturbance,Unknown,Negative,Public Disturbance,Low
-TXT_010,Drug Offense,Baltimore,Positive,Drug Offense,Medium
-TXT_011,Theft,Unknown,Negative,Theft / Robbery,Medium
-TXT_012,Disturbance,Unknown,Negative,Public Disturbance,Low
-TXT_013,Disturbance,Unknown,Negative,Public Disturbance,Low
-TXT_014,Disturbance,Unknown,Negative,Public Disturbance,Low
-TXT_015,Disturbance,Unknown,Negative,Public Disturbance,Low
-TXT_016,Disturbance,Delhi,Negative,Public Disturbance,Low
-TXT_017,Disturbance,Delhi,Negative,Public Disturbance,Low
-TXT_018,Disturbance,Delhi,Negative,Public Disturbance,Low
-TXT_019,Disturbance,Delhi,Negative,Public Disturbance,Low
-TXT_020,Drug Offense,Unknown,Negative,Drug Offense,Medium
-TXT_021,Disturbance,Delhi,Negative,Public Disturbance,Low
-TXT_022,Drug Offense,Unknown,Negative,Drug Offense,Medium
-TXT_023,Disturbance,Unknown,Negative,Public Disturbance,Low
-TXT_024,Disturbance,Delhi,Negative,Public Disturbance,Low
-TXT_025,Disturbance,Unknown,Negative,Public Disturbance,Low
-TXT_026,Theft,Delhi,Negative,Theft / Robbery,Medium
-TXT_027,Disturbance,Mumbai,Negative,Public Disturbance,Low
-TXT_028,Disturbance,Delhi,Negative,Public Disturbance,Low
-TXT_029,Disturbance,Unknown,Negative,Public Disturbance,Low
-TXT_030,Disturbance,Unknown,Negative,Public Disturbance,Low
-TXT_031,Fire,Unknown,Negative,Fire / Emergency,High
-TXT_032,Disturbance,Unknown,Negative,Public Disturbance,Low
-TXT_033,Disturbance,Onitsha,Negative,Public Disturbance,Low
-TXT_034,Disturbance,Unknown,Negative,Public Disturbance,Low
-TXT_035,Disturbance,Unknown,Negative,Public Disturbance,Low
-TXT_036,Disturbance,Unknown,Negative,Public Disturbance,Low
-TXT_037,Disturbance,Petaluma,Negative,Public Disturbance,Low
-TXT_038,Disturbance,Bay Area,Negative,Public Disturbance,Low
-TXT_039,Disturbance,Unknown,Negative,Public Disturbance,Low
-TXT_040,Disturbance,Unknown,Negative,Public Disturbance,Low
-TXT_041,Disturbance,St. Louis County,Negative,Public Disturbance,Low
-TXT_042,Disturbance,Unknown,Negative,Public Disturbance,Low
-TXT_043,Assault,Unknown,Negative,Violence / Assault,High
-TXT_044,Assault,Unknown,Negative,Violence / Assault,High
-TXT_045,Disturbance,Pontchartrain Park,Negative,Public Disturbance,Low
-TXT_046,Assault,Unknown,Negative,Violence / Assault,High
-TXT_047,Disturbance,Delhi,Negative,Public Disturbance,Low
-TXT_048,Murder,Unknown,Negative,Violence / Murder,High
-TXT_049,Disturbance,Petaluma,Negative,Public Disturbance,Low
-TXT_050,Disturbance,Unknown,Negative,Public Disturbance,Low
+TXT_001,Assault,Not mentioned,Negative,Disturbance,High
+TXT_002,Assault,Not mentioned,Neutral,Disturbance,High
+TXT_003,Unknown,Chicago,Neutral,Disturbance,Low
+TXT_004,Unknown,Not mentioned,Neutral,Disturbance,High
+TXT_005,Unknown,Not mentioned,Negative,Disturbance,High
+TXT_006,Unknown,Not mentioned,Negative,Disturbance,Low
+TXT_007,Robbery,Not mentioned,Neutral,Theft/Robbery,Medium
+TXT_008,Unknown,Pakistan,Negative,Disturbance,Low
+TXT_009,Unknown,Not mentioned,Neutral,Disturbance,High
+TXT_010,Unknown,Baltimore,Neutral,Drug Activity,Low
+TXT_011,Unknown,Not mentioned,Neutral,Disturbance,Low
+TXT_012,Unknown,Not mentioned,Neutral,Disturbance,High
+TXT_013,Unknown,Not mentioned,Neutral,Disturbance,Low
+TXT_014,Unknown,Not mentioned,Neutral,Disturbance,High
+TXT_015,Assault,Not mentioned,Negative,Disturbance,Low
+TXT_016,Unknown,Delhi,Negative,Disturbance,Low
+TXT_017,Unknown,Delhi,Negative,Disturbance,Low
+TXT_018,Unknown,Delhi,Negative,Disturbance,Low
+TXT_019,Unknown,Delhi,Negative,Disturbance,Low
+TXT_020,Unknown,Not mentioned,Negative,Drug Activity,Low
+TXT_021,Unknown,Delhi,Negative,Disturbance,Low
+TXT_022,Unknown,Not mentioned,Negative,Drug Activity,Low
+TXT_023,Unknown,Not mentioned,Neutral,Disturbance,High
+TXT_024,Unknown,Delhi,Negative,Disturbance,Low
+TXT_025,Unknown,Not mentioned,Negative,Disturbance,Low
+TXT_026,Unknown,Delhi,Neutral,Theft/Robbery,Low
+TXT_027,Unknown,Mumbai,Neutral,Disturbance,Low
+TXT_028,Unknown,Delhi,Negative,Disturbance,Low
+TXT_029,Unknown,Not mentioned,Neutral,Disturbance,Low
+TXT_030,Unknown,Not mentioned,Neutral,Disturbance,Low
+TXT_031,Fire,Not mentioned,Neutral,Fire,High
+TXT_032,Unknown,Not mentioned,Negative,Disturbance,Low
+TXT_033,Unknown,Onitsha,Neutral,Disturbance,Medium
+TXT_034,Unknown,Not mentioned,Negative,Disturbance,Low
+TXT_035,Unknown,Not mentioned,Negative,Disturbance,Low
+TXT_036,Unknown,Not mentioned,Neutral,Disturbance,Low
+TXT_037,Unknown,Petaluma,Neutral,Disturbance,Low
+TXT_038,Unknown,Bay Area,Negative,Disturbance,Low
+TXT_039,Assault,Not mentioned,Negative,Disturbance,Low
+TXT_040,Unknown,Not mentioned,Neutral,Disturbance,High
+TXT_041,Unknown,St. Louis County,Neutral,Disturbance,Low
+TXT_042,Unknown,Not mentioned,Negative,Disturbance,Low
+TXT_043,Unknown,Not mentioned,Negative,Disturbance,Low
+TXT_044,Unknown,Not mentioned,Negative,Assault,Low
+TXT_045,Assault,Pontchartrain Park,Neutral,Disturbance,High
+TXT_046,Unknown,Not mentioned,Negative,Assault,Low
+TXT_047,Unknown,Delhi,Negative,Disturbance,Low
+TXT_048,Unknown,Not mentioned,Neutral,Disturbance,High
+TXT_049,Unknown,Petaluma,Neutral,Disturbance,Low
+TXT_050,Unknown,Not mentioned,Neutral,Disturbance,Low
+TXT_051,Unknown,Petaluma,Neutral,Disturbance,Low
+TXT_052,Assault,Pontchartrain Park http://t.co/ikLjlj9V6V,Neutral,Disturbance,High
+TXT_053,Unknown,Detroit,Neutral,Disturbance,High
+TXT_054,Unknown,Not mentioned,Negative,Disturbance,Low
+TXT_055,Unknown,Not mentioned,Neutral,Disturbance,Low
+TXT_056,Unknown,Not mentioned,Neutral,Disturbance,Low
+TXT_057,Unknown,Lincolnshire,Neutral,Disturbance,Medium
+TXT_058,Unknown,Petaluma,Neutral,Disturbance,Low
+TXT_059,Unknown,Not mentioned,Negative,Disturbance,Low
+TXT_060,Unknown,Not mentioned,Negative,Disturbance,Low
+TXT_061,Unknown,Not mentioned,Neutral,Disturbance,Low
+TXT_062,Unknown,Not mentioned,Neutral,Disturbance,Low
+TXT_063,Assault,Not mentioned,Neutral,Disturbance,Low
+TXT_064,Unknown,Not mentioned,Neutral,Disturbance,High
+TXT_065,Unknown,Not mentioned,Neutral,Disturbance,High
+TXT_066,Unknown,Not mentioned,Neutral,Disturbance,Low
+TXT_067,Assault,Pontchartrain Park,Neutral,Disturbance,High
+TXT_068,Assault,Pontchartrain Park,Neutral,Disturbance,High
+TXT_069,Assault,Pontchartrain Park,Neutral,Disturbance,High
+TXT_070,Assault,Not mentioned,Neutral,Disturbance,High
+TXT_071,Unknown,"Simi Valley, Simi Valley's",Neutral,Disturbance,Low
+TXT_072,Assault,Pontchartrain Park,Neutral,Disturbance,High
+TXT_073,Unknown,Not mentioned,Neutral,Disturbance,Low
+TXT_074,Drug Activity,Not mentioned,Negative,Drug Activity,Low
+TXT_075,Unknown,Not mentioned,Neutral,Disturbance,Low
+TXT_076,Assault,Pontchartrain Park http://t.co/BzP5fIOhAo,Neutral,Disturbance,High
+TXT_077,Drug Activity,Springfield,Neutral,Drug Activity,Medium
+TXT_078,Drug Activity,Not mentioned,Neutral,Drug Activity,Medium
+TXT_079,Unknown,Delhi,Negative,Disturbance,Low
+TXT_080,Unknown,West Yorkshire’s,Neutral,Disturbance,Low
+TXT_081,Unknown,San Francisco,Negative,Disturbance,Low
+TXT_082,Unknown,Not mentioned,Negative,Disturbance,Low
+TXT_083,Unknown,Not mentioned,Neutral,Disturbance,Low
+TXT_084,Drug Activity,Not mentioned,Negative,Drug Activity,Low
+TXT_085,Drug Activity,Not mentioned,Negative,Drug Activity,Low
+TXT_086,Drug Activity,Not mentioned,Negative,Drug Activity,Low
+TXT_087,Drug Activity,Not mentioned,Negative,Drug Activity,Low
+TXT_088,Drug Activity,Not mentioned,Negative,Drug Activity,Low
+TXT_089,Drug Activity,Not mentioned,Negative,Drug Activity,Low
+TXT_090,Drug Activity,Not mentioned,Negative,Drug Activity,Low
+TXT_091,Unknown,Not mentioned,Neutral,Disturbance,Low
+TXT_092,Unknown,Not mentioned,Negative,Disturbance,Low
+TXT_093,Unknown,Not mentioned,Negative,Disturbance,Low
+TXT_094,Unknown,Ramsay Street to Su,Negative,Disturbance,Low
+TXT_095,Unknown,Not mentioned,Neutral,Disturbance,Low
+TXT_096,Unknown,Not mentioned,Negative,Disturbance,Low
+TXT_097,Unknown,Delhi,Negative,Disturbance,Low
+TXT_098,Unknown,Not mentioned,Positive,Drug Activity,Low
+TXT_099,Unknown,Not mentioned,Negative,Disturbance,Low
+TXT_100,Unknown,Not mentioned,Negative,Disturbance,Low
+TXT_101,Unknown,Delhi,Negative,Disturbance,Low
+TXT_102,Unknown,Not mentioned,Neutral,Disturbance,High
+TXT_103,Unknown,Delhi,Negative,Disturbance,Low
+TXT_104,Unknown,Not mentioned,Negative,Disturbance,High
+TXT_105,Fire,Not mentioned,Neutral,Disturbance,High
+TXT_106,Unknown,Not mentioned,Neutral,Assault,Low
+TXT_107,Fire,Not mentioned,Neutral,Disturbance,High
+TXT_108,Unknown,Not mentioned,Neutral,Disturbance,Low
+TXT_109,Unknown,Delhi,Negative,Disturbance,Low
+TXT_110,Unknown,Not mentioned,Neutral,Disturbance,High
+TXT_111,Unknown,Not mentioned,Negative,Disturbance,Low
+TXT_112,Unknown,Not mentioned,Neutral,Disturbance,High
+TXT_113,Unknown,Not mentioned,Neutral,Disturbance,Low
+TXT_114,Unknown,Not mentioned,Negative,Disturbance,Low
+TXT_115,Unknown,Not mentioned,Neutral,Disturbance,Low

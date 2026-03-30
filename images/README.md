@@ -10,7 +10,7 @@ This module analyzes images from incident scenes, detecting objects of interest 
 
 - Run object detection to identify relevant items: vehicles, fire, people, weapons, damage
 - Classify scene type: accident, fire, theft, public disturbance
-- Extract any visible text from images using OCR (license plates, street signs)
+- Detect objects and scene type (OCR text is not written to the modality CSV schema)
 - Output a structured CSV with detection results and confidence scores
 
 ---
@@ -20,6 +20,8 @@ This module analyzes images from incident scenes, detecting objects of interest 
 | Image_ID | Scene_Type | Objects_Detected | Bounding_Boxes | Confidence |
 |----------|------------|------------------|----------------|------------|
 | IMG_034 | Fire Scene | fire, smoke | 2 fire regions, 1 smoke plume | 0.94 |
+
+**CSV header (exact order):** `Image_ID,Scene_Type,Objects_Detected,Bounding_Boxes,Confidence`
 
 ---
 

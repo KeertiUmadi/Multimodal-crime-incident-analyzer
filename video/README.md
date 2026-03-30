@@ -21,6 +21,8 @@ This module processes video footage to detect abnormal activities, extract key e
 |---------|-----------|----------|----------------|---------------|------------|
 | CAVIAR_03 | 00:00:12 | FRM_036 | Person collapsing | 1 person | 0.88 |
 
+**CSV header (exact order):** `Clip_ID,Timestamp,Frame_ID,Event_Detected,Persons_Count,Confidence`
+
 ---
 
 ## 🛠️ Tools & Libraries

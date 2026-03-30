@@ -10,8 +10,7 @@ Link    : https://www.kaggle.com/code/stpeteishii/911-calls-wav2vec2
 Place   : audio/data/*.wav  (also supports .mp3 .m4a .ogg .flac)
 
 Output  : audio/output_audio.csv
-Columns : Call_ID, Source_File, Transcript, Extracted_Event,
-          Location, Sentiment, Urgency_Score
+Columns : Call_ID, Transcript, Extracted_Event, Location, Sentiment, Urgency_Score
 """
 import os
 import re
@@ -158,7 +157,15 @@ def run(
             "Urgency_Score": urgency
         })
 
-    df = pd.DataFrame(data)
+    output_columns = [
+        "Call_ID",
+        "Transcript",
+        "Extracted_Event",
+        "Location",
+        "Sentiment",
+        "Urgency_Score",
+    ]
+    df = pd.DataFrame(data)[output_columns]
 
     os.makedirs(os.path.dirname(output_csv), exist_ok=True)
     df.to_csv(output_csv, index=False)

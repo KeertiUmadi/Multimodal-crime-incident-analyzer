@@ -21,6 +21,8 @@ This module processes audio recordings of emergency calls and witness statements
 |---------|----------------------|-----------------|----------|-----------|---------------|
 | C001 | There is a fire, people are trapped on second floor | Building fire / trapped persons | Downtown Ave | Distressed | 0.91 |
 
+**CSV header (exact order):** `Call_ID,Transcript,Extracted_Event,Location,Sentiment,Urgency_Score` — the table’s “Transcript (excerpt)” column is named `Transcript` in the file.
+
 ---
 
 ## 🛠️ Tools & Libraries

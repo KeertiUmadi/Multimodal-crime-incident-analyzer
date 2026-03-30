@@ -32,6 +32,7 @@ spacy
 transformers
 nltk
 datasets
+kagglehub
 
 # Integration / Dashboard
 streamlit>=1.30.0

@@ -39,12 +39,9 @@ multimodal-crime-incident-analyzer/
 │   ├── dashboard.py
 │   ├── requirements.txt
 │   └── README.md
-├── sample_data/            # Built-in demo data (no downloads needed)
-│   └── sample_text.csv
 ├── docs/                   # Deliverables 1 & 4
 │   ├── pipeline_architecture.html
 │   └── project_report.md
-├── demo.py                 # Deliverable 5 — Demonstration script
 ├── run_pipeline.py         # One-command full pipeline runner
 ├── requirements.txt        # All dependencies combined
 ├── .gitignore
@@ -76,14 +73,15 @@ cd multimodal-crime-incident-analyzer
 pip install -r requirements.txt
 python -m spacy download en_core_web_sm
 
-# 3. Run full pipeline (works with built-in demo data — no downloads needed)
+# 3. Run full pipeline (expects datasets placed in each module's data/ folder)
 python run_pipeline.py
 
 # 4. Launch dashboard only
 streamlit run integration/dashboard.py
 
-# 5. Run demonstration (Deliverable 5)
-python demo.py
+#
+# 5. (Optional) Open dashboard
+# streamlit run integration/dashboard.py
 ```
 
 ---
@@ -114,9 +112,9 @@ python demo.py
 |---|-------------|------|
 | 1 | AI Pipeline Architecture Diagram | `docs/pipeline_architecture.html` |
 | 2 | Code Repository (GitHub) | This repo — all 6 folders with README + requirements |
-| 3 | Structured Dataset | `integration/integrated_incidents.csv` (generated on run) |
+| 3 | Structured Dataset | `integration/integration_output.csv` (generated on run) |
 | 4 | Project Report | `docs/project_report.md` |
-| 5 | Demonstration | `python demo.py` |
+| 5 | Demonstration | Run `demo_run.bat` (or `python run_pipeline.py`), then `streamlit run integration/dashboard.py`. See `docs/DEMO.md`. |
 
 ---
 

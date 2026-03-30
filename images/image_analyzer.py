@@ -52,16 +52,6 @@ def describe_bboxes(detections):
 
     return ", ".join(parts) if parts else "None"
 
-def ocr_text(path: str) -> str:
-    try:
-        import pytesseract
-        img = PILImage.open(path).convert("RGB")
-        text = pytesseract.image_to_string(img, config="--psm 6")
-        clean = " ".join(text.split())
-        return clean[:200] if clean else "None"
-    except Exception:
-        return "None"
-
 def read_roboflow_label(img_path, img_w, img_h):
     fname = os.path.splitext(os.path.basename(img_path))[0]
     labels_dir = os.path.join(os.path.dirname(os.path.dirname(img_path)), "labels")
@@ -139,17 +129,24 @@ def run(img_dir="images/data", output_csv="images/output_images.csv"):
 
         avg_conf = round(sum(d["conf"] for d in detections) / len(detections), 2) if detections else 0.0
 
-        # ✅ FINAL CORRECT FORMAT
-        rows.append({
-            "Image_ID": iid,
-            "Scene_Type": classify_scene(labels_clean),
-            "Objects_Detected": objects,
-            "Bounding_Boxes": describe_bboxes(detections),
-            "Confidence": avg_conf           # ← rename
-})
+        rows.append(
+            {
+                "Image_ID": iid,
+                "Scene_Type": classify_scene(labels_clean),
+                "Objects_Detected": objects,
+                "Bounding_Boxes": describe_bboxes(detections),
+                "Confidence": avg_conf,
+            }
+        )
 
-    df = pd.DataFrame(rows)
-    
+    output_columns = [
+        "Image_ID",
+        "Scene_Type",
+        "Objects_Detected",
+        "Bounding_Boxes",
+        "Confidence",
+    ]
+    df = pd.DataFrame(rows)[output_columns]
     df.to_csv(output_csv, index=False)
 
     print(f"\n✅ Output saved to {output_csv}")

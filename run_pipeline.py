@@ -1,7 +1,9 @@
 """
 run_pipeline.py — One-command full pipeline runner
 ===================================================
-Runs all 5 modality analyzers then integration, then launches dashboard.
+Runs all five modality analyzers, then integration (merged CSV + severity).
+
+Step 5 (display / filter incident summaries): streamlit run integration/dashboard.py
 
 Usage:
     python run_pipeline.py                              # run everything
@@ -27,11 +29,11 @@ def run_step(name: str, script: str):
     print(f"\n{'='*60}")
     print(f"  MODULE: {name.upper()}")
     print(f"{'='*60}")
-    result = subprocess.run([sys.executable, script])
+    result = subprocess.run([sys.executable] + script.split())
     if result.returncode != 0:
-        print(f" {name} finished with errors — continuing...")
+        print(f" {name} finished with errors - continuing...")
     else:
-        print(f"✅  {name} complete.")
+        print(f" [OK] {name} complete.")
 
 def main():
     parser = argparse.ArgumentParser(
@@ -52,13 +54,20 @@ def main():
             run_step(name, script)
     
     print(f"\n{'='*60}")
-    print("  ✅ PIPELINE COMPLETE")
+    print("  [OK] PIPELINE COMPLETE")
     print(f"{'='*60}")
 
-    # Open final integrated CSV automatically
     if os.path.exists(FINAL_CSV):
-        print(f"\nOpening final output: {FINAL_CSV}")
-        os.startfile(os.path.abspath(FINAL_CSV))
+        print(f"\nMerged incidents: {FINAL_CSV}")
+        print(
+            "\nStep 5 — Dashboard (display / filter summaries):\n"
+            "  streamlit run integration/dashboard.py\n"
+            "Opening CSV in the default app…"
+        )
+        try:
+            os.startfile(os.path.abspath(FINAL_CSV))
+        except OSError:
+            pass
     else:
         print(f"\nFinal CSV not found: {FINAL_CSV}")
 

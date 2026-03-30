@@ -11,7 +11,7 @@ This module extracts structured information from PDF documents such as police re
 - Extract raw text from PDFs using a PDF parsing library
 - Identify and extract: incident type, date, location, officer name, suspect description, and outcome
 - Handle scanned PDFs using OCR (pytesseract)
-- Output a structured CSV with extracted report fields
+- Output a structured CSV matching the assignment **expected output table** (columns below)
 
 ---
 
@@ -19,7 +19,11 @@ This module extracts structured information from PDF documents such as police re
 
 | Report_ID | Department | Doc_Type | Date | Program | Key_Detail |
 |-----------|------------|----------|------|---------|------------|
-| RPT_001 | Arkansas PD | 1033 Training Proposal | 2015-04-10 | Law Enforcement Support | Equipment request: tactical gear listed |
+| From document or sequential `RPT_NNN` | From: line / agency patterns / NER | Ref/Subject/title/`1033` context from text | Parsed from body | Ref/program line / local context | Substantive body line (letter ratio filter) |
+
+**CSV header (exact order):** `Report_ID,Department,Doc_Type,Date,Program,Key_Detail`
+
+Integration maps `Doc_Type` → `PDF_Doc_Type`, `Department` → `PDF_Location`, `Key_Detail` → `PDF_Summary`.
 
 ---
 

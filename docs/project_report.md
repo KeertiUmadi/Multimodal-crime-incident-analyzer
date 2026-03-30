@@ -90,16 +90,15 @@ RPT_003 | Fire Department| Fire           | Incident Report   | 2024-03-16 | War
 |------|-----------|--------|
 | Object detection | YOLOv8 nano (COCO 80 classes) | Labels + bounding boxes |
 | Scene classification | Label → scene map | Fire Scene / Accident / Theft/Robbery |
-| OCR | pytesseract PSM 6 | License plates, signs |
 | Confidence | Mean of all detection scores | 0.0–1.0 |
 
-**Output columns:** `Image_ID, Scene_Type, Objects_Detected, Bounding_Boxes, Text_Extracted, Confidence_Score`
+**Output columns:** `Image_ID, Scene_Type, Objects_Detected, Bounding_Boxes, Confidence`
 
 **Sample output:**
 ```
-IMG_034 | Fire Scene   | fire, smoke      | fire@[10,20,200,300] | CAUTION FIRE ZONE | 0.94
-IMG_035 | Accident     | car, person      | car@[0,100,300,400]  | ABC 1234          | 0.87
-IMG_036 | Theft/Robbery| person, backpack | person@[50,50,250,450]| None             | 0.81
+IMG_034 | Fire Scene   | fire, smoke      | 2 fire regions, 1 smoke plume | 0.94
+IMG_035 | Accident     | car, person      | 1 vehicle, 1 person            | 0.87
+IMG_036 | Theft/Robbery| person, backpack | 1 person, 1 backpack           | 0.81
 ```
 
 ---
@@ -136,13 +135,13 @@ CAVIAR_04 | 00:00:08 | FRM_020 | 0.05 | Vehicle movement            | 0 | 0.85
 | Crime type | BART zero-shot (9 candidate labels) | Top crime label |
 | Severity | Rule map (crime type → severity) | Low / Medium / High |
 
-**Output columns:** `Text_ID, Source, Raw_Text, Cleaned_Text, Sentiment, Entities, Location_Entity, Crime_Type, Topic, Severity_Label`
+**Output columns:** `Text_ID, Crime_Type, Location_Entity, Sentiment, Topic, Severity_Label`
 
 **Sample output:**
 ```
-TXT_112 | Twitter      | Negative | Oak Street, Chicago | Robbery  | Theft/Robbery | High
-TXT_113 | News Article | Negative | 5th Avenue          | Fire     | Fire/Emergency| High
-TXT_114 | Reddit       | Negative | I-95                | Accident | Accident      | Medium
+TXT_112 | Robbery  | Oak Street, Chicago | Negative | Theft / Robbery    | High
+TXT_113 | Fire     | 5th Avenue          | Negative | Fire / Emergency   | High
+TXT_114 | Accident | I-95                | Negative | Accident           | Medium
 ```
 
 ---
@@ -169,8 +168,9 @@ STAGE 3 — INFORMATION EXTRACTION:
 STAGE 4 — STRUCTURED DATASET GENERATION:
               integration/integrate.py
                          ↓
-             integrated_incidents.csv
-             (Incident_ID | Source | Event | Location | Time | Severity)
+             integration/integration_output.csv
+             (Incident_ID | Audio_Event | PDF_Doc_Type | Image_Objects |
+              Video_Event | Text_Crime_Type | Severity)
 
 STAGE 5 — DASHBOARD & QUERY:
               streamlit run integration/dashboard.py
@@ -188,7 +188,7 @@ All five assignment steps implemented:
 | Step | Implementation |
 |------|---------------|
 | 1. Common Incident_ID | Generated as `INC_001`, `INC_002`, ... across all 5 CSVs |
-| 2. Merge DataFrames | Row-index alignment → one unified row per incident |
+| 2. Merge DataFrames | Outer-merge on `Incident_ID` using `pandas.merge(..., on="Incident_ID")` |
 | 3. Handle missing values | `df.fillna("N/A")` applied after merge |
 | 4. Severity classification | Weighted scoring model from all 5 modality signals |
 | 5. Dashboard/Query | Streamlit dashboard with filters, charts, and drill-down |
@@ -202,17 +202,21 @@ All five assignment steps implemented:
 | Audio sentiment = Distressed | +2 |
 | Text severity label = High | +3 |
 | Text severity label = Medium | +2 |
+| Text severity label = Low | +1 |
 | Image confidence ≥ 0.85 | +2 |
+| Image confidence ≥ 0.5 | +1 (else 0) |
 | Video confidence ≥ 0.85 | +2 |
+| Video confidence ≥ 0.5 | +1 (else 0) |
+| PDF_Doc_Type present (non-N/A) | +1 |
 | **Score ≥ 8 → High \| Score ≥ 5 → Medium \| else → Low** | |
 
 **Final output schema (exactly matches assignment requirement):**
 
-| Incident_ID | Source | Event | Location | Time | Severity |
-|-------------|--------|-------|----------|------|----------|
-| INC_001 | Audio + PDF + Image + Video + Text | Fire | Downtown Ave | 00:00:12 | High |
-| INC_002 | Audio + PDF + Image + Video + Text | Accident | Main Street | 00:00:24 | Medium |
-| INC_003 | Audio + PDF + Image + Video + Text | Theft | Oak Avenue | N/A | High |
+| Incident_ID | Audio_Event | PDF_Doc_Type | Image_Objects | Video_Event | Text_Crime_Type | Severity |
+|-------------|-------------|--------------|---------------|-------------|-----------------|----------|
+| INC_001 | Building fire / trapped | 1033 Training Proposal | fire, smoke (0.95) | Person collapsing | Robbery / Theft | High |
+| INC_002 | Shooting | 1033 Training Proposal | N/A | No significant event | Public Disturbance | Medium |
+| INC_003 | Robbery | 1033 Training Proposal | N/A | Person detected | Theft/Robbery | High |
 
 ---
 
@@ -221,10 +225,10 @@ All five assignment steps implemented:
 | Challenge | Solution Applied |
 |-----------|-----------------|
 | Scanned PDFs with no text layer | OCR fallback: PyMuPDF renders page at 200 DPI → pytesseract |
-| Audio files not locally available | Built-in demo data fallback with realistic 911-style transcripts |
+| Missing modality files | Missing fields are filled with `N/A` during integration |
 | YOLOv8 COCO labels don't include "fire" | Scene classifier maps label clusters (smoke + person) to scene types |
 | HuggingFace models slow to load | Lazy loading — models only imported when the module actually runs |
-| 5 CSVs with different row counts | Row-index alignment with N/A fill; Incident_ID as common key |
+| 5 CSVs with different row counts | `Incident_ID` is generated/normalized per modality and outer-merged |
 | BART zero-shot slow on large datasets | Capped at 50 rows for prototype; full run would use batching |
 | Video .mpg format compatibility | OpenCV handles .mpg natively |
 
@@ -236,14 +240,14 @@ Results from running `python run_pipeline.py` with built-in demo data:
 
 | Metric | Value |
 |--------|-------|
-| Total incidents processed | 3 |
-| High severity incidents | 2 (INC_001, INC_003) |
-| Medium severity incidents | 1 (INC_002) |
-| Low severity incidents | 0 |
-| Average audio urgency score | 0.75 |
-| Average image confidence score | 0.87 |
-| Most common audio event | Fire |
-| Most common crime type (text) | Robbery |
+| Total incidents processed | 1033 |
+| High severity incidents | 41 |
+| Medium severity incidents | 26 |
+| Low severity incidents | 966 |
+| Average audio urgency score | 0.74 |
+| Average image confidence score | 0.92 |
+| Most common audio event | Unknown |
+| Most common crime type (text) | Unknown |
 | Modalities active | 5 of 5 |
 
 ---
@@ -255,7 +259,7 @@ The system successfully demonstrates an end-to-end multimodal AI pipeline that c
 - All 5 modalities implemented end-to-end with real production-grade AI models
 - Pipeline runs with demo data even without downloading real datasets — fully testable immediately
 - Severity scoring model combines signals from all 5 modalities for holistic classification
-- Interactive Streamlit dashboard with severity/crime-type/location filters, Plotly charts, per-incident detail tabs, and CSV export
+- Interactive Streamlit dashboard with severity filter, dropdown-based cross-modality search, severity distribution chart, and CSV export
 - Modular design — each student's module is fully independent and plug-and-play
 
 The system can be extended with real-time data ingestion, cloud hosting on AWS/GCP, and LLM-based summarization (bonus features).

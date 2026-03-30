@@ -75,12 +75,12 @@ def process_clip(model, clip_path: str, clip_id: str) -> list:
                 event = "Rapid movement detected"
 
             rows.append({
-                "Clip_ID":        clip_id,
-               "Timestamp": f"{hh:02d}:{mm:02d}:{ss:02d}",
-                "Frame_ID":       fid,
+                "Clip_ID": clip_id,
+                "Timestamp": f"{hh:02d}:{mm:02d}:{ss:02d}",
+                "Frame_ID": fid,
                 "Event_Detected": event,
-                "Persons_Count":  f"{persons} person" if persons == 1 else f"{persons} persons",
-                "Confidence":     round(max_conf, 2),
+                "Persons_Count": f"{persons} person" if persons == 1 else f"{persons} persons",
+                "Confidence": round(max_conf, 2),
             })
             saved_idx += 1
         frame_idx += 1
@@ -94,14 +94,18 @@ def run(video_dir: str = "video/data",
     supported = (".mp4", ".avi", ".mpg", ".mpeg", ".mov", ".mkv")
 
     if not os.path.exists(video_dir):
-        print("[Video] No video data directory found — using built-in demo data.")
-        return _demo(output_csv)
+        raise FileNotFoundError(
+            f"[Video] Directory not found: {video_dir}. "
+            "Add .mp4 / .mpg / .avi / .mov / .mkv files under video/data (see README)."
+        )
 
     files = [f for f in os.listdir(video_dir) if f.lower().endswith(supported)]
 
     if not files:
-        print("[Video] No video files found — using built-in demo data.")
-        return _demo(output_csv)
+        raise ValueError(
+            f"[Video] No supported video files in {video_dir}. "
+            f"Expected extensions: {', '.join(supported)}"
+        )
 
     model    = _load()
     all_rows = []
@@ -113,25 +117,18 @@ def run(video_dir: str = "video/data",
         all_rows.extend(rows)
         print(f"  → {len(rows)} frames sampled")
 
-    df = pd.DataFrame(all_rows)
+    video_columns = [
+        "Clip_ID",
+        "Timestamp",
+        "Frame_ID",
+        "Event_Detected",
+        "Persons_Count",
+        "Confidence",
+    ]
+    df = pd.DataFrame(all_rows, columns=video_columns)
     os.makedirs(os.path.dirname(output_csv), exist_ok=True)
     df.to_csv(output_csv, index=False)
     print(f"\n[Video] ✅ {len(df)} frames → {output_csv}")
-    print(df.head())
-    return df
-
-def _demo(output_csv: str = "video/output_video.csv") -> pd.DataFrame:
-    df = pd.DataFrame([
-        {"Clip_ID": "CAVIAR_03", "Timestamp": "00:00:12", "Frame_ID": "FRM_036",
-         "Event_Detected": "Person collapsing", "Persons_Count": "1 person", "Confidence": 0.88},
-        {"Clip_ID": "CAVIAR_03", "Timestamp": "00:00:24", "Frame_ID": "FRM_072",
-         "Event_Detected": "Crowd / Suspicious movement", "Persons_Count": "3 persons", "Confidence": 0.91},
-        {"Clip_ID": "CAVIAR_04", "Timestamp": "00:00:08", "Frame_ID": "FRM_020",
-         "Event_Detected": "Vehicle movement", "Persons_Count": "0 persons", "Confidence": 0.85},
-    ])
-    os.makedirs(os.path.dirname(output_csv), exist_ok=True)
-    df.to_csv(output_csv, index=False)
-    print(f"[Video] ✅ Demo data saved → {output_csv}")
     print(df.head())
     return df
 
