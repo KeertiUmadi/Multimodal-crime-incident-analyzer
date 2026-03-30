@@ -1,6 +1,51 @@
-Call_ID,Source_File,Transcript,Extracted_Event,Location,Sentiment,Urgency_Score
-C001,call_112_0.wav,I need somebody escorted out of my store right away. He's causing problems.,Disturbance,Not mentioned,Distressed,0.7
-C002,call_119_0.wav,"If somebody stays with Diane, I'm home alone and he's not here. My daughter is here. If somebody is here, quick.",Suspicious Situation,Not mentioned,Distressed,0.8
-C003,call_146_0.wav,"High Springs Community School, I called 911 a few minutes ago. We have, I heard several gunshots outside.",Shooting,Springs Community School,Distressed,0.95
-C004,download (1).wav,I can still draw. It sounds like they're contacting the hallway. I'm a teacher in the school. Okay. Where are you in the school?,Unknown,Not mentioned,Calm,0.6
-C005,download(2).wav,"emergency. Say you look at elementary school, 12 dickies and drugs. Okay, I've got that. What's going on down there?",Drug Activity,Not mentioned,Distressed,0.7
+Call_ID,Transcript,Extracted_Event,Location,Sentiment,Urgency_Score
+C001,I need somebody escorted out of my store right away. He's causing problems.,Robbery,Not mentioned,Distressed,0.85
+C002,"If somebody stays with Diane, I'm home alone and he's not here. My daughter is here. If somebody is here, quick.",Homicide,Not mentioned,Distressed,0.92
+C003,"High Springs Community School, I called 911 a few minutes ago. We have, I heard several gunshots outside.",Shooting,Not mentioned,Distressed,0.95
+C004,"I don't know but you have 4,000",Unknown,Not mentioned,Calm,0.6
+C005,We have a I think we have a dead person in here. Okay. I don't know what happened.,Homicide,Not mentioned,Distressed,0.92
+C006,"I'm almost in Wonder Rock, the US bank, and I just need to be sure to tell myself then.",Unknown,"Wonder Rock, US",Calm,0.6
+C007,What are you? The emergency hotline. Who are you?,Unknown,Not mentioned,Distressed,0.6
+C008,It's a business. I believe it's been robbed. What's the name of the business? Flying biscuit.,Robbery,Not mentioned,Distressed,0.85
+C009,"and what is your emergency? Hi, my name is Mickey. I'm the manager at the McDonald's. I'm very intrigued. Yeah. There's a woman who is so cute.",Unknown,Not mentioned,Calm,0.6
+C010,I think we're on 75. I 75? Yes. Okay.,Unknown,Not mentioned,Calm,0.6
+C011,emergency. My focus is on that please come. We're going to say the address is not here for me. What city are you in?,Unknown,Not mentioned,Distressed,0.6
+C012,"Oh, darling, he's ill. Who is this? I told my father right to help.",Unknown,Not mentioned,Distressed,0.6
+C013,"Hello, everyone Um, I Stauted on every dollar So",Unknown,Not mentioned,Calm,0.6
+C014,"Um, I always offers, kind of, my mom's on a floor.",Unknown,Not mentioned,Calm,0.6
+C015,emergency. I just shot my wife. Can you tell me the address that you're off?,Shooting,Not mentioned,Distressed,0.95
+C016,I think we need a place at the Walmart Super Center in Miss Kogi. That's what we got.,Unknown,Not mentioned,Distressed,0.6
+C017,"Yeah, I need the Polo here. 963, he's 363. There's somebody in the house with a grimole.",Homicide,Not mentioned,Distressed,0.92
+C018,corner of 119 and counting road 1 we just saw plane go down to the,Unknown,Not mentioned,Distressed,0.6
+C019,"A plane just crashed. Okay, you said three miles south of Union reservoir.",Accident,Not mentioned,Distressed,0.75
+C020,"Yes, it is a police station. Yes, it is. May I help you? Yes, okay. I put this as ridiculous.",Unknown,Not mentioned,Distressed,0.6
+C021,I know there's an ambulance on the TV for this little boy. Okay. And there's a young man.,Medical Emergency,Not mentioned,Distressed,0.93
+C022,"Hi, we just witnessed the vehicle accident on the proved that a",Accident,Not mentioned,Distressed,0.75
+C023,There's a horrible accident on 7 mile fare in highway 94.,Accident,Not mentioned,Distressed,0.75
+C024,"Hi, there was a accident. We just witnessed three cars just been full motion.",Accident,Not mentioned,Distressed,0.75
+C025,"He only found his dad's old proofs best, but I don't know.",Unknown,Not mentioned,Distressed,0.6
+C026,Houston with it. East. Okay. Hello now.,Unknown,Houston,Calm,0.6
+C027,"Yeah, I'd like to report it to you, please. Okay. Be the thrills.",Unknown,Not mentioned,Calm,0.6
+C028,"I just shot my wife. Okay, and what's your address?",Shooting,Not mentioned,Distressed,0.95
+C029,come on man done yes,Unknown,Not mentioned,Calm,0.6
+C030,"Hi, Edons, Unshots. We're all on the floor. You're doing what? They think Unshots.",Shooting,Not mentioned,Distressed,0.95
+C031,It was guys just in my mom and my niece and my sister all the while they've been treated.,Unknown,Not mentioned,Distressed,0.6
+C032,I just come in to pick it up my trash and my major is in the house. I've got no...,Unknown,Not mentioned,Distressed,0.6
+C033,You need to see this ran over and they said that the boy just shot his mom. We've had to pull.,Shooting,Not mentioned,Distressed,0.95
+C034,I had a guy kicking in my door or trying to kick in my front door. I don't know what his problem was.,Robbery,Not mentioned,Distressed,0.85
+C035,in 59 to capture races. There's been a shooting. Somebody came in and shot a bunch of people. I'm hiding in the bed after a mall.,Shooting,Not mentioned,Distressed,0.95
+C036,exit of this game coming from the beach. There's a guy that's completely naked who has closed all of the...,Disturbance,Not mentioned,Distressed,0.7
+C037,There's a naked man or the men's cars way at the end of the car way coming towards this,Disturbance,Not mentioned,Distressed,0.7
+C038,So hi I'm Erie C. I'm Erie C. I'm my great-for-delie.,Unknown,Not mentioned,Calm,0.6
+C039,I have a boy that was underwater and he's not breathing. How old is the boy? Four.,Medical Emergency,Not mentioned,Distressed,0.93
+C040,Are you inside the house? Yes. Are you alone inside the house? Yes.,Suspicious Situation,Not mentioned,Calm,0.8
+C041,someone on the back porch of black man. And what is your address? 3613 lady woodland.,Unknown,Not mentioned,Distressed,0.6
+C042,We had several police tire earlier and did a report.,Unknown,Not mentioned,Distressed,0.6
+C043,"Oh, right, brother. It's having a great time in the hotel. Okay.",Unknown,Not mentioned,Calm,0.6
+C044,I just strangled my girlfriend. You just strangled your girlfriend? Yep. What's your name?,Assault,Not mentioned,Distressed,0.92
+C045,"Okay, we've had an airboat accident. I'm not sure if they're all injuries. I don't know to what extent.",Accident,Not mentioned,Distressed,0.75
+C046,"Oh, there's a fucking dead man in the car. Roger for me, young.",Homicide,Not mentioned,Distressed,0.92
+C047,Can I help you? Somebody who's broken our daughter's trying to break into my bedroom. What's your address?,Homicide,Not mentioned,Distressed,0.92
+C048,"Hi, I'm a suicidal teenager at House 503 Nighthawk Drive. I need an ambulance immediately.",Medical Emergency,Not mentioned,Distressed,0.93
+C049,I can still draw. It sounds like they're contacting the hallway. I'm a teacher in the school. Okay. Where are you in the school?,Unknown,Not mentioned,Calm,0.6
+C050,"emergency. Say you look at elementary school, 12 dickies and drugs. Okay, I've got that. What's going on down there?",Drug Activity,Not mentioned,Distressed,0.7

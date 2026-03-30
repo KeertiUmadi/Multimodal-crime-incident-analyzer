@@ -8,15 +8,9 @@ Assignment Steps:
   2. Merge DataFrames on Incident_ID
   3. Handle missing values with N/A
   4. Generate severity classification (Low / Medium / High)
-<<<<<<< HEAD
-  5. Save final_dataset.csv
-
-Output  : integration/final_dataset.csv
-=======
   5. Save integration_output.csv
 
 Output  : integration/integration_output.csv
->>>>>>> 10617c2 (Final Changes -1)
 Final Schema : Incident_ID | Audio_Event | PDF_Doc_Type | Image_Objects | Video_Event | Text_Crime_Type | Severity
 """
 
@@ -83,7 +77,7 @@ def run() -> pd.DataFrame:
     video  = safe_load(OUTPUTS["video"])
     text   = safe_load(OUTPUTS["text"])
 
-    n = min(max(len(audio), len(pdf), len(images), len(video), len(text), 1), 20)
+    n = max(len(audio), len(pdf), len(images), len(video), len(text), 1)
 
     print("\n[Integration] ── Step 2: Merging DataFrames on Incident_ID ──")
     rows = []
@@ -165,17 +159,77 @@ def run() -> pd.DataFrame:
         "Severity":        df["Severity"],
     })
 
-<<<<<<< HEAD
-    final_df.to_csv("integration/final_dataset.csv", index=False)
-    print("\n[Integration] ✅ Final dataset saved → integration/final_dataset.csv")
-=======
     final_df.to_csv("integration/integration_output.csv", index=False)
-    print("\n[Integration] ✅ Final dataset saved → integration/integration_output.csv")
->>>>>>> 10617c2 (Final Changes -1)
+    print("\n[Integration] Final dataset saved → integration/integration_output.csv")
     print("\n── Final Output (Assignment Format) ──")
     print(final_df.to_string(index=False))
 
     return final_df
 
+# ── Terminal Query Interface ──────────────────────────────────────────────────
+def query_interface(df: pd.DataFrame):
+    print("\n" + "="*60)
+    print("  🔍 INCIDENT QUERY INTERFACE")
+    print("="*60)
+    print("  Filter and search the integrated incident dataset.")
+    print("  Press Enter to skip a filter (show all).")
+    print("="*60)
+
+    while True:
+        print("\n  OPTIONS:")
+        print("  [1] Filter by Severity")
+        print("  [2] Filter by Event Type")
+        print("  [3] Filter by Crime Type")
+        print("  [4] Show all incidents")
+        print("  [5] Show summary statistics")
+        print("  [6] Exit")
+
+        choice = input("\n  Enter choice (1-6): ").strip()
+
+        if choice == "1":
+            sev = input("  Severity (High/Medium/Low): ").strip().capitalize()
+            result = df[df["Severity"] == sev]
+            print(f"\n  Found {len(result)} incidents with severity: {sev}")
+            print(result.to_string(index=False))
+
+        elif choice == "2":
+            event = input("  Event type (e.g. Shooting/Fire/Robbery): ").strip()
+            result = df[
+                df["Audio_Event"].str.contains(event, case=False, na=False) |
+                df["Image_Objects"].str.contains(event, case=False, na=False) |
+                df["Video_Event"].str.contains(event, case=False, na=False)
+            ]
+            print(f"\n  Found {len(result)} incidents with event: {event}")
+            print(result.to_string(index=False))
+
+        elif choice == "3":
+            crime = input("  Crime type (e.g. Theft/Murder/Drug): ").strip()
+            result = df[df["Text_Crime_Type"].str.contains(crime, case=False, na=False)]
+            print(f"\n  Found {len(result)} incidents with crime type: {crime}")
+            print(result.to_string(index=False))
+
+        elif choice == "4":
+            print(f"\n  All {len(df)} incidents:")
+            print(df.to_string(index=False))
+
+        elif choice == "5":
+            print("\n  ── Summary Statistics ──")
+            print(f"  Total Incidents : {len(df)}")
+            print(f"  High Severity   : {len(df[df['Severity'] == 'High'])}")
+            print(f"  Medium Severity : {len(df[df['Severity'] == 'Medium'])}")
+            print(f"  Low Severity    : {len(df[df['Severity'] == 'Low'])}")
+            print(f"\n  Top Audio Events:")
+            print(df["Audio_Event"].value_counts().head(5).to_string())
+            print(f"\n  Top Crime Types:")
+            print(df["Text_Crime_Type"].value_counts().head(5).to_string())
+
+        elif choice == "6":
+            print("\n  Exiting query interface. Goodbye!")
+            break
+
+        else:
+            print("  Invalid choice. Please enter 1-6.")
+
 if __name__ == "__main__":
-    run()
+    df = run()
+    query_interface(df)

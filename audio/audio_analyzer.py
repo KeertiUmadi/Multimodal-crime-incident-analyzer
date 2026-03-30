@@ -14,6 +14,7 @@ Columns : Call_ID, Source_File, Transcript, Extracted_Event,
           Location, Sentiment, Urgency_Score
 """
 import os
+import re
 import pandas as pd
 
 # -----------------------------
@@ -22,47 +23,64 @@ import pandas as pd
 def extract_event(text: str) -> str:
     tl = text.lower()
 
-    if any(k in tl for k in ["shoot", "gunshot", "firing"]):
+    if any(k in tl for k in ["shoot", "gunshot", "firing", "shot", "shots"]):
         return "Shooting"
-    elif "drug" in tl:
+    elif any(k in tl for k in ["rob", "robbed", "robbery", "stolen", "burglar", "burglary"]):
+        return "Robbery"
+    elif any(k in tl for k in ["accident", "crash", "collision", "crashed"]):
+        return "Accident"
+    elif any(k in tl for k in ["strangle", "strangled", "assault", "attack", "beat", "stab"]):
+        return "Assault"
+    elif any(k in tl for k in ["dead", "body", "homicide", "murder", "killed"]):
+        return "Homicide"
+    elif any(k in tl for k in ["break in", "breaking in", "broke in", "kicked in", "kicking in"]):
+        return "Break-in"
+    elif any(k in tl for k in ["drug", "drugs", "narco"]):
         return "Drug Activity"
-    elif any(k in tl for k in ["escort", "problem", "disturb"]):
-        return "Disturbance"
-    elif any(k in tl for k in ["alone", "someone here"]):
-        return "Suspicious Situation"
-    elif any(k in tl for k in ["fire", "smoke"]):
+    elif any(k in tl for k in ["fire", "smoke", "burning", "flames"]):
         return "Fire"
-
+    elif any(k in tl for k in ["escort", "problem", "disturb", "naked", "fight"]):
+        return "Disturbance"
+    elif any(k in tl for k in ["alone", "someone here", "break into", "hiding"]):
+        return "Suspicious Situation"
+    elif any(k in tl for k in ["suicid", "kill myself", "hurt myself", "overdose", "ambulance", "medical", "unconscious", "not breathing", "heart", "bleeding"]):
+        return "Medical Emergency"
+    
     return "Unknown"
 
 # -----------------------------
-# LOCATION EXTRACTION (NO GENERIC)
+# LOCATION EXTRACTION
 # -----------------------------
 def extract_location(text: str, nlp) -> str:
     doc = nlp(text)
-    locs = [e.text for e in doc.ents if e.label_ in ("GPE", "LOC", "FAC", "ORG")]
-
+    locs = [e.text for e in doc.ents if e.label_ in ("GPE", "LOC", "FAC")]
     if locs:
         return ", ".join(dict.fromkeys(locs))
-
+    
     return "Not mentioned"
 
 # -----------------------------
 # URGENCY SCORING
 # -----------------------------
 def urgency_score(text: str, event: str) -> float:
-
     if event == "Shooting":
         return 0.95
+    elif event in ("Homicide", "Assault"):
+        return 0.92
     elif event == "Fire":
         return 0.9
-    elif event == "Drug Activity":
-        return 0.7
-    elif event == "Disturbance":
-        return 0.7
+    elif event == "Robbery":
+        return 0.85
+    elif event == "Break-in":
+        return 0.80
     elif event == "Suspicious Situation":
         return 0.8
-
+    elif event in ("Drug Activity", "Disturbance"):
+        return 0.7
+    elif event == "Accident":
+        return 0.75
+    elif event == "Medical Emergency":
+        return 0.93
     return 0.6
 # -----------------------------
 # SENTIMENT ANALYSIS
@@ -98,10 +116,6 @@ def load_models():
 # -----------------------------
 # MAIN FUNCTION
 # -----------------------------
-#def run(
-   # audio_dir=r"C:\Users\umadi\Multimodal-crime-incident-analyzer\audio\data",
-   # output_csv=r"C:\Users\umadi\Multimodal-crime-incident-analyzer\audio\output_audio.csv"
-#):
 def run(
     audio_dir=os.path.join(os.path.dirname(os.path.abspath(__file__)), "data"),
     output_csv=os.path.join(os.path.dirname(os.path.abspath(__file__)), "output_audio.csv")
