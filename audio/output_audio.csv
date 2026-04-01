@@ -11,7 +11,11 @@ C009,"and what is your emergency? Hi, my name is Mickey. I'm the manager at the 
 C010,I think we're on 75. I 75? Yes. Okay.,Unknown,Not mentioned,Calm,0.6
 C011,emergency. My focus is on that please come. We're going to say the address is not here for me. What city are you in?,Unknown,Not mentioned,Distressed,0.6
 C012,"Oh, darling, he's ill. Who is this? I told my father right to help.",Unknown,Not mentioned,Distressed,0.6
+<<<<<<< Updated upstream
 C013,"everyone, I missed somebody downtown 40",Homicide,Not mentioned,Distressed,0.92
+=======
+C013,quien Track,Unknown,Not mentioned,Calm,0.6
+>>>>>>> Stashed changes
 C014,"Um, I always offers, kind of, my mom's on a floor.",Unknown,Not mentioned,Calm,0.6
 C015,emergency. I just shot my wife. Can you tell me the address that you're off?,Shooting,Not mentioned,Distressed,0.95
 C016,I think we need a place at the Walmart Super Center in Miss Kogi. That's what we got.,Unknown,Not mentioned,Distressed,0.6
@@ -20,6 +24,7 @@ C018,corner of 119 and counting road 1 we just saw plane go down to the,Unknown,
 C019,"A plane just crashed. Okay, you said three miles south of Union reservoir.",Accident,Not mentioned,Distressed,0.75
 C020,"Yes, it is a police station. Yes, it is. May I help you? Yes, okay. I put this as ridiculous.",Unknown,Not mentioned,Distressed,0.6
 C021,I know there's an ambulance on the TV for this little boy. Okay. And there's a young man.,Medical Emergency,Not mentioned,Distressed,0.93
+<<<<<<< Updated upstream
 C022,"Hi, we just witnessed the vehicle accident on the to the toward counter..",Accident,Not mentioned,Distressed,0.75
 C023,There's a horrible accident on 7 mile fare in highway 94.,Accident,Not mentioned,Distressed,0.75
 C024,"Hi, there was a accident. We just witnessed three cars just been full motion.",Accident,Not mentioned,Distressed,0.75
@@ -28,6 +33,16 @@ C026,"OK, spring, you got it, you have your girl, now. Hello.",Unknown,Not menti
 C027,"Yeah, I'd like to report it to you, please. Okay. Be the thrills.",Unknown,Not mentioned,Calm,0.6
 C028,"I just shot my wife. Okay, and what's your address?",Shooting,Not mentioned,Distressed,0.95
 C029,Please come out of the cow! Please! It's coming to God. Please come out of the way!,Unknown,Not mentioned,Calm,0.6
+=======
+C022,"Hi, we just witnessed the vehicle accident on the 18",Accident,Not mentioned,Distressed,0.75
+C023,There's a horrible accident on 7 mile fare in highway 94.,Accident,Not mentioned,Distressed,0.75
+C024,"Hi, there was a accident. We just witnessed three cars just been full motion.",Accident,Not mentioned,Distressed,0.75
+C025,"He only found his dad's old proofs best, but I don't know.",Unknown,Not mentioned,Distressed,0.6
+C026,Hello?,Unknown,Not mentioned,Calm,0.6
+C027,"Yeah, I'd like to report it to you, please. Okay. Be the thrills.",Unknown,Not mentioned,Calm,0.6
+C028,"I just shot my wife. Okay, and what's your address?",Shooting,Not mentioned,Distressed,0.95
+C029,"Go out of the cow! Please! What's going on, begone? Please! It's too much for me!",Unknown,Not mentioned,Distressed,0.6
+>>>>>>> Stashed changes
 C030,"Hi, Edons, Unshots. We're all on the floor. You're doing what? They think Unshots.",Shooting,Not mentioned,Distressed,0.95
 C031,It was guys just in my mom and my niece and my sister all the while they've been treated.,Unknown,Not mentioned,Distressed,0.6
 C032,I just come in to pick it up my trash and my major is in the house. I've got no...,Unknown,Not mentioned,Distressed,0.6
