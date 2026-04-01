@@ -243,22 +243,3 @@ word — use them to answer “why” and “how” during the demo or Q&A.
   value. Explaining that separates “batch processing pipeline” from
   “interactive reporting layer.”
 
-
-================================================================================
-Q&A REMINDERS (if asked)
-================================================================================
-
-  How are rows linked across files?
-    → Common Incident_ID across modality CSVs after integration.
-
-  Where does Severity come from?
-    → integration/integrate.py — combined scoring from audio, text,
-      image, video, and PDF presence; details in docs/project_report.md.
-
-  What if a modality is missing for an incident?
-    → Outer merge keeps the row; missing summary fields show as N/A where
-      applicable.
-
-================================================================================
-END OF SCRIPT
-================================================================================
