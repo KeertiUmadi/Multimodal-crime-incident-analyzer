@@ -72,13 +72,12 @@ C003 | Someone broke into my store on Oak Avenue        | Theft    | Oak Avenue 
 | Date extraction | Regex (3 patterns) | Standardised date string |
 | Incident type | Keyword classification | Fire / Theft / Assault / Accident / Administrative |
 
-**Output columns:** `Report_ID, Department, Incident_Type, Doc_Type, Date, Location, Officer, Key_Detail, Summary`
+**Output columns:** `Report_ID, Department, Doc_Type, Date, Program, Key_Detail`
 
 **Sample output:**
 ```
-RPT_001 | Arkansas PD    | Administrative | Training Proposal | 2015-04-10 | Little Rock, AR  | Officer Johnson
-RPT_002 | City Police    | Theft/Robbery  | Incident Report   | 2024-03-15 | Downtown, Chicago| Officer Martinez
-RPT_003 | Fire Department| Fire           | Incident Report   | 2024-03-16 | Warehouse District| Captain Williams
+RPT_001 | Fort Smith PD | 1033 Training Proposal | 2015-01-19 | Law Enforcement Support | assigned to this agency…
+RPT_002 | Jacksonville PD | 1033 Training Proposal | 2015-01-14 | Law Enforcement Support | assigned to this agency…
 ```
 
 ---
@@ -90,9 +89,9 @@ RPT_003 | Fire Department| Fire           | Incident Report   | 2024-03-16 | War
 |------|-----------|--------|
 | Object detection | YOLOv8 nano (COCO 80 classes) | Labels + bounding boxes |
 | Scene classification | Label → scene map | Fire Scene / Accident / Theft/Robbery |
-| Confidence | Mean of all detection scores | 0.0–1.0 |
+| Confidence_Score | Mean of all detection scores | 0.0–1.0 |
 
-**Output columns:** `Image_ID, Scene_Type, Objects_Detected, Bounding_Boxes, Confidence`
+**Output columns:** `Image_ID, Scene_Type, Objects_Detected, Bounding_Boxes, Confidence_Score`
 
 **Sample output:**
 ```
@@ -117,9 +116,9 @@ IMG_036 | Theft/Robbery| person, backpack | 1 person, 1 backpack           | 0.8
 
 **Sample output:**
 ```
-CAVIAR_03 | 00:00:12 | FRM_036 | 0.08 | Person collapsing           | 1 | 0.88
-CAVIAR_03 | 00:00:24 | FRM_072 | 0.12 | Crowd / Suspicious movement | 3 | 0.91
-CAVIAR_04 | 00:00:08 | FRM_020 | 0.05 | Vehicle movement            | 0 | 0.85
+CAVIAR_03 | 00:00:12 | FRM_036 | 0.0800 | Person collapsing           | 1 person  | 0.88
+CAVIAR_03 | 00:00:24 | FRM_072 | 0.1200 | Crowd / Suspicious movement | 3 persons | 0.91
+CAVIAR_04 | 00:00:08 | FRM_020 | 0.0500 | Vehicle movement            | 0 persons | 0.85
 ```
 
 ---
@@ -193,22 +192,30 @@ All five assignment steps implemented:
 | 4. Severity classification | Weighted scoring model from all 5 modality signals |
 | 5. Dashboard/Query | Streamlit dashboard with filters, charts, and drill-down |
 
+**Severity — plain summary:** Each row gets a score from audio urgency and distressed sentiment, the text severity label, image and video detection confidence, plus a small bonus when `PDF_Doc_Type` is present (non-N/A). The total is mapped to **High**, **Medium**, or **Low** using fixed cutoffs.
+
+**If the brief or rubric requires transparent / reproducible scoring:** The table below is the full rule set. It matches `compute_severity()` in `integration/integrate.py`, which is what writes the `Severity` column in `integration/integration_output.csv`.
+
 **Severity scoring weights:**
 
 | Signal | Points |
 |--------|--------|
-| Audio urgency score ≥ 0.8 | +3 |
-| Audio urgency score ≥ 0.5 | +2 |
+| Audio urgency ≥ 0.8 (tiers are mutually exclusive) | +3 |
+| Audio urgency ≥ 0.5 but below 0.8 | +2 |
+| Audio urgency below 0.5 | +1 |
 | Audio sentiment = Distressed | +2 |
 | Text severity label = High | +3 |
 | Text severity label = Medium | +2 |
 | Text severity label = Low | +1 |
+| Text label missing or N/A | +0 |
 | Image confidence ≥ 0.85 | +2 |
-| Image confidence ≥ 0.5 | +1 (else 0) |
+| Else: image confidence ≥ 0.5 | +1 |
+| Else: image confidence | +0 |
 | Video confidence ≥ 0.85 | +2 |
-| Video confidence ≥ 0.5 | +1 (else 0) |
+| Else: video confidence ≥ 0.5 | +1 |
+| Else: video confidence | +0 |
 | PDF_Doc_Type present (non-N/A) | +1 |
-| **Score ≥ 8 → High \| Score ≥ 5 → Medium \| else → Low** | |
+| **Total score ≥ 8 → High; ≥ 5 → Medium; else → Low** | |
 
 **Final output schema (exactly matches assignment requirement):**
 

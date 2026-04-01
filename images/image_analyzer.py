@@ -135,7 +135,7 @@ def run(img_dir="images/data", output_csv="images/output_images.csv"):
                 "Scene_Type": classify_scene(labels_clean),
                 "Objects_Detected": objects,
                 "Bounding_Boxes": describe_bboxes(detections),
-                "Confidence": avg_conf,
+                "Confidence_Score": avg_conf,
             }
         )
 
@@ -144,7 +144,7 @@ def run(img_dir="images/data", output_csv="images/output_images.csv"):
         "Scene_Type",
         "Objects_Detected",
         "Bounding_Boxes",
-        "Confidence",
+        "Confidence_Score",
     ]
     df = pd.DataFrame(rows)[output_columns]
     df.to_csv(output_csv, index=False)

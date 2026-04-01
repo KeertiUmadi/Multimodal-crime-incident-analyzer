@@ -1,5 +1,5 @@
 """
-Step 5 — Streamlit dashboard for `integration/integration_output.csv`.
+Streamlit dashboard for `integration/integration_output.csv`.
 
 Display and filter incident summaries by severity and dropdown search (field + value).
 
@@ -84,10 +84,6 @@ def main() -> None:
         initial_sidebar_state="expanded",
     )
     st.title("Incident summaries")
-    st.caption(
-        "Step 5: **display** merged incidents and **filter** by severity and **dropdown** "
-        "search (field + value). Severity from Step 4 in `integrate.py`."
-    )
 
     if not os.path.isfile(CSV_PATH):
         st.error(
@@ -109,7 +105,7 @@ def main() -> None:
             sev_vals,
             default=sev_vals,
         )
-        with st.expander("How severity is computed (Step 4)"):
+        with st.expander("How severity is computed"):
             st.markdown(
                 "Each row gets a score from **audio** urgency and distressed sentiment, "
                 "**text** severity label, **image** / **video** confidence, plus a small "

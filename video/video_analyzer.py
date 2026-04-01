@@ -9,7 +9,7 @@ Link    : https://homepages.inf.ed.ac.uk/rbf/CAVIARDATA1/
 Place   : video/data/*.mpg or *.mp4
 
 Output  : video/output_video.csv
-Columns : Clip_ID, Timestamp, Frame_ID, Event_Detected, Persons_Count, Confidence
+Columns : Clip_ID, Timestamp, Frame_ID, Motion_Score, Event_Detected, Persons_Count, Confidence
 """
 
 import os
@@ -78,6 +78,7 @@ def process_clip(model, clip_path: str, clip_id: str) -> list:
                 "Clip_ID": clip_id,
                 "Timestamp": f"{hh:02d}:{mm:02d}:{ss:02d}",
                 "Frame_ID": fid,
+                "Motion_Score": motion,
                 "Event_Detected": event,
                 "Persons_Count": f"{persons} person" if persons == 1 else f"{persons} persons",
                 "Confidence": round(max_conf, 2),
@@ -121,6 +122,7 @@ def run(video_dir: str = "video/data",
         "Clip_ID",
         "Timestamp",
         "Frame_ID",
+        "Motion_Score",
         "Event_Detected",
         "Persons_Count",
         "Confidence",

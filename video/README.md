@@ -17,11 +17,11 @@ This module processes video footage to detect abnormal activities, extract key e
 
 ## 📤 Output Schema
 
-| Clip_ID | Timestamp | Frame_ID | Event_Detected | Persons_Count | Confidence |
-|---------|-----------|----------|----------------|---------------|------------|
-| CAVIAR_03 | 00:00:12 | FRM_036 | Person collapsing | 1 person | 0.88 |
+| Clip_ID | Timestamp | Frame_ID | Motion_Score | Event_Detected | Persons_Count | Confidence |
+|---------|-----------|----------|--------------|----------------|---------------|------------|
+| Browse1 | 00:00:12 | FRM_012 | 0.0800 | Person detected | 1 person | 0.88 |
 
-**CSV header (exact order):** `Clip_ID,Timestamp,Frame_ID,Event_Detected,Persons_Count,Confidence`
+**CSV header (exact order):** `Clip_ID,Timestamp,Frame_ID,Motion_Score,Event_Detected,Persons_Count,Confidence`
 
 ---
 
@@ -55,4 +55,4 @@ pip install -r requirements.txt
 python video_analyzer.py
 ```
 
-Output will be saved to `video_output.csv`.
+Output will be saved to `video/output_video.csv`.

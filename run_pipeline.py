@@ -33,7 +33,7 @@ def run_step(name: str, script: str):
     if result.returncode != 0:
         print(f" {name} finished with errors - continuing...")
     else:
-        print(f" [OK] {name} complete.")
+        print(f" {name} complete.")
 
 def main():
     parser = argparse.ArgumentParser(
@@ -48,13 +48,19 @@ def main():
 
     print("\n MULTIMODAL CRIME INCIDENT ANALYZER — PIPELINE START")
     print(f"   Modules: {targets}\n")
+    print("── Raw Input Files ──")
+    print(f"  Audio  : {len(os.listdir('audio/data'))} files in audio/data/")
+    print(f"  PDF    : {len(os.listdir('pdf/data'))} files in pdf/data/")
+    print(f"  Images : {len(os.listdir('images/data'))} files in images/data/")
+    print(f"  Video  : {len(os.listdir('video/data'))} files in video/data/")
+    print(f"  Text   : {len(os.listdir('text/data'))} files in text/data/\n")
 
     for name, script in STEPS:
         if name in targets:
             run_step(name, script)
     
     print(f"\n{'='*60}")
-    print("  [OK] PIPELINE COMPLETE")
+    print("PIPELINE COMPLETE")
     print(f"{'='*60}")
 
     if os.path.exists(FINAL_CSV):

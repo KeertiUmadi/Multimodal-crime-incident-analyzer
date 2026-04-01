@@ -8,6 +8,37 @@ This is a simple, grader-friendly flow to demonstrate that your project:
 
 ---
 
+## Deliverable 5 — “Raw → structured incident report” (video / live demo)
+
+**Goal:** Show that **each unstructured source type** is turned into **rows in a CSV**, then **one merged table** is the final structured incident report.
+
+### One-sentence pitch
+
+“We take raw audio, PDFs, images, video, and text; each modality has its own AI pipeline that writes a structured CSV; then integration merges them on `Incident_ID` and assigns `Severity`; the dashboard is the interactive view of that final report.”
+
+### Suggested screen order (record this or follow live)
+
+| Step | What you show on screen | What you say (short) |
+|------|-------------------------|----------------------|
+| 1 | Repo tree: `audio/`, `pdf/`, `images/`, `video/`, `text/`, `integration/` | Each folder is one modality plus shared integration. |
+| 2 | Open **one raw file** per type (e.g. a `.wav`, a `.pdf`, a `.jpg`, a `.mpg` clip, `text/data/CrimeReport.txt`) | This is unstructured input — not usable for analytics as-is. |
+| 3 | Run `python run_pipeline.py` (or show terminal output from a recent run) | This runs all five analyzers, then merge. |
+| 4 | Open each `output_*.csv` side by side or one after another | Here the same evidence is now **structured columns** (IDs, events, types, scores). |
+| 5 | Open `integration/integration_output.csv` | This is the **final incident report**: one row per incident, all modalities + `Severity`. |
+| 6 | Run `streamlit run integration/dashboard.py` (or `run_dashboard.bat`) | This is how users **query and export** that report. |
+
+### Printable storyline + sample rows (terminal)
+
+From the repo root:
+
+```bat
+python scripts\demo_story.py
+```
+
+That script prints the same flow and the **first row** of each modality CSV plus the merged file (good cheat sheet while recording).
+
+---
+
 ### Prerequisites
 
 From the repo root (`Multimodal-crime-incident-analyzer-1`):

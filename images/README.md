@@ -17,11 +17,11 @@ This module analyzes images from incident scenes, detecting objects of interest 
 
 ## 📤 Output Schema
 
-| Image_ID | Scene_Type | Objects_Detected | Bounding_Boxes | Confidence |
-|----------|------------|------------------|----------------|------------|
+| Image_ID | Scene_Type | Objects_Detected | Bounding_Boxes | Confidence_Score |
+|----------|------------|------------------|----------------|----------------|
 | IMG_034 | Fire Scene | fire, smoke | 2 fire regions, 1 smoke plume | 0.94 |
 
-**CSV header (exact order):** `Image_ID,Scene_Type,Objects_Detected,Bounding_Boxes,Confidence`
+**CSV header (exact order):** `Image_ID,Scene_Type,Objects_Detected,Bounding_Boxes,Confidence_Score`
 
 ---
 
@@ -54,4 +54,4 @@ pip install -r requirements.txt
 python image_analyzer.py
 ```
 
-Output will be saved to `image_output.csv`.
+Output will be saved to `images/output_images.csv`.

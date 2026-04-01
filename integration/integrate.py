@@ -72,6 +72,44 @@ def compute_severity(row: pd.Series) -> str:
     return "High" if score >= 8 else ("Medium" if score >= 5 else "Low")
 
 
+def _column_has_modality_data(series: pd.Series) -> pd.Series:
+    """True where the cell is a real modality value (not blank / N/A)."""
+    s = series.astype(str).str.strip()
+    return ~(s.eq("") | s.str.upper().eq("N/A"))
+
+
+# Whole-keyword only: maps user input → summary column (CLI keyword search).
+_MODALITY_KEYWORD_TO_COL: dict[str, str] = {
+    "audio": "Audio_Event",
+    "pdf": "PDF_Doc_Type",
+    "image": "Image_Objects",
+    "images": "Image_Objects",
+    "video": "Video_Event",
+    "text": "Text_Crime_Type",
+}
+
+
+def filter_rows_by_keyword(df: pd.DataFrame, keyword: str) -> pd.DataFrame:
+    """
+    If keyword is exactly a modality name (audio, pdf, image, video, text), return rows
+    where that column has non-N/A data. Otherwise substring-match (case-insensitive) across
+    all five text columns (regex off so special characters are literal).
+    """
+    raw = keyword.strip()
+    if not raw:
+        return df.iloc[0:0]
+    col = _MODALITY_KEYWORD_TO_COL.get(raw.lower())
+    if col and col in df.columns:
+        return df[_column_has_modality_data(df[col])]
+
+    def _col_match(c: str) -> pd.Series:
+        return df[c].astype(str).str.contains(raw, case=False, na=False, regex=False)
+
+    mask = _col_match("Audio_Event") | _col_match("PDF_Doc_Type") | _col_match("Image_Objects")
+    mask = mask | _col_match("Video_Event") | _col_match("Text_Crime_Type")
+    return df[mask]
+
+
 def safe_load(path: str) -> pd.DataFrame:
     if os.path.exists(path):
         df = pd.read_csv(path)
@@ -174,11 +212,11 @@ def prepare_images(df: pd.DataFrame) -> pd.DataFrame:
     if "Objects_Detected" in d.columns:
         d = d.rename(columns={"Objects_Detected": "Image_Objects_Detected"})
 
-    # Expected column name is `Confidence`; accept legacy `Confidence_Score`
-    if "Confidence" in d.columns:
-        d = d.rename(columns={"Confidence": "Image_Confidence_Score"})
-    elif "Confidence_Score" in d.columns:
+    # Primary: `Confidence_Score`; legacy CSVs may use `Confidence`
+    if "Confidence_Score" in d.columns:
         d = d.rename(columns={"Confidence_Score": "Image_Confidence_Score"})
+    elif "Confidence" in d.columns:
+        d = d.rename(columns={"Confidence": "Image_Confidence_Score"})
 
     # keep for export
     if "Image_Objects_Detected" in d.columns and "Image_Confidence_Score" in d.columns:
@@ -326,7 +364,7 @@ def query_interface(df: pd.DataFrame) -> None:
     while True:
         print("\nOPTIONS:")
         print("  [1] Filter by Severity")
-        print("  [2] Filter by keyword (any modality text field)")
+        print("  [2] Filter by keyword (text in columns, or: audio/pdf/image/video/text)")
         print("  [3] Filter by Crime Type")
         print("  [4] Show all incidents")
         print("  [5] Show summary statistics")
@@ -340,14 +378,10 @@ def query_interface(df: pd.DataFrame) -> None:
             print(f"\nFound {len(result)} incidents with severity: {sev}")
             print(result.to_string(index=False))
         elif choice == "2":
-            event = input("Keyword (matches audio, PDF, image, video, text): ").strip()
-            result = df[
-                df["Audio_Event"].astype(str).str.contains(event, case=False, na=False)
-                | df["PDF_Doc_Type"].astype(str).str.contains(event, case=False, na=False)
-                | df["Image_Objects"].astype(str).str.contains(event, case=False, na=False)
-                | df["Video_Event"].astype(str).str.contains(event, case=False, na=False)
-                | df["Text_Crime_Type"].astype(str).str.contains(event, case=False, na=False)
-            ]
+            event = input(
+                "Keyword — substring in any column, or alone: audio / pdf / image / video / text: "
+            ).strip()
+            result = filter_rows_by_keyword(df, event)
             print(f"\nFound {len(result)} incidents matching: {event}")
             print(result.to_string(index=False))
         elif choice == "3":

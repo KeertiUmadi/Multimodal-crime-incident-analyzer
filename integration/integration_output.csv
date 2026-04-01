@@ -11,7 +11,7 @@ INC_009,Unknown,N/A,fire (0.95),Crowd / Suspicious movement,Unknown,High
 INC_010,Unknown,N/A,fire (0.95),Person detected,Unknown,Medium
 INC_011,Unknown,N/A,fire (0.95),Person detected,Unknown,High
 INC_012,Unknown,N/A,fire (0.95),Person detected,Unknown,High
-INC_013,Unknown,N/A,fire (0.95),Person detected,Unknown,Medium
+INC_013,Homicide,N/A,fire (0.95),Person detected,Unknown,High
 INC_014,Unknown,N/A,N/A,Person detected,Unknown,Medium
 INC_015,Shooting,N/A,fire (0.95),Person detected,Assault,High
 INC_016,Unknown,N/A,fire (0.95),Person detected,Unknown,High
@@ -20,14 +20,14 @@ INC_018,Unknown,N/A,fire (0.95),Person detected,Unknown,High
 INC_019,Accident,N/A,fire (0.95),Person detected,Unknown,High
 INC_020,Unknown,N/A,fire (0.95),Person detected,Unknown,High
 INC_021,Medical Emergency,N/A,fire (0.95),Person detected,Unknown,High
-INC_022,Accident,N/A,fire (0.95),Person detected,Unknown,Medium
+INC_022,Accident,N/A,fire (0.95),Person detected,Unknown,High
 INC_023,Accident,N/A,fire (0.95),Person detected,Unknown,High
 INC_024,Accident,N/A,fire (0.95),Person detected,Unknown,High
 INC_025,Unknown,N/A,fire (0.95),Person detected,Unknown,High
-INC_026,Unknown,N/A,fire (0.95),Person detected,Unknown,High
+INC_026,Unknown,N/A,fire (0.95),Person detected,Unknown,Medium
 INC_027,Unknown,N/A,fire (0.95),Person detected,Unknown,Medium
 INC_028,Shooting,N/A,fire (0.95),Person detected,Unknown,High
-INC_029,Unknown,N/A,fire (0.95),Person detected,Unknown,High
+INC_029,Unknown,N/A,fire (0.95),Person detected,Unknown,Medium
 INC_030,Shooting,N/A,fire (0.95),Person detected,Unknown,High
 INC_031,Unknown,N/A,fire (0.95),Person detected,Fire,High
 INC_032,Unknown,N/A,fire (0.95),Person detected,Unknown,High
