@@ -39,9 +39,6 @@ multimodal-crime-incident-analyzer/
 │   ├── dashboard.py
 │   ├── requirements.txt
 │   └── README.md
-├── docs/                   # Deliverables 1 & 4
-│   ├── pipeline_architecture.html
-│   └── project_report.md
 ├── run_pipeline.py         # One-command full pipeline runner
 ├── requirements.txt        # All dependencies combined
 ├── .gitignore
