@@ -79,10 +79,6 @@ python run_pipeline.py
 # 4. Launch dashboard only
 streamlit run integration/dashboard.py
 
-#
-# 5. (Optional) Open dashboard
-# streamlit run integration/dashboard.py
-```
 
 ---
 
