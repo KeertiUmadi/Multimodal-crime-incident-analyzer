@@ -106,8 +106,8 @@ streamlit run integration/dashboard.py
 | 1 | AI Pipeline Architecture Diagram | `docs/pipeline_architecture.html` |
 | 2 | Code Repository (GitHub) | This repo — all 6 folders with README + requirements |
 | 3 | Structured Dataset | `integration/integration_output.csv` (generated on run) |
-| 4 | Project Report | `docs/project_report.md` |
-| 5 | Demonstration | Run `demo_run.bat` (or `python run_pipeline.py`), then `streamlit run integration/dashboard.py`. See `docs/DEMO.md`. |
+| 4 | Project Report |
+| 5 | Demonstration | Run  `python run_pipeline.py`, then `streamlit run integration/dashboard.py` |
 
 ---
 
@@ -131,4 +131,3 @@ Python 3.10+ · OpenAI Whisper · pdfplumber · PyMuPDF · YOLOv8 · OpenCV · s
 
 ---
 
-*Build something that could help save lives and respond faster to emergencies.*
